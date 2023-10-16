@@ -9,18 +9,18 @@ public class PlayerShoot : MonoBehaviour
     public GameObject bulletPrefab;
     public GameObject gun;
     public GameObject firePoint;
-    public int bullets;
+    //public int bullets;
     public Camera cam;
 
     public Vector2 direction;
 
-    public BulletText bulletText;
+    //public BulletText bulletText;
 
     void Start()
     {
         cam = Camera.main;
-        bulletText = GameObject.Find("BulletTMP").GetComponent<BulletText>();
-        bulletText.SetBullet(bullets);
+        //bulletText = GameObject.Find("BulletTMP").GetComponent<BulletText>();
+        //bulletText.SetBullet(bullets);
     }
     void Update()
     {
@@ -39,13 +39,13 @@ public class PlayerShoot : MonoBehaviour
 
     void Shoot()
     {
-        if (bullets > 0 && Input.GetMouseButtonDown(0))
+        if (/*bullets > 0 &&*/ Input.GetMouseButtonDown(0))
         {
             GameObject obj = Instantiate(bulletPrefab);
             obj.transform.position = firePoint.transform.position;
             obj.GetComponent<PlayerBullet>().direction = direction.normalized;
-            bullets--;
-            bulletText.SetBullet(bullets);
+            //bullets--;
+            //bulletText.SetBullet(bullets);
         }
     }
 }
