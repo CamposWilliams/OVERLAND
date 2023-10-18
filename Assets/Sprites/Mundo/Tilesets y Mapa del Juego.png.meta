@@ -590,8 +590,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_22
       rect:
         serializedVersion: 2
-        x: 0
-        y: 864
+        x: 608
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -611,8 +611,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_23
       rect:
         serializedVersion: 2
-        x: 64
-        y: 864
+        x: 640
+        y: 896
         width: 32
         height: 32
       alignment: 0
@@ -632,7 +632,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_24
       rect:
         serializedVersion: 2
-        x: 128
+        x: 0
         y: 864
         width: 32
         height: 32
@@ -653,7 +653,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_25
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 864
         width: 32
         height: 32
@@ -674,7 +674,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_26
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 864
         width: 32
         height: 32
@@ -695,7 +695,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_27
       rect:
         serializedVersion: 2
-        x: 352
+        x: 192
         y: 864
         width: 32
         height: 32
@@ -716,7 +716,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_28
       rect:
         serializedVersion: 2
-        x: 384
+        x: 224
         y: 864
         width: 32
         height: 32
@@ -737,7 +737,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_29
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 864
         width: 32
         height: 32
@@ -758,7 +758,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_30
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 864
         width: 32
         height: 32
@@ -779,7 +779,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_31
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 864
         width: 32
         height: 32
@@ -800,7 +800,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_32
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 864
         width: 32
         height: 32
@@ -821,7 +821,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_33
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 864
         width: 32
         height: 32
@@ -842,7 +842,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_34
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 864
         width: 32
         height: 32
@@ -863,8 +863,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_35
       rect:
         serializedVersion: 2
-        x: 0
-        y: 832
+        x: 544
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -884,8 +884,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_36
       rect:
         serializedVersion: 2
-        x: 32
-        y: 832
+        x: 576
+        y: 864
         width: 32
         height: 32
       alignment: 0
@@ -905,7 +905,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_37
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 832
         width: 32
         height: 32
@@ -926,7 +926,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_38
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 832
         width: 32
         height: 32
@@ -947,7 +947,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_39
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 832
         width: 32
         height: 32
@@ -968,7 +968,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_40
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 832
         width: 32
         height: 32
@@ -989,7 +989,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_41
       rect:
         serializedVersion: 2
-        x: 224
+        x: 128
         y: 832
         width: 32
         height: 32
@@ -1010,7 +1010,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_42
       rect:
         serializedVersion: 2
-        x: 256
+        x: 160
         y: 832
         width: 32
         height: 32
@@ -1031,7 +1031,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_43
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 832
         width: 32
         height: 32
@@ -1052,7 +1052,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_44
       rect:
         serializedVersion: 2
-        x: 320
+        x: 256
         y: 832
         width: 32
         height: 32
@@ -1073,7 +1073,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_45
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 832
         width: 32
         height: 32
@@ -1094,7 +1094,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_46
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 832
         width: 32
         height: 32
@@ -1115,7 +1115,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_47
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 832
         width: 32
         height: 32
@@ -1136,7 +1136,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_48
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 832
         width: 32
         height: 32
@@ -1157,7 +1157,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_49
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 832
         width: 32
         height: 32
@@ -1178,7 +1178,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_50
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 832
         width: 32
         height: 32
@@ -1199,7 +1199,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_51
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 832
         width: 32
         height: 32
@@ -1220,7 +1220,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_52
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 832
         width: 32
         height: 32
@@ -1241,8 +1241,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_53
       rect:
         serializedVersion: 2
-        x: 0
-        y: 800
+        x: 544
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -1262,8 +1262,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_54
       rect:
         serializedVersion: 2
-        x: 32
-        y: 800
+        x: 576
+        y: 832
         width: 32
         height: 32
       alignment: 0
@@ -1283,7 +1283,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_55
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 800
         width: 32
         height: 32
@@ -1304,7 +1304,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_56
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 800
         width: 32
         height: 32
@@ -1325,7 +1325,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_57
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 800
         width: 32
         height: 32
@@ -1346,7 +1346,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_58
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 800
         width: 32
         height: 32
@@ -1367,7 +1367,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_59
       rect:
         serializedVersion: 2
-        x: 384
+        x: 128
         y: 800
         width: 32
         height: 32
@@ -1388,7 +1388,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_60
       rect:
         serializedVersion: 2
-        x: 416
+        x: 160
         y: 800
         width: 32
         height: 32
@@ -1409,7 +1409,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_61
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 800
         width: 32
         height: 32
@@ -1430,7 +1430,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_62
       rect:
         serializedVersion: 2
-        x: 512
+        x: 416
         y: 800
         width: 32
         height: 32
@@ -1451,7 +1451,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_63
       rect:
         serializedVersion: 2
-        x: 544
+        x: 448
         y: 800
         width: 32
         height: 32
@@ -1472,8 +1472,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_64
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
+        x: 512
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -1493,8 +1493,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_65
       rect:
         serializedVersion: 2
-        x: 32
-        y: 768
+        x: 544
+        y: 800
         width: 32
         height: 32
       alignment: 0
@@ -1514,7 +1514,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_66
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 768
         width: 32
         height: 32
@@ -1535,7 +1535,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_67
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 768
         width: 32
         height: 32
@@ -1556,7 +1556,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_68
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 768
         width: 32
         height: 32
@@ -1577,7 +1577,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_69
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 768
         width: 32
         height: 32
@@ -1598,7 +1598,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_70
       rect:
         serializedVersion: 2
-        x: 416
+        x: 128
         y: 768
         width: 32
         height: 32
@@ -1619,7 +1619,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_71
       rect:
         serializedVersion: 2
-        x: 512
+        x: 160
         y: 768
         width: 32
         height: 32
@@ -1640,7 +1640,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_72
       rect:
         serializedVersion: 2
-        x: 544
+        x: 416
         y: 768
         width: 32
         height: 32
@@ -1661,8 +1661,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_73
       rect:
         serializedVersion: 2
-        x: 0
-        y: 736
+        x: 512
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -1682,8 +1682,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_74
       rect:
         serializedVersion: 2
-        x: 32
-        y: 736
+        x: 544
+        y: 768
         width: 32
         height: 32
       alignment: 0
@@ -1703,7 +1703,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_75
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 736
         width: 32
         height: 32
@@ -1724,7 +1724,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_76
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 736
         width: 32
         height: 32
@@ -1745,7 +1745,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_77
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 736
         width: 32
         height: 32
@@ -1766,7 +1766,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_78
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 736
         width: 32
         height: 32
@@ -1787,7 +1787,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_79
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 736
         width: 32
         height: 32
@@ -1808,7 +1808,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_80
       rect:
         serializedVersion: 2
-        x: 512
+        x: 160
         y: 736
         width: 32
         height: 32
@@ -1829,7 +1829,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_81
       rect:
         serializedVersion: 2
-        x: 544
+        x: 192
         y: 736
         width: 32
         height: 32
@@ -1850,8 +1850,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_82
       rect:
         serializedVersion: 2
-        x: 128
-        y: 704
+        x: 512
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -1871,8 +1871,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_83
       rect:
         serializedVersion: 2
-        x: 160
-        y: 704
+        x: 544
+        y: 736
         width: 32
         height: 32
       alignment: 0
@@ -1892,7 +1892,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_84
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 704
         width: 32
         height: 32
@@ -1913,8 +1913,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_85
       rect:
         serializedVersion: 2
-        x: 832
-        y: 672
+        x: 160
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -1934,8 +1934,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_86
       rect:
         serializedVersion: 2
-        x: 864
-        y: 672
+        x: 192
+        y: 704
         width: 32
         height: 32
       alignment: 0
@@ -1955,7 +1955,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_87
       rect:
         serializedVersion: 2
-        x: 896
+        x: 832
         y: 672
         width: 32
         height: 32
@@ -1976,7 +1976,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_88
       rect:
         serializedVersion: 2
-        x: 928
+        x: 864
         y: 672
         width: 32
         height: 32
@@ -1997,7 +1997,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_89
       rect:
         serializedVersion: 2
-        x: 960
+        x: 896
         y: 672
         width: 32
         height: 32
@@ -2018,7 +2018,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_90
       rect:
         serializedVersion: 2
-        x: 992
+        x: 928
         y: 672
         width: 32
         height: 32
@@ -2039,7 +2039,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_91
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 960
         y: 672
         width: 32
         height: 32
@@ -2060,7 +2060,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_92
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 992
         y: 672
         width: 32
         height: 32
@@ -2081,7 +2081,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_93
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1024
         y: 672
         width: 32
         height: 32
@@ -2102,8 +2102,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_94
       rect:
         serializedVersion: 2
-        x: 288
-        y: 640
+        x: 1056
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -2123,8 +2123,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_95
       rect:
         serializedVersion: 2
-        x: 320
-        y: 640
+        x: 1088
+        y: 672
         width: 32
         height: 32
       alignment: 0
@@ -2144,7 +2144,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_96
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 640
         width: 32
         height: 32
@@ -2165,7 +2165,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_97
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 640
         width: 32
         height: 32
@@ -2186,7 +2186,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_98
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 640
         width: 32
         height: 32
@@ -2207,7 +2207,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_99
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 640
         width: 32
         height: 32
@@ -2228,7 +2228,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_100
       rect:
         serializedVersion: 2
-        x: 672
+        x: 416
         y: 640
         width: 32
         height: 32
@@ -2249,7 +2249,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_101
       rect:
         serializedVersion: 2
-        x: 704
+        x: 448
         y: 640
         width: 32
         height: 32
@@ -2270,7 +2270,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_102
       rect:
         serializedVersion: 2
-        x: 736
+        x: 672
         y: 640
         width: 32
         height: 32
@@ -2291,7 +2291,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_103
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 640
         width: 32
         height: 32
@@ -2312,7 +2312,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_104
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 640
         width: 32
         height: 32
@@ -2333,7 +2333,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_105
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 640
         width: 32
         height: 32
@@ -2354,7 +2354,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_106
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 800
         y: 640
         width: 32
         height: 32
@@ -2375,7 +2375,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_107
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 832
         y: 640
         width: 32
         height: 32
@@ -2396,8 +2396,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_108
       rect:
         serializedVersion: 2
-        x: 288
-        y: 608
+        x: 1056
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -2417,8 +2417,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_109
       rect:
         serializedVersion: 2
-        x: 320
-        y: 608
+        x: 1088
+        y: 640
         width: 32
         height: 32
       alignment: 0
@@ -2438,7 +2438,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_110
       rect:
         serializedVersion: 2
-        x: 416
+        x: 288
         y: 608
         width: 32
         height: 32
@@ -2459,7 +2459,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_111
       rect:
         serializedVersion: 2
-        x: 448
+        x: 320
         y: 608
         width: 32
         height: 32
@@ -2480,7 +2480,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_112
       rect:
         serializedVersion: 2
-        x: 672
+        x: 416
         y: 608
         width: 32
         height: 32
@@ -2501,7 +2501,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_113
       rect:
         serializedVersion: 2
-        x: 704
+        x: 448
         y: 608
         width: 32
         height: 32
@@ -2522,7 +2522,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_114
       rect:
         serializedVersion: 2
-        x: 992
+        x: 672
         y: 608
         width: 32
         height: 32
@@ -2543,7 +2543,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_115
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 704
         y: 608
         width: 32
         height: 32
@@ -2564,7 +2564,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_116
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 992
         y: 608
         width: 32
         height: 32
@@ -2585,7 +2585,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_117
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1024
         y: 608
         width: 32
         height: 32
@@ -2606,8 +2606,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_118
       rect:
         serializedVersion: 2
-        x: 224
-        y: 576
+        x: 1056
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -2627,8 +2627,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_119
       rect:
         serializedVersion: 2
-        x: 256
-        y: 576
+        x: 1088
+        y: 608
         width: 32
         height: 32
       alignment: 0
@@ -2648,7 +2648,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_120
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 576
         width: 32
         height: 32
@@ -2669,7 +2669,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_121
       rect:
         serializedVersion: 2
-        x: 448
+        x: 256
         y: 576
         width: 32
         height: 32
@@ -2690,7 +2690,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_122
       rect:
         serializedVersion: 2
-        x: 480
+        x: 288
         y: 576
         width: 32
         height: 32
@@ -2711,7 +2711,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_123
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 576
         width: 32
         height: 32
@@ -2732,7 +2732,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_124
       rect:
         serializedVersion: 2
-        x: 544
+        x: 480
         y: 576
         width: 32
         height: 32
@@ -2753,7 +2753,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_125
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 576
         width: 32
         height: 32
@@ -2774,7 +2774,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_126
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 576
         width: 32
         height: 32
@@ -2795,7 +2795,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_127
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 576
         width: 32
         height: 32
@@ -2816,7 +2816,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_128
       rect:
         serializedVersion: 2
-        x: 672
+        x: 608
         y: 576
         width: 32
         height: 32
@@ -2837,7 +2837,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_129
       rect:
         serializedVersion: 2
-        x: 832
+        x: 640
         y: 576
         width: 32
         height: 32
@@ -2858,7 +2858,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_130
       rect:
         serializedVersion: 2
-        x: 864
+        x: 672
         y: 576
         width: 32
         height: 32
@@ -2879,7 +2879,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_131
       rect:
         serializedVersion: 2
-        x: 896
+        x: 832
         y: 576
         width: 32
         height: 32
@@ -2900,7 +2900,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_132
       rect:
         serializedVersion: 2
-        x: 928
+        x: 864
         y: 576
         width: 32
         height: 32
@@ -2921,7 +2921,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_133
       rect:
         serializedVersion: 2
-        x: 960
+        x: 896
         y: 576
         width: 32
         height: 32
@@ -2942,7 +2942,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_134
       rect:
         serializedVersion: 2
-        x: 992
+        x: 928
         y: 576
         width: 32
         height: 32
@@ -2963,7 +2963,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_135
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 960
         y: 576
         width: 32
         height: 32
@@ -2984,7 +2984,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_136
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 992
         y: 576
         width: 32
         height: 32
@@ -3005,7 +3005,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_137
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1024
         y: 576
         width: 32
         height: 32
@@ -3026,8 +3026,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_138
       rect:
         serializedVersion: 2
-        x: 64
-        y: 544
+        x: 1056
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -3047,8 +3047,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_139
       rect:
         serializedVersion: 2
-        x: 96
-        y: 544
+        x: 1088
+        y: 576
         width: 32
         height: 32
       alignment: 0
@@ -3068,7 +3068,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_140
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 544
         width: 32
         height: 32
@@ -3089,7 +3089,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_141
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 544
         width: 32
         height: 32
@@ -3110,7 +3110,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_142
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 544
         width: 32
         height: 32
@@ -3131,7 +3131,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_143
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 544
         width: 32
         height: 32
@@ -3152,7 +3152,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_144
       rect:
         serializedVersion: 2
-        x: 288
+        x: 192
         y: 544
         width: 32
         height: 32
@@ -3173,7 +3173,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_145
       rect:
         serializedVersion: 2
-        x: 320
+        x: 224
         y: 544
         width: 32
         height: 32
@@ -3194,7 +3194,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_146
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 544
         width: 32
         height: 32
@@ -3215,7 +3215,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_147
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 544
         width: 32
         height: 32
@@ -3236,7 +3236,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_148
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 544
         width: 32
         height: 32
@@ -3257,7 +3257,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_149
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 544
         width: 32
         height: 32
@@ -3278,7 +3278,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_150
       rect:
         serializedVersion: 2
-        x: 832
+        x: 416
         y: 544
         width: 32
         height: 32
@@ -3299,7 +3299,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_151
       rect:
         serializedVersion: 2
-        x: 992
+        x: 448
         y: 544
         width: 32
         height: 32
@@ -3320,7 +3320,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_152
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 832
         y: 544
         width: 32
         height: 32
@@ -3341,8 +3341,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_153
       rect:
         serializedVersion: 2
-        x: 64
-        y: 512
+        x: 992
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -3362,8 +3362,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_154
       rect:
         serializedVersion: 2
-        x: 96
-        y: 512
+        x: 1088
+        y: 544
         width: 32
         height: 32
       alignment: 0
@@ -3383,7 +3383,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_155
       rect:
         serializedVersion: 2
-        x: 192
+        x: 64
         y: 512
         width: 32
         height: 32
@@ -3404,7 +3404,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_156
       rect:
         serializedVersion: 2
-        x: 224
+        x: 96
         y: 512
         width: 32
         height: 32
@@ -3425,7 +3425,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_157
       rect:
         serializedVersion: 2
-        x: 512
+        x: 192
         y: 512
         width: 32
         height: 32
@@ -3446,7 +3446,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_158
       rect:
         serializedVersion: 2
-        x: 544
+        x: 224
         y: 512
         width: 32
         height: 32
@@ -3467,7 +3467,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_159
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 512
         width: 32
         height: 32
@@ -3488,7 +3488,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_160
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 512
         width: 32
         height: 32
@@ -3509,7 +3509,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_161
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 512
         width: 32
         height: 32
@@ -3530,7 +3530,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_162
       rect:
         serializedVersion: 2
-        x: 832
+        x: 608
         y: 512
         width: 32
         height: 32
@@ -3551,7 +3551,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_163
       rect:
         serializedVersion: 2
-        x: 992
+        x: 640
         y: 512
         width: 32
         height: 32
@@ -3572,7 +3572,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_164
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 832
         y: 512
         width: 32
         height: 32
@@ -3593,8 +3593,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_165
       rect:
         serializedVersion: 2
-        x: 64
-        y: 480
+        x: 992
+        y: 512
         width: 32
         height: 32
       alignment: 0
@@ -3614,8 +3614,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_166
       rect:
         serializedVersion: 2
-        x: 224
-        y: 480
+        x: 1088
+        y: 512
         width: 32
         height: 32
       alignment: 0
@@ -3635,7 +3635,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_167
       rect:
         serializedVersion: 2
-        x: 288
+        x: 64
         y: 480
         width: 32
         height: 32
@@ -3656,7 +3656,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_168
       rect:
         serializedVersion: 2
-        x: 320
+        x: 224
         y: 480
         width: 32
         height: 32
@@ -3677,7 +3677,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_169
       rect:
         serializedVersion: 2
-        x: 352
+        x: 288
         y: 480
         width: 32
         height: 32
@@ -3698,7 +3698,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_170
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 480
         width: 32
         height: 32
@@ -3719,7 +3719,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_171
       rect:
         serializedVersion: 2
-        x: 416
+        x: 352
         y: 480
         width: 32
         height: 32
@@ -3740,7 +3740,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_172
       rect:
         serializedVersion: 2
-        x: 448
+        x: 384
         y: 480
         width: 32
         height: 32
@@ -3761,7 +3761,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_173
       rect:
         serializedVersion: 2
-        x: 480
+        x: 416
         y: 480
         width: 32
         height: 32
@@ -3782,7 +3782,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_174
       rect:
         serializedVersion: 2
-        x: 512
+        x: 448
         y: 480
         width: 32
         height: 32
@@ -3803,7 +3803,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_175
       rect:
         serializedVersion: 2
-        x: 640
+        x: 480
         y: 480
         width: 32
         height: 32
@@ -3824,7 +3824,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_176
       rect:
         serializedVersion: 2
-        x: 672
+        x: 512
         y: 480
         width: 32
         height: 32
@@ -3845,7 +3845,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_177
       rect:
         serializedVersion: 2
-        x: 704
+        x: 640
         y: 480
         width: 32
         height: 32
@@ -3866,7 +3866,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_178
       rect:
         serializedVersion: 2
-        x: 736
+        x: 672
         y: 480
         width: 32
         height: 32
@@ -3887,7 +3887,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_179
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 480
         width: 32
         height: 32
@@ -3908,7 +3908,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_180
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 480
         width: 32
         height: 32
@@ -3929,7 +3929,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_181
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 480
         width: 32
         height: 32
@@ -3950,7 +3950,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_182
       rect:
         serializedVersion: 2
-        x: 928
+        x: 800
         y: 480
         width: 32
         height: 32
@@ -3971,7 +3971,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_183
       rect:
         serializedVersion: 2
-        x: 960
+        x: 832
         y: 480
         width: 32
         height: 32
@@ -3992,7 +3992,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_184
       rect:
         serializedVersion: 2
-        x: 992
+        x: 928
         y: 480
         width: 32
         height: 32
@@ -4013,7 +4013,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_185
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 960
         y: 480
         width: 32
         height: 32
@@ -4034,8 +4034,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_186
       rect:
         serializedVersion: 2
-        x: 64
-        y: 448
+        x: 992
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -4055,8 +4055,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_187
       rect:
         serializedVersion: 2
-        x: 224
-        y: 448
+        x: 1088
+        y: 480
         width: 32
         height: 32
       alignment: 0
@@ -4076,7 +4076,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_188
       rect:
         serializedVersion: 2
-        x: 288
+        x: 64
         y: 448
         width: 32
         height: 32
@@ -4097,7 +4097,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_189
       rect:
         serializedVersion: 2
-        x: 320
+        x: 224
         y: 448
         width: 32
         height: 32
@@ -4118,7 +4118,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_190
       rect:
         serializedVersion: 2
-        x: 480
+        x: 288
         y: 448
         width: 32
         height: 32
@@ -4139,7 +4139,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_191
       rect:
         serializedVersion: 2
-        x: 512
+        x: 320
         y: 448
         width: 32
         height: 32
@@ -4160,7 +4160,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_192
       rect:
         serializedVersion: 2
-        x: 640
+        x: 480
         y: 448
         width: 32
         height: 32
@@ -4181,7 +4181,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_193
       rect:
         serializedVersion: 2
-        x: 672
+        x: 512
         y: 448
         width: 32
         height: 32
@@ -4202,7 +4202,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_194
       rect:
         serializedVersion: 2
-        x: 704
+        x: 640
         y: 448
         width: 32
         height: 32
@@ -4223,7 +4223,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_195
       rect:
         serializedVersion: 2
-        x: 736
+        x: 672
         y: 448
         width: 32
         height: 32
@@ -4244,7 +4244,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_196
       rect:
         serializedVersion: 2
-        x: 768
+        x: 704
         y: 448
         width: 32
         height: 32
@@ -4265,7 +4265,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_197
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 448
         width: 32
         height: 32
@@ -4286,7 +4286,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_198
       rect:
         serializedVersion: 2
-        x: 928
+        x: 768
         y: 448
         width: 32
         height: 32
@@ -4307,7 +4307,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_199
       rect:
         serializedVersion: 2
-        x: 960
+        x: 800
         y: 448
         width: 32
         height: 32
@@ -4328,7 +4328,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_200
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 928
         y: 448
         width: 32
         height: 32
@@ -4349,8 +4349,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_201
       rect:
         serializedVersion: 2
-        x: 64
-        y: 416
+        x: 960
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -4370,8 +4370,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_202
       rect:
         serializedVersion: 2
-        x: 96
-        y: 416
+        x: 1088
+        y: 448
         width: 32
         height: 32
       alignment: 0
@@ -4391,7 +4391,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_203
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 416
         width: 32
         height: 32
@@ -4412,7 +4412,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_204
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 416
         width: 32
         height: 32
@@ -4433,7 +4433,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_205
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 416
         width: 32
         height: 32
@@ -4454,7 +4454,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_206
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 416
         width: 32
         height: 32
@@ -4475,7 +4475,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_207
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 416
         width: 32
         height: 32
@@ -4496,7 +4496,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_208
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 416
         width: 32
         height: 32
@@ -4517,7 +4517,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_209
       rect:
         serializedVersion: 2
-        x: 512
+        x: 256
         y: 416
         width: 32
         height: 32
@@ -4538,7 +4538,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_210
       rect:
         serializedVersion: 2
-        x: 544
+        x: 288
         y: 416
         width: 32
         height: 32
@@ -4559,7 +4559,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_211
       rect:
         serializedVersion: 2
-        x: 576
+        x: 512
         y: 416
         width: 32
         height: 32
@@ -4580,7 +4580,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_212
       rect:
         serializedVersion: 2
-        x: 608
+        x: 544
         y: 416
         width: 32
         height: 32
@@ -4601,7 +4601,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_213
       rect:
         serializedVersion: 2
-        x: 640
+        x: 576
         y: 416
         width: 32
         height: 32
@@ -4622,7 +4622,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_214
       rect:
         serializedVersion: 2
-        x: 736
+        x: 608
         y: 416
         width: 32
         height: 32
@@ -4643,7 +4643,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_215
       rect:
         serializedVersion: 2
-        x: 768
+        x: 640
         y: 416
         width: 32
         height: 32
@@ -4664,7 +4664,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_216
       rect:
         serializedVersion: 2
-        x: 928
+        x: 736
         y: 416
         width: 32
         height: 32
@@ -4685,7 +4685,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_217
       rect:
         serializedVersion: 2
-        x: 960
+        x: 768
         y: 416
         width: 32
         height: 32
@@ -4706,7 +4706,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_218
       rect:
         serializedVersion: 2
-        x: 992
+        x: 928
         y: 416
         width: 32
         height: 32
@@ -4727,7 +4727,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_219
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 960
         y: 416
         width: 32
         height: 32
@@ -4748,7 +4748,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_220
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 992
         y: 416
         width: 32
         height: 32
@@ -4769,7 +4769,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_221
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1024
         y: 416
         width: 32
         height: 32
@@ -4790,8 +4790,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_222
       rect:
         serializedVersion: 2
-        x: 192
-        y: 384
+        x: 1056
+        y: 416
         width: 32
         height: 32
       alignment: 0
@@ -4811,8 +4811,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_223
       rect:
         serializedVersion: 2
-        x: 224
-        y: 384
+        x: 1088
+        y: 416
         width: 32
         height: 32
       alignment: 0
@@ -4832,7 +4832,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_224
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 384
         width: 32
         height: 32
@@ -4853,7 +4853,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_225
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 384
         width: 32
         height: 32
@@ -4874,7 +4874,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_226
       rect:
         serializedVersion: 2
-        x: 736
+        x: 256
         y: 384
         width: 32
         height: 32
@@ -4895,7 +4895,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_227
       rect:
         serializedVersion: 2
-        x: 768
+        x: 288
         y: 384
         width: 32
         height: 32
@@ -4916,7 +4916,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_228
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 384
         width: 32
         height: 32
@@ -4937,7 +4937,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_229
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 384
         width: 32
         height: 32
@@ -4958,7 +4958,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_230
       rect:
         serializedVersion: 2
-        x: 864
+        x: 800
         y: 384
         width: 32
         height: 32
@@ -4979,7 +4979,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_231
       rect:
         serializedVersion: 2
-        x: 896
+        x: 832
         y: 384
         width: 32
         height: 32
@@ -5000,8 +5000,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_232
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
+        x: 864
+        y: 384
         width: 32
         height: 32
       alignment: 0
@@ -5021,8 +5021,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_233
       rect:
         serializedVersion: 2
-        x: 32
-        y: 352
+        x: 896
+        y: 384
         width: 32
         height: 32
       alignment: 0
@@ -5042,7 +5042,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_234
       rect:
         serializedVersion: 2
-        x: 64
+        x: 0
         y: 352
         width: 32
         height: 32
@@ -5063,7 +5063,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_235
       rect:
         serializedVersion: 2
-        x: 96
+        x: 32
         y: 352
         width: 32
         height: 32
@@ -5084,7 +5084,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_236
       rect:
         serializedVersion: 2
-        x: 128
+        x: 64
         y: 352
         width: 32
         height: 32
@@ -5105,7 +5105,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_237
       rect:
         serializedVersion: 2
-        x: 160
+        x: 96
         y: 352
         width: 32
         height: 32
@@ -5126,7 +5126,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_238
       rect:
         serializedVersion: 2
-        x: 192
+        x: 128
         y: 352
         width: 32
         height: 32
@@ -5147,7 +5147,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_239
       rect:
         serializedVersion: 2
-        x: 224
+        x: 160
         y: 352
         width: 32
         height: 32
@@ -5168,7 +5168,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_240
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 352
         width: 32
         height: 32
@@ -5189,7 +5189,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_241
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 352
         width: 32
         height: 32
@@ -5210,7 +5210,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_242
       rect:
         serializedVersion: 2
-        x: 736
+        x: 256
         y: 352
         width: 32
         height: 32
@@ -5231,7 +5231,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_243
       rect:
         serializedVersion: 2
-        x: 768
+        x: 288
         y: 352
         width: 32
         height: 32
@@ -5252,7 +5252,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_244
       rect:
         serializedVersion: 2
-        x: 800
+        x: 736
         y: 352
         width: 32
         height: 32
@@ -5273,7 +5273,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_245
       rect:
         serializedVersion: 2
-        x: 832
+        x: 768
         y: 352
         width: 32
         height: 32
@@ -5294,7 +5294,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_246
       rect:
         serializedVersion: 2
-        x: 864
+        x: 800
         y: 352
         width: 32
         height: 32
@@ -5315,7 +5315,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_247
       rect:
         serializedVersion: 2
-        x: 896
+        x: 832
         y: 352
         width: 32
         height: 32
@@ -5336,8 +5336,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_248
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
+        x: 864
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -5357,8 +5357,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_249
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
+        x: 896
+        y: 352
         width: 32
         height: 32
       alignment: 0
@@ -5378,7 +5378,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_250
       rect:
         serializedVersion: 2
-        x: 224
+        x: 0
         y: 320
         width: 32
         height: 32
@@ -5399,7 +5399,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_251
       rect:
         serializedVersion: 2
-        x: 256
+        x: 192
         y: 320
         width: 32
         height: 32
@@ -5420,7 +5420,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_252
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 320
         width: 32
         height: 32
@@ -5441,7 +5441,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_253
       rect:
         serializedVersion: 2
-        x: 416
+        x: 256
         y: 320
         width: 32
         height: 32
@@ -5462,7 +5462,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_254
       rect:
         serializedVersion: 2
-        x: 736
+        x: 288
         y: 320
         width: 32
         height: 32
@@ -5483,7 +5483,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_255
       rect:
         serializedVersion: 2
-        x: 768
+        x: 736
         y: 320
         width: 32
         height: 32
@@ -5504,7 +5504,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_256
       rect:
         serializedVersion: 2
-        x: 896
+        x: 768
         y: 320
         width: 32
         height: 32
@@ -5525,8 +5525,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_257
       rect:
         serializedVersion: 2
-        x: 0
-        y: 288
+        x: 896
+        y: 320
         width: 32
         height: 32
       alignment: 0
@@ -5546,7 +5546,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_258
       rect:
         serializedVersion: 2
-        x: 192
+        x: 0
         y: 288
         width: 32
         height: 32
@@ -5567,7 +5567,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_259
       rect:
         serializedVersion: 2
-        x: 224
+        x: 192
         y: 288
         width: 32
         height: 32
@@ -5588,7 +5588,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_260
       rect:
         serializedVersion: 2
-        x: 288
+        x: 224
         y: 288
         width: 32
         height: 32
@@ -5609,7 +5609,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_261
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 288
         width: 32
         height: 32
@@ -5630,7 +5630,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_262
       rect:
         serializedVersion: 2
-        x: 352
+        x: 320
         y: 288
         width: 32
         height: 32
@@ -5651,7 +5651,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_263
       rect:
         serializedVersion: 2
-        x: 384
+        x: 352
         y: 288
         width: 32
         height: 32
@@ -5672,7 +5672,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_264
       rect:
         serializedVersion: 2
-        x: 416
+        x: 384
         y: 288
         width: 32
         height: 32
@@ -5693,7 +5693,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_265
       rect:
         serializedVersion: 2
-        x: 736
+        x: 416
         y: 288
         width: 32
         height: 32
@@ -5714,7 +5714,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_266
       rect:
         serializedVersion: 2
-        x: 768
+        x: 736
         y: 288
         width: 32
         height: 32
@@ -5735,7 +5735,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_267
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
         y: 288
         width: 32
         height: 32
@@ -5756,7 +5756,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_268
       rect:
         serializedVersion: 2
-        x: 832
+        x: 800
         y: 288
         width: 32
         height: 32
@@ -5777,7 +5777,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_269
       rect:
         serializedVersion: 2
-        x: 864
+        x: 832
         y: 288
         width: 32
         height: 32
@@ -5798,7 +5798,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_270
       rect:
         serializedVersion: 2
-        x: 896
+        x: 864
         y: 288
         width: 32
         height: 32
@@ -5819,8 +5819,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_271
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
+        x: 896
+        y: 288
         width: 32
         height: 32
       alignment: 0
@@ -5840,7 +5840,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_272
       rect:
         serializedVersion: 2
-        x: 288
+        x: 0
         y: 256
         width: 32
         height: 32
@@ -5861,7 +5861,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_273
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 256
         width: 32
         height: 32
@@ -5882,7 +5882,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_274
       rect:
         serializedVersion: 2
-        x: 384
+        x: 320
         y: 256
         width: 32
         height: 32
@@ -5903,7 +5903,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_275
       rect:
         serializedVersion: 2
-        x: 416
+        x: 384
         y: 256
         width: 32
         height: 32
@@ -5924,7 +5924,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_276
       rect:
         serializedVersion: 2
-        x: 736
+        x: 416
         y: 256
         width: 32
         height: 32
@@ -5945,7 +5945,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_277
       rect:
         serializedVersion: 2
-        x: 768
+        x: 736
         y: 256
         width: 32
         height: 32
@@ -5966,7 +5966,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_278
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
         y: 256
         width: 32
         height: 32
@@ -5987,7 +5987,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_279
       rect:
         serializedVersion: 2
-        x: 832
+        x: 800
         y: 256
         width: 32
         height: 32
@@ -6008,7 +6008,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_280
       rect:
         serializedVersion: 2
-        x: 864
+        x: 832
         y: 256
         width: 32
         height: 32
@@ -6029,7 +6029,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_281
       rect:
         serializedVersion: 2
-        x: 896
+        x: 864
         y: 256
         width: 32
         height: 32
@@ -6050,7 +6050,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_282
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 896
         y: 256
         width: 32
         height: 32
@@ -6071,7 +6071,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_283
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1056
         y: 256
         width: 32
         height: 32
@@ -6092,7 +6092,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_284
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1088
         y: 256
         width: 32
         height: 32
@@ -6113,7 +6113,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_285
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1120
         y: 256
         width: 32
         height: 32
@@ -6134,7 +6134,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_286
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 1152
         y: 256
         width: 32
         height: 32
@@ -6155,7 +6155,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_287
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1184
         y: 256
         width: 32
         height: 32
@@ -6176,8 +6176,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_288
       rect:
         serializedVersion: 2
-        x: 0
-        y: 224
+        x: 1216
+        y: 256
         width: 32
         height: 32
       alignment: 0
@@ -6197,7 +6197,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_289
       rect:
         serializedVersion: 2
-        x: 288
+        x: 0
         y: 224
         width: 32
         height: 32
@@ -6218,7 +6218,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_290
       rect:
         serializedVersion: 2
-        x: 416
+        x: 288
         y: 224
         width: 32
         height: 32
@@ -6239,7 +6239,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_291
       rect:
         serializedVersion: 2
-        x: 736
+        x: 416
         y: 224
         width: 32
         height: 32
@@ -6260,7 +6260,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_292
       rect:
         serializedVersion: 2
-        x: 768
+        x: 736
         y: 224
         width: 32
         height: 32
@@ -6281,7 +6281,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_293
       rect:
         serializedVersion: 2
-        x: 800
+        x: 768
         y: 224
         width: 32
         height: 32
@@ -6302,7 +6302,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_294
       rect:
         serializedVersion: 2
-        x: 832
+        x: 800
         y: 224
         width: 32
         height: 32
@@ -6323,7 +6323,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_295
       rect:
         serializedVersion: 2
-        x: 864
+        x: 832
         y: 224
         width: 32
         height: 32
@@ -6344,7 +6344,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_296
       rect:
         serializedVersion: 2
-        x: 896
+        x: 864
         y: 224
         width: 32
         height: 32
@@ -6365,7 +6365,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_297
       rect:
         serializedVersion: 2
-        x: 928
+        x: 896
         y: 224
         width: 32
         height: 32
@@ -6386,7 +6386,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_298
       rect:
         serializedVersion: 2
-        x: 960
+        x: 928
         y: 224
         width: 32
         height: 32
@@ -6407,7 +6407,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_299
       rect:
         serializedVersion: 2
-        x: 992
+        x: 960
         y: 224
         width: 32
         height: 32
@@ -6428,7 +6428,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_300
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 992
         y: 224
         width: 32
         height: 32
@@ -6449,7 +6449,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_301
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1024
         y: 224
         width: 32
         height: 32
@@ -6470,7 +6470,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_302
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1056
         y: 224
         width: 32
         height: 32
@@ -6491,7 +6491,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_303
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1088
         y: 224
         width: 32
         height: 32
@@ -6512,7 +6512,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_304
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1120
         y: 224
         width: 32
         height: 32
@@ -6533,7 +6533,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_305
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 1152
         y: 224
         width: 32
         height: 32
@@ -6554,7 +6554,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_306
       rect:
         serializedVersion: 2
-        x: 1216
+        x: 1184
         y: 224
         width: 32
         height: 32
@@ -6575,8 +6575,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_307
       rect:
         serializedVersion: 2
-        x: 0
-        y: 192
+        x: 1216
+        y: 224
         width: 32
         height: 32
       alignment: 0
@@ -6596,7 +6596,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_308
       rect:
         serializedVersion: 2
-        x: 32
+        x: 0
         y: 192
         width: 32
         height: 32
@@ -6617,7 +6617,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_309
       rect:
         serializedVersion: 2
-        x: 64
+        x: 32
         y: 192
         width: 32
         height: 32
@@ -6638,7 +6638,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_310
       rect:
         serializedVersion: 2
-        x: 96
+        x: 64
         y: 192
         width: 32
         height: 32
@@ -6659,7 +6659,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_311
       rect:
         serializedVersion: 2
-        x: 128
+        x: 96
         y: 192
         width: 32
         height: 32
@@ -6680,7 +6680,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_312
       rect:
         serializedVersion: 2
-        x: 160
+        x: 128
         y: 192
         width: 32
         height: 32
@@ -6701,7 +6701,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_313
       rect:
         serializedVersion: 2
-        x: 192
+        x: 160
         y: 192
         width: 32
         height: 32
@@ -6722,7 +6722,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_314
       rect:
         serializedVersion: 2
-        x: 224
+        x: 192
         y: 192
         width: 32
         height: 32
@@ -6743,7 +6743,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_315
       rect:
         serializedVersion: 2
-        x: 256
+        x: 224
         y: 192
         width: 32
         height: 32
@@ -6764,7 +6764,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_316
       rect:
         serializedVersion: 2
-        x: 288
+        x: 256
         y: 192
         width: 32
         height: 32
@@ -6785,7 +6785,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_317
       rect:
         serializedVersion: 2
-        x: 320
+        x: 288
         y: 192
         width: 32
         height: 32
@@ -6806,7 +6806,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_318
       rect:
         serializedVersion: 2
-        x: 352
+        x: 320
         y: 192
         width: 32
         height: 32
@@ -6827,7 +6827,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_319
       rect:
         serializedVersion: 2
-        x: 384
+        x: 352
         y: 192
         width: 32
         height: 32
@@ -6848,7 +6848,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_320
       rect:
         serializedVersion: 2
-        x: 416
+        x: 384
         y: 192
         width: 32
         height: 32
@@ -6869,7 +6869,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_321
       rect:
         serializedVersion: 2
-        x: 640
+        x: 416
         y: 192
         width: 32
         height: 32
@@ -6890,7 +6890,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_322
       rect:
         serializedVersion: 2
-        x: 672
+        x: 736
         y: 192
         width: 32
         height: 32
@@ -6911,7 +6911,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_323
       rect:
         serializedVersion: 2
-        x: 736
+        x: 768
         y: 192
         width: 32
         height: 32
@@ -6932,7 +6932,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_324
       rect:
         serializedVersion: 2
-        x: 768
+        x: 800
         y: 192
         width: 32
         height: 32
@@ -6953,7 +6953,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_325
       rect:
         serializedVersion: 2
-        x: 800
+        x: 832
         y: 192
         width: 32
         height: 32
@@ -6974,7 +6974,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_326
       rect:
         serializedVersion: 2
-        x: 832
+        x: 864
         y: 192
         width: 32
         height: 32
@@ -6995,7 +6995,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_327
       rect:
         serializedVersion: 2
-        x: 864
+        x: 896
         y: 192
         width: 32
         height: 32
@@ -7016,7 +7016,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_328
       rect:
         serializedVersion: 2
-        x: 896
+        x: 928
         y: 192
         width: 32
         height: 32
@@ -7037,7 +7037,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_329
       rect:
         serializedVersion: 2
-        x: 928
+        x: 960
         y: 192
         width: 32
         height: 32
@@ -7058,7 +7058,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_330
       rect:
         serializedVersion: 2
-        x: 960
+        x: 992
         y: 192
         width: 32
         height: 32
@@ -7079,7 +7079,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_331
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 192
         width: 32
         height: 32
@@ -7100,7 +7100,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_332
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1056
         y: 192
         width: 32
         height: 32
@@ -7121,7 +7121,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_333
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1216
         y: 192
         width: 32
         height: 32
@@ -7142,8 +7142,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_334
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 192
+        x: 736
+        y: 160
         width: 32
         height: 32
       alignment: 0
@@ -7163,7 +7163,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_335
       rect:
         serializedVersion: 2
-        x: 736
+        x: 1056
         y: 160
         width: 32
         height: 32
@@ -7184,7 +7184,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_336
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1216
         y: 160
         width: 32
         height: 32
@@ -7205,8 +7205,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_337
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 160
+        x: 704
+        y: 128
         width: 32
         height: 32
       alignment: 0
@@ -7226,7 +7226,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_338
       rect:
         serializedVersion: 2
-        x: 704
+        x: 736
         y: 128
         width: 32
         height: 32
@@ -7247,7 +7247,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_339
       rect:
         serializedVersion: 2
-        x: 736
+        x: 768
         y: 128
         width: 32
         height: 32
@@ -7268,7 +7268,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_340
       rect:
         serializedVersion: 2
-        x: 768
+        x: 800
         y: 128
         width: 32
         height: 32
@@ -7289,7 +7289,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_341
       rect:
         serializedVersion: 2
-        x: 800
+        x: 832
         y: 128
         width: 32
         height: 32
@@ -7310,7 +7310,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_342
       rect:
         serializedVersion: 2
-        x: 832
+        x: 864
         y: 128
         width: 32
         height: 32
@@ -7331,7 +7331,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_343
       rect:
         serializedVersion: 2
-        x: 864
+        x: 896
         y: 128
         width: 32
         height: 32
@@ -7352,7 +7352,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_344
       rect:
         serializedVersion: 2
-        x: 896
+        x: 928
         y: 128
         width: 32
         height: 32
@@ -7373,7 +7373,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_345
       rect:
         serializedVersion: 2
-        x: 928
+        x: 960
         y: 128
         width: 32
         height: 32
@@ -7394,7 +7394,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_346
       rect:
         serializedVersion: 2
-        x: 960
+        x: 992
         y: 128
         width: 32
         height: 32
@@ -7415,7 +7415,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_347
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 128
         width: 32
         height: 32
@@ -7436,7 +7436,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_348
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1056
         y: 128
         width: 32
         height: 32
@@ -7457,7 +7457,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_349
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1216
         y: 128
         width: 32
         height: 32
@@ -7478,8 +7478,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_350
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 128
+        x: 608
+        y: 96
         width: 32
         height: 32
       alignment: 0
@@ -7499,7 +7499,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_351
       rect:
         serializedVersion: 2
-        x: 608
+        x: 640
         y: 96
         width: 32
         height: 32
@@ -7520,7 +7520,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_352
       rect:
         serializedVersion: 2
-        x: 640
+        x: 672
         y: 96
         width: 32
         height: 32
@@ -7541,7 +7541,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_353
       rect:
         serializedVersion: 2
-        x: 672
+        x: 704
         y: 96
         width: 32
         height: 32
@@ -7562,7 +7562,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_354
       rect:
         serializedVersion: 2
-        x: 704
+        x: 736
         y: 96
         width: 32
         height: 32
@@ -7583,7 +7583,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_355
       rect:
         serializedVersion: 2
-        x: 736
+        x: 768
         y: 96
         width: 32
         height: 32
@@ -7604,7 +7604,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_356
       rect:
         serializedVersion: 2
-        x: 768
+        x: 800
         y: 96
         width: 32
         height: 32
@@ -7625,7 +7625,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_357
       rect:
         serializedVersion: 2
-        x: 800
+        x: 832
         y: 96
         width: 32
         height: 32
@@ -7646,7 +7646,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_358
       rect:
         serializedVersion: 2
-        x: 832
+        x: 864
         y: 96
         width: 32
         height: 32
@@ -7667,7 +7667,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_359
       rect:
         serializedVersion: 2
-        x: 864
+        x: 896
         y: 96
         width: 32
         height: 32
@@ -7688,7 +7688,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_360
       rect:
         serializedVersion: 2
-        x: 896
+        x: 928
         y: 96
         width: 32
         height: 32
@@ -7709,7 +7709,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_361
       rect:
         serializedVersion: 2
-        x: 928
+        x: 960
         y: 96
         width: 32
         height: 32
@@ -7730,7 +7730,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_362
       rect:
         serializedVersion: 2
-        x: 960
+        x: 992
         y: 96
         width: 32
         height: 32
@@ -7751,7 +7751,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_363
       rect:
         serializedVersion: 2
-        x: 992
+        x: 1024
         y: 96
         width: 32
         height: 32
@@ -7772,7 +7772,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_364
       rect:
         serializedVersion: 2
-        x: 1024
+        x: 1056
         y: 96
         width: 32
         height: 32
@@ -7793,7 +7793,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_365
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1216
         y: 96
         width: 32
         height: 32
@@ -7814,8 +7814,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_366
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 96
+        x: 608
+        y: 64
         width: 32
         height: 32
       alignment: 0
@@ -7835,7 +7835,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_367
       rect:
         serializedVersion: 2
-        x: 608
+        x: 672
         y: 64
         width: 32
         height: 32
@@ -7856,7 +7856,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_368
       rect:
         serializedVersion: 2
-        x: 672
+        x: 704
         y: 64
         width: 32
         height: 32
@@ -7877,7 +7877,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_369
       rect:
         serializedVersion: 2
-        x: 704
+        x: 800
         y: 64
         width: 32
         height: 32
@@ -7898,7 +7898,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_370
       rect:
         serializedVersion: 2
-        x: 800
+        x: 832
         y: 64
         width: 32
         height: 32
@@ -7919,7 +7919,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_371
       rect:
         serializedVersion: 2
-        x: 832
+        x: 864
         y: 64
         width: 32
         height: 32
@@ -7940,7 +7940,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_372
       rect:
         serializedVersion: 2
-        x: 864
+        x: 896
         y: 64
         width: 32
         height: 32
@@ -7961,7 +7961,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_373
       rect:
         serializedVersion: 2
-        x: 896
+        x: 1056
         y: 64
         width: 32
         height: 32
@@ -7982,7 +7982,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_374
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1088
         y: 64
         width: 32
         height: 32
@@ -8003,7 +8003,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_375
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1120
         y: 64
         width: 32
         height: 32
@@ -8024,7 +8024,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_376
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1152
         y: 64
         width: 32
         height: 32
@@ -8045,7 +8045,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_377
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1184
         y: 64
         width: 32
         height: 32
@@ -8066,7 +8066,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_378
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 1216
         y: 64
         width: 32
         height: 32
@@ -8087,8 +8087,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_379
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 64
+        x: 608
+        y: 32
         width: 32
         height: 32
       alignment: 0
@@ -8108,7 +8108,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_380
       rect:
         serializedVersion: 2
-        x: 608
+        x: 672
         y: 32
         width: 32
         height: 32
@@ -8129,7 +8129,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_381
       rect:
         serializedVersion: 2
-        x: 672
+        x: 704
         y: 32
         width: 32
         height: 32
@@ -8150,7 +8150,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_382
       rect:
         serializedVersion: 2
-        x: 704
+        x: 896
         y: 32
         width: 32
         height: 32
@@ -8171,7 +8171,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_383
       rect:
         serializedVersion: 2
-        x: 896
+        x: 1056
         y: 32
         width: 32
         height: 32
@@ -8192,7 +8192,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_384
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1088
         y: 32
         width: 32
         height: 32
@@ -8213,7 +8213,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_385
       rect:
         serializedVersion: 2
-        x: 1088
+        x: 1120
         y: 32
         width: 32
         height: 32
@@ -8234,7 +8234,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_386
       rect:
         serializedVersion: 2
-        x: 1120
+        x: 1152
         y: 32
         width: 32
         height: 32
@@ -8255,7 +8255,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_387
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1184
         y: 32
         width: 32
         height: 32
@@ -8276,7 +8276,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_388
       rect:
         serializedVersion: 2
-        x: 1184
+        x: 1216
         y: 32
         width: 32
         height: 32
@@ -8297,8 +8297,8 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_389
       rect:
         serializedVersion: 2
-        x: 1216
-        y: 32
+        x: 608
+        y: 0
         width: 32
         height: 32
       alignment: 0
@@ -8318,7 +8318,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_390
       rect:
         serializedVersion: 2
-        x: 608
+        x: 640
         y: 0
         width: 32
         height: 32
@@ -8339,7 +8339,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_391
       rect:
         serializedVersion: 2
-        x: 640
+        x: 672
         y: 0
         width: 32
         height: 32
@@ -8360,7 +8360,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_392
       rect:
         serializedVersion: 2
-        x: 672
+        x: 704
         y: 0
         width: 32
         height: 32
@@ -8381,7 +8381,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_393
       rect:
         serializedVersion: 2
-        x: 704
+        x: 736
         y: 0
         width: 32
         height: 32
@@ -8402,7 +8402,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_394
       rect:
         serializedVersion: 2
-        x: 736
+        x: 768
         y: 0
         width: 32
         height: 32
@@ -8423,7 +8423,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_395
       rect:
         serializedVersion: 2
-        x: 768
+        x: 800
         y: 0
         width: 32
         height: 32
@@ -8444,7 +8444,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_396
       rect:
         serializedVersion: 2
-        x: 800
+        x: 832
         y: 0
         width: 32
         height: 32
@@ -8465,7 +8465,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_397
       rect:
         serializedVersion: 2
-        x: 832
+        x: 864
         y: 0
         width: 32
         height: 32
@@ -8486,7 +8486,7 @@ TextureImporter:
       name: Tilesets y Mapa del Juego_398
       rect:
         serializedVersion: 2
-        x: 864
+        x: 896
         y: 0
         width: 32
         height: 32
@@ -8499,27 +8499,6 @@ TextureImporter:
       bones: []
       spriteID: 57763b709d3480f4a9cc9cf77d165d8b
       internalID: 2103109437
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Tilesets y Mapa del Juego_399
-      rect:
-        serializedVersion: 2
-        x: 896
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 31b8c60ca50ff12438e8208c5f7297ed
-      internalID: 1819558455
       vertices: []
       indices: 
       edges: []
@@ -8868,7 +8847,6 @@ TextureImporter:
       Tilesets y Mapa del Juego_396: -550569899
       Tilesets y Mapa del Juego_397: 667832051
       Tilesets y Mapa del Juego_398: 2103109437
-      Tilesets y Mapa del Juego_399: 1819558455
       Tilesets y Mapa del Juego_4: 5231330137419712589
       Tilesets y Mapa del Juego_40: -47274580
       Tilesets y Mapa del Juego_41: -233804817
