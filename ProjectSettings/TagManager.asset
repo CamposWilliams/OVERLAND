@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Mutante_01
   - Bala_player
+  - Door
   layers:
   - Default
   - TransparentFX
