@@ -7,6 +7,9 @@ TagManager:
   - Mutante_01
   - Bala_player
   - Door
+  - ZonaContaminada
+  - Tarjeta1
+  - Tarjeta2
   layers:
   - Default
   - TransparentFX
