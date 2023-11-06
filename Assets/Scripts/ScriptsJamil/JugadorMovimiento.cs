@@ -25,7 +25,8 @@ public class JugadorMovimiento : MonoBehaviour
     {
         float xInput = Input.GetAxisRaw("Horizontal");
         float yInput = Input.GetAxisRaw("Vertical");
-        dirección = new Vector2(xInput, yInput).normalized;
+       
+        //dirección = new Vector2(xInput, yInput).normalized;
        
         //animaciónMike.SetFloat("Horizontal", xInput);
         //animaciónMike.SetFloat("Vertical", yInput);

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class JugadorDisparo : MonoBehaviour
 {
@@ -24,11 +25,13 @@ public class JugadorDisparo : MonoBehaviour
         Disparo();
     }
 
+
     void Apuntar()
     {
         Vector3 mousePosition = cámara.ScreenToWorldPoint(Input.mousePosition);
         direction = mousePosition - Arma.transform.position;
         Arma.transform.up = direction.normalized;
+        
 
         float ángulo = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //Este devuelve un valor de -180 a 180
@@ -51,9 +54,13 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject obj = Instantiate(bulletPrefab);
-            obj.transform.position = puntoDeDisparo.transform.position;
-            obj.GetComponent<PlayerBullet>().direction = direction.normalized;
+            GameObject nuevaBala = Instantiate(bulletPrefab);
+            nuevaBala.transform.position = puntoDeDisparo.transform.position;
+            nuevaBala.transform.up = Arma.transform.up;
+            nuevaBala.GetComponent<JugadorBala>().direction = direction.normalized;
+            nuevaBala.transform.Rotate(Vector3.forward * 90.0f);
         }
+
+       
     }
 }
