@@ -6,6 +6,7 @@ public class JugadorMovimiento : MonoBehaviour
 {
     Rigidbody2D rb2DMike;
     public float rapidez=2;
+    public bool PUVerde=false;
     Vector2 dirección;
     //Animator animaciónMike;
 
@@ -25,6 +26,10 @@ public class JugadorMovimiento : MonoBehaviour
     {
         float xInput = Input.GetAxisRaw("Horizontal");
         float yInput = Input.GetAxisRaw("Vertical");
+        
+            rb2DMike.velocity = new Vector2(xInput, yInput).normalized * rapidez;
+        
+
        
         //dirección = new Vector2(xInput, yInput).normalized;
        
@@ -32,7 +37,7 @@ public class JugadorMovimiento : MonoBehaviour
         //animaciónMike.SetFloat("Vertical", yInput);
         //animaciónMike.SetFloat("Rapidez",dirección.sqrMagnitude);
 
-        rb2DMike.velocity = new Vector2(xInput, yInput).normalized * rapidez;   
+          
 
     }
 }

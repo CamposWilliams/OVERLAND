@@ -27,7 +27,7 @@ public class JugadorDisparo : MonoBehaviour
         Apuntar();
         Disparo();
         Recargando();
-        Debug.Log(cdDisparo);
+        //Debug.Log(cdDisparo);
     }
 
 

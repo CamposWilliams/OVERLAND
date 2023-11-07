@@ -7,10 +7,12 @@ public class PowerUps : MonoBehaviour
     string color;
     public GameObject prefabBala;
     public GameObject Mike;
-   float CdPU=5;
+    float CdPU=5;
     float tiempo;
-   public bool conPU = false;
+    public bool conPU = false;
     float cd;
+    float rapidez=0;
+    float rapidezBala;
     SpriteRenderer sprPowerUp;
     Collider2D collPowerUp;
 
@@ -26,7 +28,7 @@ public class PowerUps : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("colisione");
+            conPU = true;
 
             switch (color)
             {
@@ -36,52 +38,81 @@ public class PowerUps : MonoBehaviour
                 //    break;
                 case "PociónMorada":
 
-                    conPU = true;
                     sprPowerUp.enabled = false;
                     collPowerUp.enabled = false;
                     cd = Mike.GetComponent<JugadorDisparo>().cdDisparo;
                     Mike.GetComponent<JugadorDisparo>().cdDisparo = cd /3;
+                    rapidezBala = prefabBala.GetComponent<JugadorBala>().rapidez;
+                    prefabBala.GetComponent<JugadorBala>().rapidez = rapidezBala * 3;
 
-                    //Debug.Log(conPU);
-                    ;
                     break;
-                //case "PociónVerde":
-                //    collision.GetComponent<JugadorMovimiento>().PUVerde = true;
-                //    Destroy(gameObject);
-                //    break;
-                //case "Botiquín":
-                //    collision.GetComponent<PlayerVida>().vidaActual = collision.GetComponent<PlayerVida>().vidaInicial;
-                //    break;
+                //Debug.Log(conPU);
+
+
+                case "PociónVerde":
+                   
+                    sprPowerUp.enabled = false;
+                    collPowerUp.enabled = false;
+                    rapidez=collision.GetComponent<JugadorMovimiento>().rapidez;
+                    collision.GetComponent<JugadorMovimiento>().rapidez=rapidez*2;
+                    
+                    break;
+                    //case "Botiquín":
+                    //    collision.GetComponent<PlayerVida>().vidaActual = collision.GetComponent<PlayerVida>().vidaInicial;
+                    //    break;
             }
 
-            
+
         }
     }
     private void Update()
     {
-        ActivarDesactivarPowerUp();
+        DesactivarPowerUpMorado();
+        DesactivarPowerUpAzul();
+        DesactivarPowerUpVerde();
     }
 
-    void ActivarDesactivarPowerUp()
+    void DesactivarPowerUpMorado()
     {
         
-        if (conPU==true)
+        if (/*conPU==true &&*/ cd!=0)
         {
-            prefabBala.GetComponent<JugadorBala>().PUMorado = true;
 
             tiempo += Time.deltaTime;
 
             if (tiempo >=CdPU)
             {
-                Debug.Log("Hola");
-                prefabBala.GetComponent<JugadorBala>().PUMorado = false;
+                Debug.Log("Desactivado Morado");
+                prefabBala.GetComponent<JugadorBala>().rapidez = rapidezBala;
                 Mike.GetComponent<JugadorDisparo>().cdDisparo = cd;
                 tiempo = 0;
-                conPU = false;
+                cd=0;
                 Destroy(gameObject);
             }
         }
         
+    }
+
+    void DesactivarPowerUpAzul()
+    {
+
+    }
+    void DesactivarPowerUpVerde()
+    {
+        if (/*conPU == true && */rapidez!=0)
+        {
+            tiempo += Time.deltaTime;
+
+            if (tiempo >= CdPU)
+            {
+                Debug.Log("Desactivado Verde");
+
+                Mike.GetComponent<JugadorMovimiento>().rapidez = rapidez;
+                rapidez = 0;
+                Destroy(gameObject);
+                
+            }
+        }
     }
 
 }
