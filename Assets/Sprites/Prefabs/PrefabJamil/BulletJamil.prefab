@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2038147475853121472}
   - component: {fileID: 2138312810694183159}
   - component: {fileID: 3613011617467627049}
-  - component: {fileID: -2371054318693300923}
+  - component: {fileID: -6286058498481341058}
   m_Layer: 0
   m_Name: BulletJamil
   m_TagString: Bala_player
@@ -160,7 +160,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-2371054318693300923
+--- !u!114 &-6286058498481341058
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -172,10 +172,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0529f577e03a4f243b224178628ab4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rapidez: 3
+  rapidez: 8
   direction: {x: 0, y: 0}
   tiempo: 0
-  temporizador: 2
   bulletPrefab: {fileID: 9127715698934923802}
-  PUMorado: 0
-  cdPUM: 5
+  PUMorado: 1

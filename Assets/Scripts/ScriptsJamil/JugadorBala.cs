@@ -9,25 +9,23 @@ public class JugadorBala : MonoBehaviour
     Rigidbody2D rb2dBala;
     public Vector2 direction;
     public float tiempo;
-    public float temporizador;
-
     public GameObject bulletPrefab;
-    public bool PUMorado = false;
-    public float cdPUM = 5;
-    
+    public bool PUMorado = false; //esta bugeado el check en el editor, pero sí esta funcionando bn
+
     void Start()
     {
         rb2dBala = GetComponent<Rigidbody2D>();
-        
     }
 
     void Update()
     {
         Movimiento();
-        Temporizador();
-        Debug.Log(rb2dBala.velocity.sqrMagnitude);
+
+        //Debug.Log(rb2dBala.velocity.sqrMagnitude);
+        //Debug.Log(tiempo);
+        //Debug.Log(PUMorado);
     }
-  
+
     void Movimiento()
     {
         rb2dBala.velocity = direction * rapidez;
@@ -35,23 +33,18 @@ public class JugadorBala : MonoBehaviour
         if (PUMorado == false)
         {
             rb2dBala.velocity = direction * rapidez;
+            Destroy(gameObject, 2);
 
         }
         else
         {
-            rb2dBala.velocity = direction * rapidez*2;
-            //cdDisparo = cdDisparo / 2;
+            rb2dBala.velocity = direction * rapidez * 3;
+            Destroy(gameObject, 2);
+            
         }
     }
-
-    void Temporizador()
-    {
-        tiempo += Time.deltaTime;
-        if (tiempo >= temporizador)
-        {
-            Destroy(gameObject);
-        }
-    }
+       
+    
 
 
 
