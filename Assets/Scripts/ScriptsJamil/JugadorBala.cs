@@ -5,14 +5,19 @@ using UnityEngine.UIElements;
 
 public class JugadorBala : MonoBehaviour
 {
-    public float rapidez;
+    public float rapidezBala;
+    Vector2 velocidadMike;
     Rigidbody2D rb2dBala;
     public Vector2 direction;
-    public float tiempo;
     public GameObject bulletPrefab;
 
+    private void Awake()
+    {
+        rapidezBala = 10; 
+    }
     void Start()
     {
+        velocidadMike=GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity;
         rb2dBala = GetComponent<Rigidbody2D>();
     }
 
@@ -27,8 +32,9 @@ public class JugadorBala : MonoBehaviour
 
     void Movimiento()
     {
-            rb2dBala.velocity = direction * rapidez;
-            Destroy(gameObject, 2);
+        rb2dBala.velocity = rapidezBala * direction + velocidadMike;
+
+        Destroy(gameObject, 2);
     }
        
     

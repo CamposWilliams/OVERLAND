@@ -13,6 +13,7 @@ public class JugadorDisparo : MonoBehaviour
     float tiempo;
     bool puedeDisparar=true;
    public float cdDisparo=0.6f;
+    public float ángulo;
 
     private Animator direcciónMirada;
 
@@ -27,9 +28,25 @@ public class JugadorDisparo : MonoBehaviour
         Apuntar();
         Disparo();
         Recargando();
+        ApuntarAnimación();
         //Debug.Log(cdDisparo);
     }
 
+    void ApuntarAnimación()
+    {
+        direcciónMirada.SetFloat("Ángulo", ángulo);
+       
+        if (GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity.magnitude != 0)
+        {
+            direcciónMirada.SetFloat("Rapidez", 100);
+        }
+        else
+        {
+            //Debug.Log("no me animo");
+            direcciónMirada.SetFloat("Rapidez", 0);
+        }
+            
+    }
 
     void Apuntar()
     {
@@ -39,7 +56,7 @@ public class JugadorDisparo : MonoBehaviour
         Arma.transform.Rotate(Vector3.forward * 90.0f);
 
 
-        float ángulo = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        ángulo = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         //Este devuelve un valor de -180 a 180
         
         if (ángulo < 0)
@@ -53,7 +70,7 @@ public class JugadorDisparo : MonoBehaviour
         }
         //Debug.Log(ángulo);
 
-        direcciónMirada.SetFloat("Ángulo", ángulo);
+      
     }
 
     void Disparo()
@@ -65,7 +82,6 @@ public class JugadorDisparo : MonoBehaviour
             nuevaBala.transform.position = puntoDeDisparo.transform.position;
             nuevaBala.transform.up = Arma.transform.up;
             nuevaBala.GetComponent<JugadorBala>().direction = direction.normalized;
-
             
             //nuevaBala.transform.Rotate(Vector3.forward * 90.0f);
         }

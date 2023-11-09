@@ -172,7 +172,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0529f577e03a4f243b224178628ab4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rapidez: 6
+  rapidezBala: 10
   direction: {x: 0, y: 0}
-  tiempo: 0
   bulletPrefab: {fileID: 9127715698934923802}

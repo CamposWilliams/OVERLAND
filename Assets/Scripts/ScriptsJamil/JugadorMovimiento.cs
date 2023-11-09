@@ -6,7 +6,6 @@ public class JugadorMovimiento : MonoBehaviour
 {
     Rigidbody2D rb2DMike;
     public float rapidez=2;
-    public bool PUVerde=false;
     Vector2 dirección;
     //Animator animaciónMike;
 

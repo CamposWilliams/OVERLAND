@@ -13,6 +13,7 @@ public class PowerUps : MonoBehaviour
     float cd;
     float rapidez=0;
     float rapidezBala;
+    float dañoRecibido;
     SpriteRenderer sprPowerUp;
     Collider2D collPowerUp;
 
@@ -32,21 +33,22 @@ public class PowerUps : MonoBehaviour
 
             switch (color)
             {
-                //case "PociónAzul":
-                //    collision.GetComponent<PlayerVida>().PUAzul = true;
-                //    Destroy(gameObject);
-                //    break;
+                case "PociónAzul":
+                    sprPowerUp.enabled = false;
+                    collPowerUp.enabled = false;
+                    Mike.GetComponent<SistemaDeVida>().PUAzulActivo = true;
+                    break;
+               
                 case "PociónMorada":
 
                     sprPowerUp.enabled = false;
                     collPowerUp.enabled = false;
                     cd = Mike.GetComponent<JugadorDisparo>().cdDisparo;
                     Mike.GetComponent<JugadorDisparo>().cdDisparo = cd /3;
-                    rapidezBala = prefabBala.GetComponent<JugadorBala>().rapidez;
-                    prefabBala.GetComponent<JugadorBala>().rapidez = rapidezBala * 3;
+                    rapidezBala = prefabBala.GetComponent<JugadorBala>().rapidezBala;
+                    prefabBala.GetComponent<JugadorBala>().rapidezBala = rapidezBala * 3;
 
                     break;
-                //Debug.Log(conPU);
 
 
                 case "PociónVerde":
@@ -83,7 +85,7 @@ public class PowerUps : MonoBehaviour
             if (tiempo >=CdPU)
             {
                 Debug.Log("Desactivado Morado");
-                prefabBala.GetComponent<JugadorBala>().rapidez = rapidezBala;
+                prefabBala.GetComponent<JugadorBala>().rapidezBala = rapidezBala;
                 Mike.GetComponent<JugadorDisparo>().cdDisparo = cd;
                 tiempo = 0;
                 cd=0;
@@ -95,7 +97,19 @@ public class PowerUps : MonoBehaviour
 
     void DesactivarPowerUpAzul()
     {
+        if (Mike.GetComponent<SistemaDeVida>().PUAzulActivo ==true)
+        {
+            tiempo += Time.deltaTime;
 
+            if (tiempo >= CdPU)
+            {
+                Debug.Log("Desactivado Azul");
+
+                Mike.GetComponent<SistemaDeVida>().PUAzulActivo = false;
+                Destroy(gameObject);
+
+            }
+        }
     }
     void DesactivarPowerUpVerde()
     {
