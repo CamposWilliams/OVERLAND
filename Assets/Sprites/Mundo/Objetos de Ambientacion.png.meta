@@ -1,0 +1,3819 @@
+fileFormatVersion: 2
+guid: c0189990f2d83f3488fbac0791258a45
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7953590924035695143
+    second: Objetos de Ambientacion_0
+  - first:
+      213: 5553596494922139349
+    second: Objetos de Ambientacion_1
+  - first:
+      213: 6012702385562054160
+    second: Objetos de Ambientacion_2
+  - first:
+      213: -6590207151258872966
+    second: Objetos de Ambientacion_3
+  - first:
+      213: -5995065490961363149
+    second: Objetos de Ambientacion_4
+  - first:
+      213: -7506138553988106837
+    second: Objetos de Ambientacion_5
+  - first:
+      213: 6162727408214626704
+    second: Objetos de Ambientacion_6
+  - first:
+      213: 7640044373442515552
+    second: Objetos de Ambientacion_7
+  - first:
+      213: 4172116720619003885
+    second: Objetos de Ambientacion_8
+  - first:
+      213: 8581221417398101552
+    second: Objetos de Ambientacion_9
+  - first:
+      213: -8381554066901400858
+    second: Objetos de Ambientacion_10
+  - first:
+      213: -4897548896834114597
+    second: Objetos de Ambientacion_11
+  - first:
+      213: 2216034209156960124
+    second: Objetos de Ambientacion_12
+  - first:
+      213: 7335412986700834914
+    second: Objetos de Ambientacion_13
+  - first:
+      213: -627830963807871449
+    second: Objetos de Ambientacion_14
+  - first:
+      213: -2777612838727452733
+    second: Objetos de Ambientacion_15
+  - first:
+      213: -7660959539209740142
+    second: Objetos de Ambientacion_16
+  - first:
+      213: 3603066938307376413
+    second: Objetos de Ambientacion_17
+  - first:
+      213: 5370348040759669941
+    second: Objetos de Ambientacion_18
+  - first:
+      213: -1973995482794789072
+    second: Objetos de Ambientacion_19
+  - first:
+      213: 7478810842038111473
+    second: Objetos de Ambientacion_20
+  - first:
+      213: 8149946082548069487
+    second: Objetos de Ambientacion_21
+  - first:
+      213: -6506909029284333581
+    second: Objetos de Ambientacion_22
+  - first:
+      213: -6188201365193318378
+    second: Objetos de Ambientacion_23
+  - first:
+      213: 761188059506499983
+    second: Objetos de Ambientacion_24
+  - first:
+      213: -767382814878103507
+    second: Objetos de Ambientacion_25
+  - first:
+      213: 7602205794429342940
+    second: Objetos de Ambientacion_26
+  - first:
+      213: -8916573384009953149
+    second: Objetos de Ambientacion_27
+  - first:
+      213: -7253195831871357230
+    second: Objetos de Ambientacion_28
+  - first:
+      213: 564259427934503914
+    second: Objetos de Ambientacion_29
+  - first:
+      213: -3538439493649824434
+    second: Objetos de Ambientacion_30
+  - first:
+      213: -7785577577669753435
+    second: Objetos de Ambientacion_31
+  - first:
+      213: -3714555026676339465
+    second: Objetos de Ambientacion_32
+  - first:
+      213: -354960852280596413
+    second: Objetos de Ambientacion_33
+  - first:
+      213: -700782862843845379
+    second: Objetos de Ambientacion_34
+  - first:
+      213: -7739729595677296524
+    second: Objetos de Ambientacion_35
+  - first:
+      213: -4136399032490533356
+    second: Objetos de Ambientacion_36
+  - first:
+      213: -5748221320123029411
+    second: Objetos de Ambientacion_37
+  - first:
+      213: 5956837602980124393
+    second: Objetos de Ambientacion_38
+  - first:
+      213: 5554732468864924425
+    second: Objetos de Ambientacion_39
+  - first:
+      213: -4947596338276209418
+    second: Objetos de Ambientacion_40
+  - first:
+      213: 3489824376437857696
+    second: Objetos de Ambientacion_41
+  - first:
+      213: -6810785492106665266
+    second: Objetos de Ambientacion_42
+  - first:
+      213: -19585257025484178
+    second: Objetos de Ambientacion_43
+  - first:
+      213: 7230682710905202310
+    second: Objetos de Ambientacion_44
+  - first:
+      213: -2765092008099562098
+    second: Objetos de Ambientacion_45
+  - first:
+      213: 2481491365852280123
+    second: Objetos de Ambientacion_46
+  - first:
+      213: 7502052402889227166
+    second: Objetos de Ambientacion_47
+  - first:
+      213: 3194747184102748923
+    second: Objetos de Ambientacion_48
+  - first:
+      213: 2956283543404881597
+    second: Objetos de Ambientacion_49
+  - first:
+      213: -4289063487896871864
+    second: Objetos de Ambientacion_50
+  - first:
+      213: -721892932568412242
+    second: Objetos de Ambientacion_51
+  - first:
+      213: -6318356853055785935
+    second: Objetos de Ambientacion_52
+  - first:
+      213: -4183208039017872209
+    second: Objetos de Ambientacion_53
+  - first:
+      213: 341521900045542956
+    second: Objetos de Ambientacion_54
+  - first:
+      213: -8662705256584625927
+    second: Objetos de Ambientacion_55
+  - first:
+      213: -4450430410911491477
+    second: Objetos de Ambientacion_56
+  - first:
+      213: -5742366251151158866
+    second: Objetos de Ambientacion_57
+  - first:
+      213: -2937386036799594899
+    second: Objetos de Ambientacion_58
+  - first:
+      213: 6298697483979705637
+    second: Objetos de Ambientacion_59
+  - first:
+      213: -108775169619632157
+    second: Objetos de Ambientacion_60
+  - first:
+      213: -1735510031844618749
+    second: Objetos de Ambientacion_61
+  - first:
+      213: -4606928204787634250
+    second: Objetos de Ambientacion_62
+  - first:
+      213: 8276510898447732772
+    second: Objetos de Ambientacion_63
+  - first:
+      213: 5412233203130999240
+    second: Objetos de Ambientacion_64
+  - first:
+      213: 2700641609840985060
+    second: Objetos de Ambientacion_65
+  - first:
+      213: -6503566740083797267
+    second: Objetos de Ambientacion_66
+  - first:
+      213: -3574477621749285693
+    second: Objetos de Ambientacion_67
+  - first:
+      213: -2553985378518503108
+    second: Objetos de Ambientacion_68
+  - first:
+      213: -2948437861124288679
+    second: Objetos de Ambientacion_69
+  - first:
+      213: 4880790195831439930
+    second: Objetos de Ambientacion_70
+  - first:
+      213: -3735385967159773450
+    second: Objetos de Ambientacion_71
+  - first:
+      213: 3515527847407845632
+    second: Objetos de Ambientacion_72
+  - first:
+      213: 1678716977414616385
+    second: Objetos de Ambientacion_73
+  - first:
+      213: 7551272447859361965
+    second: Objetos de Ambientacion_74
+  - first:
+      213: -4563401715823191417
+    second: Objetos de Ambientacion_75
+  - first:
+      213: 4879890358822265513
+    second: Objetos de Ambientacion_76
+  - first:
+      213: 5208903099881743887
+    second: Objetos de Ambientacion_77
+  - first:
+      213: 3145728165019378580
+    second: Objetos de Ambientacion_78
+  - first:
+      213: 2536758145584332385
+    second: Objetos de Ambientacion_79
+  - first:
+      213: 7185852315235778428
+    second: Objetos de Ambientacion_80
+  - first:
+      213: -6763480833464437138
+    second: Objetos de Ambientacion_81
+  - first:
+      213: 546681226478597319
+    second: Objetos de Ambientacion_82
+  - first:
+      213: 8770862036457220968
+    second: Objetos de Ambientacion_83
+  - first:
+      213: -3484957179079264999
+    second: Objetos de Ambientacion_84
+  - first:
+      213: 1967631916950629286
+    second: Objetos de Ambientacion_85
+  - first:
+      213: 3184789962245013966
+    second: Objetos de Ambientacion_86
+  - first:
+      213: 8552750712312622411
+    second: Objetos de Ambientacion_87
+  - first:
+      213: -7677120706489640020
+    second: Objetos de Ambientacion_88
+  - first:
+      213: 6538795909007904749
+    second: Objetos de Ambientacion_89
+  - first:
+      213: 7237524239621906626
+    second: Objetos de Ambientacion_90
+  - first:
+      213: 1690784246233054820
+    second: Objetos de Ambientacion_91
+  - first:
+      213: 958507063872663014
+    second: Objetos de Ambientacion_92
+  - first:
+      213: 6131201210983738309
+    second: Objetos de Ambientacion_93
+  - first:
+      213: 2023119756138816727
+    second: Objetos de Ambientacion_94
+  - first:
+      213: 2039412866133683773
+    second: Objetos de Ambientacion_95
+  - first:
+      213: 3460194311416334973
+    second: Objetos de Ambientacion_96
+  - first:
+      213: -7799799895892539689
+    second: Objetos de Ambientacion_97
+  - first:
+      213: -3126121537216943170
+    second: Objetos de Ambientacion_98
+  - first:
+      213: 4079869501427466943
+    second: Objetos de Ambientacion_99
+  - first:
+      213: -6860766493071798632
+    second: Objetos de Ambientacion_100
+  - first:
+      213: -8459574164281236384
+    second: Objetos de Ambientacion_101
+  - first:
+      213: -6516470395806564518
+    second: Objetos de Ambientacion_102
+  - first:
+      213: -4045025580273184067
+    second: Objetos de Ambientacion_103
+  - first:
+      213: 7909398074135458234
+    second: Objetos de Ambientacion_104
+  - first:
+      213: -6798237959305398956
+    second: Objetos de Ambientacion_105
+  - first:
+      213: -7632810626129203532
+    second: Objetos de Ambientacion_106
+  - first:
+      213: -4578277821734427639
+    second: Objetos de Ambientacion_107
+  - first:
+      213: 4013146646960484160
+    second: Objetos de Ambientacion_108
+  - first:
+      213: 8233223441268261493
+    second: Objetos de Ambientacion_109
+  - first:
+      213: 1305765363877925021
+    second: Objetos de Ambientacion_110
+  - first:
+      213: 557453372772689075
+    second: Objetos de Ambientacion_111
+  - first:
+      213: 5844325338792457079
+    second: Objetos de Ambientacion_112
+  - first:
+      213: -7909838506946631912
+    second: Objetos de Ambientacion_113
+  - first:
+      213: -7759530143182834775
+    second: Objetos de Ambientacion_114
+  - first:
+      213: 4350229701475654283
+    second: Objetos de Ambientacion_115
+  - first:
+      213: 6967466150723246835
+    second: Objetos de Ambientacion_116
+  - first:
+      213: 7363018603802885999
+    second: Objetos de Ambientacion_117
+  - first:
+      213: -1434686334933047332
+    second: Objetos de Ambientacion_118
+  - first:
+      213: 1258390683404237336
+    second: Objetos de Ambientacion_119
+  - first:
+      213: 5632924979453479723
+    second: Objetos de Ambientacion_120
+  - first:
+      213: -2081710430957762940
+    second: Objetos de Ambientacion_121
+  - first:
+      213: -571888916765297170
+    second: Objetos de Ambientacion_122
+  - first:
+      213: -7419362435917146036
+    second: Objetos de Ambientacion_123
+  - first:
+      213: -8520792838922313873
+    second: Objetos de Ambientacion_124
+  - first:
+      213: 319734054376076830
+    second: Objetos de Ambientacion_125
+  - first:
+      213: -8285639858524787901
+    second: Objetos de Ambientacion_126
+  - first:
+      213: -3721201399001786818
+    second: Objetos de Ambientacion_127
+  - first:
+      213: 1054906490694837270
+    second: Objetos de Ambientacion_128
+  - first:
+      213: 1747336032579192740
+    second: Objetos de Ambientacion_129
+  - first:
+      213: -8205499806640664846
+    second: Objetos de Ambientacion_130
+  - first:
+      213: 6423702115504040769
+    second: Objetos de Ambientacion_131
+  - first:
+      213: 7175475437911740791
+    second: Objetos de Ambientacion_132
+  - first:
+      213: -486590882222971734
+    second: Objetos de Ambientacion_133
+  - first:
+      213: 1254251482951542169
+    second: Objetos de Ambientacion_134
+  - first:
+      213: 6286938351511858290
+    second: Objetos de Ambientacion_135
+  - first:
+      213: 1635653448474385277
+    second: Objetos de Ambientacion_136
+  - first:
+      213: -553364315496408463
+    second: Objetos de Ambientacion_137
+  - first:
+      213: -1737942896246014077
+    second: Objetos de Ambientacion_138
+  - first:
+      213: -5482713105358348640
+    second: Objetos de Ambientacion_139
+  - first:
+      213: 590433243451483489
+    second: Objetos de Ambientacion_140
+  - first:
+      213: 967575380557051640
+    second: Objetos de Ambientacion_141
+  - first:
+      213: -5186776703007964874
+    second: Objetos de Ambientacion_142
+  - first:
+      213: -4008885068091258023
+    second: Objetos de Ambientacion_143
+  - first:
+      213: -1864063632637754471
+    second: Objetos de Ambientacion_144
+  - first:
+      213: -4461216232485423306
+    second: Objetos de Ambientacion_145
+  - first:
+      213: -1098116344030103113
+    second: Objetos de Ambientacion_146
+  - first:
+      213: 387517655828792292
+    second: Objetos de Ambientacion_147
+  - first:
+      213: 7421611932657447327
+    second: Objetos de Ambientacion_148
+  - first:
+      213: -812298183825795208
+    second: Objetos de Ambientacion_149
+  - first:
+      213: -7091926300191280786
+    second: Objetos de Ambientacion_150
+  - first:
+      213: 8969962277714707132
+    second: Objetos de Ambientacion_151
+  - first:
+      213: -8393562373398928394
+    second: Objetos de Ambientacion_152
+  - first:
+      213: 4233281479238786491
+    second: Objetos de Ambientacion_153
+  - first:
+      213: -8393306990535179620
+    second: Objetos de Ambientacion_154
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 402
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7222be33ec4d06e60800000000000000
+      internalID: 7953590924035695143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_1
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 404
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d640b18696521d40800000000000000
+      internalID: 5553596494922139349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_2
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 404
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01ee19786f8617350800000000000000
+      internalID: 6012702385562054160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 404
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d9f82381ea84a0800000000000000
+      internalID: -6590207151258872966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_4
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 408
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f8b0ef2bf3dcca0800000000000000
+      internalID: -5995065490961363149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_5
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 399
+        width: 23
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5bcae11c6d4d790800000000000000
+      internalID: -7506138553988106837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 400
+        width: 23
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091523e1de7668550800000000000000
+      internalID: 6162727408214626704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_7
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 407
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062534301e3e60a60800000000000000
+      internalID: 7640044373442515552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_8
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 405
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def96f57d0656e930800000000000000
+      internalID: 4172116720619003885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_9
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 407
+        width: 18
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 036ecf2f96f961770800000000000000
+      internalID: 8581221417398101552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_10
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 409
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e28c98cbfcbeab80800000000000000
+      internalID: -8381554066901400858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_11
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 403
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bdba8160a39680cb0800000000000000
+      internalID: -4897548896834114597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_12
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 404
+        width: 34
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7f0ae64f5fe0ce10800000000000000
+      internalID: 2216034209156960124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_13
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 403
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26827192f3f9cc560800000000000000
+      internalID: 7335412986700834914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_14
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 415
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72e9d37901f7947f0800000000000000
+      internalID: -627830963807871449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_15
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 418
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c7f510f6dfe379d0800000000000000
+      internalID: -2777612838727452733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_16
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 404
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29063ca73edcea590800000000000000
+      internalID: -7660959539209740142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_17
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 402
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d15f3cf5a4aa00230800000000000000
+      internalID: 3603066938307376413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_18
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 402
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b4f1b9f61f478a40800000000000000
+      internalID: 5370348040759669941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_19
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 401
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0377acb2195fa94e0800000000000000
+      internalID: -1973995482794789072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_20
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 415
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fc850e16d21ac760800000000000000
+      internalID: 7478810842038111473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_21
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 416
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f643dd428cc6a1170800000000000000
+      internalID: 8149946082548069487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_22
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 399
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7b9b386b0d2b5a0800000000000000
+      internalID: -6506909029284333581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_23
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 399
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610a01515a71f1aa0800000000000000
+      internalID: -6188201365193318378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_24
+      rect:
+        serializedVersion: 2
+        x: 608
+        y: 400
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f816726d188409a00800000000000000
+      internalID: 761188059506499983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_25
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 400
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2883784565b955f0800000000000000
+      internalID: -767382814878103507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_26
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 360
+        width: 28
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4906e44e5708960800000000000000
+      internalID: 7602205794429342940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_27
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 358
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3805260dfb7f14480800000000000000
+      internalID: -8916573384009953149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_28
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 357
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2deb6fae1d8775b90800000000000000
+      internalID: -7253195831871357230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_29
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 358
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3833bc5f6a4d700800000000000000
+      internalID: 564259427934503914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_30
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 360
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e450ac92700f4eec0800000000000000
+      internalID: -3538439493649824434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_31
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 359
+        width: 25
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a58fbf517214f390800000000000000
+      internalID: -7785577577669753435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_32
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 353
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fca05042ef337cc0800000000000000
+      internalID: -3714555026676339465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_33
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 359
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34825aa4cfce21bf0800000000000000
+      internalID: -354960852280596413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_34
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 357
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df4e28bf2b15646f0800000000000000
+      internalID: -700782862843845379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_35
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 357
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478b31880f4f69490800000000000000
+      internalID: -7739729595677296524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_36
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 352
+        width: 32
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ed12bdefe8896c0800000000000000
+      internalID: -4136399032490533356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_37
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 321
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d586dbb2a273a30b0800000000000000
+      internalID: -5748221320123029411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_38
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 332
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e6d15e3d30faa250800000000000000
+      internalID: 5956837602980124393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_39
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 332
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90bb50d00cf561d40800000000000000
+      internalID: 5554732468864924425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_40
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 320
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fce505085b965bb0800000000000000
+      internalID: -4947596338276209418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_41
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 320
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0add31ec7c85e6030800000000000000
+      internalID: 3489824376437857696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 328
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec229951eaa3b71a0800000000000000
+      internalID: -6810785492106665266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_43
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 326
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a4920005b6abff0800000000000000
+      internalID: -19585257025484178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_44
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 328
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6862013ad9b885460800000000000000
+      internalID: 7230682710905202310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_45
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 327
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d34fdf77b60a9d0800000000000000
+      internalID: -2765092008099562098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_47
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 300
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9bf390b9e4ac1860800000000000000
+      internalID: 7502052402889227166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_48
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 300
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf2bf9f23a5065c20800000000000000
+      internalID: 3194747184102748923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_49
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 300
+        width: 65
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db62bfb3834d60920800000000000000
+      internalID: 2956283543404881597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_50
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 323
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84c1fc07b7f2a74c0800000000000000
+      internalID: -4289063487896871864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_51
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 309
+        width: 24
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaf056cd3325bf5f0800000000000000
+      internalID: -721892932568412242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_52
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 319
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13474711befa058a0800000000000000
+      internalID: -6318356853055785935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_53
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 319
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa408ccb37242f5c0800000000000000
+      internalID: -4183208039017872209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_54
+      rect:
+        serializedVersion: 2
+        x: 611
+        y: 319
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c262b3fcb545db400800000000000000
+      internalID: 341521900045542956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_55
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 300
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f04d535773e7c780800000000000000
+      internalID: -8662705256584625927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_56
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 296
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a5604ee15ec32c0800000000000000
+      internalID: -4450430410911491477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_57
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 297
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea191f5a1540f40b0800000000000000
+      internalID: -5742366251151158866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_58
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 291
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6e1e5466fe4c37d0800000000000000
+      internalID: -2937386036799594899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_59
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 297
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52dc1406df7796750800000000000000
+      internalID: 6298697483979705637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_60
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 256
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ef507e3f8d8d7ef0800000000000000
+      internalID: -108775169619632157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_61
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 261
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e46c732da3ae7e0800000000000000
+      internalID: -1735510031844618749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 261
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bfa7efc437e010c0800000000000000
+      internalID: -4606928204787634250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_63
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 260
+        width: 34
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42050a1bfc21cd270800000000000000
+      internalID: 8276510898447732772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_64
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 258
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c1a23a4c6d1c1b40800000000000000
+      internalID: 5412233203130999240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_65
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 258
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e3063c4c3b9a7520800000000000000
+      internalID: 2700641609840985060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_66
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 257
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2924cd180beb5a0800000000000000
+      internalID: -6503566740083797267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_68
+      rect:
+        serializedVersion: 2
+        x: 241
+        y: 256
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c31fcdf64db6e8cd0800000000000000
+      internalID: -2553985378518503108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_72
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 246
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0010dbe73f9a9c030800000000000000
+      internalID: 3515527847407845632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_73
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 245
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 145373d52300c4710800000000000000
+      internalID: 1678716977414616385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_75
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 255
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78a53f0415a8ba0c0800000000000000
+      internalID: -4563401715823191417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_76
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 255
+        width: 65
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a264743d6ad8b340800000000000000
+      internalID: 4879890358822265513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_77
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 255
+        width: 64
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f06e1e975cdb94840800000000000000
+      internalID: 5208903099881743887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_80
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 247
+        width: 34
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7ffb02cb9649b360800000000000000
+      internalID: 7185852315235778428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_81
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 233
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e667034340a4322a0800000000000000
+      internalID: -6763480833464437138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_82
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4b1a5dda3369700800000000000000
+      internalID: 546681226478597319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86bedf85d8c58b970800000000000000
+      internalID: 8770862036457220968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_84
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9157883e8e1f2afc0800000000000000
+      internalID: -3484957179079264999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_85
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab2092bdce6e4b10800000000000000
+      internalID: 1967631916950629286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_86
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec108dfc895a23c20800000000000000
+      internalID: 3184789962245013966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_87
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 232
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4decdb557971b670800000000000000
+      internalID: 8552750712312622411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_88
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 235
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cab93ef7463657590800000000000000
+      internalID: -7677120706489640020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_89
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 231
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def81373c387eba50800000000000000
+      internalID: 6538795909007904749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_90
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 229
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c061fb23f9d07460800000000000000
+      internalID: 7237524239621906626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_91
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 227
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e3c84505fd67710800000000000000
+      internalID: 1690784246233054820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_92
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 224
+        width: 61
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed25d0a81d4d4d00800000000000000
+      internalID: 958507063872663014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_93
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 193
+        width: 16
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cb61235407661550800000000000000
+      internalID: 6131201210983738309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_94
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 209
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4aab203b0931c10800000000000000
+      internalID: 2023119756138816727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_95
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 201
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e624c42337d4c10800000000000000
+      internalID: 2039412866133683773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_96
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 200
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a4cc1b464150030800000000000000
+      internalID: 3460194311416334973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_97
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 209
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d6423ed15b81c390800000000000000
+      internalID: -7799799895892539689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_98
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 175
+        width: 12
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb6c795609cd94d0800000000000000
+      internalID: -3126121537216943170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_99
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 175
+        width: 22
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb2c88a02bb9e9830800000000000000
+      internalID: 4079869501427466943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 197
+        width: 49
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e8d857939a9c0a0800000000000000
+      internalID: -6860766493071798632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 196
+        width: 49
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 064e1fa4e1e899a80800000000000000
+      internalID: -8459574164281236384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_102
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 196
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5fb99463b8d095a0800000000000000
+      internalID: -6516470395806564518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_103
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 196
+        width: 46
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db2d27c8aae2dd7c0800000000000000
+      internalID: -4045025580273184067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_104
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 198
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1b00484a3d3cd60800000000000000
+      internalID: 7909398074135458234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_105
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 201
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4557609389ec7a1a0800000000000000
+      internalID: -6798237959305398956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_106
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 201
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4beedb70d2fc21690800000000000000
+      internalID: -7632810626129203532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_107
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 199
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9046870f390b670c0800000000000000
+      internalID: -4578277821734427639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_108
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 201
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f21a3ec9f81b730800000000000000
+      internalID: 4013146646960484160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_109
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 165
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 572c63d2919424270800000000000000
+      internalID: 8233223441268261493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 166
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d90d3f12ea20f1210800000000000000
+      internalID: 1305765363877925021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_111
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 170
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b4a5f693e87cb700800000000000000
+      internalID: 557453372772689075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_112
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 166
+        width: 27
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773f98a5ee63b1150800000000000000
+      internalID: 5844325338792457079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_113
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 172
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8176dba39cb9a3290800000000000000
+      internalID: -7909838506946631912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_114
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 168
+        width: 26
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3b6af427c905490800000000000000
+      internalID: -7759530143182834775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_115
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 170
+        width: 18
+        height: 8
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8a5fcf6dde1f5c30800000000000000
+      internalID: 4350229701475654283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_116
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 133
+        width: 33
+        height: 23
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fada628c8961b060800000000000000
+      internalID: 6967466150723246835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_117
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 131
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f7342c862be2660800000000000000
+      internalID: 7363018603802885999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_118
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 131
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd765323168f61ce0800000000000000
+      internalID: -1434686334933047332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_119
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 131
+        width: 34
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a78f8c8a3b67110800000000000000
+      internalID: 1258390683404237336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_120
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 132
+        width: 34
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2bcfbe9c6b2c2e40800000000000000
+      internalID: 5632924979453479723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_121
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 129
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 486898574674c13e0800000000000000
+      internalID: -2081710430957762940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_122
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 128
+        width: 34
+        height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee5b8396f0e3018f0800000000000000
+      internalID: -571888916765297170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_123
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 98
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c48184b8c21290990800000000000000
+      internalID: -7419362435917146036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_124
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 99
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fd75fde0010c980800000000000000
+      internalID: -8520792838922313873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_125
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 96
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e167eadad6cef6400800000000000000
+      internalID: 319734054376076830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_126
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 101
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34befc7a27e730d80800000000000000
+      internalID: -8285639858524787901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_127
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 100
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36dfca1b03ab5cc0800000000000000
+      internalID: -3721201399001786818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_128
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 100
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 614ae193dd7c3ae00800000000000000
+      internalID: 1054906490694837270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_129
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 98
+        width: 29
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a78f152dd8cf3810800000000000000
+      internalID: 1747336032579192740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_130
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 99
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe85a48665302e80800000000000000
+      internalID: -8205499806640664846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_131
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 100
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b2b813a03952950800000000000000
+      internalID: 6423702115504040769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_132
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 100
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 771154bb4e8649360800000000000000
+      internalID: 7175475437911740791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_133
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 100
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa4e722bb284f39f0800000000000000
+      internalID: -486590882222971734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_134
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 100
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9956554141ff76110800000000000000
+      internalID: 1254251482951542169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_135
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 97
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27ce4aefe11bf3750800000000000000
+      internalID: 6286938351511858290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_136
+      rect:
+        serializedVersion: 2
+        x: 422
+        y: 100
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7b55f3352203b610800000000000000
+      internalID: 1635653448474385277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_137
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 96
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17a957f361e0258f0800000000000000
+      internalID: -553364315496408463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_138
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 100
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fb755d42691e7e0800000000000000
+      internalID: -1737942896246014077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_139
+      rect:
+        serializedVersion: 2
+        x: 514
+        y: 97
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ae9cb5ba7d79e3b0800000000000000
+      internalID: -5482713105358348640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_140
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 99
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 165e18b18e3a13800800000000000000
+      internalID: 590433243451483489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_141
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 63
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f63483aea48d6d00800000000000000
+      internalID: 967575380557051640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_142
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63140ffb11ed408b0800000000000000
+      internalID: -5186776703007964874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_143
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b8d0345449d58c0800000000000000
+      internalID: -4008885068091258023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_144
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 63
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99307e990048126e0800000000000000
+      internalID: -1864063632637754471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_145
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 63
+        width: 75
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 637ff7c19739612c0800000000000000
+      internalID: -4461216232485423306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_146
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 72
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b9f800d005b2c0f0800000000000000
+      internalID: -1098116344030103113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_147
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 70
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e30edb314db06500800000000000000
+      internalID: 387517655828792292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_148
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91f8da3bbcdef660800000000000000
+      internalID: 7421611932657447327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_149
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 15
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8775e550b132ab4f0800000000000000
+      internalID: -812298183825795208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_150
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6139d7ca9a649d90800000000000000
+      internalID: -7091926300191280786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_151
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb2c6dbaa25bb7c70800000000000000
+      internalID: 8969962277714707132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_152
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 15
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f3e87d0e73148b80800000000000000
+      internalID: -8393562373398928394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_153
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbd94449313afba30800000000000000
+      internalID: 4233281479238786491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_154
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92095203cbf48b80800000000000000
+      internalID: -8393306990535179620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ff7fdb724025eb34c8712ce7cf35d502
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Objetos de Ambientacion_0: 7953590924035695143
+      Objetos de Ambientacion_1: 5553596494922139349
+      Objetos de Ambientacion_10: -8381554066901400858
+      Objetos de Ambientacion_100: -6860766493071798632
+      Objetos de Ambientacion_101: -8459574164281236384
+      Objetos de Ambientacion_102: -6516470395806564518
+      Objetos de Ambientacion_103: -4045025580273184067
+      Objetos de Ambientacion_104: 7909398074135458234
+      Objetos de Ambientacion_105: -6798237959305398956
+      Objetos de Ambientacion_106: -7632810626129203532
+      Objetos de Ambientacion_107: -4578277821734427639
+      Objetos de Ambientacion_108: 4013146646960484160
+      Objetos de Ambientacion_109: 8233223441268261493
+      Objetos de Ambientacion_11: -4897548896834114597
+      Objetos de Ambientacion_110: 1305765363877925021
+      Objetos de Ambientacion_111: 557453372772689075
+      Objetos de Ambientacion_112: 5844325338792457079
+      Objetos de Ambientacion_113: -7909838506946631912
+      Objetos de Ambientacion_114: -7759530143182834775
+      Objetos de Ambientacion_115: 4350229701475654283
+      Objetos de Ambientacion_116: 6967466150723246835
+      Objetos de Ambientacion_117: 7363018603802885999
+      Objetos de Ambientacion_118: -1434686334933047332
+      Objetos de Ambientacion_119: 1258390683404237336
+      Objetos de Ambientacion_12: 2216034209156960124
+      Objetos de Ambientacion_120: 5632924979453479723
+      Objetos de Ambientacion_121: -2081710430957762940
+      Objetos de Ambientacion_122: -571888916765297170
+      Objetos de Ambientacion_123: -7419362435917146036
+      Objetos de Ambientacion_124: -8520792838922313873
+      Objetos de Ambientacion_125: 319734054376076830
+      Objetos de Ambientacion_126: -8285639858524787901
+      Objetos de Ambientacion_127: -3721201399001786818
+      Objetos de Ambientacion_128: 1054906490694837270
+      Objetos de Ambientacion_129: 1747336032579192740
+      Objetos de Ambientacion_13: 7335412986700834914
+      Objetos de Ambientacion_130: -8205499806640664846
+      Objetos de Ambientacion_131: 6423702115504040769
+      Objetos de Ambientacion_132: 7175475437911740791
+      Objetos de Ambientacion_133: -486590882222971734
+      Objetos de Ambientacion_134: 1254251482951542169
+      Objetos de Ambientacion_135: 6286938351511858290
+      Objetos de Ambientacion_136: 1635653448474385277
+      Objetos de Ambientacion_137: -553364315496408463
+      Objetos de Ambientacion_138: -1737942896246014077
+      Objetos de Ambientacion_139: -5482713105358348640
+      Objetos de Ambientacion_14: -627830963807871449
+      Objetos de Ambientacion_140: 590433243451483489
+      Objetos de Ambientacion_141: 967575380557051640
+      Objetos de Ambientacion_142: -5186776703007964874
+      Objetos de Ambientacion_143: -4008885068091258023
+      Objetos de Ambientacion_144: -1864063632637754471
+      Objetos de Ambientacion_145: -4461216232485423306
+      Objetos de Ambientacion_146: -1098116344030103113
+      Objetos de Ambientacion_147: 387517655828792292
+      Objetos de Ambientacion_148: 7421611932657447327
+      Objetos de Ambientacion_149: -812298183825795208
+      Objetos de Ambientacion_15: -2777612838727452733
+      Objetos de Ambientacion_150: -7091926300191280786
+      Objetos de Ambientacion_151: 8969962277714707132
+      Objetos de Ambientacion_152: -8393562373398928394
+      Objetos de Ambientacion_153: 4233281479238786491
+      Objetos de Ambientacion_154: -8393306990535179620
+      Objetos de Ambientacion_16: -7660959539209740142
+      Objetos de Ambientacion_17: 3603066938307376413
+      Objetos de Ambientacion_18: 5370348040759669941
+      Objetos de Ambientacion_19: -1973995482794789072
+      Objetos de Ambientacion_2: 6012702385562054160
+      Objetos de Ambientacion_20: 7478810842038111473
+      Objetos de Ambientacion_21: 8149946082548069487
+      Objetos de Ambientacion_22: -6506909029284333581
+      Objetos de Ambientacion_23: -6188201365193318378
+      Objetos de Ambientacion_24: 761188059506499983
+      Objetos de Ambientacion_25: -767382814878103507
+      Objetos de Ambientacion_26: 7602205794429342940
+      Objetos de Ambientacion_27: -8916573384009953149
+      Objetos de Ambientacion_28: -7253195831871357230
+      Objetos de Ambientacion_29: 564259427934503914
+      Objetos de Ambientacion_3: -6590207151258872966
+      Objetos de Ambientacion_30: -3538439493649824434
+      Objetos de Ambientacion_31: -7785577577669753435
+      Objetos de Ambientacion_32: -3714555026676339465
+      Objetos de Ambientacion_33: -354960852280596413
+      Objetos de Ambientacion_34: -700782862843845379
+      Objetos de Ambientacion_35: -7739729595677296524
+      Objetos de Ambientacion_36: -4136399032490533356
+      Objetos de Ambientacion_37: -5748221320123029411
+      Objetos de Ambientacion_38: 5956837602980124393
+      Objetos de Ambientacion_39: 5554732468864924425
+      Objetos de Ambientacion_4: -5995065490961363149
+      Objetos de Ambientacion_40: -4947596338276209418
+      Objetos de Ambientacion_41: 3489824376437857696
+      Objetos de Ambientacion_42: -6810785492106665266
+      Objetos de Ambientacion_43: -19585257025484178
+      Objetos de Ambientacion_44: 7230682710905202310
+      Objetos de Ambientacion_45: -2765092008099562098
+      Objetos de Ambientacion_46: 2481491365852280123
+      Objetos de Ambientacion_47: 7502052402889227166
+      Objetos de Ambientacion_48: 3194747184102748923
+      Objetos de Ambientacion_49: 2956283543404881597
+      Objetos de Ambientacion_5: -7506138553988106837
+      Objetos de Ambientacion_50: -4289063487896871864
+      Objetos de Ambientacion_51: -721892932568412242
+      Objetos de Ambientacion_52: -6318356853055785935
+      Objetos de Ambientacion_53: -4183208039017872209
+      Objetos de Ambientacion_54: 341521900045542956
+      Objetos de Ambientacion_55: -8662705256584625927
+      Objetos de Ambientacion_56: -4450430410911491477
+      Objetos de Ambientacion_57: -5742366251151158866
+      Objetos de Ambientacion_58: -2937386036799594899
+      Objetos de Ambientacion_59: 6298697483979705637
+      Objetos de Ambientacion_6: 6162727408214626704
+      Objetos de Ambientacion_60: -108775169619632157
+      Objetos de Ambientacion_61: -1735510031844618749
+      Objetos de Ambientacion_62: -4606928204787634250
+      Objetos de Ambientacion_63: 8276510898447732772
+      Objetos de Ambientacion_64: 5412233203130999240
+      Objetos de Ambientacion_65: 2700641609840985060
+      Objetos de Ambientacion_66: -6503566740083797267
+      Objetos de Ambientacion_67: -3574477621749285693
+      Objetos de Ambientacion_68: -2553985378518503108
+      Objetos de Ambientacion_69: -2948437861124288679
+      Objetos de Ambientacion_7: 7640044373442515552
+      Objetos de Ambientacion_70: 4880790195831439930
+      Objetos de Ambientacion_71: -3735385967159773450
+      Objetos de Ambientacion_72: 3515527847407845632
+      Objetos de Ambientacion_73: 1678716977414616385
+      Objetos de Ambientacion_74: 7551272447859361965
+      Objetos de Ambientacion_75: -4563401715823191417
+      Objetos de Ambientacion_76: 4879890358822265513
+      Objetos de Ambientacion_77: 5208903099881743887
+      Objetos de Ambientacion_78: 3145728165019378580
+      Objetos de Ambientacion_79: 2536758145584332385
+      Objetos de Ambientacion_8: 4172116720619003885
+      Objetos de Ambientacion_80: 7185852315235778428
+      Objetos de Ambientacion_81: -6763480833464437138
+      Objetos de Ambientacion_82: 546681226478597319
+      Objetos de Ambientacion_83: 8770862036457220968
+      Objetos de Ambientacion_84: -3484957179079264999
+      Objetos de Ambientacion_85: 1967631916950629286
+      Objetos de Ambientacion_86: 3184789962245013966
+      Objetos de Ambientacion_87: 8552750712312622411
+      Objetos de Ambientacion_88: -7677120706489640020
+      Objetos de Ambientacion_89: 6538795909007904749
+      Objetos de Ambientacion_9: 8581221417398101552
+      Objetos de Ambientacion_90: 7237524239621906626
+      Objetos de Ambientacion_91: 1690784246233054820
+      Objetos de Ambientacion_92: 958507063872663014
+      Objetos de Ambientacion_93: 6131201210983738309
+      Objetos de Ambientacion_94: 2023119756138816727
+      Objetos de Ambientacion_95: 2039412866133683773
+      Objetos de Ambientacion_96: 3460194311416334973
+      Objetos de Ambientacion_97: -7799799895892539689
+      Objetos de Ambientacion_98: -3126121537216943170
+      Objetos de Ambientacion_99: 4079869501427466943
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
