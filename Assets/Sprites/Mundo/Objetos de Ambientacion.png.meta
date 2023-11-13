@@ -467,6 +467,45 @@ TextureImporter:
   - first:
       213: -8393306990535179620
     second: Objetos de Ambientacion_154
+  - first:
+      213: 7525396676007833580
+    second: Objetos de Ambientacion_155
+  - first:
+      213: -1994541003145758918
+    second: Objetos de Ambientacion_156
+  - first:
+      213: 3630075498835472485
+    second: Objetos de Ambientacion_157
+  - first:
+      213: 773436746177775189
+    second: Objetos de Ambientacion_158
+  - first:
+      213: 6335277633910502686
+    second: Objetos de Ambientacion_159
+  - first:
+      213: 6163411115188271559
+    second: Objetos de Ambientacion_160
+  - first:
+      213: 2434422733787154103
+    second: Objetos de Ambientacion_161
+  - first:
+      213: -6453298773237033108
+    second: Objetos de Ambientacion_162
+  - first:
+      213: 4096396286572872068
+    second: Objetos de Ambientacion_163
+  - first:
+      213: 4616116538932749073
+    second: Objetos de Ambientacion_164
+  - first:
+      213: 3905070686296664385
+    second: Objetos de Ambientacion_165
+  - first:
+      213: -267468766282928151
+    second: Objetos de Ambientacion_166
+  - first:
+      213: 4827944187277372003
+    second: Objetos de Ambientacion_167
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -563,10 +602,10 @@ TextureImporter:
       name: Objetos de Ambientacion_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 402
-        width: 15
-        height: 21
+        x: 9
+        y: 440
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -584,10 +623,10 @@ TextureImporter:
       name: Objetos de Ambientacion_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 404
-        width: 34
-        height: 23
+        x: 42
+        y: 439
+        width: 12
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -605,10 +644,10 @@ TextureImporter:
       name: Objetos de Ambientacion_2
       rect:
         serializedVersion: 2
-        x: 73
-        y: 404
-        width: 17
-        height: 24
+        x: 72
+        y: 438
+        width: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -626,10 +665,10 @@ TextureImporter:
       name: Objetos de Ambientacion_3
       rect:
         serializedVersion: 2
-        x: 102
-        y: 404
-        width: 17
-        height: 24
+        x: 105
+        y: 438
+        width: 16
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -647,10 +686,10 @@ TextureImporter:
       name: Objetos de Ambientacion_4
       rect:
         serializedVersion: 2
-        x: 137
-        y: 408
-        width: 13
-        height: 12
+        x: 140
+        y: 437
+        width: 8
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,10 +707,10 @@ TextureImporter:
       name: Objetos de Ambientacion_5
       rect:
         serializedVersion: 2
-        x: 165
-        y: 399
-        width: 23
-        height: 34
+        x: 172
+        y: 440
+        width: 8
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -689,10 +728,10 @@ TextureImporter:
       name: Objetos de Ambientacion_6
       rect:
         serializedVersion: 2
-        x: 197
-        y: 400
-        width: 23
-        height: 33
+        x: 198
+        y: 439
+        width: 20
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -710,10 +749,10 @@ TextureImporter:
       name: Objetos de Ambientacion_7
       rect:
         serializedVersion: 2
-        x: 231
-        y: 407
-        width: 18
-        height: 18
+        x: 232
+        y: 439
+        width: 16
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -731,10 +770,10 @@ TextureImporter:
       name: Objetos de Ambientacion_8
       rect:
         serializedVersion: 2
-        x: 264
-        y: 405
-        width: 17
-        height: 22
+        x: 255
+        y: 430
+        width: 34
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -752,10 +791,10 @@ TextureImporter:
       name: Objetos de Ambientacion_9
       rect:
         serializedVersion: 2
-        x: 292
-        y: 407
-        width: 18
-        height: 19
+        x: 299
+        y: 441
+        width: 14
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -773,9 +812,9 @@ TextureImporter:
       name: Objetos de Ambientacion_10
       rect:
         serializedVersion: 2
-        x: 327
-        y: 409
-        width: 17
+        x: 332
+        y: 441
+        width: 14
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -794,10 +833,10 @@ TextureImporter:
       name: Objetos de Ambientacion_11
       rect:
         serializedVersion: 2
-        x: 357
-        y: 403
-        width: 21
-        height: 23
+        x: 8
+        y: 402
+        width: 15
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -815,7 +854,7 @@ TextureImporter:
       name: Objetos de Ambientacion_12
       rect:
         serializedVersion: 2
-        x: 383
+        x: 31
         y: 404
         width: 34
         height: 23
@@ -836,8 +875,8 @@ TextureImporter:
       name: Objetos de Ambientacion_13
       rect:
         serializedVersion: 2
-        x: 426
-        y: 403
+        x: 73
+        y: 404
         width: 17
         height: 24
       alignment: 0
@@ -857,10 +896,10 @@ TextureImporter:
       name: Objetos de Ambientacion_14
       rect:
         serializedVersion: 2
-        x: 449
-        y: 415
-        width: 15
-        height: 14
+        x: 102
+        y: 404
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -878,8 +917,8 @@ TextureImporter:
       name: Objetos de Ambientacion_15
       rect:
         serializedVersion: 2
-        x: 466
-        y: 418
+        x: 137
+        y: 408
         width: 13
         height: 12
       alignment: 0
@@ -899,10 +938,10 @@ TextureImporter:
       name: Objetos de Ambientacion_16
       rect:
         serializedVersion: 2
-        x: 490
-        y: 404
-        width: 13
-        height: 25
+        x: 165
+        y: 399
+        width: 23
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -920,10 +959,10 @@ TextureImporter:
       name: Objetos de Ambientacion_17
       rect:
         serializedVersion: 2
-        x: 522
-        y: 402
-        width: 13
-        height: 27
+        x: 197
+        y: 400
+        width: 23
+        height: 33
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -941,10 +980,10 @@ TextureImporter:
       name: Objetos de Ambientacion_18
       rect:
         serializedVersion: 2
-        x: 548
-        y: 402
-        width: 25
-        height: 28
+        x: 231
+        y: 407
+        width: 18
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -962,10 +1001,10 @@ TextureImporter:
       name: Objetos de Ambientacion_19
       rect:
         serializedVersion: 2
-        x: 578
-        y: 401
-        width: 26
-        height: 30
+        x: 264
+        y: 405
+        width: 17
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -983,10 +1022,10 @@ TextureImporter:
       name: Objetos de Ambientacion_20
       rect:
         serializedVersion: 2
-        x: 609
-        y: 415
-        width: 12
-        height: 18
+        x: 292
+        y: 407
+        width: 18
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1004,9 +1043,9 @@ TextureImporter:
       name: Objetos de Ambientacion_21
       rect:
         serializedVersion: 2
-        x: 626
-        y: 416
-        width: 13
+        x: 327
+        y: 409
+        width: 17
         height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1025,10 +1064,10 @@ TextureImporter:
       name: Objetos de Ambientacion_22
       rect:
         serializedVersion: 2
-        x: 450
-        y: 399
-        width: 14
-        height: 13
+        x: 357
+        y: 403
+        width: 21
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1046,10 +1085,10 @@ TextureImporter:
       name: Objetos de Ambientacion_23
       rect:
         serializedVersion: 2
-        x: 467
-        y: 399
-        width: 13
-        height: 12
+        x: 383
+        y: 404
+        width: 34
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1067,10 +1106,10 @@ TextureImporter:
       name: Objetos de Ambientacion_24
       rect:
         serializedVersion: 2
-        x: 608
-        y: 400
-        width: 14
-        height: 15
+        x: 426
+        y: 403
+        width: 17
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1088,9 +1127,9 @@ TextureImporter:
       name: Objetos de Ambientacion_25
       rect:
         serializedVersion: 2
-        x: 624
-        y: 400
-        width: 14
+        x: 449
+        y: 415
+        width: 15
         height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1109,10 +1148,10 @@ TextureImporter:
       name: Objetos de Ambientacion_26
       rect:
         serializedVersion: 2
-        x: 3
-        y: 360
-        width: 28
-        height: 14
+        x: 466
+        y: 418
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1130,10 +1169,10 @@ TextureImporter:
       name: Objetos de Ambientacion_27
       rect:
         serializedVersion: 2
-        x: 34
-        y: 358
-        width: 28
-        height: 16
+        x: 490
+        y: 404
+        width: 13
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1151,10 +1190,10 @@ TextureImporter:
       name: Objetos de Ambientacion_28
       rect:
         serializedVersion: 2
-        x: 74
-        y: 357
+        x: 522
+        y: 402
         width: 13
-        height: 19
+        height: 27
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1172,10 +1211,10 @@ TextureImporter:
       name: Objetos de Ambientacion_29
       rect:
         serializedVersion: 2
-        x: 107
-        y: 358
-        width: 11
-        height: 15
+        x: 548
+        y: 402
+        width: 25
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1193,10 +1232,10 @@ TextureImporter:
       name: Objetos de Ambientacion_30
       rect:
         serializedVersion: 2
-        x: 136
-        y: 360
-        width: 17
-        height: 15
+        x: 578
+        y: 401
+        width: 26
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1214,10 +1253,10 @@ TextureImporter:
       name: Objetos de Ambientacion_31
       rect:
         serializedVersion: 2
-        x: 165
-        y: 359
-        width: 25
-        height: 15
+        x: 609
+        y: 415
+        width: 12
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1235,10 +1274,10 @@ TextureImporter:
       name: Objetos de Ambientacion_32
       rect:
         serializedVersion: 2
-        x: 194
-        y: 353
-        width: 31
-        height: 22
+        x: 626
+        y: 416
+        width: 13
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1256,10 +1295,10 @@ TextureImporter:
       name: Objetos de Ambientacion_33
       rect:
         serializedVersion: 2
-        x: 228
-        y: 359
-        width: 26
-        height: 17
+        x: 450
+        y: 399
+        width: 14
+        height: 13
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1277,10 +1316,10 @@ TextureImporter:
       name: Objetos de Ambientacion_34
       rect:
         serializedVersion: 2
-        x: 267
-        y: 357
-        width: 11
-        height: 18
+        x: 467
+        y: 399
+        width: 13
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1298,10 +1337,10 @@ TextureImporter:
       name: Objetos de Ambientacion_35
       rect:
         serializedVersion: 2
-        x: 299
-        y: 357
-        width: 11
-        height: 18
+        x: 608
+        y: 400
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1319,10 +1358,10 @@ TextureImporter:
       name: Objetos de Ambientacion_36
       rect:
         serializedVersion: 2
-        x: 321
-        y: 352
-        width: 32
-        height: 34
+        x: 624
+        y: 400
+        width: 14
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1340,10 +1379,10 @@ TextureImporter:
       name: Objetos de Ambientacion_37
       rect:
         serializedVersion: 2
-        x: 6
-        y: 321
-        width: 19
-        height: 29
+        x: 3
+        y: 360
+        width: 28
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1361,10 +1400,10 @@ TextureImporter:
       name: Objetos de Ambientacion_38
       rect:
         serializedVersion: 2
-        x: 37
-        y: 332
-        width: 17
-        height: 15
+        x: 34
+        y: 358
+        width: 28
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1382,10 +1421,10 @@ TextureImporter:
       name: Objetos de Ambientacion_39
       rect:
         serializedVersion: 2
-        x: 69
-        y: 332
-        width: 17
-        height: 15
+        x: 74
+        y: 357
+        width: 13
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1403,10 +1442,10 @@ TextureImporter:
       name: Objetos de Ambientacion_40
       rect:
         serializedVersion: 2
-        x: 103
-        y: 320
-        width: 19
-        height: 31
+        x: 107
+        y: 358
+        width: 11
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1424,10 +1463,10 @@ TextureImporter:
       name: Objetos de Ambientacion_41
       rect:
         serializedVersion: 2
-        x: 135
-        y: 320
-        width: 19
-        height: 31
+        x: 136
+        y: 360
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1445,10 +1484,10 @@ TextureImporter:
       name: Objetos de Ambientacion_42
       rect:
         serializedVersion: 2
-        x: 171
-        y: 328
-        width: 10
-        height: 14
+        x: 165
+        y: 359
+        width: 25
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1466,10 +1505,10 @@ TextureImporter:
       name: Objetos de Ambientacion_43
       rect:
         serializedVersion: 2
-        x: 200
-        y: 326
-        width: 14
-        height: 20
+        x: 194
+        y: 353
+        width: 31
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1487,10 +1526,10 @@ TextureImporter:
       name: Objetos de Ambientacion_44
       rect:
         serializedVersion: 2
-        x: 234
-        y: 328
-        width: 13
-        height: 14
+        x: 228
+        y: 359
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1508,10 +1547,10 @@ TextureImporter:
       name: Objetos de Ambientacion_45
       rect:
         serializedVersion: 2
-        x: 266
-        y: 327
-        width: 18
-        height: 12
+        x: 267
+        y: 357
+        width: 11
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1526,13 +1565,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Objetos de Ambientacion_46
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 357
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b35f2deef37007220800000000000000
+      internalID: 2481491365852280123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Objetos de Ambientacion_47
       rect:
         serializedVersion: 2
-        x: 288
-        y: 300
-        width: 65
-        height: 53
+        x: 321
+        y: 352
+        width: 32
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1550,10 +1610,10 @@ TextureImporter:
       name: Objetos de Ambientacion_48
       rect:
         serializedVersion: 2
-        x: 352
-        y: 300
-        width: 65
-        height: 53
+        x: 382
+        y: 354
+        width: 67
+        height: 45
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1571,10 +1631,10 @@ TextureImporter:
       name: Objetos de Ambientacion_49
       rect:
         serializedVersion: 2
-        x: 416
-        y: 300
-        width: 65
-        height: 53
+        x: 6
+        y: 321
+        width: 19
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1592,10 +1652,10 @@ TextureImporter:
       name: Objetos de Ambientacion_50
       rect:
         serializedVersion: 2
-        x: 490
-        y: 323
-        width: 13
-        height: 26
+        x: 37
+        y: 332
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1613,10 +1673,10 @@ TextureImporter:
       name: Objetos de Ambientacion_51
       rect:
         serializedVersion: 2
-        x: 517
-        y: 309
-        width: 24
-        height: 35
+        x: 69
+        y: 332
+        width: 17
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1634,10 +1694,10 @@ TextureImporter:
       name: Objetos de Ambientacion_52
       rect:
         serializedVersion: 2
-        x: 548
-        y: 319
-        width: 28
-        height: 34
+        x: 103
+        y: 320
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1655,10 +1715,10 @@ TextureImporter:
       name: Objetos de Ambientacion_53
       rect:
         serializedVersion: 2
-        x: 578
-        y: 319
-        width: 28
-        height: 34
+        x: 135
+        y: 320
+        width: 19
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1676,10 +1736,10 @@ TextureImporter:
       name: Objetos de Ambientacion_54
       rect:
         serializedVersion: 2
-        x: 611
-        y: 319
-        width: 28
-        height: 34
+        x: 171
+        y: 328
+        width: 10
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1697,10 +1757,10 @@ TextureImporter:
       name: Objetos de Ambientacion_55
       rect:
         serializedVersion: 2
-        x: 6
-        y: 300
-        width: 19
-        height: 13
+        x: 200
+        y: 326
+        width: 14
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1718,9 +1778,9 @@ TextureImporter:
       name: Objetos de Ambientacion_56
       rect:
         serializedVersion: 2
-        x: 103
-        y: 296
-        width: 19
+        x: 234
+        y: 328
+        width: 13
         height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -1739,10 +1799,10 @@ TextureImporter:
       name: Objetos de Ambientacion_57
       rect:
         serializedVersion: 2
-        x: 136
-        y: 297
-        width: 19
-        height: 14
+        x: 266
+        y: 327
+        width: 17
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1757,34 +1817,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos de Ambientacion_58
-      rect:
-        serializedVersion: 2
-        x: 204
-        y: 291
-        width: 8
-        height: 25
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d6e1e5466fe4c37d0800000000000000
-      internalID: -2937386036799594899
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Objetos de Ambientacion_59
       rect:
         serializedVersion: 2
-        x: 490
-        y: 297
-        width: 13
-        height: 13
+        x: 288
+        y: 300
+        width: 65
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1802,10 +1841,10 @@ TextureImporter:
       name: Objetos de Ambientacion_60
       rect:
         serializedVersion: 2
-        x: 6
-        y: 256
-        width: 21
-        height: 32
+        x: 352
+        y: 300
+        width: 65
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1823,10 +1862,10 @@ TextureImporter:
       name: Objetos de Ambientacion_61
       rect:
         serializedVersion: 2
-        x: 31
-        y: 261
-        width: 34
-        height: 21
+        x: 416
+        y: 300
+        width: 65
+        height: 53
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1844,10 +1883,10 @@ TextureImporter:
       name: Objetos de Ambientacion_62
       rect:
         serializedVersion: 2
-        x: 64
-        y: 261
-        width: 34
-        height: 21
+        x: 490
+        y: 323
+        width: 13
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1865,10 +1904,10 @@ TextureImporter:
       name: Objetos de Ambientacion_63
       rect:
         serializedVersion: 2
-        x: 97
-        y: 260
-        width: 34
-        height: 28
+        x: 517
+        y: 309
+        width: 24
+        height: 35
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1886,10 +1925,10 @@ TextureImporter:
       name: Objetos de Ambientacion_64
       rect:
         serializedVersion: 2
-        x: 130
-        y: 258
-        width: 34
-        height: 24
+        x: 548
+        y: 319
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1907,10 +1946,10 @@ TextureImporter:
       name: Objetos de Ambientacion_65
       rect:
         serializedVersion: 2
-        x: 163
-        y: 258
-        width: 34
-        height: 24
+        x: 578
+        y: 319
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1928,10 +1967,10 @@ TextureImporter:
       name: Objetos de Ambientacion_66
       rect:
         serializedVersion: 2
-        x: 196
-        y: 257
-        width: 34
-        height: 25
+        x: 611
+        y: 319
+        width: 28
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1946,13 +1985,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Objetos de Ambientacion_67
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 300
+        width: 19
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ccfc0a9a87e46ec0800000000000000
+      internalID: -3574477621749285693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Objetos de Ambientacion_68
       rect:
         serializedVersion: 2
-        x: 241
-        y: 256
-        width: 31
-        height: 30
+        x: 103
+        y: 296
+        width: 19
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1967,13 +2027,76 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Objetos de Ambientacion_69
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 297
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95fcf55036b0517d0800000000000000
+      internalID: -2948437861124288679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_70
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 291
+        width: 8
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a320eb5d2dc0cb340800000000000000
+      internalID: 4880790195831439930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_71
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 297
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f67678f04e392cc0800000000000000
+      internalID: -3735385967159773450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Objetos de Ambientacion_72
       rect:
         serializedVersion: 2
-        x: 336
-        y: 246
-        width: 34
-        height: 39
+        x: 551
+        y: 293
+        width: 21
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1991,10 +2114,10 @@ TextureImporter:
       name: Objetos de Ambientacion_73
       rect:
         serializedVersion: 2
-        x: 402
-        y: 245
-        width: 34
-        height: 39
+        x: 6
+        y: 256
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2009,13 +2132,34 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
+      name: Objetos de Ambientacion_74
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 261
+        width: 34
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da80ad078428bc860800000000000000
+      internalID: 7551272447859361965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
       name: Objetos de Ambientacion_75
       rect:
         serializedVersion: 2
-        x: 448
-        y: 255
-        width: 65
-        height: 34
+        x: 64
+        y: 261
+        width: 34
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2033,10 +2177,10 @@ TextureImporter:
       name: Objetos de Ambientacion_76
       rect:
         serializedVersion: 2
-        x: 512
-        y: 255
-        width: 65
-        height: 34
+        x: 97
+        y: 260
+        width: 34
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2054,10 +2198,10 @@ TextureImporter:
       name: Objetos de Ambientacion_77
       rect:
         serializedVersion: 2
-        x: 576
-        y: 255
-        width: 64
-        height: 34
+        x: 130
+        y: 258
+        width: 34
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2072,13 +2216,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos de Ambientacion_80
+      name: Objetos de Ambientacion_78
       rect:
         serializedVersion: 2
-        x: 275
-        y: 247
+        x: 163
+        y: 258
         width: 34
-        height: 39
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2086,8 +2230,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c7ffb02cb9649b360800000000000000
-      internalID: 7185852315235778428
+      spriteID: 493ebeb691fd7ab20800000000000000
+      internalID: 3145728165019378580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_79
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 257
+        width: 34
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16ef1a4d710643320800000000000000
+      internalID: 2536758145584332385
       vertices: []
       indices: 
       edges: []
@@ -2096,10 +2261,10 @@ TextureImporter:
       name: Objetos de Ambientacion_81
       rect:
         serializedVersion: 2
-        x: 12
-        y: 233
-        width: 9
-        height: 16
+        x: 242
+        y: 257
+        width: 29
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2114,76 +2279,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos de Ambientacion_82
-      rect:
-        serializedVersion: 2
-        x: 31
-        y: 232
-        width: 34
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 7c4b1a5dda3369700800000000000000
-      internalID: 546681226478597319
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objetos de Ambientacion_83
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 232
-        width: 34
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 86bedf85d8c58b970800000000000000
-      internalID: 8770862036457220968
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objetos de Ambientacion_84
-      rect:
-        serializedVersion: 2
-        x: 97
-        y: 232
-        width: 34
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9157883e8e1f2afc0800000000000000
-      internalID: -3484957179079264999
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Objetos de Ambientacion_85
       rect:
         serializedVersion: 2
-        x: 130
-        y: 232
-        width: 34
-        height: 18
+        x: 337
+        y: 246
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2201,10 +2303,10 @@ TextureImporter:
       name: Objetos de Ambientacion_86
       rect:
         serializedVersion: 2
-        x: 163
-        y: 232
-        width: 34
-        height: 18
+        x: 402
+        y: 245
+        width: 33
+        height: 38
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2219,34 +2321,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos de Ambientacion_87
-      rect:
-        serializedVersion: 2
-        x: 196
-        y: 232
-        width: 34
-        height: 18
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b4decdb557971b670800000000000000
-      internalID: 8552750712312622411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Objetos de Ambientacion_88
       rect:
         serializedVersion: 2
-        x: 457
-        y: 235
-        width: 13
-        height: 10
+        x: 448
+        y: 255
+        width: 65
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2264,10 +2345,10 @@ TextureImporter:
       name: Objetos de Ambientacion_89
       rect:
         serializedVersion: 2
-        x: 490
-        y: 231
-        width: 15
-        height: 16
+        x: 512
+        y: 255
+        width: 65
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2285,10 +2366,10 @@ TextureImporter:
       name: Objetos de Ambientacion_90
       rect:
         serializedVersion: 2
-        x: 519
-        y: 229
-        width: 19
-        height: 21
+        x: 576
+        y: 255
+        width: 64
+        height: 34
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2303,55 +2384,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Objetos de Ambientacion_91
-      rect:
-        serializedVersion: 2
-        x: 549
-        y: 227
-        width: 21
-        height: 24
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 46e3c84505fd67710800000000000000
-      internalID: 1690784246233054820
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Objetos de Ambientacion_92
-      rect:
-        serializedVersion: 2
-        x: 578
-        y: 224
-        width: 61
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6ed25d0a81d4d4d00800000000000000
-      internalID: 958507063872663014
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Objetos de Ambientacion_93
       rect:
         serializedVersion: 2
-        x: 8
-        y: 193
-        width: 16
-        height: 29
+        x: 276
+        y: 248
+        width: 32
+        height: 37
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2369,9 +2408,9 @@ TextureImporter:
       name: Objetos de Ambientacion_94
       rect:
         serializedVersion: 2
-        x: 41
-        y: 209
-        width: 23
+        x: 12
+        y: 233
+        width: 9
         height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2390,10 +2429,10 @@ TextureImporter:
       name: Objetos de Ambientacion_95
       rect:
         serializedVersion: 2
-        x: 76
-        y: 201
-        width: 26
-        height: 20
+        x: 31
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2411,10 +2450,10 @@ TextureImporter:
       name: Objetos de Ambientacion_96
       rect:
         serializedVersion: 2
-        x: 116
-        y: 200
-        width: 26
-        height: 20
+        x: 64
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2432,10 +2471,10 @@ TextureImporter:
       name: Objetos de Ambientacion_97
       rect:
         serializedVersion: 2
-        x: 151
-        y: 209
-        width: 23
-        height: 16
+        x: 97
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2453,10 +2492,10 @@ TextureImporter:
       name: Objetos de Ambientacion_98
       rect:
         serializedVersion: 2
-        x: 189
-        y: 175
-        width: 12
-        height: 50
+        x: 130
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2474,10 +2513,10 @@ TextureImporter:
       name: Objetos de Ambientacion_99
       rect:
         serializedVersion: 2
-        x: 221
-        y: 175
-        width: 22
-        height: 50
+        x: 163
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2495,10 +2534,10 @@ TextureImporter:
       name: Objetos de Ambientacion_100
       rect:
         serializedVersion: 2
-        x: 256
-        y: 197
-        width: 49
-        height: 26
+        x: 196
+        y: 232
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2516,10 +2555,10 @@ TextureImporter:
       name: Objetos de Ambientacion_101
       rect:
         serializedVersion: 2
-        x: 320
-        y: 196
-        width: 49
-        height: 23
+        x: 457
+        y: 235
+        width: 13
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2537,10 +2576,10 @@ TextureImporter:
       name: Objetos de Ambientacion_102
       rect:
         serializedVersion: 2
-        x: 369
-        y: 196
-        width: 46
-        height: 23
+        x: 490
+        y: 231
+        width: 15
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2558,10 +2597,10 @@ TextureImporter:
       name: Objetos de Ambientacion_103
       rect:
         serializedVersion: 2
-        x: 417
-        y: 196
-        width: 46
-        height: 23
+        x: 519
+        y: 229
+        width: 19
+        height: 21
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2579,10 +2618,10 @@ TextureImporter:
       name: Objetos de Ambientacion_104
       rect:
         serializedVersion: 2
-        x: 470
-        y: 198
-        width: 24
-        height: 20
+        x: 549
+        y: 227
+        width: 21
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2600,10 +2639,10 @@ TextureImporter:
       name: Objetos de Ambientacion_105
       rect:
         serializedVersion: 2
-        x: 505
-        y: 201
-        width: 12
-        height: 14
+        x: 578
+        y: 224
+        width: 61
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2621,10 +2660,10 @@ TextureImporter:
       name: Objetos de Ambientacion_106
       rect:
         serializedVersion: 2
-        x: 538
-        y: 201
-        width: 12
-        height: 14
+        x: 8
+        y: 193
+        width: 16
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2642,10 +2681,10 @@ TextureImporter:
       name: Objetos de Ambientacion_107
       rect:
         serializedVersion: 2
-        x: 570
-        y: 199
-        width: 15
-        height: 15
+        x: 41
+        y: 209
+        width: 23
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2663,10 +2702,10 @@ TextureImporter:
       name: Objetos de Ambientacion_108
       rect:
         serializedVersion: 2
-        x: 603
+        x: 76
         y: 201
-        width: 12
-        height: 16
+        width: 26
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2684,10 +2723,10 @@ TextureImporter:
       name: Objetos de Ambientacion_109
       rect:
         serializedVersion: 2
-        x: 20
-        y: 165
-        width: 8
-        height: 7
+        x: 116
+        y: 200
+        width: 26
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2705,10 +2744,10 @@ TextureImporter:
       name: Objetos de Ambientacion_110
       rect:
         serializedVersion: 2
-        x: 64
-        y: 166
-        width: 34
-        height: 18
+        x: 151
+        y: 209
+        width: 23
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2726,10 +2765,10 @@ TextureImporter:
       name: Objetos de Ambientacion_111
       rect:
         serializedVersion: 2
-        x: 135
-        y: 170
-        width: 18
-        height: 12
+        x: 189
+        y: 175
+        width: 12
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2747,10 +2786,10 @@ TextureImporter:
       name: Objetos de Ambientacion_112
       rect:
         serializedVersion: 2
-        x: 466
-        y: 166
-        width: 27
-        height: 20
+        x: 221
+        y: 175
+        width: 22
+        height: 50
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2768,10 +2807,10 @@ TextureImporter:
       name: Objetos de Ambientacion_113
       rect:
         serializedVersion: 2
-        x: 502
-        y: 172
-        width: 19
-        height: 10
+        x: 256
+        y: 197
+        width: 49
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2789,10 +2828,10 @@ TextureImporter:
       name: Objetos de Ambientacion_114
       rect:
         serializedVersion: 2
-        x: 530
-        y: 168
-        width: 26
-        height: 14
+        x: 320
+        y: 196
+        width: 49
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2810,10 +2849,10 @@ TextureImporter:
       name: Objetos de Ambientacion_115
       rect:
         serializedVersion: 2
-        x: 567
-        y: 170
-        width: 18
-        height: 8
+        x: 369
+        y: 196
+        width: 46
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2831,9 +2870,9 @@ TextureImporter:
       name: Objetos de Ambientacion_116
       rect:
         serializedVersion: 2
-        x: 0
-        y: 133
-        width: 33
+        x: 417
+        y: 196
+        width: 46
         height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -2852,10 +2891,10 @@ TextureImporter:
       name: Objetos de Ambientacion_117
       rect:
         serializedVersion: 2
-        x: 32
-        y: 131
-        width: 34
-        height: 25
+        x: 470
+        y: 198
+        width: 24
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2873,10 +2912,10 @@ TextureImporter:
       name: Objetos de Ambientacion_118
       rect:
         serializedVersion: 2
-        x: 65
-        y: 131
-        width: 34
-        height: 29
+        x: 505
+        y: 201
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2894,10 +2933,10 @@ TextureImporter:
       name: Objetos de Ambientacion_119
       rect:
         serializedVersion: 2
-        x: 98
-        y: 131
-        width: 34
-        height: 29
+        x: 538
+        y: 201
+        width: 12
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2915,10 +2954,10 @@ TextureImporter:
       name: Objetos de Ambientacion_120
       rect:
         serializedVersion: 2
-        x: 131
-        y: 132
-        width: 34
-        height: 24
+        x: 570
+        y: 199
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2936,10 +2975,10 @@ TextureImporter:
       name: Objetos de Ambientacion_121
       rect:
         serializedVersion: 2
-        x: 164
-        y: 129
-        width: 34
-        height: 26
+        x: 603
+        y: 201
+        width: 12
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2957,10 +2996,10 @@ TextureImporter:
       name: Objetos de Ambientacion_122
       rect:
         serializedVersion: 2
-        x: 197
-        y: 128
-        width: 34
-        height: 31
+        x: 20
+        y: 165
+        width: 8
+        height: 7
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2978,10 +3017,10 @@ TextureImporter:
       name: Objetos de Ambientacion_123
       rect:
         serializedVersion: 2
-        x: 4
-        y: 98
-        width: 22
-        height: 25
+        x: 64
+        y: 166
+        width: 34
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2999,10 +3038,10 @@ TextureImporter:
       name: Objetos de Ambientacion_124
       rect:
         serializedVersion: 2
-        x: 37
-        y: 99
-        width: 22
-        height: 25
+        x: 135
+        y: 170
+        width: 18
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3020,10 +3059,10 @@ TextureImporter:
       name: Objetos de Ambientacion_125
       rect:
         serializedVersion: 2
-        x: 69
-        y: 96
-        width: 22
-        height: 28
+        x: 466
+        y: 166
+        width: 27
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3041,10 +3080,10 @@ TextureImporter:
       name: Objetos de Ambientacion_126
       rect:
         serializedVersion: 2
-        x: 99
-        y: 101
-        width: 22
-        height: 19
+        x: 502
+        y: 172
+        width: 19
+        height: 10
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3062,10 +3101,10 @@ TextureImporter:
       name: Objetos de Ambientacion_127
       rect:
         serializedVersion: 2
-        x: 132
-        y: 100
-        width: 24
-        height: 20
+        x: 530
+        y: 168
+        width: 26
+        height: 14
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3083,10 +3122,10 @@ TextureImporter:
       name: Objetos de Ambientacion_128
       rect:
         serializedVersion: 2
-        x: 164
-        y: 100
-        width: 24
-        height: 20
+        x: 567
+        y: 170
+        width: 18
+        height: 8
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3104,10 +3143,10 @@ TextureImporter:
       name: Objetos de Ambientacion_129
       rect:
         serializedVersion: 2
-        x: 193
-        y: 98
-        width: 29
-        height: 28
+        x: 0
+        y: 133
+        width: 33
+        height: 23
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3125,10 +3164,10 @@ TextureImporter:
       name: Objetos de Ambientacion_130
       rect:
         serializedVersion: 2
-        x: 230
-        y: 99
-        width: 22
-        height: 26
+        x: 32
+        y: 131
+        width: 34
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3146,10 +3185,10 @@ TextureImporter:
       name: Objetos de Ambientacion_131
       rect:
         serializedVersion: 2
-        x: 261
-        y: 100
-        width: 25
-        height: 22
+        x: 65
+        y: 131
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3167,10 +3206,10 @@ TextureImporter:
       name: Objetos de Ambientacion_132
       rect:
         serializedVersion: 2
-        x: 290
-        y: 100
-        width: 28
-        height: 22
+        x: 98
+        y: 131
+        width: 34
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3188,10 +3227,10 @@ TextureImporter:
       name: Objetos de Ambientacion_133
       rect:
         serializedVersion: 2
-        x: 325
-        y: 100
-        width: 25
-        height: 22
+        x: 131
+        y: 132
+        width: 34
+        height: 24
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3209,10 +3248,10 @@ TextureImporter:
       name: Objetos de Ambientacion_134
       rect:
         serializedVersion: 2
-        x: 355
-        y: 100
-        width: 27
-        height: 22
+        x: 164
+        y: 129
+        width: 34
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3230,10 +3269,10 @@ TextureImporter:
       name: Objetos de Ambientacion_135
       rect:
         serializedVersion: 2
-        x: 386
-        y: 97
-        width: 28
-        height: 29
+        x: 197
+        y: 128
+        width: 34
+        height: 31
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3251,9 +3290,9 @@ TextureImporter:
       name: Objetos de Ambientacion_136
       rect:
         serializedVersion: 2
-        x: 422
-        y: 100
-        width: 18
+        x: 4
+        y: 98
+        width: 22
         height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
@@ -3272,10 +3311,10 @@ TextureImporter:
       name: Objetos de Ambientacion_137
       rect:
         serializedVersion: 2
-        x: 451
-        y: 96
-        width: 21
-        height: 30
+        x: 37
+        y: 99
+        width: 22
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3293,10 +3332,10 @@ TextureImporter:
       name: Objetos de Ambientacion_138
       rect:
         serializedVersion: 2
-        x: 483
-        y: 100
-        width: 27
-        height: 22
+        x: 69
+        y: 96
+        width: 22
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3314,10 +3353,10 @@ TextureImporter:
       name: Objetos de Ambientacion_139
       rect:
         serializedVersion: 2
-        x: 514
-        y: 97
-        width: 28
-        height: 29
+        x: 99
+        y: 101
+        width: 22
+        height: 19
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3335,8 +3374,8 @@ TextureImporter:
       name: Objetos de Ambientacion_140
       rect:
         serializedVersion: 2
-        x: 549
-        y: 99
+        x: 132
+        y: 100
         width: 24
         height: 20
       alignment: 0
@@ -3356,10 +3395,10 @@ TextureImporter:
       name: Objetos de Ambientacion_141
       rect:
         serializedVersion: 2
-        x: 3
-        y: 63
-        width: 75
-        height: 30
+        x: 164
+        y: 100
+        width: 24
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3377,10 +3416,10 @@ TextureImporter:
       name: Objetos de Ambientacion_142
       rect:
         serializedVersion: 2
-        x: 83
-        y: 63
-        width: 75
-        height: 30
+        x: 193
+        y: 98
+        width: 29
+        height: 28
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3398,10 +3437,10 @@ TextureImporter:
       name: Objetos de Ambientacion_143
       rect:
         serializedVersion: 2
-        x: 163
-        y: 63
-        width: 75
-        height: 30
+        x: 230
+        y: 99
+        width: 22
+        height: 26
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3419,10 +3458,10 @@ TextureImporter:
       name: Objetos de Ambientacion_144
       rect:
         serializedVersion: 2
-        x: 243
-        y: 63
-        width: 75
-        height: 32
+        x: 261
+        y: 100
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3440,10 +3479,10 @@ TextureImporter:
       name: Objetos de Ambientacion_145
       rect:
         serializedVersion: 2
-        x: 323
-        y: 63
-        width: 75
-        height: 33
+        x: 290
+        y: 100
+        width: 28
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3461,10 +3500,10 @@ TextureImporter:
       name: Objetos de Ambientacion_146
       rect:
         serializedVersion: 2
-        x: 409
-        y: 72
-        width: 18
-        height: 13
+        x: 325
+        y: 100
+        width: 25
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3482,10 +3521,10 @@ TextureImporter:
       name: Objetos de Ambientacion_147
       rect:
         serializedVersion: 2
-        x: 440
-        y: 70
-        width: 18
-        height: 17
+        x: 355
+        y: 100
+        width: 27
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3503,10 +3542,10 @@ TextureImporter:
       name: Objetos de Ambientacion_148
       rect:
         serializedVersion: 2
-        x: 474
-        y: 69
-        width: 10
-        height: 20
+        x: 386
+        y: 97
+        width: 28
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3524,10 +3563,10 @@ TextureImporter:
       name: Objetos de Ambientacion_149
       rect:
         serializedVersion: 2
-        x: 8
-        y: 15
-        width: 65
-        height: 35
+        x: 422
+        y: 100
+        width: 18
+        height: 25
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3545,10 +3584,10 @@ TextureImporter:
       name: Objetos de Ambientacion_150
       rect:
         serializedVersion: 2
-        x: 72
-        y: 13
-        width: 66
-        height: 37
+        x: 451
+        y: 96
+        width: 21
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3566,10 +3605,10 @@ TextureImporter:
       name: Objetos de Ambientacion_151
       rect:
         serializedVersion: 2
-        x: 137
-        y: 13
-        width: 66
-        height: 37
+        x: 483
+        y: 100
+        width: 27
+        height: 22
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3587,10 +3626,10 @@ TextureImporter:
       name: Objetos de Ambientacion_152
       rect:
         serializedVersion: 2
-        x: 202
-        y: 15
-        width: 66
-        height: 35
+        x: 514
+        y: 97
+        width: 28
+        height: 29
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3608,10 +3647,10 @@ TextureImporter:
       name: Objetos de Ambientacion_153
       rect:
         serializedVersion: 2
-        x: 267
-        y: 13
-        width: 66
-        height: 37
+        x: 549
+        y: 99
+        width: 24
+        height: 20
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3629,10 +3668,10 @@ TextureImporter:
       name: Objetos de Ambientacion_154
       rect:
         serializedVersion: 2
-        x: 332
-        y: 13
-        width: 66
-        height: 37
+        x: 3
+        y: 63
+        width: 75
+        height: 30
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3646,10 +3685,283 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_155
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cef2a53d7649f6860800000000000000
+      internalID: 7525396676007833580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_156
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 63
+        width: 75
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37bb817687f154e0800000000000000
+      internalID: -1994541003145758918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_157
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 63
+        width: 75
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560ffe7ee6e906230800000000000000
+      internalID: 3630075498835472485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_158
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 63
+        width: 75
+        height: 33
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55609207f9ccbba00800000000000000
+      internalID: 773436746177775189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_159
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 72
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1576ba317d6be750800000000000000
+      internalID: 6335277633910502686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_160
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 70
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9bd7d01c5d88550800000000000000
+      internalID: 6163411115188271559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_161
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 69
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b6c488049ec8c120800000000000000
+      internalID: 2434422733787154103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_162
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 15
+        width: 65
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c671ebfe4f64176a0800000000000000
+      internalID: -6453298773237033108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_163
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 481c76018b259d830800000000000000
+      internalID: 4096396286572872068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_164
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11364e0f88dbf0040800000000000000
+      internalID: 4616116538932749073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_165
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 15
+        width: 66
+        height: 35
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 149e0876919913630800000000000000
+      internalID: 3905070686296664385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_166
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9efa13df292c94cf0800000000000000
+      internalID: -267468766282928151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Objetos de Ambientacion_167
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 13
+        width: 66
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36a6416a8ad400340800000000000000
+      internalID: 4827944187277372003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: ff7fdb724025eb34c8712ce7cf35d502
+    spriteID: 5a7f3d164e3c205479704b6826450f3e
     internalID: 0
     vertices: []
     indices: 
@@ -3720,7 +4032,20 @@ TextureImporter:
       Objetos de Ambientacion_152: -8393562373398928394
       Objetos de Ambientacion_153: 4233281479238786491
       Objetos de Ambientacion_154: -8393306990535179620
+      Objetos de Ambientacion_155: 7525396676007833580
+      Objetos de Ambientacion_156: -1994541003145758918
+      Objetos de Ambientacion_157: 3630075498835472485
+      Objetos de Ambientacion_158: 773436746177775189
+      Objetos de Ambientacion_159: 6335277633910502686
       Objetos de Ambientacion_16: -7660959539209740142
+      Objetos de Ambientacion_160: 6163411115188271559
+      Objetos de Ambientacion_161: 2434422733787154103
+      Objetos de Ambientacion_162: -6453298773237033108
+      Objetos de Ambientacion_163: 4096396286572872068
+      Objetos de Ambientacion_164: 4616116538932749073
+      Objetos de Ambientacion_165: 3905070686296664385
+      Objetos de Ambientacion_166: -267468766282928151
+      Objetos de Ambientacion_167: 4827944187277372003
       Objetos de Ambientacion_17: 3603066938307376413
       Objetos de Ambientacion_18: 5370348040759669941
       Objetos de Ambientacion_19: -1973995482794789072
