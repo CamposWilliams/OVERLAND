@@ -353,7 +353,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPrePistola);
             obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<BalaPlayer>().direction = Direction.normalized;
+            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
 
         }
 
@@ -365,7 +365,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPreRifle);
             obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<BalaPlayer>().direction = Direction.normalized;
+            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
 
 
         }
@@ -378,7 +378,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPreSudmisil);
             obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<BalaPlayer>().direction = Direction.normalized;
+            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
 
         }
 
@@ -390,7 +390,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPreEspecial);
             obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<BalaPlayer>().direction = Direction.normalized;
+            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
 
         }
 
@@ -402,7 +402,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPreCuchillo);
             obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<BalaPlayer>().direction = Direction.normalized;
+            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
 
         }
 
