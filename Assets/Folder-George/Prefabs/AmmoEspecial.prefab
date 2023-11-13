@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 6773424440019863747}
   - component: {fileID: -4541897644456086738}
   m_Layer: 0
-  m_Name: BulletRifle
-  m_TagString: BulletRifle
+  m_Name: AmmoEspecial
+  m_TagString: AmmoEspecial
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 6.26, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 100
   m_Sprite: {fileID: -1391917344, guid: bf394ae24c356ec4f8cc5c0424a55883, type: 3}
-  m_Color: {r: 0.26944643, g: 0.3301887, b: 0.3212094, a: 1}
+  m_Color: {r: 0.34353557, g: 0.990566, b: 0.032707386, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -185,7 +185,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9127715698934923802}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5667d2c489808274081b1340fea79cd6, type: 3}
   m_Name: 

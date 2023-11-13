@@ -15,6 +15,10 @@ TagManager:
   - BulletEspecial
   - BulletSudMisil
   - BulletCuchillo
+  - AmmoCuchillo
+  - AmmoRifle
+  - AmmoEspecial
+  - AmmoMisil
   layers:
   - Default
   - TransparentFX

@@ -13,16 +13,16 @@ public class PlayerDisparo : MonoBehaviour
     public GameObject BPreEspecial;
     public GameObject BPreCuchillo;
 
-    //Velocidad de Armas
+    /*Velocidad de Armas
     [SerializeField] float speedPistola = 2;
     [SerializeField] float speedSudmisil = 4;
     [SerializeField] float speedRifle = 6;
-    [SerializeField] float speedEspecial = 5;
+    [SerializeField] float speedEspecial = 5;*/
 
     //Municion de armas 
     [SerializeField] int AmmoPistola;
     [SerializeField] int AmmoSudmisil;
-    [SerializeField] int AmmoRifle =  5;
+    [SerializeField] int AmmoRifle = 5;
     [SerializeField] int AmmoEspecial = 5;
     [SerializeField] int AmmoCuchillo = 5;
     [SerializeField] int CambioArma = 5;
@@ -108,34 +108,58 @@ public class PlayerDisparo : MonoBehaviour
             ShootPistola();
         }
 
-        else if (CambioArma == 1 )
+        else if (CambioArma == 1)
         {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                // Recargar
+                if (AmmoRifle < maxAmmoRifle)
+                {
+                    int bulletsToReload = Mathf.Min(almacenBulletRifle, maxAmmoRifle - AmmoRifle);
+                    AmmoRifle += bulletsToReload;
+                    almacenBulletRifle -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoRifle = Mathf.Min(AmmoRifle, maxAmmoRifle);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletRifle = Mathf.Abs(almacenBulletRifle);
+            }
+
             Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
             Direction = mousePosition - gun.transform.position;
-
             gun.transform.up = Direction.normalized;
 
-            
-           if(Input.GetMouseButtonDown(0) && AmmoRifle > 0)
+            if (Input.GetMouseButtonDown(0) && AmmoRifle > 0)
             {
                 ShootRifle();
                 AmmoRifle--;
             }
-            
-           
-
-            
-
-
-
-
-
-
         }
+
 
         else if (CambioArma == 2)
         {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+
+                // Recargar
+                if (AmmoSudmisil < maxAmmoSudmisil)
+                {
+                    int bulletsToReload = Mathf.Min(almacenBulletSudmisil, maxAmmoSudmisil - AmmoSudmisil);
+                    AmmoSudmisil += bulletsToReload;
+                    almacenBulletSudmisil -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoSudmisil = Mathf.Min(AmmoSudmisil, maxAmmoSudmisil);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletSudmisil = Mathf.Abs(almacenBulletSudmisil);
+            }
+
+
             Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
 
             Direction = mousePosition - gun.transform.position;
@@ -149,12 +173,31 @@ public class PlayerDisparo : MonoBehaviour
                 AmmoSudmisil--;
             }
 
-            
+
         }
 
 
         else if (CambioArma == 3)
         {
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                // Recargar
+                if (AmmoEspecial < maxAmmoEspecial)
+                {
+                    int bulletsToReload = Mathf.Min(almacenBulletEspecial, maxAmmoEspecial - AmmoEspecial);
+                    AmmoEspecial += bulletsToReload;
+                    almacenBulletEspecial -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoEspecial = Mathf.Min(AmmoEspecial, maxAmmoEspecial);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletEspecial = Mathf.Abs(almacenBulletEspecial);
+
+            }
+
 
             Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
 
@@ -168,11 +211,30 @@ public class PlayerDisparo : MonoBehaviour
                 ShootEspecial();
                 AmmoEspecial--;
             }
-            
+
         }
 
         else if (CambioArma == 4)
         {
+
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                // Recargar
+                if (AmmoCuchillo < maxAmmoCuchillo)
+                {
+                    int bulletsToReload = Mathf.Min(almacenCuchillo, maxAmmoCuchillo - AmmoCuchillo);
+                    AmmoCuchillo += bulletsToReload;
+                    almacenCuchillo -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoCuchillo = Mathf.Min(AmmoCuchillo, maxAmmoCuchillo);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenCuchillo = Mathf.Abs(almacenCuchillo);
+
+            }
+
 
             Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
 
@@ -186,7 +248,7 @@ public class PlayerDisparo : MonoBehaviour
                 ShootCuchillo();
                 AmmoCuchillo--;
             }
-            
+
         }
 
     }
@@ -358,6 +420,34 @@ public class PlayerDisparo : MonoBehaviour
     }
 
 
+    ////////////////
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("AmmoCuchillo"))
+        {
+            StoreAmmoCuchillo(2);
+            // Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("AmmoEspecial"))
+        {
+            StoreAmmoEspecial(2);
+            //Destroy(collision.gameObject);
+        }
+
+        if (collision.gameObject.CompareTag("AmmoRifle"))
+        {
+            StoreAmmoRifle(2);
+            // Destroy(collision.gameObject);
+        }
+        if (collision.gameObject.CompareTag("AmmoMisil"))
+        {
+            StoreAmmoSubMisil(2);
+            //  Destroy(collision.gameObject);
+        }
+
+    }
 
 
 
