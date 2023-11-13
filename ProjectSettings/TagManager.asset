@@ -10,6 +10,11 @@ TagManager:
   - ZonaContaminada
   - Tarjeta1
   - Tarjeta2
+  - BulletPistola
+  - BulletRifle
+  - BulletEspecial
+  - BulletSudMisil
+  - BulletCuchillo
   layers:
   - Default
   - TransparentFX

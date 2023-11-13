@@ -25727,11 +25727,12 @@ GameObject:
   - component: {fileID: 2122698725}
   - component: {fileID: 2122698724}
   - component: {fileID: 2122698723}
-  - component: {fileID: 2122698722}
   - component: {fileID: 2122698721}
   - component: {fileID: 2122698720}
   - component: {fileID: 2122698719}
   - component: {fileID: 2122698718}
+  - component: {fileID: 2122698726}
+  - component: {fileID: 2122698727}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -25760,7 +25761,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122698717}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 8c55a9025d3f4a543b2d48a7c0bd4877, type: 3}
   m_Name: 
@@ -25838,19 +25839,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &2122698722
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2122698717}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a6e1f23ba31ebe47b6560ca3d810f7e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  speed: 5
 --- !u!50 &2122698723
 Rigidbody2D:
   serializedVersion: 4
@@ -25859,7 +25847,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2122698717}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -25947,6 +25935,64 @@ Transform:
   - {fileID: 1287577001}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122698726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122698717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9450744ba1498b344a6be4883e51e7f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
+--- !u!114 &2122698727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122698717}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9414e1e645d3185418b9466a0b3eb124, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  PointShoot: {fileID: 1343993311}
+  gun: {fileID: 1654670458}
+  BPrePistola: {fileID: 9127715698934923802, guid: abfe5762659f4f64aa3ffa88e569d49b, type: 3}
+  BPreSudmisil: {fileID: 9127715698934923802, guid: b57d8e381ff61664a902c1a3a751b71f, type: 3}
+  BPreRifle: {fileID: 9127715698934923802, guid: 9f80052fa2cae984fa654dd90d654976, type: 3}
+  BPreEspecial: {fileID: 9127715698934923802, guid: 67d0a104f563fc748994838d946ad59d, type: 3}
+  BPreCuchillo: {fileID: 9127715698934923802, guid: b689e809271fffb4aab9ea212ba9235c, type: 3}
+  speedPistola: 2
+  speedSudmisil: 4
+  speedRifle: 6
+  speedEspecial: 5
+  AmmoPistola: 5
+  AmmoSudmisil: 5
+  AmmoRifle: 5
+  AmmoEspecial: 5
+  AmmoCuchillo: 5
+  CambioArma: 0
+  MaxCambioArma: 5
+  maxAmmoPistola: 0
+  maxAmmoSudmisil: 25
+  maxAmmoRifle: 20
+  maxAmmoEspecial: 25
+  maxAmmoCuchillo: 10
+  almacenBulletSudmisil: 0
+  almacenBulletRifle: 0
+  almacenBulletEspecial: 0
+  almacenCuchillo: 0
+  maxAlmacenBulletSudmisil: 25
+  maxAlmacenBulletRifle: 25
+  maxAlmacenBulletEspecial: 25
+  maxAlmacenCuchillo: 25
+  Direction: {x: 0, y: 0}
+  cam: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
