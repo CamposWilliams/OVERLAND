@@ -220,6 +220,21 @@ public class JugadorDisparo : MonoBehaviour
             Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
             Direction = mousePosition - gun.transform.position;
             gun.transform.up = Direction.normalized;
+            gun.transform.Rotate(Vector3.forward * 90.0f);
+
+
+            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            //Este devuelve un valor de -180 a 180
+
+            if (ángulo < 0)
+            {
+                ángulo += 360;
+
+                if (ángulo >= 315)
+                {
+                    ángulo = 0;
+                }
+            }
 
             if (Input.GetMouseButtonDown(0) && AmmoRifle > 0)
             {
@@ -255,7 +270,21 @@ public class JugadorDisparo : MonoBehaviour
             Direction = mousePosition - gun.transform.position;
 
             gun.transform.up = Direction.normalized;
+            gun.transform.Rotate(Vector3.forward * 90.0f);
 
+
+            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            //Este devuelve un valor de -180 a 180
+
+            if (ángulo < 0)
+            {
+                ángulo += 360;
+
+                if (ángulo >= 315)
+                {
+                    ángulo = 0;
+                }
+            }
 
             if (Input.GetMouseButtonDown(0) && AmmoSudmisil > 0)
             {
@@ -294,7 +323,21 @@ public class JugadorDisparo : MonoBehaviour
             Direction = mousePosition - gun.transform.position;
 
             gun.transform.up = Direction.normalized;
+            gun.transform.Rotate(Vector3.forward * 90.0f);
 
+
+            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            //Este devuelve un valor de -180 a 180
+
+            if (ángulo < 0)
+            {
+                ángulo += 360;
+
+                if (ángulo >= 315)
+                {
+                    ángulo = 0;
+                }
+            }
 
             if (Input.GetMouseButtonDown(0) && AmmoEspecial > 0)
             {
@@ -331,6 +374,21 @@ public class JugadorDisparo : MonoBehaviour
             Direction = mousePosition - gun.transform.position;
 
             gun.transform.up = Direction.normalized;
+            gun.transform.Rotate(Vector3.forward * 90.0f);
+
+
+            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            //Este devuelve un valor de -180 a 180
+
+            if (ángulo < 0)
+            {
+                ángulo += 360;
+
+                if (ángulo >= 315)
+                {
+                    ángulo = 0;
+                }
+            }
 
 
             if (Input.GetMouseButtonDown(0) && AmmoCuchillo > 0)

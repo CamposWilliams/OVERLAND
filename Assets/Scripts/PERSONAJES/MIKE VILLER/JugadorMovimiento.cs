@@ -5,7 +5,7 @@ using UnityEngine;
 public class JugadorMovimiento : MonoBehaviour
 {
     Rigidbody2D rb2DMike;
-    public float rapidez=5;
+    public float rapidez;
     Vector2 dirección;
     //Animator animaciónMike;
 
@@ -37,7 +37,7 @@ public class JugadorMovimiento : MonoBehaviour
             moveX = 0f;
         }
 
-        rb2DMike.velocity = new Vector2(moveX, moveY);
+        rb2DMike.velocity = new Vector2(moveX, moveY)*rapidez;
 
 
 

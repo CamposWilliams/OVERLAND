@@ -404,7 +404,18 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Bala_Pistola_-_Subfusil_0: 4686682964894106371
+      Bala_Pistola_-_Subfusil_1: 482300982937859869
+      Bala_Pistola_-_Subfusil_10: 6155728525682765792
+      Bala_Pistola_-_Subfusil_2: 1934564609027621098
+      Bala_Pistola_-_Subfusil_3: -567553838329685280
+      Bala_Pistola_-_Subfusil_4: 6227752752055777110
+      Bala_Pistola_-_Subfusil_5: -6883297192416508547
+      Bala_Pistola_-_Subfusil_6: -3531209968774579388
+      Bala_Pistola_-_Subfusil_7: -2886581293006746669
+      Bala_Pistola_-_Subfusil_8: 4538347569151457358
+      Bala_Pistola_-_Subfusil_9: -1918787332519070721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
