@@ -1,19 +1,13 @@
 fileFormatVersion: 2
-guid: 441dc1878158a5246a20b0aeb21c0f79
+guid: e35213af208dbb042b15b83b186796b8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9219044326153842368
-    second: Pocion Azul_0
+      213: -1451475912421538591
+    second: BOTIQUIN_0
   - first:
-      213: -8266554841527825861
-    second: Pocion Azul_1
-  - first:
-      213: -4564769969777942138
-    second: Pocion Azul_2
-  - first:
-      213: 4661712486218430326
-    second: Pocion Azul_3
+      213: 4447745601660199330
+    second: BOTIQUIN_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -46,7 +40,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -60,7 +54,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -84,7 +78,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -107,33 +101,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Pocion Azul_0
+      name: BOTIQUIN_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 1
-        width: 20
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ceeaf458ff90ff70800000000000000
-      internalID: 9219044326153842368
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pocion Azul_1
-      rect:
-        serializedVersion: 2
-        x: 38
-        y: 0
-        width: 20
+        x: 0
+        y: 32
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -142,40 +115,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b3ac2727b2c474d80800000000000000
-      internalID: -8266554841527825861
+      spriteID: 1e4041019525bdbe0800000000000000
+      internalID: -1451475912421538591
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Pocion Azul_2
+      name: BOTIQUIN_1
       rect:
         serializedVersion: 2
-        x: 70
-        y: 0
-        width: 20
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 681e30ec5eda6a0c0800000000000000
-      internalID: -4564769969777942138
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Pocion Azul_3
-      rect:
-        serializedVersion: 2
-        x: 102
-        y: 0
-        width: 20
+        x: 32
+        y: 32
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,8 +136,113 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6777d02becab1b040800000000000000
-      internalID: 4661712486218430326
+      spriteID: 2a1234e3f0199bd30800000000000000
+      internalID: 4447745601660199330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTIQUIN_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acec6e1912fe1264eb7e3d1608f25057
+      internalID: 1746162149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTIQUIN_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec3e7392518763e41a9c3f1819a062c7
+      internalID: -1256050049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTIQUIN_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d723562497b93c840a2a4c11d902fb57
+      internalID: -1577072611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTIQUIN_5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4532e2be9c451084fb0ffcbd4aa05506
+      internalID: -1301027910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: BOTIQUIN_6
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24c3c313cbced564da91db0f8d540991
+      internalID: -1078124929
       vertices: []
       indices: 
       edges: []
@@ -193,14 +250,21 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: f566fc20566ef6c4196721e0bd7c507c
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      BOTIQUIN_0: -1451475912421538591
+      BOTIQUIN_1: 4447745601660199330
+      BOTIQUIN_2: 1746162149
+      BOTIQUIN_3: -1256050049
+      BOTIQUIN_4: -1577072611
+      BOTIQUIN_5: -1301027910
+      BOTIQUIN_6: -1078124929
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

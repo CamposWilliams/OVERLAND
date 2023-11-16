@@ -67,7 +67,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +81,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -105,7 +105,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -167,10 +167,10 @@ TextureImporter:
       name: Bala_Pistola_-_Subfusil_0
       rect:
         serializedVersion: 2
-        x: 8
-        y: 6
-        width: 15
-        height: 23
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,10 +188,10 @@ TextureImporter:
       name: Bala_Pistola_-_Subfusil_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 19
-        width: 6
-        height: 6
+        x: 32
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -209,10 +209,10 @@ TextureImporter:
       name: Bala_Pistola_-_Subfusil_2
       rect:
         serializedVersion: 2
-        x: 42
-        y: 17
-        width: 11
-        height: 12
+        x: 64
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -230,10 +230,10 @@ TextureImporter:
       name: Bala_Pistola_-_Subfusil_3
       rect:
         serializedVersion: 2
-        x: 52
-        y: 19
-        width: 6
-        height: 6
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -251,10 +251,10 @@ TextureImporter:
       name: Bala_Pistola_-_Subfusil_4
       rect:
         serializedVersion: 2
-        x: 66
-        y: 16
-        width: 9
-        height: 9
+        x: 128
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,136 +268,10 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_5
-      rect:
-        serializedVersion: 2
-        x: 74
-        y: 17
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d75029a3cad9970a0800000000000000
-      internalID: -6883297192416508547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_6
-      rect:
-        serializedVersion: 2
-        x: 84
-        y: 16
-        width: 9
-        height: 9
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44b7fd71e3f9efec0800000000000000
-      internalID: -3531209968774579388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_7
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 14
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3db8b079b9dc0f7d0800000000000000
-      internalID: -2886581293006746669
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_8
-      rect:
-        serializedVersion: 2
-        x: 106
-        y: 17
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e48b786a1137bfe30800000000000000
-      internalID: 4538347569151457358
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_9
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 14
-        width: 6
-        height: 6
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ff37ea556191f55e0800000000000000
-      internalID: -1918787332519070721
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bala_Pistola_-_Subfusil_10
-      rect:
-        serializedVersion: 2
-        x: 138
-        y: 17
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 0ef6f0bca7a8d6550800000000000000
-      internalID: 6155728525682765792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1522e7d8eebda0744a32e1f0bc4bcb23
     internalID: 0
     vertices: []
     indices: 
@@ -407,15 +281,9 @@ TextureImporter:
     nameFileIdTable:
       Bala_Pistola_-_Subfusil_0: 4686682964894106371
       Bala_Pistola_-_Subfusil_1: 482300982937859869
-      Bala_Pistola_-_Subfusil_10: 6155728525682765792
       Bala_Pistola_-_Subfusil_2: 1934564609027621098
       Bala_Pistola_-_Subfusil_3: -567553838329685280
       Bala_Pistola_-_Subfusil_4: 6227752752055777110
-      Bala_Pistola_-_Subfusil_5: -6883297192416508547
-      Bala_Pistola_-_Subfusil_6: -3531209968774579388
-      Bala_Pistola_-_Subfusil_7: -2886581293006746669
-      Bala_Pistola_-_Subfusil_8: 4538347569151457358
-      Bala_Pistola_-_Subfusil_9: -1918787332519070721
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
