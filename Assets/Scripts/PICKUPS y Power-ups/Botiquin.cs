@@ -11,7 +11,8 @@ public class Botiquín : MonoBehaviour
         {
             collision.GetComponent<SistemaDeVida>().AumentarVida(curación);
         }
-
+        Debug.Log("Choque");
         Destroy(gameObject);
+
     }
 }

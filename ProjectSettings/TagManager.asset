@@ -19,6 +19,8 @@ TagManager:
   - AmmoRifle
   - AmmoEspecial
   - AmmoMisil
+  - TileCollider
+  - Enemigo1
   layers:
   - Default
   - TransparentFX
@@ -27,7 +29,7 @@ TagManager:
   - Water
   - UI
   - MikeLayer
-  - 
+  - BalaLayer
   - 
   - 
   - 
