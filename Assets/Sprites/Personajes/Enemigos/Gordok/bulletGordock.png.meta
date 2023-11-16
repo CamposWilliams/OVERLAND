@@ -152,7 +152,9 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      bulletGordock_0: 2030754831764857289
+      bulletGordock_1: 4771432934490805896
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

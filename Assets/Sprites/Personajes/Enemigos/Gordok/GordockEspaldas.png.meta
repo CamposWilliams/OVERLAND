@@ -248,7 +248,13 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      GordockEspaldas_0: -101631303653675115
+      GordockEspaldas_1: -7655293935499506229
+      GordockEspaldas_2: 8358872298475451950
+      GordockEspaldas_3: -5530819386320812227
+      GordockEspaldas_4: 4697894588279602731
+      GordockEspaldas_5: -4895114316479627469
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

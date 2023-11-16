@@ -1,0 +1,512 @@
+fileFormatVersion: 2
+guid: 9aa30ffacba820f459c78f11070bad2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2080791608223394239
+    second: OverLanD_BOSS1-Sheet_0
+  - first:
+      213: 3727605168646769673
+    second: OverLanD_BOSS1-Sheet_1
+  - first:
+      213: 4035590028367576420
+    second: OverLanD_BOSS1-Sheet_2
+  - first:
+      213: 339897936210519593
+    second: OverLanD_BOSS1-Sheet_3
+  - first:
+      213: -8186193034471929595
+    second: OverLanD_BOSS1-Sheet_4
+  - first:
+      213: -5050137171856934896
+    second: OverLanD_BOSS1-Sheet_5
+  - first:
+      213: -1069161645268044216
+    second: OverLanD_BOSS1-Sheet_6
+  - first:
+      213: -2404518117645353408
+    second: OverLanD_BOSS1-Sheet_7
+  - first:
+      213: 7645514265513034685
+    second: OverLanD_BOSS1-Sheet_8
+  - first:
+      213: -823597782388656241
+    second: OverLanD_BOSS1-Sheet_9
+  - first:
+      213: 7744486558588018750
+    second: OverLanD_BOSS1-Sheet_10
+  - first:
+      213: 6181765005522236885
+    second: OverLanD_BOSS1-Sheet_11
+  - first:
+      213: 6396280315061567712
+    second: OverLanD_BOSS1-Sheet_12
+  - first:
+      213: 2547443084147052364
+    second: OverLanD_BOSS1-Sheet_13
+  - first:
+      213: 6045033713816386933
+    second: OverLanD_BOSS1-Sheet_14
+  - first:
+      213: 4952009859381670736
+    second: OverLanD_BOSS1-Sheet_15
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 145
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1461b3c8e0b8f13e0800000000000000
+      internalID: -2080791608223394239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 145
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90cc914b62d1bb330800000000000000
+      internalID: 3727605168646769673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 145
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46d35f3dfbb410830800000000000000
+      internalID: 4035590028367576420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 145
+        width: 31
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92667b34f5f87b400800000000000000
+      internalID: 339897936210519593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 145
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5090685beccc46e80800000000000000
+      internalID: -8186193034471929595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 97
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 018b87cbffe4ae9b0800000000000000
+      internalID: -5050137171856934896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 97
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8467356f5239921f0800000000000000
+      internalID: -1069161645268044216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 97
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ef1cdf28f61aed0800000000000000
+      internalID: -2404518117645353408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 97
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3061187b25a1a60800000000000000
+      internalID: 7645514265513034685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 97
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f87bce63e2ef194f0800000000000000
+      internalID: -823597782388656241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 49
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e302d643e71f97b60800000000000000
+      internalID: 7744486558588018750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 49
+        width: 25
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5f717258a0ac550800000000000000
+      internalID: 6181765005522236885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e0811fbe0724c850800000000000000
+      internalID: 6396280315061567712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f4c14fcf55a5320800000000000000
+      internalID: 2547443084147052364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d394f722644e350800000000000000
+      internalID: 6045033713816386933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: OverLanD_BOSS1-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0533da0fab219b440800000000000000
+      internalID: 4952009859381670736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6aaac3347a608914f871a48c18a5d203
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      OverLanD_BOSS1-Sheet_0: -2080791608223394239
+      OverLanD_BOSS1-Sheet_1: 3727605168646769673
+      OverLanD_BOSS1-Sheet_10: 7744486558588018750
+      OverLanD_BOSS1-Sheet_11: 6181765005522236885
+      OverLanD_BOSS1-Sheet_12: 6396280315061567712
+      OverLanD_BOSS1-Sheet_13: 2547443084147052364
+      OverLanD_BOSS1-Sheet_14: 6045033713816386933
+      OverLanD_BOSS1-Sheet_15: 4952009859381670736
+      OverLanD_BOSS1-Sheet_2: 4035590028367576420
+      OverLanD_BOSS1-Sheet_3: 339897936210519593
+      OverLanD_BOSS1-Sheet_4: -8186193034471929595
+      OverLanD_BOSS1-Sheet_5: -5050137171856934896
+      OverLanD_BOSS1-Sheet_6: -1069161645268044216
+      OverLanD_BOSS1-Sheet_7: -2404518117645353408
+      OverLanD_BOSS1-Sheet_8: 7645514265513034685
+      OverLanD_BOSS1-Sheet_9: -823597782388656241
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

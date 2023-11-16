@@ -224,7 +224,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      gordoktopdown_0: -2378789362673539292
+      gordoktopdown_1: 6756503145004694960
+      gordoktopdown_2: -7260044562207967246
+      gordoktopdown_3: -1018872005794950030
+      gordoktopdown_4: 3851861979720716871
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
