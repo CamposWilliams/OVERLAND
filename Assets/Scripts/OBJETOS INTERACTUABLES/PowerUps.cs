@@ -33,13 +33,13 @@ public class PowerUps : MonoBehaviour
 
             switch (color)
             {
-                case "PociónAzul":
+                case "PocionAzul":
                     sprPowerUp.enabled = false;
                     collPowerUp.enabled = false;
                     Mike.GetComponent<SistemaDeVida>().PUAzulActivo = true;
                     break;
                
-                case "PociónMorada":
+                case "PocionMorada":
 
                     sprPowerUp.enabled = false;
                     collPowerUp.enabled = false;
@@ -51,7 +51,7 @@ public class PowerUps : MonoBehaviour
                     break;
 
 
-                case "PociónVerde":
+                case "PocionAmarilla":
                    
                     sprPowerUp.enabled = false;
                     collPowerUp.enabled = false;
@@ -71,7 +71,7 @@ public class PowerUps : MonoBehaviour
     {
         DesactivarPowerUpMorado();
         DesactivarPowerUpAzul();
-        DesactivarPowerUpVerde();
+        DesactivarPowerUpAmarillo();
     }
 
     void DesactivarPowerUpMorado()
@@ -111,7 +111,7 @@ public class PowerUps : MonoBehaviour
             }
         }
     }
-    void DesactivarPowerUpVerde()
+    void DesactivarPowerUpAmarillo()
     {
         if (/*conPU == true && */rapidez!=0)
         {

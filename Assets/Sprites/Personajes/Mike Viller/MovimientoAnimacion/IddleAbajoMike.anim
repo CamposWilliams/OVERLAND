@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IddleArriba
+  m_Name: IddleAbajoMike
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -6031623156193615832, guid: 8904bf6c65d68bf4888b4ad0927cf0a9, type: 3}
+      value: {fileID: -3011895399059424396, guid: 0d8ca60e5901bd9418c40ad2bb0f7c4e, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -6031623156193615832, guid: 8904bf6c65d68bf4888b4ad0927cf0a9, type: 3}
+    - {fileID: -3011895399059424396, guid: 0d8ca60e5901bd9418c40ad2bb0f7c4e, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

@@ -11,7 +11,7 @@ public class JugadorDisparo : MonoBehaviour
     float tiempo;
     bool puedeDisparar=true;
     public float cdDisparo=0.6f;
-    public float ángulo;
+    public float angulo;
 
     private Animator direcciónMirada;
     //punto de disparo y Prefabs osea las balas 
@@ -92,7 +92,7 @@ public class JugadorDisparo : MonoBehaviour
 
     void ApuntarAnimación()
     {
-        direcciónMirada.SetFloat("Ángulo", ángulo);
+        direcciónMirada.SetFloat("Angulo", angulo);
        
         if (GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity.magnitude != 0)
         {
@@ -182,16 +182,16 @@ public class JugadorDisparo : MonoBehaviour
             gun.transform.Rotate(Vector3.forward * 90.0f);
 
 
-            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
             //Este devuelve un valor de -180 a 180
 
-            if (ángulo < 0)
+            if (angulo < 0)
             {
-                ángulo += 360;
+                angulo += 360;
 
-                if (ángulo >= 315)
+                if (angulo >= 315)
                 {
-                    ángulo = 0;
+                    angulo = 0;
                 }
             }
 
@@ -223,16 +223,16 @@ public class JugadorDisparo : MonoBehaviour
             gun.transform.Rotate(Vector3.forward * 90.0f);
 
 
-            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
             //Este devuelve un valor de -180 a 180
 
-            if (ángulo < 0)
+            if (angulo < 0)
             {
-                ángulo += 360;
+                angulo += 360;
 
-                if (ángulo >= 315)
+                if (angulo >= 315)
                 {
-                    ángulo = 0;
+                    angulo = 0;
                 }
             }
 
@@ -273,16 +273,16 @@ public class JugadorDisparo : MonoBehaviour
             gun.transform.Rotate(Vector3.forward * 90.0f);
 
 
-            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
             //Este devuelve un valor de -180 a 180
 
-            if (ángulo < 0)
+            if (angulo < 0)
             {
-                ángulo += 360;
+                angulo += 360;
 
-                if (ángulo >= 315)
+                if (angulo >= 315)
                 {
-                    ángulo = 0;
+                    angulo = 0;
                 }
             }
 
@@ -326,16 +326,16 @@ public class JugadorDisparo : MonoBehaviour
             gun.transform.Rotate(Vector3.forward * 90.0f);
 
 
-            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
             //Este devuelve un valor de -180 a 180
 
-            if (ángulo < 0)
+            if (angulo < 0)
             {
-                ángulo += 360;
+                angulo += 360;
 
-                if (ángulo >= 315)
+                if (angulo >= 315)
                 {
-                    ángulo = 0;
+                    angulo = 0;
                 }
             }
 
@@ -377,16 +377,16 @@ public class JugadorDisparo : MonoBehaviour
             gun.transform.Rotate(Vector3.forward * 90.0f);
 
 
-            ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
             //Este devuelve un valor de -180 a 180
 
-            if (ángulo < 0)
+            if (angulo < 0)
             {
-                ángulo += 360;
+                angulo += 360;
 
-                if (ángulo >= 315)
+                if (angulo >= 315)
                 {
-                    ángulo = 0;
+                    angulo = 0;
                 }
             }
 

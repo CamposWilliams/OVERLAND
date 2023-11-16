@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: IddleDerecha
+  m_Name: IddleDerechaBonk
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -21,7 +21,7 @@ AnimationClip:
   - serializedVersion: 2
     curve:
     - time: 0
-      value: {fileID: -1621043491520590454, guid: f867f8115d9274e47b74f416483a6687, type: 3}
+      value: {fileID: -6822731367804887414, guid: c8a95b7e60f68e445a16dbc41ca3437d, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -44,7 +44,7 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: -1621043491520590454, guid: f867f8115d9274e47b74f416483a6687, type: 3}
+    - {fileID: -6822731367804887414, guid: c8a95b7e60f68e445a16dbc41ca3437d, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}

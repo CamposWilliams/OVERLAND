@@ -1,31 +1,28 @@
 fileFormatVersion: 2
-guid: 8904bf6c65d68bf4888b4ad0927cf0a9
+guid: 9b4853cb94017134188f63ba44645dfd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6031623156193615832
-    second: BonkCaminarArriba_0
+      213: -4172051194208770409
+    second: Caja Municiones_0
   - first:
-      213: 2134750034573236006
-    second: BonkCaminarArriba_1
+      213: -6431624923061584540
+    second: Caja Municiones_1
   - first:
-      213: 2939585049103021232
-    second: BonkCaminarArriba_2
+      213: 1857940851933579704
+    second: Caja Municiones_2
   - first:
-      213: -6756935477324123598
-    second: BonkCaminarArriba_3
+      213: 7060198508651031040
+    second: Caja Municiones_3
   - first:
-      213: 1265376776828668492
-    second: BonkCaminarArriba_4
+      213: -2076471690313229674
+    second: Caja Municiones_4
   - first:
-      213: -8063828809845473119
-    second: BonkCaminarArriba_5
+      213: 4896383868111360890
+    second: Caja Municiones_5
   - first:
-      213: 5032844804684031466
-    second: BonkCaminarArriba_6
-  - first:
-      213: -5502189356879185458
-    second: BonkCaminarArriba_7
+      213: 600941189290720199
+    second: Caja Municiones_6
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -58,7 +55,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +69,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +93,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,53 +112,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BonkCaminarArriba_0
+      name: Caja Municiones_0
       rect:
         serializedVersion: 2
-        x: 2
-        y: 0
-        width: 28
-        height: 32
+        x: 4
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8202f0442be5b4ca0800000000000000
-      internalID: -6031623156193615832
+      spriteID: 79621781b85e916c0800000000000000
+      internalID: -4172051194208770409
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_1
+      name: Caja Municiones_1
       rect:
         serializedVersion: 2
-        x: 34
-        y: 0
-        width: 28
-        height: 32
+        x: 36
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +151,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6279df698d720ad10800000000000000
-      internalID: 2134750034573236006
+      spriteID: 46d7d5c65374eb6a0800000000000000
+      internalID: -6431624923061584540
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_2
+      name: Caja Municiones_2
       rect:
         serializedVersion: 2
-        x: 66
-        y: 0
-        width: 28
-        height: 31
+        x: 68
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +172,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0b4b5de07018bc820800000000000000
-      internalID: 2939585049103021232
+      spriteID: 8b9003d6c5bb8c910800000000000000
+      internalID: 1857940851933579704
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_3
+      name: Caja Municiones_3
       rect:
         serializedVersion: 2
-        x: 98
-        y: 0
-        width: 28
-        height: 32
+        x: 100
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,20 +193,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2327cdfabfa8a32a0800000000000000
-      internalID: -6756935477324123598
+      spriteID: 00a23e7132ddaf160800000000000000
+      internalID: 7060198508651031040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_4
+      name: Caja Municiones_4
       rect:
         serializedVersion: 2
-        x: 130
-        y: 0
-        width: 28
-        height: 32
+        x: 132
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -253,20 +214,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4ac6e969758f8110800000000000000
-      internalID: 1265376776828668492
+      spriteID: 69a99b0dff3ee23e0800000000000000
+      internalID: -2076471690313229674
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_5
+      name: Caja Municiones_5
       rect:
         serializedVersion: 2
-        x: 162
-        y: 0
-        width: 28
-        height: 32
+        x: 164
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -274,20 +235,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1a08993eb66871090800000000000000
-      internalID: -8063828809845473119
+      spriteID: a731bb69f2373f340800000000000000
+      internalID: 4896383868111360890
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArriba_6
+      name: Caja Municiones_6
       rect:
         serializedVersion: 2
-        x: 194
-        y: 0
-        width: 28
-        height: 31
+        x: 196
+        y: 7
+        width: 26
+        height: 17
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -295,29 +256,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ae5acd84fa148d540800000000000000
-      internalID: 5032844804684031466
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BonkCaminarArriba_7
-      rect:
-        serializedVersion: 2
-        x: 226
-        y: 0
-        width: 28
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ec9f7488eeb44a3b0800000000000000
-      internalID: -5502189356879185458
+      spriteID: 7cbf296e3d8f65800800000000000000
+      internalID: 600941189290720199
       vertices: []
       indices: 
       edges: []
@@ -325,22 +265,14 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: f74dd84f8d03719468b2ad6fad4179da
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      BonkCaminarArriba_0: -6031623156193615832
-      BonkCaminarArriba_1: 2134750034573236006
-      BonkCaminarArriba_2: 2939585049103021232
-      BonkCaminarArriba_3: -6756935477324123598
-      BonkCaminarArriba_4: 1265376776828668492
-      BonkCaminarArriba_5: -8063828809845473119
-      BonkCaminarArriba_6: 5032844804684031466
-      BonkCaminarArriba_7: -5502189356879185458
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -72,7 +72,7 @@ BlendTree:
     m_CycleOffset: 0
     m_DirectBlendParameter: "\xC1ngulo"
     m_Mirror: 0
-  m_BlendParameter: "\xC1ngulo"
+  m_BlendParameter: Angulo
   m_BlendParameterY: Rapidez
   m_MinThreshold: 0
   m_MaxThreshold: 1
@@ -151,18 +151,18 @@ AnimatorController:
   m_Name: PlayerJamil
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: "\xC1ngulo"
+  - m_Name: Angulo
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   - m_Name: Rapidez
     m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
-    m_Controller: {fileID: 9100000}
+    m_Controller: {fileID: 0}
   m_AnimatorLayers:
   - serializedVersion: 5
     m_Name: Base Layer
