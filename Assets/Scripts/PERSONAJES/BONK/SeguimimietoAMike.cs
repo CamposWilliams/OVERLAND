@@ -9,12 +9,12 @@ public class SeguimimietoAMike : MonoBehaviour
     Vector2 direccion;
     public float rapidezBonk;
     Animator BonkAnimacion;
-    float angulo=0;
-    float temporizador;
-    float tiempoDeEspera=0.6f;
-    bool leyendoDatos=true;
+    float tiempoDeEspera = 0.4f;
+    bool leyendoDatos = true;
     bool estaDentro;
-
+    Vector2 direccion2;
+    float valorDelParametroX;
+    float valorDelParametroY;
 
     private void Start()
     {
@@ -24,95 +24,116 @@ public class SeguimimietoAMike : MonoBehaviour
 
     private void Update()
     {
+       
         SeguimientoDeAnimacion();
+        //Debug.Log(bonkRb2d.velocity);
         //CorreccionDeSeguimiento();
     }
+ 
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             estaDentro = false;
-            BonkAnimacion.SetFloat("Rapidez", 100);
+            BonkAnimacion.SetBool("estaDentro", false);
+
             if (leyendoDatos == false)
             {
                 bonkRb2d.velocity = Vector2.zero;
             }
         }
-        
+
     }
     private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            direccion2 = Vector2.zero;
             estaDentro = true;
-            BonkAnimacion.SetFloat("Rapidez", 0);
+            BonkAnimacion.SetBool("estaDentro", true);
             direccion = MikeTrf.position - transform.position;
-            direccion.Normalize();
-            
-            if (leyendoDatos==true)
+
+
+            if (leyendoDatos == true)
             {
                 if (Mathf.Abs(direccion.x) > Mathf.Abs(direccion.y))
                 {
-                    direccion.y = 0;
+                    direccion2 = new Vector2(direccion.x, 0);
                 }
 
                 else
                 {
-                    direccion.x = 0;
+                    direccion2 = new Vector2(0, direccion.y);
                 }
-                
+
                 leyendoDatos = false;
                 StartCoroutine(MantenerVelocidad());
-            }          
-            
-        }
-        else
-        {
-            if (estaDentro==false)
-            {
-                BonkAnimacion.SetFloat("Rapidez", 100);
             }
-            
+
         }
-        
+
     }
     IEnumerator MantenerVelocidad()
     {
+        direccion2.Normalize();
         bonkRb2d.velocity = Vector2.zero;
-        bonkRb2d.velocity = direccion * rapidezBonk;
-
-        yield return new WaitForSeconds(tiempoDeEspera);
-        leyendoDatos = true;
+        
        
+            bonkRb2d.velocity = direccion2 * rapidezBonk;
+            yield return new WaitForSeconds(tiempoDeEspera);
+           
+        leyendoDatos = true;
+
     }
 
     void SeguimientoDeAnimacion()
     {
-        if (estaDentro == false || leyendoDatos == true)
+        if (estaDentro == true && bonkRb2d.velocity != Vector2.zero)
         {
-            direccion = MikeTrf.position - transform.position;
-            angulo = Mathf.Atan2(direccion.y, direccion.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
+            if (bonkRb2d.velocity.x > 0)
             {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
+                //Debug.Log("Derecha");
+                BonkAnimacion.SetFloat("ValorY", 0);
+                BonkAnimacion.SetFloat("ValorX", 1);
+                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
+                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
             }
 
-            BonkAnimacion.SetFloat("Angulo", angulo);
-        }
-    }
+            else if (bonkRb2d.velocity.x < 0)
+            {
+                //Debug.Log("Izquierda");
+                BonkAnimacion.SetFloat("ValorY", 0);
+                BonkAnimacion.SetFloat("ValorX", -1);
+                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
+                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+            }
 
-    //void CorreccionDeSeguimiento()
-    //{
-    //    if(bonkRb2d.velocity.x<=0 )
-    //    {
-    //        BonkAnimacion.SetFloat("Angulo", 180);
-    //    }
-    //}
+            else if (bonkRb2d.velocity.y < 0)
+            {
+                BonkAnimacion.SetFloat("ValorX", 0);
+                BonkAnimacion.SetFloat("ValorY", -1);
+                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
+                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+            }
+            else if (bonkRb2d.velocity.y > 0)
+            {
+                BonkAnimacion.SetFloat("ValorX", 0);
+                BonkAnimacion.SetFloat("ValorY", 1);
+                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
+                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+            }
+
+        }
+
+        else
+        {
+            BonkAnimacion.SetFloat("ValorX", valorDelParametroX);
+            BonkAnimacion.SetFloat("ValorY", valorDelParametroY);
+        }
+
+    }
 }
+
+
+  
+

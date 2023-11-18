@@ -24,7 +24,7 @@ public class SistemaDeVida : MonoBehaviour
         {
             dañoEntrante = daño;
         }
-        Debug.Log($"Recibiste {dañoEntrante} de daño");
+        //Debug.Log($"Recibiste {dañoEntrante} de daño");
         vidaActualMike -= dañoEntrante;
        
         if( vidaActualMike <= 0)
