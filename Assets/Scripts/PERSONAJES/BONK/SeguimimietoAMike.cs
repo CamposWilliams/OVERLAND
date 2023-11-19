@@ -26,7 +26,7 @@ public class SeguimimietoAMike : MonoBehaviour
     {
        
         SeguimientoDeAnimacion();
-        //Debug.Log(bonkRb2d.velocity);
+        //Debug.Log(Gordock.velocity);
         //CorreccionDeSeguimiento();
     }
  
