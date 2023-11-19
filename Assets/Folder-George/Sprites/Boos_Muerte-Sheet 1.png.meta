@@ -1,0 +1,712 @@
+fileFormatVersion: 2
+guid: 18c833079199099449b89c3bfe613035
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6105499861634971491
+    second: Boos_Muerte-Sheet_0
+  - first:
+      213: 5692809107663347713
+    second: Boos_Muerte-Sheet_1
+  - first:
+      213: -8717945620841852638
+    second: Boos_Muerte-Sheet_2
+  - first:
+      213: 4792764640872611329
+    second: Boos_Muerte-Sheet_3
+  - first:
+      213: 8852196695663987977
+    second: Boos_Muerte-Sheet_4
+  - first:
+      213: 7781449250104132401
+    second: Boos_Muerte-Sheet_5
+  - first:
+      213: 808502297832810550
+    second: Boos_Muerte-Sheet_6
+  - first:
+      213: 294375206523579325
+    second: Boos_Muerte-Sheet_7
+  - first:
+      213: 2188474269592584283
+    second: Boos_Muerte-Sheet_8
+  - first:
+      213: 733112652525612286
+    second: Boos_Muerte-Sheet_9
+  - first:
+      213: -6293952571995922435
+    second: Boos_Muerte-Sheet_10
+  - first:
+      213: -2921355991225476510
+    second: Boos_Muerte-Sheet_11
+  - first:
+      213: 7327740589885335078
+    second: Boos_Muerte-Sheet_12
+  - first:
+      213: -4130023191202787675
+    second: Boos_Muerte-Sheet_13
+  - first:
+      213: -7356642199420367491
+    second: Boos_Muerte-Sheet_14
+  - first:
+      213: -7251290674040220374
+    second: Boos_Muerte-Sheet_15
+  - first:
+      213: 3901148902152547005
+    second: Boos_Muerte-Sheet_16
+  - first:
+      213: -7664397231485821765
+    second: Boos_Muerte-Sheet_17
+  - first:
+      213: 7896113907322398256
+    second: Boos_Muerte-Sheet_18
+  - first:
+      213: 1975927904846718113
+    second: Boos_Muerte-Sheet_19
+  - first:
+      213: 6611497989355202166
+    second: Boos_Muerte-Sheet_20
+  - first:
+      213: -7589759054639820816
+    second: Boos_Muerte-Sheet_21
+  - first:
+      213: -2830746423300983923
+    second: Boos_Muerte-Sheet_22
+  - first:
+      213: -3453887160804763412
+    second: Boos_Muerte-Sheet_23
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 193
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 367f2fc96c71bb450800000000000000
+      internalID: 6105499861634971491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 193
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100e16cb8bbe00f40800000000000000
+      internalID: 5692809107663347713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 193
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2219c82c5a2a30780800000000000000
+      internalID: -8717945620841852638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 194
+        width: 30
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10eb3473c02538240800000000000000
+      internalID: 4792764640872611329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 194
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d40f66ef159da70800000000000000
+      internalID: 8852196695663987977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 146
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133cf267dd24dfb60800000000000000
+      internalID: 7781449250104132401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 146
+        width: 30
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63869666e80683b00800000000000000
+      internalID: 808502297832810550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 146
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb258fc0b4d51400800000000000000
+      internalID: 294375206523579325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 146
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50062fc0c50f5e10800000000000000
+      internalID: 2188474269592584283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 146
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efc2222c21a8c2a00800000000000000
+      internalID: 733112652525612286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 98
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dffd6098b7367a8a0800000000000000
+      internalID: -6293952571995922435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 98
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26adb8834324577d0800000000000000
+      internalID: -2921355991225476510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 98
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 626a3521e3d51b560800000000000000
+      internalID: 7327740589885335078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 98
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae8b361ac53fa6c0800000000000000
+      internalID: -4130023191202787675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 98
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d86e395e4f7e990800000000000000
+      internalID: -7356642199420367491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 50
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a25daba0d8d3e5b90800000000000000
+      internalID: -7251290674040220374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 49
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba25b0e14aa32630800000000000000
+      internalID: 3901148902152547005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 49
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcdccf535792a590800000000000000
+      internalID: -7664397231485821765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 49
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03629f763c1a49d60800000000000000
+      internalID: 7896113907322398256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 49
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a4ab26e5f7eb6b10800000000000000
+      internalID: 1975927904846718113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 1
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 676e9b06462c0cb50800000000000000
+      internalID: 6611497989355202166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 1
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff83612a52cba690800000000000000
+      internalID: -7589759054639820816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 1
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d83ffed302b27b8d0800000000000000
+      internalID: -2830746423300983923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Boos_Muerte-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce813fd3de35110d0800000000000000
+      internalID: -3453887160804763412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: fd6cb979918d742469a66cd69b50fb48
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Boos_Muerte-Sheet_0: 6105499861634971491
+      Boos_Muerte-Sheet_1: 5692809107663347713
+      Boos_Muerte-Sheet_10: -6293952571995922435
+      Boos_Muerte-Sheet_11: -2921355991225476510
+      Boos_Muerte-Sheet_12: 7327740589885335078
+      Boos_Muerte-Sheet_13: -4130023191202787675
+      Boos_Muerte-Sheet_14: -7356642199420367491
+      Boos_Muerte-Sheet_15: -7251290674040220374
+      Boos_Muerte-Sheet_16: 3901148902152547005
+      Boos_Muerte-Sheet_17: -7664397231485821765
+      Boos_Muerte-Sheet_18: 7896113907322398256
+      Boos_Muerte-Sheet_19: 1975927904846718113
+      Boos_Muerte-Sheet_2: -8717945620841852638
+      Boos_Muerte-Sheet_20: 6611497989355202166
+      Boos_Muerte-Sheet_21: -7589759054639820816
+      Boos_Muerte-Sheet_22: -2830746423300983923
+      Boos_Muerte-Sheet_23: -3453887160804763412
+      Boos_Muerte-Sheet_3: 4792764640872611329
+      Boos_Muerte-Sheet_4: 8852196695663987977
+      Boos_Muerte-Sheet_5: 7781449250104132401
+      Boos_Muerte-Sheet_6: 808502297832810550
+      Boos_Muerte-Sheet_7: 294375206523579325
+      Boos_Muerte-Sheet_8: 2188474269592584283
+      Boos_Muerte-Sheet_9: 733112652525612286
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

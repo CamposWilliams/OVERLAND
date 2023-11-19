@@ -6,47 +6,61 @@ public class MoveBoss : MonoBehaviour
 {
     public Transform player; // Referencia al objeto del jugador
     public float speed = 3f; // Velocidad de movimiento del enemigo
-    public float detectionRadius = 9f; // Radio de detección del jugador
+    public float detectionRadius = 3f; // Radio de detección del jugador
 
     private Animator animator;
-    private Vector2 lastDirection;
+    private LifeBoss lifeScript; // Referencia al script LifeBoss
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        lifeScript = GetComponent<LifeBoss>(); // Obtener la referencia al script LifeBoss
     }
 
     void Update()
     {
-        // Calcula la distancia entre el enemigo y el jugador
-        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
-
-        if (distanceToPlayer <= detectionRadius)
+        // Verificar si el enemigo está vivo antes de seguir al jugador
+        if (lifeScript.IsAlive())
         {
-            // Calcula la dirección hacia el jugador
-            Vector2 direction = (player.position - transform.position).normalized;
+            // Calcular la distancia entre el enemigo y el jugador
+            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-            // Mueve al enemigo en la dirección del jugador
-            transform.Translate(direction * speed * Time.deltaTime);
+            // Verificar si el jugador está dentro del radio de detección
+            if (distanceToPlayer <= detectionRadius)
+            {
+                // Calcular la dirección hacia el jugador
+                Vector2 direction = (player.position - transform.position).normalized;
 
-            // Actualiza las animaciones
-            UpdateAnimations(direction);
+                // Ajustar la dirección para limitar el movimiento a las cuatro direcciones principales
+                float roundedX = Mathf.Round(direction.x);
+                float roundedY = Mathf.Round(direction.y);
+
+                // Mover al enemigo en la dirección ajustada
+                transform.Translate(new Vector2(roundedX, roundedY) * speed * Time.deltaTime);
+
+                // Actualizar las animaciones
+                UpdateAnimations(new Vector2(roundedX, roundedY));
+            }
         }
     }
 
     void UpdateAnimations(Vector2 direction)
     {
-        // Actualiza las animaciones basadas en la dirección del movimiento
+        // Actualizar las animaciones basadas en la dirección del movimiento
         if (direction != Vector2.zero)
         {
-            lastDirection = direction;
             animator.SetFloat("Horizontal", direction.x);
             animator.SetFloat("Vertical", direction.y);
         }
 
-        // Establece los parámetros de la animación para que el enemigo se detenga cuando no se está moviendo
+        // Establecer los parámetros de la animación para que el enemigo se detenga cuando no se está moviendo
         animator.SetFloat("Speed", direction.sqrMagnitude);
     }
 
-
+    // Visualizar el radio de detección en el Editor de Unity
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    }
 }

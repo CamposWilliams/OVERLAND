@@ -21,6 +21,7 @@ TagManager:
   - AmmoMisil
   - TileCollider
   - Enemigo1
+  - Boss
   layers:
   - Default
   - TransparentFX

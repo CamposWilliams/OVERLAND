@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 193771426}
   - component: {fileID: 193771425}
   - component: {fileID: 193771424}
+  - component: {fileID: 193771430}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -154,8 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 1014933039}
-  speed: 3
-  detectionRadius: 9
+  speed: 2
+  detectionRadius: 5
 --- !u!50 &193771425
 Rigidbody2D:
   serializedVersion: 4
@@ -312,12 +313,25 @@ Transform:
   m_GameObject: {fileID: 193771423}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.141, y: -3.858, z: 0}
+  m_LocalPosition: {x: 1.04, y: 0.73, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &193771430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193771423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe7cba811d74f8428b18c18847b3d35, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  vida: 3
 --- !u!4 &1014933039 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
@@ -346,7 +360,7 @@ PrefabInstance:
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: BPrePistola
       value: 
-      objectReference: {fileID: 9127715698934923802, guid: abfe5762659f4f64aa3ffa88e569d49b, type: 3}
+      objectReference: {fileID: 5480834034631623769, guid: 681a8e07f2aa9f34db945a3eb3db3820, type: 3}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: BPreCuchillo
       value: 
@@ -365,11 +379,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.05
+      value: -5.45
       objectReference: {fileID: 0}
     - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.16
+      value: -0.13
       objectReference: {fileID: 0}
     - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.z
