@@ -13,7 +13,7 @@ public class OptionButton : MonoBehaviour
     }
     public void Option()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(3);
     }
 
 

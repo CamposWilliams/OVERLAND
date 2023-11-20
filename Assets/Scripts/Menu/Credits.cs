@@ -15,6 +15,6 @@ public class Credits : MonoBehaviour
     
     public void creditos()
     {
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(4);
     }
 }

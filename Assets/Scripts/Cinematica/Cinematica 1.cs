@@ -21,7 +21,7 @@ public class Cinematica : MonoBehaviour
             // Ir a la escena Nivel1
             SceneManager.LoadScene("NIVEL1");
         }
-        else if (Input.GetKeyDown(KeyCode.E))
+        else if (Input.anyKeyDown)
         {
             SceneManager.LoadScene("NIVEL1");
         }
