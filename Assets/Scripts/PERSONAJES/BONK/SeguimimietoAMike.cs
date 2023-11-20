@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class SeguimimietoAMike : MonoBehaviour
 {
-    Rigidbody2D bonkRb2d;
+  public Rigidbody2D bonkRb2d;
     public Transform MikeTrf;
     Vector2 direccion;
     public float rapidezBonk;

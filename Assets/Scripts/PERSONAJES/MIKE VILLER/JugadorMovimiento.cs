@@ -7,47 +7,73 @@ public class JugadorMovimiento : MonoBehaviour
     Rigidbody2D rb2DMike;
     public float rapidez;
     Vector2 dirección;
-    //Animator animaciónMike;
+    bool colisionaConPared;
+    Animator animaciónMike;
+    private Vector3 mousePosAnterior;
+    public bool mouseMovido;
+    public float moveX;
+    public float moveY;
+    public bool retrocediendo;
 
     void Start()
     {
         rb2DMike = GetComponent<Rigidbody2D>();
-        //animaciónMike = GetComponent<Animator>();   
+        animaciónMike = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        Movimiento();
+        if (retrocediendo==false)
+        {
+            Movimiento();
+
+        }
     }
 
     void Movimiento()
     {
-        float moveX = Input.GetAxisRaw("Horizontal");
-        float moveY = Input.GetAxisRaw("Vertical");
+        //Vector3 mousePos = Input.mousePosition;
+        
+        //Vector3 mouseWorldPos = Camera.main.ScreenToWorldPoint(mousePos);
 
-        // Limitar el movimiento a una dirección por eje
-        if (moveX != 0f)
-        {
-            moveY = 0f;
-        }
+        //if (mousePosAnterior != mouseWorldPos)
+        //{
+        //  mouseMovido=true;
+        //}
 
-        if (moveY != 0f)
-        {
-            moveX = 0f;
-        }
+        //if (mouseMovido == true)
+        //{
+            
+            moveX = Input.GetAxisRaw("Horizontal");
+            moveY = Input.GetAxisRaw("Vertical");
 
-        rb2DMike.velocity = new Vector2(moveX, moveY)*rapidez;
+            //float angulo = Mathf.Atan2(moveY, moveX) * Mathf.Rad2Deg; //Covierte el angulo a grados
+            //if (angulo < 0) angulo += 360;
+            //animaciónMike.SetFloat("Angulo",angulo);
 
-
-
-        //dirección = new Vector2(xInput, yInput).normalized;
-
-        //animaciónMike.SetFloat("Horizontal", xInput);
-        //animaciónMike.SetFloat("Vertical", yInput);
-        //animaciónMike.SetFloat("Rapidez",dirección.sqrMagnitude);
+            //animaciónMike.SetFloat("Rapidez", 100);
 
 
+            if (moveX != 0f)
+            {
+                moveY = 0f;
+            }
+
+            if (moveY != 0f)
+            {
+                moveX = 0f;
+            }
+
+            dirección = new Vector2(moveX, moveY).normalized;
+            rb2DMike.velocity = dirección * rapidez;
+
+            
+        //}
+
+        //else mouseMovido = false;
+            
 
     }
+
+    
 }

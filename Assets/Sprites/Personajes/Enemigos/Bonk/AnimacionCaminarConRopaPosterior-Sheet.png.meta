@@ -1,19 +1,19 @@
 fileFormatVersion: 2
-guid: c8a95b7e60f68e445a16dbc41ca3437d
+guid: 9cf2a7eda5fee0b46bea3f5c704cbcf5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6822731367804887414
-    second: BonkCaminarPerfilDerechoSpriteSheet_0
+      213: 85919585763425545
+    second: AnimacionCaminarConRopaPosterior-Sheet_0
   - first:
-      213: 8705407939676514184
-    second: BonkCaminarPerfilDerechoSpriteSheet_1
+      213: -8620849554868282188
+    second: AnimacionCaminarConRopaPosterior-Sheet_1
   - first:
-      213: -165069083052053650
-    second: BonkCaminarPerfilDerechoSpriteSheet_2
+      213: -4711201333140492637
+    second: AnimacionCaminarConRopaPosterior-Sheet_2
   - first:
-      213: -7988149595442497747
-    second: BonkCaminarPerfilDerechoSpriteSheet_3
+      213: -1979287301335776700
+    second: AnimacionCaminarConRopaPosterior-Sheet_3
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,12 +107,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BonkCaminarPerfilDerechoSpriteSheet_0
+      name: AnimacionCaminarConRopaPosterior-Sheet_0
       rect:
         serializedVersion: 2
-        x: 6
+        x: 1
         y: 0
-        width: 17
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -121,40 +121,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a8e131828f9c051a0800000000000000
-      internalID: -6822731367804887414
+      spriteID: 90d7da4786f313100800000000000000
+      internalID: 85919585763425545
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarPerfilDerechoSpriteSheet_1
+      name: AnimacionCaminarConRopaPosterior-Sheet_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 33
         y: 0
-        width: 19
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 887a84dd562dfc870800000000000000
-      internalID: 8705407939676514184
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BonkCaminarPerfilDerechoSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 70
-        y: 0
-        width: 17
+        width: 30
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e6b68452b8e85bdf0800000000000000
-      internalID: -165069083052053650
+      spriteID: 4bcddfb41079c5880800000000000000
+      internalID: -8620849554868282188
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarPerfilDerechoSpriteSheet_3
+      name: AnimacionCaminarConRopaPosterior-Sheet_2
       rect:
         serializedVersion: 2
-        x: 101
+        x: 65
         y: 0
-        width: 19
-        height: 31
+        width: 30
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -184,8 +163,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2738f61444642190800000000000000
-      internalID: -7988149595442497747
+      spriteID: 3ae60d839537e9eb0800000000000000
+      internalID: -4711201333140492637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionCaminarConRopaPosterior-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4428077afa82884e0800000000000000
+      internalID: -1979287301335776700
       vertices: []
       indices: 
       edges: []
@@ -193,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: e7bf88564123b2e48b6ad3907fe23af5
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BonkCaminarPerfilDerechoSpriteSheet_0: -6822731367804887414
-      BonkCaminarPerfilDerechoSpriteSheet_1: 8705407939676514184
-      BonkCaminarPerfilDerechoSpriteSheet_2: -165069083052053650
-      BonkCaminarPerfilDerechoSpriteSheet_3: -7988149595442497747
+      AnimacionCaminarConRopaPosterior-Sheet_0: 85919585763425545
+      AnimacionCaminarConRopaPosterior-Sheet_1: -8620849554868282188
+      AnimacionCaminarConRopaPosterior-Sheet_2: -4711201333140492637
+      AnimacionCaminarConRopaPosterior-Sheet_3: -1979287301335776700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

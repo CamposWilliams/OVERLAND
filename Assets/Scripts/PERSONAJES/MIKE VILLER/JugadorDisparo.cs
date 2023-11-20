@@ -12,6 +12,7 @@ public class JugadorDisparo : MonoBehaviour
     bool puedeDisparar=true;
     public float cdDisparo=0.6f;
     public float angulo;
+    bool colisionaConObjetos;
 
     private Animator direcciónMirada;
     //punto de disparo y Prefabs osea las balas 
@@ -92,17 +93,23 @@ public class JugadorDisparo : MonoBehaviour
 
     void ApuntarAnimación()
     {
-        direcciónMirada.SetFloat("Angulo", angulo);
-       
-        if (GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity.magnitude != 0)
-        {
-            direcciónMirada.SetFloat("Rapidez", 100);
-        }
+        //if(GetComponent<JugadorMovimiento>().mouseMovido==true)
+        //{
+            direcciónMirada.SetFloat("Angulo", angulo);
+
+            if (colisionaConObjetos == false && GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity.magnitude != 0)
+            {
+                            
+                    direcciónMirada.SetFloat("Rapidez", 100);
+                
+            }
+
         else
-        {
-            //Debug.Log("no me animo");
+            {
+            Debug.Log("no me animo");
             direcciónMirada.SetFloat("Rapidez", 0);
-        }
+            }
+          
             
     }
 
@@ -595,6 +602,21 @@ public class JugadorDisparo : MonoBehaviour
             //  Destroy(collision.gameObject);
         }
 
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (!collision.gameObject.CompareTag("Enemigo1"))
+        {
+            Debug.Log("Choque");
+            colisionaConObjetos = true;
+        }
+
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+            colisionaConObjetos = false;
     }
 
 

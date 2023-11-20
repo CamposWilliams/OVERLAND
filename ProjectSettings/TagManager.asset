@@ -22,6 +22,7 @@ TagManager:
   - TileCollider
   - Enemigo1
   - Boss
+  - Espada
   layers:
   - Default
   - TransparentFX
@@ -32,7 +33,7 @@ TagManager:
   - MikeLayer
   - BalaLayer
   - TileColliderLayer
-  - 
+  - SueloLayer
   - 
   - 
   - 

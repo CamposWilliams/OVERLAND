@@ -1,19 +1,22 @@
 fileFormatVersion: 2
-guid: aae7baec86a1b634a80a71b7b8bfc7e3
+guid: 4f3b2a324d83fee49b078133f4ecc6c1
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8581216759263773475
-    second: BonkCaminarArribaSpriteSheet_0
+      213: 5480184236277907396
+    second: AnimacionMorirPerfilConRopa-Sheet_0
   - first:
-      213: 8691859739898295078
-    second: BonkCaminarArribaSpriteSheet_1
+      213: 7054426588826912596
+    second: AnimacionMorirPerfilConRopa-Sheet_1
   - first:
-      213: -7491230842700274143
-    second: BonkCaminarArribaSpriteSheet_2
+      213: -4630385693860420627
+    second: AnimacionMorirPerfilConRopa-Sheet_2
   - first:
-      213: -721757698318118354
-    second: BonkCaminarArribaSpriteSheet_3
+      213: 8548177045844018152
+    second: AnimacionMorirPerfilConRopa-Sheet_3
+  - first:
+      213: -996505945589709580
+    second: AnimacionMorirPerfilConRopa-Sheet_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -107,12 +110,12 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BonkCaminarArribaSpriteSheet_0
+      name: AnimacionMorirPerfilConRopa-Sheet_0
       rect:
         serializedVersion: 2
-        x: 2
+        x: 5
         y: 0
-        width: 28
+        width: 19
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -121,40 +124,19 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ddc347b92d469e880800000000000000
-      internalID: -8581216759263773475
+      spriteID: 4cf3a0317868d0c40800000000000000
+      internalID: 5480184236277907396
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArribaSpriteSheet_1
+      name: AnimacionMorirPerfilConRopa-Sheet_1
       rect:
         serializedVersion: 2
-        x: 34
+        x: 37
         y: 0
-        width: 28
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 623382ac160bf9870800000000000000
-      internalID: 8691859739898295078
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: BonkCaminarArribaSpriteSheet_2
-      rect:
-        serializedVersion: 2
-        x: 66
-        y: 0
-        width: 28
+        width: 19
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -163,19 +145,40 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 12666622d3dc90890800000000000000
-      internalID: -7491230842700274143
+      spriteID: 45749194b9b56e160800000000000000
+      internalID: 7054426588826912596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: BonkCaminarArribaSpriteSheet_3
+      name: AnimacionMorirPerfilConRopa-Sheet_2
       rect:
         serializedVersion: 2
-        x: 98
+        x: 73
         y: 0
-        width: 28
+        width: 19
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de326688eb09dbfb0800000000000000
+      internalID: -4630385693860420627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionMorirPerfilConRopa-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 0
+        width: 17
         height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,8 +187,29 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e2258d9823dcbf5f0800000000000000
-      internalID: -721757698318118354
+      spriteID: 8e34ea6abb931a670800000000000000
+      internalID: 8548177045844018152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AnimacionMorirPerfilConRopa-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 0
+        width: 17
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f48f884f13bb22f0800000000000000
+      internalID: -996505945589709580
       vertices: []
       indices: 
       edges: []
@@ -193,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: b348d8f5231e559498388bbdfbbd3956
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -201,10 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      BonkCaminarArribaSpriteSheet_0: -8581216759263773475
-      BonkCaminarArribaSpriteSheet_1: 8691859739898295078
-      BonkCaminarArribaSpriteSheet_2: -7491230842700274143
-      BonkCaminarArribaSpriteSheet_3: -721757698318118354
+      AnimacionMorirPerfilConRopa-Sheet_0: 5480184236277907396
+      AnimacionMorirPerfilConRopa-Sheet_1: 7054426588826912596
+      AnimacionMorirPerfilConRopa-Sheet_2: -4630385693860420627
+      AnimacionMorirPerfilConRopa-Sheet_3: 8548177045844018152
+      AnimacionMorirPerfilConRopa-Sheet_4: -996505945589709580
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
