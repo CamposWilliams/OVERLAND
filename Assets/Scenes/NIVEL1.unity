@@ -99412,6 +99412,38 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 297539745}
+    - target: {fileID: 315777723902430309, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: balaPrefabMisil
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 315777723902430309, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: balaPrefabRifle
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 315777723902430309, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: balaPrefabEspcial
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 315777723902430309, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: balaPrefabPistola
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 3370935988001670984, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: BPreRifle
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 3370935988001670984, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: BPreCuchillo
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 3370935988001670984, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: BPreEspecial
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
+    - target: {fileID: 3370935988001670984, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: BPreSudmisil
+      value: 
+      objectReference: {fileID: 6304629573477008753, guid: e96be93b9392f8c45b7b02471bcb5ed8, type: 3}
     - target: {fileID: 4500289332756847621, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_Name
       value: Mike
