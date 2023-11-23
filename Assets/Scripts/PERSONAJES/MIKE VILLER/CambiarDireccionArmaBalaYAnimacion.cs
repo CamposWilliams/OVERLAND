@@ -11,7 +11,11 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
     bool colisionaConObjetos;
     private Animator direcciónMirada;
     public GameObject arma;
-    public GameObject balaPrefab;
+     public GameObject balaPrefabPistola;
+    public GameObject balaPrefabRifle;
+    public GameObject balaPrefabMisil;
+    public GameObject balaPrefabEspcial;
+
     public Vector2 Direction;
     Rigidbody2D MikeRb2D;
     public GameObject[] cuchilloCajasColliders;
@@ -28,6 +32,7 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
        StartCoroutine(DireccionAnimacion());
        
     }
+
 
    IEnumerator DireccionAnimacion()
     {
@@ -50,7 +55,7 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
 
     }
 
-    IEnumerator DireccionDelArma()
+      IEnumerator DireccionDelArma( )
     {      
         while(true)
         {
@@ -61,8 +66,14 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
             arma.transform.up = Direction.normalized;
             arma.transform.Rotate(Vector3.forward * 90.0f);
             angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
+            //
 
-            balaPrefab.GetComponent<JugadorBala>().direction = Direction.normalized;
+            balaPrefabPistola.GetComponent<JugadorBala>().direction = Direction.normalized;
+            balaPrefabRifle.GetComponent<JugadorBala>().direction = Direction.normalized;
+            balaPrefabMisil.GetComponent<JugadorBala>().direction = Direction.normalized;
+            balaPrefabEspcial.GetComponent<JugadorBala>().direction = Direction.normalized;
+
+            //
 
             //Este devuelve un valor de -180 a 180
             if (angulo < 0)

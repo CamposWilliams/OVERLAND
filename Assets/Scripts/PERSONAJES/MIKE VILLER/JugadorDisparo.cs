@@ -31,7 +31,7 @@ public class JugadorDisparo : MonoBehaviour
 
     //Municion de armas 
     [SerializeField] int AmmoPistola;
-    [SerializeField] int AmmoSudmisil;
+    [SerializeField] int AmmoSudmisil = 5;
     [SerializeField] int AmmoRifle = 5;
     [SerializeField] int AmmoEspecial = 5;
     [SerializeField] int AmmoCuchillo = 5;
@@ -256,6 +256,7 @@ public class JugadorDisparo : MonoBehaviour
             GameObject obj = Instantiate(BPrePistola);
 
             GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
+           
 
         }
 
@@ -267,6 +268,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             GameObject obj = Instantiate(BPreRifle);
             GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
+            Debug.Log("Creado");
         }
     }
 
