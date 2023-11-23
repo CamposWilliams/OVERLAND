@@ -5,14 +5,13 @@ using UnityEngine.UIElements;
 
 public class JugadorDisparo : MonoBehaviour
 {
-    //public GameObject Arma;
-    public GameObject puntoDeDisparo;
     public Camera cam;
     float tiempo;
     bool puedeDisparar=true;
     public float cdDisparo=0.6f;
     public float angulo;
     bool colisionaConObjetos;
+
 
     private Animator direcciónMirada;
     //punto de disparo y Prefabs osea las balas 
@@ -76,12 +75,9 @@ public class JugadorDisparo : MonoBehaviour
 
     void Update()
     {
-        //Apuntar();
-        //Disparo();
+ 
         Recargando();
-        ApuntarAnimación();
         ShootGeneral();
-        //Debug.Log(cdDisparo);
         
         if (Input.GetKeyDown(KeyCode.Q))
         {
@@ -91,70 +87,9 @@ public class JugadorDisparo : MonoBehaviour
 
     }
 
-    void ApuntarAnimación()
-    {
-        //if(GetComponent<JugadorMovimiento>().mouseMovido==true)
-        //{
-            direcciónMirada.SetFloat("Angulo", angulo);
+   
 
-            if (colisionaConObjetos == false && GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity.magnitude != 0)
-            {
-                            
-                    direcciónMirada.SetFloat("Rapidez", 100);
-                
-            }
-
-        else
-            {
-            Debug.Log("no me animo");
-            direcciónMirada.SetFloat("Rapidez", 0);
-            }
-          
-            
-    }
-
-   /* void Apuntar()
-    {
-        Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-        Direction = mousePosition - gun.transform.position;
-        gun.transform.up = Direction.normalized;
-        gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-        ángulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-        //Este devuelve un valor de -180 a 180
-        
-        if (ángulo < 0)
-        {
-            ángulo += 360;
-
-            if (ángulo >= 315)
-            {
-                ángulo = 0;
-            }
-        }
-        //Debug.Log(ángulo);
-
-      
-    }*/
-
-    //void Disparo()
-    //{
-    //    if (Input.GetMouseButtonDown(0) && puedeDisparar==true)
-    //    {
-    //        puedeDisparar = false;
-    //        GameObject nuevaBala = Instantiate(bulletPrefab);
-    //        nuevaBala.transform.position = puntoDeDisparo.transform.position;
-    //        nuevaBala.transform.up = Arma.transform.up;
-    //        nuevaBala.GetComponent<JugadorBala>().direction = Direction.normalized;
-            
-    //        //nuevaBala.transform.Rotate(Vector3.forward * 90.0f);
-    //    }
-
-       
-    //}
-
-    void Recargando()
+    void Recargando() // Como son para 4 armas diferentes, puedes ampliarlo o cambiarlo si quieres (por enmuarator por ejemplo)
     {
         if (puedeDisparar==false)
         {
@@ -172,36 +107,14 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootGeneral()
     {
-
+     
         if (CambioArma >= MaxCambioArma)
         {
             CambioArma *= 0;
         }
 
-        /////////////////////
         if (CambioArma == 0)
         {
-            Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
-            Direction = mousePosition - gun.transform.position;
-
-            gun.transform.up = Direction.normalized;
-            gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
-            {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
-            }
-
             ShootPistola();
         }
 
@@ -222,25 +135,6 @@ public class JugadorDisparo : MonoBehaviour
 
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletRifle = Mathf.Abs(almacenBulletRifle);
-            }
-
-            Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-            Direction = mousePosition - gun.transform.position;
-            gun.transform.up = Direction.normalized;
-            gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
-            {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
             }
 
             if (Input.GetMouseButtonDown(0) && AmmoRifle > 0)
@@ -272,26 +166,8 @@ public class JugadorDisparo : MonoBehaviour
             }
 
 
-            Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
-            Direction = mousePosition - gun.transform.position;
-
-            gun.transform.up = Direction.normalized;
-            gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
-            {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
-            }
+           
+            
 
             if (Input.GetMouseButtonDown(0) && AmmoSudmisil > 0)
             {
@@ -325,26 +201,6 @@ public class JugadorDisparo : MonoBehaviour
             }
 
 
-            Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
-            Direction = mousePosition - gun.transform.position;
-
-            gun.transform.up = Direction.normalized;
-            gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
-            {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
-            }
 
             if (Input.GetMouseButtonDown(0) && AmmoEspecial > 0)
             {
@@ -376,27 +232,6 @@ public class JugadorDisparo : MonoBehaviour
             }
 
 
-            Vector3 mousePosition = cam.ScreenToWorldPoint(Input.mousePosition);
-
-            Direction = mousePosition - gun.transform.position;
-
-            gun.transform.up = Direction.normalized;
-            gun.transform.Rotate(Vector3.forward * 90.0f);
-
-
-            angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //Este devuelve un valor de -180 a 180
-
-            if (angulo < 0)
-            {
-                angulo += 360;
-
-                if (angulo >= 315)
-                {
-                    angulo = 0;
-                }
-            }
-
 
             if (Input.GetMouseButtonDown(0) && AmmoCuchillo > 0)
             {
@@ -414,11 +249,13 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootPistola()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && puedeDisparar==true)
         {
+            puedeDisparar= false;
+            Debug.Log("pistolaActivada");
             GameObject obj = Instantiate(BPrePistola);
-            obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
+
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
 
         }
 
@@ -429,12 +266,8 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject obj = Instantiate(BPreRifle);
-            obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
-
-
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
         }
-
     }
 
     void ShootSudMisil()
@@ -442,9 +275,7 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject obj = Instantiate(BPreSudmisil);
-            obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
-
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
         }
 
     }
@@ -454,9 +285,7 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject obj = Instantiate(BPreEspecial);
-            obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
-
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
         }
 
     }
@@ -466,8 +295,8 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             GameObject obj = Instantiate(BPreCuchillo);
-            obj.transform.position = PointShoot.transform.position;
-            obj.GetComponent<JugadorBala>().direction = Direction.normalized;
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
+
 
         }
 
@@ -604,20 +433,7 @@ public class JugadorDisparo : MonoBehaviour
 
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (!collision.gameObject.CompareTag("Enemigo1"))
-        {
-            Debug.Log("Choque");
-            colisionaConObjetos = true;
-        }
-
-    }
-
-    private void OnCollisionExit2D(Collision2D collision)
-    {
-            colisionaConObjetos = false;
-    }
+    
 
 
 

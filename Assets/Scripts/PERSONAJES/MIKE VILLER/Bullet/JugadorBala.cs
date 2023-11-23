@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Burst.Intrinsics;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -9,7 +10,6 @@ public class JugadorBala : MonoBehaviour
     Vector2 velocidadMike;
     Rigidbody2D rb2dBala;
     public Vector2 direction;
-    public GameObject bulletPrefab;
 
     private void Awake()
     {
@@ -19,20 +19,19 @@ public class JugadorBala : MonoBehaviour
     {
         velocidadMike=GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity;
         rb2dBala = GetComponent<Rigidbody2D>();
+        
+          
     }
 
     void Update()
     {
         Movimiento();
-
-        //Debug.Log(rb2dBala.velocity.sqrMagnitude);
-        //Debug.Log(tiempo);
-        //Debug.Log(PUMorado);
+  
     }
-
+  
     void Movimiento()
     {
-        rb2dBala.velocity = rapidezBala * direction + velocidadMike;
+        rb2dBala.velocity = rapidezBala * direction + 0.5f*velocidadMike;
 
         Destroy(gameObject, 2);
     }

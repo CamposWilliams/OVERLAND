@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5480834034631623769}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.262, y: -33.263, z: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0.7769453, w: 0.6295681}
+  m_LocalPosition: {x: -13.104534, y: -33.637947, z: 0}
   m_LocalScale: {x: 0.35594293, y: 0.35594293, z: 0.35594293}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -122,9 +122,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0529f577e03a4f243b224178628ab4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rapidezBala: 0
-  direction: {x: 0, y: 0}
-  bulletPrefab: {fileID: 5480834034631623769}
+  rapidezBala: 10
+  direction: {x: 0.97827995, y: 0.20728791}
 --- !u!50 &1062145055402366576
 Rigidbody2D:
   serializedVersion: 4
@@ -140,7 +139,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2

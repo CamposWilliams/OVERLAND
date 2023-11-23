@@ -18,7 +18,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 8b5b050a51fc03d4185cd1053afe7995, type: 2}
-    m_Threshold: 0.14285715
+    m_Threshold: 0.061224498
     m_Position: {x: 90, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -26,7 +26,7 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 3a1fd48bb8e6e3842aa3d6b4096e17cd, type: 2}
-    m_Threshold: 0.2857143
+    m_Threshold: 0.122448996
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -34,48 +34,48 @@ BlendTree:
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 887572aabe0ea45459341f829e381650, type: 2}
-    m_Threshold: 0.42857143
+    m_Threshold: 0.18367349
     m_Position: {x: 180, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: "\xC1ngulo"
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: c9818f5ed83e8684db1aba5ee9731acc, type: 2}
-    m_Threshold: 0.5714286
-    m_Position: {x: 270, y: 100}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: "\xC1ngulo"
-    m_Mirror: 0
-  - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: f38e3c85da9c0064fa4b804908c6a7d0, type: 2}
-    m_Threshold: 0.71428573
-    m_Position: {x: 90, y: 100}
-    m_TimeScale: 1
-    m_CycleOffset: 0
-    m_DirectBlendParameter: "\xC1ngulo"
-    m_Mirror: 0
-  - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: c3ca2ef6cdfea004ea86df675d46ad26, type: 2}
-    m_Threshold: 0.85714287
+    m_Threshold: 0.24489799
     m_Position: {x: 0, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: "\xC1ngulo"
+    m_DirectBlendParameter: Rapidez
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: c9818f5ed83e8684db1aba5ee9731acc, type: 2}
+    m_Threshold: 0.30612248
+    m_Position: {x: 270, y: 100}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Rapidez
     m_Mirror: 0
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b34dcb74475f66e4a8f2affccbad3a05, type: 2}
-    m_Threshold: 1
+    m_Threshold: 0.36734697
     m_Position: {x: 180, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
-    m_DirectBlendParameter: "\xC1ngulo"
+    m_DirectBlendParameter: Rapidez
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: f38e3c85da9c0064fa4b804908c6a7d0, type: 2}
+    m_Threshold: 0.42857146
+    m_Position: {x: 90, y: 100}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Rapidez
     m_Mirror: 0
   m_BlendParameter: Angulo
   m_BlendParameterY: Rapidez
   m_MinThreshold: 0
-  m_MaxThreshold: 1
+  m_MaxThreshold: 0.42857146
   m_UseAutomaticThresholds: 1
   m_NormalizedBlendValues: 0
   m_BlendType: 2
@@ -232,12 +232,6 @@ AnimatorController:
   m_Name: PlayerJamil
   serializedVersion: 5
   m_AnimatorParameters:
-  - m_Name: Angulo
-    m_Type: 1
-    m_DefaultFloat: 0
-    m_DefaultInt: 0
-    m_DefaultBool: 0
-    m_Controller: {fileID: 0}
   - m_Name: Rapidez
     m_Type: 1
     m_DefaultFloat: 0
@@ -246,6 +240,12 @@ AnimatorController:
     m_Controller: {fileID: 0}
   - m_Name: SePresionaLaBarraEspaciadora
     m_Type: 4
+    m_DefaultFloat: 0
+    m_DefaultInt: 0
+    m_DefaultBool: 0
+    m_Controller: {fileID: 0}
+  - m_Name: Angulo
+    m_Type: 1
     m_DefaultFloat: 0
     m_DefaultInt: 0
     m_DefaultBool: 0
@@ -274,7 +274,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: b7e19b53df127594b95629570dc07652, type: 2}
     m_Threshold: 0
-    m_Position: {x: 100, y: 270}
+    m_Position: {x: 270, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -282,7 +282,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: d1b19c55d1d284d4bb2c70f914dbdc17, type: 2}
     m_Threshold: 0.14285715
-    m_Position: {x: 100, y: 90}
+    m_Position: {x: 90, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -290,7 +290,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 41a49ddd0dbaeed4b8d87f85fc7d42c4, type: 2}
     m_Threshold: 0.2857143
-    m_Position: {x: 100, y: 0}
+    m_Position: {x: 0, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -298,7 +298,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 4b5210130fdf324448a80b1415eebb53, type: 2}
     m_Threshold: 0.42857143
-    m_Position: {x: 100, y: 180}
+    m_Position: {x: 180, y: 100}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -306,7 +306,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: d27685df3322f7640b0e6130536fbe4d, type: 2}
     m_Threshold: 0.5714286
-    m_Position: {x: 0, y: 270}
+    m_Position: {x: 270, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -314,7 +314,7 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: 817a863f7d9fd92468b8e824be8aceae, type: 2}
     m_Threshold: 0.71428573
-    m_Position: {x: 0, y: 90}
+    m_Position: {x: 90, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
@@ -330,13 +330,13 @@ BlendTree:
   - serializedVersion: 2
     m_Motion: {fileID: 7400000, guid: cad06e6767b652f4d8bc032eb7dfc2ed, type: 2}
     m_Threshold: 1
-    m_Position: {x: 0, y: 180}
+    m_Position: {x: 180, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
     m_DirectBlendParameter: Angulo
     m_Mirror: 0
-  m_BlendParameter: Rapidez
-  m_BlendParameterY: Angulo
+  m_BlendParameter: Angulo
+  m_BlendParameterY: Rapidez
   m_MinThreshold: 0
   m_MaxThreshold: 1
   m_UseAutomaticThresholds: 1
