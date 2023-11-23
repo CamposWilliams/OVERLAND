@@ -58,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -72,7 +72,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -96,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -158,9 +158,9 @@ TextureImporter:
       name: ARboles_0
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 128
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -179,9 +179,9 @@ TextureImporter:
       name: ARboles_1
       rect:
         serializedVersion: 2
-        x: 1
-        y: 96
-        width: 30
+        x: 32
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -200,9 +200,9 @@ TextureImporter:
       name: ARboles_2
       rect:
         serializedVersion: 2
-        x: 33
+        x: 64
         y: 128
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -221,9 +221,9 @@ TextureImporter:
       name: ARboles_3
       rect:
         serializedVersion: 2
-        x: 33
-        y: 96
-        width: 30
+        x: 96
+        y: 128
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -242,9 +242,9 @@ TextureImporter:
       name: ARboles_4
       rect:
         serializedVersion: 2
-        x: 65
+        x: 128
         y: 128
-        width: 30
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -263,10 +263,10 @@ TextureImporter:
       name: ARboles_5
       rect:
         serializedVersion: 2
-        x: 65
-        y: 68
-        width: 77
-        height: 60
+        x: 0
+        y: 96
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,9 +284,9 @@ TextureImporter:
       name: ARboles_6
       rect:
         serializedVersion: 2
-        x: 97
-        y: 128
-        width: 30
+        x: 32
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -305,9 +305,9 @@ TextureImporter:
       name: ARboles_7
       rect:
         serializedVersion: 2
-        x: 129
-        y: 128
-        width: 31
+        x: 64
+        y: 96
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -322,17 +322,47 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: ARboles_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707e25aa2360add4b8e6db22aef2f389
+      internalID: -1799335508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 1429f97b2f1449e4db63d59b658438ef
     internalID: 0
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      ARboles_0: -8710313103961869808
+      ARboles_1: 3847175758030914799
+      ARboles_2: -7767805495871500164
+      ARboles_3: -7509305572307934672
+      ARboles_4: 8856817805127360175
+      ARboles_5: 6605477674948180615
+      ARboles_6: -5606827721058081114
+      ARboles_7: 4025808065479952145
+      ARboles_8: -1799335508
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
