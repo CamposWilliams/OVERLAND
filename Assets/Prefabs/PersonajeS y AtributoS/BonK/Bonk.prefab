@@ -93,6 +93,8 @@ GameObject:
   - component: {fileID: 8864151592433915961}
   - component: {fileID: 4126855927115646373}
   - component: {fileID: 2540103966401751576}
+  - component: {fileID: 3353549548083619331}
+  - component: {fileID: 7514659075473015899}
   m_Layer: 0
   m_Name: Bonk
   m_TagString: Enemigo1
@@ -204,6 +206,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c5ea4a78377a09e489d90e53b3c7166f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bonkRb2d: {fileID: 0}
   MikeTrf: {fileID: 0}
   rapidezBonk: 4
 --- !u!50 &8864151592433915961
@@ -258,6 +261,41 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saludBonk: 5
+--- !u!195 &3353549548083619331
+NavMeshAgent:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895972694885802845}
+  m_Enabled: 1
+  m_AgentTypeID: 0
+  m_Radius: 0.46875
+  m_Speed: 1
+  m_Acceleration: 8
+  avoidancePriority: 50
+  m_AngularSpeed: 120
+  m_StoppingDistance: 0
+  m_AutoTraverseOffMeshLink: 1
+  m_AutoBraking: 1
+  m_AutoRepath: 1
+  m_Height: 1
+  m_BaseOffset: 0.5
+  m_WalkableMask: 4294967295
+  m_ObstacleAvoidanceType: 4
+--- !u!114 &7514659075473015899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895972694885802845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2bec77ffb096fd543928198803c80164, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetivo: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
 --- !u!1 &7238319231675515259
 GameObject:
   m_ObjectHideFlags: 0
