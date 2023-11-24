@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1775844155343892813}
   m_Layer: 0
   m_Name: PocionAzul
-  m_TagString: Untagged
+  m_TagString: PocionAzul
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

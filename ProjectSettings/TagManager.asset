@@ -23,6 +23,9 @@ TagManager:
   - Enemigo1
   - Boss
   - Espada
+  - PocionAmarilla
+  - PocionAzul
+  - PocionMorada
   layers:
   - Default
   - TransparentFX
