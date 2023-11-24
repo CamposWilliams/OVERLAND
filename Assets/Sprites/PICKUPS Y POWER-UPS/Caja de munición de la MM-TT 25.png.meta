@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ec09bc3c70290c249aad2dc199219504
+guid: e80c3b2a902a86640a73f3f28fda7bca
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 219921032014418544
-    second: Glock_18ConMano_0
+      213: -8402878126218882888
+    second: "Caja de munici\xF3n de la MM-TT 25_0"
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -98,13 +98,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glock_18ConMano_0
+      name: "Caja de munici\xF3n de la MM-TT 25_0"
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 20
-        height: 17
+        x: 0
+        y: 5
+        width: 32
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -112,8 +112,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 0725bdf63015d0300800000000000000
-      internalID: 219921032014418544
+      spriteID: 8b0d2d35ddaf26b80800000000000000
+      internalID: -8402878126218882888
       vertices: []
       indices: 
       edges: []
@@ -129,7 +129,7 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Glock_18ConMano_0: 219921032014418544
+      "Caja de munici\xF3n de la MM-TT 25_0": -8402878126218882888
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

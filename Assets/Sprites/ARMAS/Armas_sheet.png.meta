@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 750420d04408aeb43ad74a34f9f057da
+guid: d3b53da6ec185e240aa58dfe970fe70a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4208672380359769238
-    second: Glock-18_0
+      213: 6594808176172685188
+    second: Armas_sheet_0
+  - first:
+      213: 7715907959032275106
+    second: Armas_sheet_1
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -94,53 +97,17 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Windows Store Apps
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Glock-18_0
+      name: Armas_sheet_0
       rect:
         serializedVersion: 2
-        x: 6
-        y: 7
-        width: 20
-        height: 17
+        x: 0
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,8 +115,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 69c775f3b35386a30800000000000000
-      internalID: 4208672380359769238
+      spriteID: 4875d9e6817758b50800000000000000
+      internalID: 6594808176172685188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_sheet_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a06ab97869641b60800000000000000
+      internalID: 7715907959032275106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_sheet_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c71215314b18ed4c9860b63023ee272
+      internalID: 2086178281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Armas_sheet_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3dee695baf304a746abee80a5f110b9e
+      internalID: -1988275338
       vertices: []
       indices: 
       edges: []
@@ -157,7 +187,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 4bd159812741c834093d1e05b2051562
     internalID: 0
     vertices: []
     indices: 
@@ -165,7 +195,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Glock-18_0: 4208672380359769238
+      Armas_sheet_0: 6594808176172685188
+      Armas_sheet_1: 7715907959032275106
+      Armas_sheet_2: 2086178281
+      Armas_sheet_3: -1988275338
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
