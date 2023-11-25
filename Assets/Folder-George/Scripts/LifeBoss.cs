@@ -1,31 +1,48 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class LifeBoss : MonoBehaviour
 {
-    [SerializeField] int vida = 3;
+    [SerializeField] int vida = 5;
     private Animator animator;
+
+    public float maxHealth = 5f;
+    private float currentHealth;
+
+    public Image healthBar;
 
     void Start()
     {
         animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
+        UpdateHealthBar();
+    }
+
+    void UpdateHealthBar()
+    {
+        float fillAmount = currentHealth / maxHealth;
+        healthBar.fillAmount = fillAmount;
     }
 
     public bool IsAlive()
     {
-        return vida > 0;
+        return currentHealth > 0;
     }
 
     void ChangeLife(int value)
     {
-        vida += value;
+        currentHealth += value;
 
-        if (vida <= 0)
+        if (currentHealth <= 0)
         {
+            currentHealth = 0;
             animator.SetTrigger("Dead");
             Destroy(gameObject, 3f);
         }
+
+        UpdateHealthBar();
     }
 
     void OnTriggerEnter2D(Collider2D collision)
