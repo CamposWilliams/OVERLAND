@@ -56800,7 +56800,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1027903292
 Transform:
   m_ObjectHideFlags: 0
@@ -59443,7 +59443,7 @@ MonoBehaviour:
   IniciarDialogo: {fileID: 1027903291}
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
-  "l\xEDneasDialogo":
+  lineasDialogo:
   - Hola
   - Mundo
 --- !u!61 &1096474664

@@ -8,12 +8,12 @@ public class Dialogo : MonoBehaviour
     [SerializeField] private GameObject IniciarDialogo;
     [SerializeField] private GameObject PanelDialogo;
     [SerializeField] private TMP_Text TextodeDialogo;
-    [SerializeField, TextArea(4, 6)] private string[] líneasDialogo;
+    [SerializeField, TextArea(4, 6)] private string[] lineasDialogo;
     private bool estaElJugadorEnRango;
     private bool haIniciadoElDialogo;
     private int indiceLinea;
 
-    //variable nueva
+    //variable nueva controla el tiempo del tipeo 
     private float tiempoDeEscribir = 0.05f;
     void Update()
     {
@@ -24,7 +24,11 @@ public class Dialogo : MonoBehaviour
             {
                 StartDialogo();
             }
-
+            //agrgado
+            else if(TextodeDialogo.text == lineasDialogo[indiceLinea])
+            {
+                SiguienteLineaDeDialogo();
+            }
         }
     }
 
@@ -34,18 +38,39 @@ public class Dialogo : MonoBehaviour
         PanelDialogo.SetActive(true);
         IniciarDialogo.SetActive(false);
         indiceLinea = 0;
+        //detener el tiempo
+        Time.timeScale = 0f;
 
         StartCoroutine(MostrarLínea());
+    }
+
+    private void SiguienteLineaDeDialogo() 
+    {
+        indiceLinea++;
+        if(indiceLinea < lineasDialogo.Length)
+        {
+            StartCoroutine(MostrarLínea());
+        }
+        else 
+        {
+            haIniciadoElDialogo=false;
+            PanelDialogo.SetActive(false );
+            IniciarDialogo.SetActive(true);
+            //
+            Time.timeScale = 1f;
+        }
     }
     //para que los caracteres aparezcan por line, tipeo
     private IEnumerator MostrarLínea()
     {
         TextodeDialogo.text = string.Empty;
 
-        foreach (char ch in líneasDialogo[indiceLinea])
+        foreach (char ch in lineasDialogo[indiceLinea])
         {
             TextodeDialogo.text += ch;
-            yield return new WaitForSeconds(tiempoDeEscribir);
+            //yield return new WaitForSeconds(tiempoDeEscribir);
+            //para que las lineas del dialogo no sea afectado por timeScale
+            yield return new WaitForSecondsRealtime(tiempoDeEscribir);
         }
     }
 
