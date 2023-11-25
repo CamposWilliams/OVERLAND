@@ -278,16 +278,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e389b52680311784e88e52103cd2229c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
   cdDisparo: 0.6
-  angulo: 0
-  PointShoot: {fileID: 0}
-  gun: {fileID: 8488075384745391274}
-  BPrePistola: {fileID: 5480834034631623769, guid: 681a8e07f2aa9f34db945a3eb3db3820, type: 3}
-  BPreSudmisil: {fileID: 9127715698934923802, guid: b57d8e381ff61664a902c1a3a751b71f, type: 3}
-  BPreRifle: {fileID: 9127715698934923802, guid: 9f80052fa2cae984fa654dd90d654976, type: 3}
-  BPreEspecial: {fileID: 9127715698934923802, guid: 67d0a104f563fc748994838d946ad59d, type: 3}
-  BPreCuchillo: {fileID: 9127715698934923802, guid: b689e809271fffb4aab9ea212ba9235c, type: 3}
+  balaPrefab: {fileID: 0}
+  armaPrefab: {fileID: 0}
   AmmoPistola: 0
   AmmoSudmisil: 0
   AmmoRifle: 5
@@ -308,7 +301,6 @@ MonoBehaviour:
   maxAlmacenBulletRifle: 25
   maxAlmacenBulletEspecial: 25
   maxAlmacenCuchillo: 25
-  Direction: {x: 0, y: 0}
 --- !u!114 &348293359577726232
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -387,6 +379,7 @@ MonoBehaviour:
   - {fileID: 5847703349894984288}
   - {fileID: 7928465935099437915}
   armaSpr: {fileID: 8698676098248096874}
+  balaCreada: 0
 --- !u!114 &4836181751939463642
 MonoBehaviour:
   m_ObjectHideFlags: 0

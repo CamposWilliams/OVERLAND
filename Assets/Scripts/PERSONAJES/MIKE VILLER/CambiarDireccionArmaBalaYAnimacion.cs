@@ -11,17 +11,14 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
     bool colisionaConObjetos;
     private Animator direcciónMirada;
     public GameObject arma;
-     public GameObject balaPrefabPistola;
-    public GameObject balaPrefabRifle;
-    public GameObject balaPrefabMisil;
-    public GameObject balaPrefabEspcial;
-
+    public GameObject balaPrefab;
     public Vector2 Direction;
     Rigidbody2D MikeRb2D;
     public GameObject[] cuchilloCajasColliders;
     float anguloConstante;
     public SpriteRenderer armaSpr;
     Quaternion rotacionActual;
+   public bool balaCreada=false;
 
 
     private void Start()
@@ -31,10 +28,11 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
        StartCoroutine(DireccionDelArma());
        StartCoroutine(DireccionAnimacion());
        
+
+
     }
 
-
-   IEnumerator DireccionAnimacion()
+    IEnumerator DireccionAnimacion()
     {
         while(true)
         {
@@ -55,7 +53,7 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
 
     }
 
-      IEnumerator DireccionDelArma( )
+      IEnumerator DireccionDelArma()
     {      
         while(true)
         {
@@ -66,15 +64,7 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
             arma.transform.up = Direction.normalized;
             arma.transform.Rotate(Vector3.forward * 90.0f);
             angulo = Mathf.Atan2(Direction.y, Direction.x) * Mathf.Rad2Deg;
-            //
-
-            balaPrefabPistola.GetComponent<JugadorBala>().direction = Direction.normalized;
-            balaPrefabRifle.GetComponent<JugadorBala>().direction = Direction.normalized;
-            balaPrefabMisil.GetComponent<JugadorBala>().direction = Direction.normalized;
-            balaPrefabEspcial.GetComponent<JugadorBala>().direction = Direction.normalized;
-
-            //
-
+            
             //Este devuelve un valor de -180 a 180
             if (angulo < 0)
             {
@@ -102,36 +92,39 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
                 anguloConstante = 270;
             }
            
-            arma.transform.rotation = rotacionActual;
+            //arma.transform.rotation = rotacionActual;
 
             armaSpr.enabled=true;
+            armaSpr.flipY = false;
+            arma.transform.Rotate(Vector3.forward * 0);
 
             switch (anguloConstante)
             {
+               
                 case 0: arma.transform.position = cuchilloCajasColliders[0].transform.position; 
                    
                     break;
                
                 case 90: arma.transform.position = cuchilloCajasColliders[1].transform.position;
                          armaSpr.enabled = false;
-                        arma.transform.rotation= rotacionActual;
-                        arma.transform.Rotate(Vector3.forward*90);
+                    //arma.transform.rotation= rotacionActual;
+                    arma.transform.Rotate(Vector3.forward * -90);
 
 
                     break;
                 case 180: arma.transform.position = cuchilloCajasColliders[2].transform.position;
                           
-                    
-                    rotacionActual = arma.transform.rotation;
+                    armaSpr.flipY = true;
+                    //rotacionActual = arma.transform.rotation;
                  
-                    Quaternion nuevaRotacion = rotacionActual * Quaternion.Euler(0, 180, 0);
+                    //Quaternion nuevaRotacion = rotacionActual * Quaternion.Euler(0, 180, 0);
 
-                    arma.transform.rotation = nuevaRotacion;
+                    //arma.transform.rotation = nuevaRotacion;
 
                     break;
                 case 270: arma.transform.position = cuchilloCajasColliders[3].transform.position;
-                    arma.transform.rotation = rotacionActual;
-                    arma.transform.Rotate(-Vector3.forward*90);
+                    //arma.transform.rotation = rotacionActual;
+                    arma.transform.Rotate(-Vector3.forward * 90);
 
                     break;
             }
@@ -142,12 +135,25 @@ public class CambiarDireccionArmaBalaYAnimacion : MonoBehaviour
      
     }
 
-    public void DireccionDeLaBala(GameObject balaPrefab)
+       public void DireccionDeLaBala(GameObject balaPrefab,float numeroDeBala)
     {
+        if (balaCreada == true)
+        {
+            GameObject nuevaBala = Instantiate(balaPrefab);
+            nuevaBala.GetComponent<JugadorBala>().numeroDeBala = numeroDeBala;
+            nuevaBala.transform.position = GameObject.Find("PuntoDeDisparo").transform.position;
+            nuevaBala.transform.up = GameObject.Find("Arma").transform.up;
 
-        balaPrefab.transform.position = GameObject.Find("PuntoDeDisparo").transform.position;
-        balaPrefab.transform.up = GameObject.Find("Arma").transform.up;
-        balaPrefab.transform.Rotate(Vector3.forward * 90.0f);
+            switch (anguloConstante)
+            {
+                case 0: nuevaBala.transform.Rotate(Vector3.forward * -90); break;
+                case 90: nuevaBala.transform.Rotate(Vector3.forward * 0); break;
+                case 180: nuevaBala.transform.Rotate(Vector3.forward * -90); break;
+                case 270: nuevaBala.transform.Rotate(Vector3.forward * 0); break;
+            }
+            balaCreada = false;
+        }
+
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

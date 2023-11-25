@@ -5,23 +5,18 @@ using UnityEngine.UIElements;
 
 public class JugadorDisparo : MonoBehaviour
 {
-    public Camera cam;
+
     float tiempo;
-    bool puedeDisparar=true;
-    public float cdDisparo=0.6f;
-    public float angulo;
-    bool colisionaConObjetos;
+    bool puedeDisparar = true;
+    public float cdDisparo = 0.6f;
+    public GameObject balaPrefab;
 
-
-    private Animator direcciónMirada;
     //punto de disparo y Prefabs osea las balas 
-    public GameObject PointShoot;
-    public GameObject gun;
-    public GameObject BPrePistola;
-    public GameObject BPreSudmisil;
-    public GameObject BPreRifle;
-    public GameObject BPreEspecial;
-    public GameObject BPreCuchillo;
+    //public GameObject BPrePistola;
+    //public GameObject BPreSudmisil;
+    //public GameObject BPreRifle;
+    //public GameObject BPreEspecial;
+    //public GameObject BPreCuchillo;
 
     /*Velocidad de Armas
     [SerializeField] float speedPistola = 2;
@@ -62,23 +57,12 @@ public class JugadorDisparo : MonoBehaviour
     public int maxAlmacenCuchillo = 25;
 
 
-
-    // direccion de las balas
-    public Vector2 Direction;
-
-
-    void Start()
-    {
-        cam = Camera.main;
-        direcciónMirada = GetComponent<Animator>();
-    }
-
     void Update()
     {
- 
+
         Recargando();
         ShootGeneral();
-        
+
         if (Input.GetKeyDown(KeyCode.Q))
         {
             CambioArma++;
@@ -87,11 +71,11 @@ public class JugadorDisparo : MonoBehaviour
 
     }
 
-   
+
 
     void Recargando() // Como son para 4 armas diferentes, puedes ampliarlo o cambiarlo si quieres (por enmuarator por ejemplo)
     {
-        if (puedeDisparar==false)
+        if (puedeDisparar == false)
         {
             /*Debug.Log("Iniciando");*/
 
@@ -107,7 +91,7 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootGeneral()
     {
-     
+
         if (CambioArma >= MaxCambioArma)
         {
             CambioArma *= 0;
@@ -166,8 +150,8 @@ public class JugadorDisparo : MonoBehaviour
             }
 
 
-           
-            
+
+
 
             if (Input.GetMouseButtonDown(0) && AmmoSudmisil > 0)
             {
@@ -249,15 +233,14 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootPistola()
     {
-        if (Input.GetMouseButtonDown(0) && puedeDisparar==true)
+        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
-            puedeDisparar= false;
-            Debug.Log("pistolaActivada");
-            GameObject obj = Instantiate(BPrePistola);
+            puedeDisparar = false;
 
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
-           
 
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab,0);
+         
         }
 
     }
@@ -266,9 +249,10 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject obj = Instantiate(BPreRifle);
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
-            Debug.Log("Creado");
+        
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 1);
+
         }
     }
 
@@ -276,176 +260,175 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GameObject obj = Instantiate(BPreSudmisil);
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
-        }
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
+            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 2);         
 
-    }
-
-    void ShootEspecial()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GameObject obj = Instantiate(BPreEspecial);
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
-        }
-
-    }
-
-    void ShootCuchillo()
-    {
-        if (Input.GetMouseButtonDown(0))
-        {
-            GameObject obj = Instantiate(BPreCuchillo);
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(obj);
-
-
-        }
-
-    }
-
-    /// <summary>
-    /// //            Changes De Ammo y MaxAlmacen
-    /// </summary>
-
-    //RIFLE
-
-    void ChangeAmmoRifle(int value)
-    {
-        AmmoRifle += value;
-
-        if (AmmoRifle >= maxAmmoRifle)
-        {
-            AmmoRifle = maxAmmoRifle;
-        }
-
-    }
-
-    void StoreAmmoRifle(int value)
-    {
-        almacenBulletRifle += value;
-
-        if (almacenBulletRifle >= maxAlmacenBulletRifle)
-        {
-            almacenBulletRifle = maxAlmacenBulletRifle;
-        }
-
-    }
-
-
-
-    //SUBMISIL
-    void ChangeAmmoSudMisil(int value)
-    {
-
-        AmmoSudmisil += value;
-
-        if (AmmoSudmisil >= maxAmmoSudmisil)
-        {
-            AmmoSudmisil = maxAmmoSudmisil;
         }
     }
 
-    void StoreAmmoSubMisil(int value)
-    {
-        almacenBulletSudmisil += value;
-
-        if (almacenBulletSudmisil >= maxAlmacenBulletSudmisil)
+        void ShootEspecial()
         {
-            almacenBulletSudmisil = maxAlmacenBulletSudmisil;
+            if (Input.GetMouseButtonDown(0))
+            {
+                GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
+                GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 3);
+
+            }
+
         }
 
-    }
-
-
-    //ESPECIAL
-    void ChangeAmmoEspecial(int value)
-    {
-
-        AmmoEspecial += value;
-
-        if (AmmoEspecial >= maxAmmoEspecial)
+        void ShootCuchillo()
         {
-            AmmoEspecial = maxAmmoEspecial;
-        }
-    }
+            if (Input.GetMouseButtonDown(0))
+            {
+               
+            }
 
-    void StoreAmmoEspecial(int value)
-    {
-        almacenBulletEspecial += value;
-
-        if (almacenBulletEspecial >= maxAlmacenBulletEspecial)
-        {
-            almacenBulletEspecial = maxAlmacenBulletEspecial;
         }
 
-    }
+        /// <summary>
+        /// //            Changes De Ammo y MaxAlmacen
+        /// </summary>
 
-    //CUCHILLO
+        //RIFLE
 
-    void ChangeAmmoCuchillo(int value)
-    {
-
-        AmmoCuchillo += value;
-
-        if (AmmoCuchillo >= maxAmmoCuchillo)
+        void ChangeAmmoRifle(int value)
         {
-            AmmoCuchillo = maxAmmoCuchillo;
-        }
-    }
+            AmmoRifle += value;
 
-    void StoreAmmoCuchillo(int value)
-    {
-        almacenCuchillo += value;
+            if (AmmoRifle >= maxAmmoRifle)
+            {
+                AmmoRifle = maxAmmoRifle;
+            }
 
-        if (almacenCuchillo >= maxAlmacenCuchillo)
-        {
-            almacenCuchillo = maxAlmacenCuchillo;
         }
 
-    }
-
-
-    ////////////////
-
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("AmmoCuchillo"))
+        void StoreAmmoRifle(int value)
         {
-            StoreAmmoCuchillo(2);
-            // Destroy(collision.gameObject);
+            almacenBulletRifle += value;
+
+            if (almacenBulletRifle >= maxAlmacenBulletRifle)
+            {
+                almacenBulletRifle = maxAlmacenBulletRifle;
+            }
+
         }
 
-        if (collision.gameObject.CompareTag("AmmoEspecial"))
+
+
+        //SUBMISIL
+        void ChangeAmmoSudMisil(int value)
         {
-            StoreAmmoEspecial(2);
-            //Destroy(collision.gameObject);
+
+            AmmoSudmisil += value;
+
+            if (AmmoSudmisil >= maxAmmoSudmisil)
+            {
+                AmmoSudmisil = maxAmmoSudmisil;
+            }
         }
 
-        if (collision.gameObject.CompareTag("AmmoRifle"))
+        void StoreAmmoSubMisil(int value)
         {
-            StoreAmmoRifle(2);
-            // Destroy(collision.gameObject);
-        }
-        if (collision.gameObject.CompareTag("AmmoMisil"))
-        {
-            StoreAmmoSubMisil(2);
-            //  Destroy(collision.gameObject);
+            almacenBulletSudmisil += value;
+
+            if (almacenBulletSudmisil >= maxAlmacenBulletSudmisil)
+            {
+                almacenBulletSudmisil = maxAlmacenBulletSudmisil;
+            }
+
         }
 
-    }
+
+        //ESPECIAL
+        void ChangeAmmoEspecial(int value)
+        {
+
+            AmmoEspecial += value;
+
+            if (AmmoEspecial >= maxAmmoEspecial)
+            {
+                AmmoEspecial = maxAmmoEspecial;
+            }
+        }
+
+        void StoreAmmoEspecial(int value)
+        {
+            almacenBulletEspecial += value;
+
+            if (almacenBulletEspecial >= maxAlmacenBulletEspecial)
+            {
+                almacenBulletEspecial = maxAlmacenBulletEspecial;
+            }
+
+        }
+
+        //CUCHILLO
+
+        void ChangeAmmoCuchillo(int value)
+        {
+
+            AmmoCuchillo += value;
+
+            if (AmmoCuchillo >= maxAmmoCuchillo)
+            {
+                AmmoCuchillo = maxAmmoCuchillo;
+            }
+        }
+
+        void StoreAmmoCuchillo(int value)
+        {
+            almacenCuchillo += value;
+
+            if (almacenCuchillo >= maxAlmacenCuchillo)
+            {
+                almacenCuchillo = maxAlmacenCuchillo;
+            }
+
+        }
+
+
+        ////////////////
+
+        private void OnTriggerEnter2D(Collider2D collision)
+        {
+            if (collision.gameObject.CompareTag("AmmoCuchillo"))
+            {
+                StoreAmmoCuchillo(2);
+                // Destroy(collision.gameObject);
+            }
+
+            if (collision.gameObject.CompareTag("AmmoEspecial"))
+            {
+                StoreAmmoEspecial(2);
+                //Destroy(collision.gameObject);
+            }
+
+            if (collision.gameObject.CompareTag("AmmoRifle"))
+            {
+                StoreAmmoRifle(2);
+                // Destroy(collision.gameObject);
+            }
+            if (collision.gameObject.CompareTag("AmmoMisil"))
+            {
+                StoreAmmoSubMisil(2);
+                //  Destroy(collision.gameObject);
+            }
+
+        }
+
+
+
+
+
+        //////////
+        ////////
+        /////
+        ///
+
+
 
     
-
-
-
-    //////////
-    ////////
-    /////
-    ///
-
-
-
 }
 
 
