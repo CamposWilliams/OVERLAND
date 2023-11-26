@@ -6,7 +6,7 @@ public class VidaBonk : MonoBehaviour
 {
   public  float saludBonk=5;
   Animator bonkAnimacion;
-    SpriteRenderer spriteBonk;
+  SpriteRenderer spriteBonk;
     private void Start()
     {
         bonkAnimacion = GetComponent<Animator>();
@@ -17,21 +17,25 @@ public class VidaBonk : MonoBehaviour
     {
         if (collision.CompareTag("Bala_player"))
         {
+           
             saludBonk--;
             StartCoroutine(CambiarColor());
 
             Destroy(collision.gameObject);
             
-            if (saludBonk <= 0)
-            {        
-                StartCoroutine(AnimacionDeMuerte());
-            }
+            
                 
+        }
+        if (saludBonk <= 0)
+        {
+            GetComponent<Collider2D>().enabled = false;
+            GetComponentInParent<Seguir>().navMeshAgent.speed = 0;
+            StartCoroutine(AnimacionDeMuerte());
         }
 
         else if (collision.CompareTag("Espada"))
         {
-            saludBonk--;
+            saludBonk-=3;
             StartCoroutine(CambiarColor());
         }
     }
@@ -39,10 +43,9 @@ public class VidaBonk : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         bonkAnimacion.SetBool("EstaSinVida", true);
-        GetComponent<SeguimimietoAMike>().enabled = false;
-        GetComponent<SeguimimietoAMike>().rapidezBonk = 0;
 
-        
+
+             
         yield return new WaitForSeconds(2f);
         Destroy(gameObject);
     }

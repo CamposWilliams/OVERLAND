@@ -7,16 +7,30 @@ public class CambioDeSpritesArmas : MonoBehaviour
     public Sprite[] ArmasSprites;
     private SpriteRenderer armaSpr;
     private int numeroDeArma = 0;
+    public bool sePresionoSpace=false;
 
     private void Start()
     {
         armaSpr=GetComponent<SpriteRenderer>();
     }
-    private void Update()
+    private void FixedUpdate()
     {
-        VerificarArmaActual();
-        CambiarArmas();
+        if(sePresionoSpace==false) 
+        {
+            armaSpr.sortingOrder = 10;
+            CambiarArmas();
+            VerificarArmaActual();
+            
+        }
+
+        else
+        {
+            armaSpr.sortingOrder = -10;
+        }
     }
+
+       
+    
 
     void CambiarArmas()
     {

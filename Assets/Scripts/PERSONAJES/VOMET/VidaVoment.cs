@@ -22,16 +22,19 @@ public class VidaVoment : MonoBehaviour
 
             Destroy(collision.gameObject);
 
-            if (saludVoment <= 0)
-            {
-                StartCoroutine(AnimacionDeMuerte());
-            }
+            
 
+        }
+        if (saludVoment <= 0)
+        {
+            GetComponent<Collider2D>().enabled = false;
+            GetComponentInParent<Seguir>().navMeshAgent.speed = 0;
+            StartCoroutine(AnimacionDeMuerte());
         }
 
         else if (collision.CompareTag("Espada"))
         {
-            saludVoment--;
+            saludVoment-=3;
             StartCoroutine(CambiarColor());
         }
     }
@@ -39,10 +42,6 @@ public class VidaVoment : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         VomentAnimacion.SetBool("EstaSinVida", true);
-        GetComponent<SeguimimietoAMikeVoment>().enabled = false;
-        GetComponent<SeguimimietoAMikeVoment>().rapidezBonk = 0;
-
-
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }

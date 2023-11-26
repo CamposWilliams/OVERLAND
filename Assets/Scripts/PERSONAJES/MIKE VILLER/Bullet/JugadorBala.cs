@@ -34,7 +34,7 @@ public class JugadorBala : MonoBehaviour
     {
         Movimiento();
         ReproducirAnimacionDelTipoDeBala();
-        Debug.Log(numeroDeBala);
+       
     }
 
     void Movimiento()
