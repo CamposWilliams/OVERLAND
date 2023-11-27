@@ -17,7 +17,7 @@ public class Puerta : MonoBehaviour
         if (CompareTag("Player"))
         {
             // Abre la puerta
-            doorAnimator.SetTrigger("OpenDoor");
+            doorAnimator.SetBool("Abierto",true);
         }
     }
 
@@ -26,7 +26,7 @@ public class Puerta : MonoBehaviour
         if (CompareTag("Player"))
         {
             // Cierra la puerta
-            doorAnimator.SetTrigger("CloseDoor");
+            doorAnimator.SetBool("Abierto", false);
         }
     }
 }
