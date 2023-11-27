@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 2386386164022728358}
   - component: {fileID: -7956491862307999911}
   m_Layer: 0
-  m_Name: Bala_Boss-Sheet_0
+  m_Name: BalasDiag
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -78,7 +78,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 6
   m_Sprite: {fileID: -8626074112527482168, guid: e1dbba854e0bfd74e944f0cccd9eddbf, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.9339623, g: 0.022027409, b: 0.022027409, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

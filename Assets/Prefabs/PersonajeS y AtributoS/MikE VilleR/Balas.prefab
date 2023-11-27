@@ -98,7 +98,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 6
   m_Sprite: {fileID: 4686682964894106371, guid: 06b89fe4c8f5f2b4184994c4171b694f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0529f577e03a4f243b224178628ab4bd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rapidezBala: 10
+  rapidezBala: 90
   direction: {x: 0, y: 0}
   numeroDeBala: 0
 --- !u!50 &-4348757878421107
