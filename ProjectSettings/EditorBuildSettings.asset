@@ -20,5 +20,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/MenuCreditos.unity
     guid: 4b596bd763941ad40a1fbc6069e3cda7
+  - enabled: 1
+    path: Assets/Scenes/CinematicaJose.unity
+    guid: 84689194894d7e5428d6ed1c5b255892
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
