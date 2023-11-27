@@ -6,6 +6,8 @@ public class GestorDePuertas : MonoBehaviour
 {
 
     private Animator AnimacionPuerta;
+    public GameObject bloqueador;
+
 
 
 
@@ -21,7 +23,7 @@ public class GestorDePuertas : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AnimacionPuerta.SetBool("Abierto", true);
-            GetComponentInChildren<Collider2D>().enabled = false;
+            bloqueador.SetActive(false);
             Debug.Log("EstaDentro");
         }
         
@@ -33,7 +35,9 @@ public class GestorDePuertas : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             AnimacionPuerta.SetBool("Abierto", false);
-            GetComponentInChildren<Collider2D>().enabled = true;
+            bloqueador.SetActive(true);
+            Debug.Log("EstaFuera");
+
 
         }
 
