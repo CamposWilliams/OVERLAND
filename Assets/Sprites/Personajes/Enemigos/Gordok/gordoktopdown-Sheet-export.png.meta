@@ -1,25 +1,22 @@
 fileFormatVersion: 2
-guid: 6eb915c4b0afb5247bbdaded1bd1ec3e
+guid: 1b10d5a72f004a244a6f5ad825057b22
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 7249423576719522129
-    second: gordoktopdown2_0
+      213: 2984479237736859779
+    second: gordoktopdown-Sheet-export_0
   - first:
-      213: -7775099778647235558
-    second: gordoktopdown2_1
+      213: -650154527618806766
+    second: gordoktopdown-Sheet-export_1
   - first:
-      213: -2089278434752723278
-    second: gordoktopdown2_2
+      213: -7463548063347321857
+    second: gordoktopdown-Sheet-export_2
   - first:
-      213: -2784164212517226838
-    second: gordoktopdown2_3
+      213: -7674334073885249283
+    second: gordoktopdown-Sheet-export_3
   - first:
-      213: 3854676644866318235
-    second: gordoktopdown2_4
-  - first:
-      213: -5935378476415985173
-    second: gordoktopdown2_5
+      213: -8948946307915220795
+    second: gordoktopdown-Sheet-export_4
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -90,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: gordoktopdown2_0
+      name: gordoktopdown-Sheet-export_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 15975bc75502b9460800000000000000
-      internalID: 7249423576719522129
+      spriteID: 38885d4ed000b6920800000000000000
+      internalID: 2984479237736859779
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gordoktopdown2_1
+      name: gordoktopdown-Sheet-export_1
       rect:
         serializedVersion: 2
         x: 32
         y: 0
-        width: 32
-        height: 32
+        width: 33
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a14638012fb491490800000000000000
-      internalID: -7775099778647235558
+      spriteID: 21c4b2cd6ef2af6f0800000000000000
+      internalID: -650154527618806766
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gordoktopdown2_2
+      name: gordoktopdown-Sheet-export_2
       rect:
         serializedVersion: 2
         x: 64
         y: 0
-        width: 32
-        height: 32
+        width: 33
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2b60ea345546103e0800000000000000
-      internalID: -2089278434752723278
+      spriteID: ff3d02874962c6890800000000000000
+      internalID: -7463548063347321857
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gordoktopdown2_3
+      name: gordoktopdown-Sheet-export_3
       rect:
         serializedVersion: 2
         x: 96
-        y: 0
-        width: 32
-        height: 32
+        y: 1
+        width: 33
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aa63e8c5669ac59d0800000000000000
-      internalID: -2784164212517226838
+      spriteID: df0b466f1d94f7590800000000000000
+      internalID: -7674334073885249283
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: gordoktopdown2_4
+      name: gordoktopdown-Sheet-export_4
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
+        x: 129
+        y: 1
+        width: 31
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,29 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b9f504d4cff8e7530800000000000000
-      internalID: 3854676644866318235
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: gordoktopdown2_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: be9d9b109bc41ada0800000000000000
-      internalID: -5935378476415985173
+      spriteID: 5c87baa1fb4fec380800000000000000
+      internalID: -8948946307915220795
       vertices: []
       indices: 
       edges: []
@@ -241,7 +217,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 9942020a457258c4990c9718a9b6b439
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,12 +225,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      gordoktopdown2_0: 7249423576719522129
-      gordoktopdown2_1: -7775099778647235558
-      gordoktopdown2_2: -2089278434752723278
-      gordoktopdown2_3: -2784164212517226838
-      gordoktopdown2_4: 3854676644866318235
-      gordoktopdown2_5: -5935378476415985173
+      gordoktopdown-Sheet-export_0: 2984479237736859779
+      gordoktopdown-Sheet-export_1: -650154527618806766
+      gordoktopdown-Sheet-export_2: -7463548063347321857
+      gordoktopdown-Sheet-export_3: -7674334073885249283
+      gordoktopdown-Sheet-export_4: -8948946307915220795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

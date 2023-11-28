@@ -22,9 +22,6 @@ public class CinematicaJose : MonoBehaviour
             
             SceneManager.LoadScene("NIVEL1");
         }
-        else if (Input.anyKeyDown)
-        {
-            SceneManager.LoadScene("NIVEL1");
-        }
+        
     }
 }

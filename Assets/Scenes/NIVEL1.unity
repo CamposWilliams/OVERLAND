@@ -1920,6 +1920,22 @@ PrefabInstance:
       propertyPath: m_Radius
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (1)
@@ -57537,6 +57553,22 @@ PrefabInstance:
       propertyPath: MikeTrf
       value: 
       objectReference: {fileID: 7781382139627321886}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (2)
@@ -59833,7 +59865,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1113552675
 Transform:
   m_ObjectHideFlags: 0
@@ -61835,6 +61867,22 @@ PrefabInstance:
       propertyPath: MikeTrf
       value: 
       objectReference: {fileID: 7781382139627321886}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (4)
@@ -64383,6 +64431,22 @@ PrefabInstance:
       propertyPath: MikeTrf
       value: 
       objectReference: {fileID: 7781382139627321886}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (3)
@@ -75273,6 +75337,22 @@ PrefabInstance:
       propertyPath: MikeTrf
       value: 
       objectReference: {fileID: 7781382139627321886}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (5)
@@ -101385,6 +101465,22 @@ PrefabInstance:
       propertyPath: MikeTrf
       value: 
       objectReference: {fileID: 7781382139627321886}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.x
+      value: 1.03125
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Size.y
+      value: 0.9375
+      objectReference: {fileID: 0}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 2984479237736859779, guid: 1b10d5a72f004a244a6f5ad825057b22, type: 3}
+    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock

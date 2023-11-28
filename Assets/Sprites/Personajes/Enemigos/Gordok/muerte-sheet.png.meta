@@ -1,25 +1,34 @@
 fileFormatVersion: 2
-guid: 171be97b520ee114c97091981deb5d6f
+guid: 5c4ddf668da6fd74cb8b3b6a27937cc6
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -101631303653675115
-    second: GordockEspaldas_0
+      213: 5099755585836736266
+    second: muerte-sheet_0
   - first:
-      213: -7655293935499506229
-    second: GordockEspaldas_1
+      213: 6611112085924383392
+    second: muerte-sheet_1
   - first:
-      213: 8358872298475451950
-    second: GordockEspaldas_2
+      213: -2289385631767712932
+    second: muerte-sheet_2
   - first:
-      213: -5530819386320812227
-    second: GordockEspaldas_3
+      213: 875153490608025646
+    second: muerte-sheet_3
   - first:
-      213: 4697894588279602731
-    second: GordockEspaldas_4
+      213: -7969057031995856874
+    second: muerte-sheet_4
   - first:
-      213: -4895114316479627469
-    second: GordockEspaldas_5
+      213: -611586203687375292
+    second: muerte-sheet_5
+  - first:
+      213: 7826651258786132522
+    second: muerte-sheet_6
+  - first:
+      213: -4429854649783552773
+    second: muerte-sheet_7
+  - first:
+      213: 6194904350699641193
+    second: muerte-sheet_8
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -90,7 +99,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: GordockEspaldas_0
+      name: muerte-sheet_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
+        x: 1
+        y: 1
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -127,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 59fa9a72edee69ef0800000000000000
-      internalID: -101631303653675115
+      spriteID: a0fdc178fa8f5c640800000000000000
+      internalID: 5099755585836736266
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GordockEspaldas_1
+      name: muerte-sheet_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
+        x: 33
+        y: 1
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,20 +157,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcd8953a9bee2c590800000000000000
-      internalID: -7655293935499506229
+      spriteID: 0aa80db3a636fbb50800000000000000
+      internalID: 6611112085924383392
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GordockEspaldas_2
+      name: muerte-sheet_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
+        x: 65
+        y: 1
         width: 32
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -169,20 +178,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e267b79711ea00470800000000000000
-      internalID: 8358872298475451950
+      spriteID: c5b2a98c5e77a30e0800000000000000
+      internalID: -2289385631767712932
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GordockEspaldas_3
+      name: muerte-sheet_3
       rect:
         serializedVersion: 2
-        x: 96
-        y: 0
+        x: 97
+        y: 1
         width: 32
-        height: 32
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,20 +199,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d37018952159e33b0800000000000000
-      internalID: -5530819386320812227
+      spriteID: e2072a3867b252c00800000000000000
+      internalID: 875153490608025646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GordockEspaldas_4
+      name: muerte-sheet_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 129
         y: 0
         width: 32
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -211,20 +220,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b2eb2aecc36423140800000000000000
-      internalID: 4697894588279602731
+      spriteID: 618ee0de9d8386190800000000000000
+      internalID: -7969057031995856874
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: GordockEspaldas_5
+      name: muerte-sheet_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 161
         y: 0
         width: 32
-        height: 32
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -232,8 +241,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33f7d4fe67f011cb0800000000000000
-      internalID: -4895114316479627469
+      spriteID: 44e2fab86953387f0800000000000000
+      internalID: -611586203687375292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte-sheet_6
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a22bfcc3ad9dd9c60800000000000000
+      internalID: 7826651258786132522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte-sheet_7
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 27
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf4f9099aaef582c0800000000000000
+      internalID: -4429854649783552773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: muerte-sheet_8
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 0
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96959f85fa8b8f550800000000000000
+      internalID: 6194904350699641193
       vertices: []
       indices: 
       edges: []
@@ -241,7 +313,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 5ee54d80b90968449aa56860bc9e586a
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -249,12 +321,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      GordockEspaldas_0: -101631303653675115
-      GordockEspaldas_1: -7655293935499506229
-      GordockEspaldas_2: 8358872298475451950
-      GordockEspaldas_3: -5530819386320812227
-      GordockEspaldas_4: 4697894588279602731
-      GordockEspaldas_5: -4895114316479627469
+      muerte-sheet_0: 5099755585836736266
+      muerte-sheet_1: 6611112085924383392
+      muerte-sheet_2: -2289385631767712932
+      muerte-sheet_3: 875153490608025646
+      muerte-sheet_4: -7969057031995856874
+      muerte-sheet_5: -611586203687375292
+      muerte-sheet_6: 7826651258786132522
+      muerte-sheet_7: -4429854649783552773
+      muerte-sheet_8: 6194904350699641193
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
