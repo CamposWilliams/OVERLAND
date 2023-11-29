@@ -1,0 +1,5687 @@
+fileFormatVersion: 2
+guid: 8d68163edba0a0a42a594a773d167c86
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3711160665393876323
+    second: SpriteSheet Mike Viller_0
+  - first:
+      213: -7481663347420695932
+    second: SpriteSheet Mike Viller_1
+  - first:
+      213: -2377952242288055846
+    second: SpriteSheet Mike Viller_2
+  - first:
+      213: 8106010138715446564
+    second: SpriteSheet Mike Viller_3
+  - first:
+      213: -1802581158462728916
+    second: SpriteSheet Mike Viller_4
+  - first:
+      213: -4087509344165183478
+    second: SpriteSheet Mike Viller_5
+  - first:
+      213: 8194844323420304014
+    second: SpriteSheet Mike Viller_6
+  - first:
+      213: -3816341641954799994
+    second: SpriteSheet Mike Viller_7
+  - first:
+      213: 3982321335207713923
+    second: SpriteSheet Mike Viller_8
+  - first:
+      213: 4432484898293058470
+    second: SpriteSheet Mike Viller_9
+  - first:
+      213: -7958147966811362786
+    second: SpriteSheet Mike Viller_10
+  - first:
+      213: -6928663105181899572
+    second: SpriteSheet Mike Viller_11
+  - first:
+      213: -8878629995942679322
+    second: SpriteSheet Mike Viller_12
+  - first:
+      213: -9087377530124203031
+    second: SpriteSheet Mike Viller_13
+  - first:
+      213: -4244441576480112868
+    second: SpriteSheet Mike Viller_14
+  - first:
+      213: -5208124689611501120
+    second: SpriteSheet Mike Viller_15
+  - first:
+      213: -4560872338490231869
+    second: SpriteSheet Mike Viller_16
+  - first:
+      213: 2247188223913033193
+    second: SpriteSheet Mike Viller_17
+  - first:
+      213: -1189700213777267569
+    second: SpriteSheet Mike Viller_18
+  - first:
+      213: 2273108726599565260
+    second: SpriteSheet Mike Viller_19
+  - first:
+      213: 6616236527275659634
+    second: SpriteSheet Mike Viller_20
+  - first:
+      213: -85121621896455580
+    second: SpriteSheet Mike Viller_21
+  - first:
+      213: -6623863235369883798
+    second: SpriteSheet Mike Viller_22
+  - first:
+      213: -7802159425426756266
+    second: SpriteSheet Mike Viller_23
+  - first:
+      213: 3069487058831378498
+    second: SpriteSheet Mike Viller_24
+  - first:
+      213: 1537147192910486359
+    second: SpriteSheet Mike Viller_25
+  - first:
+      213: 6740729958639585303
+    second: SpriteSheet Mike Viller_26
+  - first:
+      213: 4907173694932769686
+    second: SpriteSheet Mike Viller_27
+  - first:
+      213: -2851380553421450957
+    second: SpriteSheet Mike Viller_28
+  - first:
+      213: -2033825202877779150
+    second: SpriteSheet Mike Viller_29
+  - first:
+      213: -8216270356651938470
+    second: SpriteSheet Mike Viller_30
+  - first:
+      213: -8819728816171653806
+    second: SpriteSheet Mike Viller_31
+  - first:
+      213: -1422066421162547258
+    second: SpriteSheet Mike Viller_32
+  - first:
+      213: -7694873973317734658
+    second: SpriteSheet Mike Viller_33
+  - first:
+      213: -800467975349671325
+    second: SpriteSheet Mike Viller_34
+  - first:
+      213: 5969069614069679343
+    second: SpriteSheet Mike Viller_35
+  - first:
+      213: 6199632412302699627
+    second: SpriteSheet Mike Viller_36
+  - first:
+      213: -8446345531639330700
+    second: SpriteSheet Mike Viller_37
+  - first:
+      213: 4599918224717975064
+    second: SpriteSheet Mike Viller_38
+  - first:
+      213: -4146884606049008222
+    second: SpriteSheet Mike Viller_39
+  - first:
+      213: -5477866403967467547
+    second: SpriteSheet Mike Viller_40
+  - first:
+      213: 7490199439824799982
+    second: SpriteSheet Mike Viller_41
+  - first:
+      213: 7287195649297571161
+    second: SpriteSheet Mike Viller_42
+  - first:
+      213: 3875812037733272927
+    second: SpriteSheet Mike Viller_43
+  - first:
+      213: -4151528598929245568
+    second: SpriteSheet Mike Viller_44
+  - first:
+      213: -4421282764678535148
+    second: SpriteSheet Mike Viller_45
+  - first:
+      213: -1414344609268394421
+    second: SpriteSheet Mike Viller_46
+  - first:
+      213: 6403327704027544810
+    second: SpriteSheet Mike Viller_47
+  - first:
+      213: -5379928454467941645
+    second: SpriteSheet Mike Viller_48
+  - first:
+      213: -1774904589954943769
+    second: SpriteSheet Mike Viller_49
+  - first:
+      213: -5585836557339736848
+    second: SpriteSheet Mike Viller_50
+  - first:
+      213: -5712302692451796843
+    second: SpriteSheet Mike Viller_51
+  - first:
+      213: 2075046628303786027
+    second: SpriteSheet Mike Viller_52
+  - first:
+      213: 1333400340172951266
+    second: SpriteSheet Mike Viller_53
+  - first:
+      213: 5542301234391335366
+    second: SpriteSheet Mike Viller_54
+  - first:
+      213: 3330954101495382217
+    second: SpriteSheet Mike Viller_55
+  - first:
+      213: 2308640366457724458
+    second: SpriteSheet Mike Viller_56
+  - first:
+      213: -2222911260356101429
+    second: SpriteSheet Mike Viller_57
+  - first:
+      213: -5784113748418873996
+    second: SpriteSheet Mike Viller_58
+  - first:
+      213: 5194071994790566526
+    second: SpriteSheet Mike Viller_59
+  - first:
+      213: 2052236151013219977
+    second: SpriteSheet Mike Viller_60
+  - first:
+      213: -2508731901280425448
+    second: SpriteSheet Mike Viller_61
+  - first:
+      213: -7567723196613235678
+    second: SpriteSheet Mike Viller_62
+  - first:
+      213: -4924962113023631733
+    second: SpriteSheet Mike Viller_63
+  - first:
+      213: -1475689426931351226
+    second: SpriteSheet Mike Viller_64
+  - first:
+      213: -7290060187489133937
+    second: SpriteSheet Mike Viller_65
+  - first:
+      213: 4923655276511967502
+    second: SpriteSheet Mike Viller_66
+  - first:
+      213: -4041176302642138197
+    second: SpriteSheet Mike Viller_67
+  - first:
+      213: 8093848398240762419
+    second: SpriteSheet Mike Viller_68
+  - first:
+      213: 8697012054305571107
+    second: SpriteSheet Mike Viller_69
+  - first:
+      213: 7047860220260163696
+    second: SpriteSheet Mike Viller_70
+  - first:
+      213: 7943819367665215359
+    second: SpriteSheet Mike Viller_71
+  - first:
+      213: 9009731079252993539
+    second: SpriteSheet Mike Viller_72
+  - first:
+      213: 4374958518838792879
+    second: SpriteSheet Mike Viller_73
+  - first:
+      213: -7376823832789361138
+    second: SpriteSheet Mike Viller_74
+  - first:
+      213: -1529735117909422284
+    second: SpriteSheet Mike Viller_75
+  - first:
+      213: 1985311216693686884
+    second: SpriteSheet Mike Viller_76
+  - first:
+      213: 3121315334797937360
+    second: SpriteSheet Mike Viller_77
+  - first:
+      213: -8030130717836233413
+    second: SpriteSheet Mike Viller_78
+  - first:
+      213: 2653909111371105937
+    second: SpriteSheet Mike Viller_79
+  - first:
+      213: -2271346392103909307
+    second: SpriteSheet Mike Viller_80
+  - first:
+      213: 5200999703115258059
+    second: SpriteSheet Mike Viller_81
+  - first:
+      213: 6076939268842972013
+    second: SpriteSheet Mike Viller_82
+  - first:
+      213: 5501843490703844970
+    second: SpriteSheet Mike Viller_83
+  - first:
+      213: 347706471184411403
+    second: SpriteSheet Mike Viller_84
+  - first:
+      213: 6954001952270987589
+    second: SpriteSheet Mike Viller_85
+  - first:
+      213: 5045974870575466346
+    second: SpriteSheet Mike Viller_86
+  - first:
+      213: -3975974286755117417
+    second: SpriteSheet Mike Viller_87
+  - first:
+      213: 5719236924511294685
+    second: SpriteSheet Mike Viller_88
+  - first:
+      213: 3173032516616141072
+    second: SpriteSheet Mike Viller_89
+  - first:
+      213: 3710321359379052387
+    second: SpriteSheet Mike Viller_90
+  - first:
+      213: 9078579383831329605
+    second: SpriteSheet Mike Viller_91
+  - first:
+      213: 4916578548578780135
+    second: SpriteSheet Mike Viller_92
+  - first:
+      213: 2111968083712375975
+    second: SpriteSheet Mike Viller_93
+  - first:
+      213: 7336160758891334087
+    second: SpriteSheet Mike Viller_94
+  - first:
+      213: -3567006069199189084
+    second: SpriteSheet Mike Viller_95
+  - first:
+      213: 3882358234852888617
+    second: SpriteSheet Mike Viller_96
+  - first:
+      213: 4959819714701916955
+    second: SpriteSheet Mike Viller_97
+  - first:
+      213: -409477607550526122
+    second: SpriteSheet Mike Viller_98
+  - first:
+      213: -3757420553171112193
+    second: SpriteSheet Mike Viller_99
+  - first:
+      213: 4711368187386774240
+    second: SpriteSheet Mike Viller_100
+  - first:
+      213: 7913511510679719422
+    second: SpriteSheet Mike Viller_101
+  - first:
+      213: -3307410859794602388
+    second: SpriteSheet Mike Viller_102
+  - first:
+      213: 448757790524255949
+    second: SpriteSheet Mike Viller_103
+  - first:
+      213: 842596435859969369
+    second: SpriteSheet Mike Viller_104
+  - first:
+      213: -6269366227713456436
+    second: SpriteSheet Mike Viller_105
+  - first:
+      213: -4479026791993611468
+    second: SpriteSheet Mike Viller_106
+  - first:
+      213: -5058698180489348958
+    second: SpriteSheet Mike Viller_107
+  - first:
+      213: -6633291883186402526
+    second: SpriteSheet Mike Viller_108
+  - first:
+      213: 7442811669816361487
+    second: SpriteSheet Mike Viller_109
+  - first:
+      213: -2915012399721572822
+    second: SpriteSheet Mike Viller_110
+  - first:
+      213: -7984651494337127442
+    second: SpriteSheet Mike Viller_111
+  - first:
+      213: -3216012857656168422
+    second: SpriteSheet Mike Viller_112
+  - first:
+      213: 3358671706023577526
+    second: SpriteSheet Mike Viller_113
+  - first:
+      213: -7594023812103235724
+    second: SpriteSheet Mike Viller_114
+  - first:
+      213: -8639613796801151749
+    second: SpriteSheet Mike Viller_115
+  - first:
+      213: 3828398255778303762
+    second: SpriteSheet Mike Viller_116
+  - first:
+      213: 5099064112521780175
+    second: SpriteSheet Mike Viller_117
+  - first:
+      213: -1276651920771821683
+    second: SpriteSheet Mike Viller_118
+  - first:
+      213: -7252935928161798865
+    second: SpriteSheet Mike Viller_119
+  - first:
+      213: 2904114762274875587
+    second: SpriteSheet Mike Viller_120
+  - first:
+      213: 4596603477688270274
+    second: SpriteSheet Mike Viller_121
+  - first:
+      213: 3384667253669375389
+    second: SpriteSheet Mike Viller_122
+  - first:
+      213: 5748408863085284185
+    second: SpriteSheet Mike Viller_123
+  - first:
+      213: -4336954972975695990
+    second: SpriteSheet Mike Viller_124
+  - first:
+      213: -4542602600764874354
+    second: SpriteSheet Mike Viller_125
+  - first:
+      213: -1371051535270489581
+    second: SpriteSheet Mike Viller_126
+  - first:
+      213: 2994492523600216747
+    second: SpriteSheet Mike Viller_127
+  - first:
+      213: 2069136142756254807
+    second: SpriteSheet Mike Viller_128
+  - first:
+      213: 3207442697095908761
+    second: SpriteSheet Mike Viller_129
+  - first:
+      213: 1187388785520000331
+    second: SpriteSheet Mike Viller_130
+  - first:
+      213: -7959889507090643932
+    second: SpriteSheet Mike Viller_131
+  - first:
+      213: 2608067642368869379
+    second: SpriteSheet Mike Viller_132
+  - first:
+      213: 1436213860656797934
+    second: SpriteSheet Mike Viller_133
+  - first:
+      213: 490459124878913316
+    second: SpriteSheet Mike Viller_134
+  - first:
+      213: 5797606935209644136
+    second: SpriteSheet Mike Viller_135
+  - first:
+      213: -5242731113326232219
+    second: SpriteSheet Mike Viller_136
+  - first:
+      213: 4636269373936030352
+    second: SpriteSheet Mike Viller_137
+  - first:
+      213: -9109600145673347937
+    second: SpriteSheet Mike Viller_138
+  - first:
+      213: 7202436448774627483
+    second: SpriteSheet Mike Viller_139
+  - first:
+      213: 6144318378401285997
+    second: SpriteSheet Mike Viller_140
+  - first:
+      213: 8987291174694185013
+    second: SpriteSheet Mike Viller_141
+  - first:
+      213: -8686022963433781893
+    second: SpriteSheet Mike Viller_142
+  - first:
+      213: -8295728050504105425
+    second: SpriteSheet Mike Viller_143
+  - first:
+      213: -5511144580575863866
+    second: SpriteSheet Mike Viller_144
+  - first:
+      213: -565114908304829564
+    second: SpriteSheet Mike Viller_145
+  - first:
+      213: 1499082512974717517
+    second: SpriteSheet Mike Viller_146
+  - first:
+      213: 7393922827651592485
+    second: SpriteSheet Mike Viller_147
+  - first:
+      213: -6491691318130070864
+    second: SpriteSheet Mike Viller_148
+  - first:
+      213: 3952458531841311455
+    second: SpriteSheet Mike Viller_149
+  - first:
+      213: 1620336574951282076
+    second: SpriteSheet Mike Viller_150
+  - first:
+      213: 1988476572595812865
+    second: SpriteSheet Mike Viller_151
+  - first:
+      213: 583009832222378861
+    second: SpriteSheet Mike Viller_152
+  - first:
+      213: 7619725663911735608
+    second: SpriteSheet Mike Viller_153
+  - first:
+      213: 1881171957463733301
+    second: SpriteSheet Mike Viller_154
+  - first:
+      213: 8556523758039456785
+    second: SpriteSheet Mike Viller_155
+  - first:
+      213: 7348039202418736270
+    second: SpriteSheet Mike Viller_156
+  - first:
+      213: 1139299180633840934
+    second: SpriteSheet Mike Viller_157
+  - first:
+      213: 3831047006409531936
+    second: SpriteSheet Mike Viller_158
+  - first:
+      213: 6296831553950877514
+    second: SpriteSheet Mike Viller_159
+  - first:
+      213: 1038390060147045015
+    second: SpriteSheet Mike Viller_160
+  - first:
+      213: -3414020599971458339
+    second: SpriteSheet Mike Viller_161
+  - first:
+      213: 8942030631311644578
+    second: SpriteSheet Mike Viller_162
+  - first:
+      213: 8285863821048900299
+    second: SpriteSheet Mike Viller_163
+  - first:
+      213: -8585743989450476974
+    second: SpriteSheet Mike Viller_164
+  - first:
+      213: 3261825727970947508
+    second: SpriteSheet Mike Viller_165
+  - first:
+      213: -7499190341008377530
+    second: SpriteSheet Mike Viller_166
+  - first:
+      213: 2514643964277713845
+    second: SpriteSheet Mike Viller_167
+  - first:
+      213: 7301067458133814709
+    second: SpriteSheet Mike Viller_168
+  - first:
+      213: -7964397669705790815
+    second: SpriteSheet Mike Viller_169
+  - first:
+      213: -3446471414007431185
+    second: SpriteSheet Mike Viller_170
+  - first:
+      213: -7422804407876646078
+    second: SpriteSheet Mike Viller_171
+  - first:
+      213: 3251172228583612781
+    second: SpriteSheet Mike Viller_172
+  - first:
+      213: 640380293132748397
+    second: SpriteSheet Mike Viller_173
+  - first:
+      213: -6349646343045317727
+    second: SpriteSheet Mike Viller_174
+  - first:
+      213: -5456391584248777624
+    second: SpriteSheet Mike Viller_175
+  - first:
+      213: -2626877286160476302
+    second: SpriteSheet Mike Viller_176
+  - first:
+      213: 7907026266805500906
+    second: SpriteSheet Mike Viller_177
+  - first:
+      213: 3947027541196788206
+    second: SpriteSheet Mike Viller_178
+  - first:
+      213: -1036078872425003254
+    second: SpriteSheet Mike Viller_179
+  - first:
+      213: -5187613796615149828
+    second: SpriteSheet Mike Viller_180
+  - first:
+      213: 8047913432291753688
+    second: SpriteSheet Mike Viller_181
+  - first:
+      213: -7210744374044526126
+    second: SpriteSheet Mike Viller_182
+  - first:
+      213: -1276515004720473045
+    second: SpriteSheet Mike Viller_183
+  - first:
+      213: -2118584668483453671
+    second: SpriteSheet Mike Viller_184
+  - first:
+      213: 7373806571433225226
+    second: SpriteSheet Mike Viller_185
+  - first:
+      213: 8008095757571583516
+    second: SpriteSheet Mike Viller_186
+  - first:
+      213: 3497315976444763804
+    second: SpriteSheet Mike Viller_187
+  - first:
+      213: 7713137423926527490
+    second: SpriteSheet Mike Viller_188
+  - first:
+      213: -1684775264720637163
+    second: SpriteSheet Mike Viller_189
+  - first:
+      213: 1850463165189363518
+    second: SpriteSheet Mike Viller_190
+  - first:
+      213: -5909495723397639755
+    second: SpriteSheet Mike Viller_191
+  - first:
+      213: -6038007816219931687
+    second: SpriteSheet Mike Viller_192
+  - first:
+      213: 7048619219731565875
+    second: SpriteSheet Mike Viller_193
+  - first:
+      213: -4600459421532974343
+    second: SpriteSheet Mike Viller_194
+  - first:
+      213: -4912572729534364696
+    second: SpriteSheet Mike Viller_195
+  - first:
+      213: -2164674486406829661
+    second: SpriteSheet Mike Viller_196
+  - first:
+      213: -224332637330202142
+    second: SpriteSheet Mike Viller_197
+  - first:
+      213: -6046368602457090976
+    second: SpriteSheet Mike Viller_198
+  - first:
+      213: -2260367127852405587
+    second: SpriteSheet Mike Viller_199
+  - first:
+      213: 9076236676097456797
+    second: SpriteSheet Mike Viller_200
+  - first:
+      213: 8902625314311162820
+    second: SpriteSheet Mike Viller_201
+  - first:
+      213: -3358373373042971659
+    second: SpriteSheet Mike Viller_202
+  - first:
+      213: -4768813937903487225
+    second: SpriteSheet Mike Viller_203
+  - first:
+      213: -7403540714787727503
+    second: SpriteSheet Mike Viller_204
+  - first:
+      213: -4911656637216721934
+    second: SpriteSheet Mike Viller_205
+  - first:
+      213: -2560140586709120460
+    second: SpriteSheet Mike Viller_206
+  - first:
+      213: 1150215087894934144
+    second: SpriteSheet Mike Viller_207
+  - first:
+      213: 4425864598937511273
+    second: SpriteSheet Mike Viller_208
+  - first:
+      213: 5665168193565305641
+    second: SpriteSheet Mike Viller_209
+  - first:
+      213: 3131878478686242417
+    second: SpriteSheet Mike Viller_210
+  - first:
+      213: -4444806338513109907
+    second: SpriteSheet Mike Viller_211
+  - first:
+      213: -9019874526092560703
+    second: SpriteSheet Mike Viller_212
+  - first:
+      213: -7761419795901239692
+    second: SpriteSheet Mike Viller_213
+  - first:
+      213: -812417827847639937
+    second: SpriteSheet Mike Viller_214
+  - first:
+      213: 5624171404939666199
+    second: SpriteSheet Mike Viller_215
+  - first:
+      213: 3887748544916606843
+    second: SpriteSheet Mike Viller_216
+  - first:
+      213: -4033766785173802173
+    second: SpriteSheet Mike Viller_217
+  - first:
+      213: -5245514798720836283
+    second: SpriteSheet Mike Viller_218
+  - first:
+      213: -6583549045974315116
+    second: SpriteSheet Mike Viller_219
+  - first:
+      213: 1628660427998507298
+    second: SpriteSheet Mike Viller_220
+  - first:
+      213: 2391457823020738210
+    second: SpriteSheet Mike Viller_221
+  - first:
+      213: -8578113602968327560
+    second: SpriteSheet Mike Viller_222
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36d443d66f0b08330800000000000000
+      internalID: 3711160665393876323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 482fde733dacb2890800000000000000
+      internalID: -7481663347420695932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad9a399d801dffed0800000000000000
+      internalID: -2377952242288055846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42d59df06455e7070800000000000000
+      internalID: 8106010138715446564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c255403acf1fbf6e0800000000000000
+      internalID: -1802581158462728916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a00c1f478ef3647c0800000000000000
+      internalID: -4087509344165183478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e82f7177e7fe9b170800000000000000
+      internalID: 8194844323420304014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ec0c91f71a90bc0800000000000000
+      internalID: -3816341641954799994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38cd386b72c044730800000000000000
+      internalID: 3982321335207713923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab8a0bd789538d30800000000000000
+      internalID: 4432484898293058470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_10
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a2638969afe8190800000000000000
+      internalID: -7958147966811362786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_11
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 448
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4274f8d9178df90800000000000000
+      internalID: -6928663105181899572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec65b74f05c8c480800000000000000
+      internalID: -8878629995942679322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb8419884623e180800000000000000
+      internalID: -9087377530124203031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1ff00ccfd6b815c0800000000000000
+      internalID: -4244441576480112868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1d3c9403609b7b0800000000000000
+      internalID: -5208124689611501120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_16
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c3726ec5c684b0c0800000000000000
+      internalID: -4560872338490231869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_17
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9edf6c598cd9f2f10800000000000000
+      internalID: 2247188223913033193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f84899875f55d7fe0800000000000000
+      internalID: -1189700213777267569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfbec8e754bb8f10800000000000000
+      internalID: 2273108726599565260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271da36311891db50800000000000000
+      internalID: 6616236527275659634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_21
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46a182cf55691def0800000000000000
+      internalID: -85121621896455580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_22
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67220f6b7f4314a0800000000000000
+      internalID: -6623863235369883798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_23
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de876175929b390800000000000000
+      internalID: -7802159425426756266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2488d489732099a20800000000000000
+      internalID: 3069487058831378498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_25
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75b1be05a3b055510800000000000000
+      internalID: 1537147192910486359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_26
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 718cb87fe22eb8d50800000000000000
+      internalID: 6740729958639585303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_27
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 416
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69bdb99e978c91440800000000000000
+      internalID: 4907173694932769686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3319bd17e7cdd68d0800000000000000
+      internalID: -2851380553421450957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_29
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 233bb3fe0c666c3e0800000000000000
+      internalID: -2033825202877779150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_30
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d603d64a1f9fd80800000000000000
+      internalID: -8216270356651938470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 255efc0ee570a9580800000000000000
+      internalID: -8819728816171653806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c76897df1ec34ce0800000000000000
+      internalID: -1422066421162547258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_33
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efe6ff4f3e0563590800000000000000
+      internalID: -7694873973317734658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_34
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36ae4331e9a24e4f0800000000000000
+      internalID: -800467975349671325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_35
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe48332403566d250800000000000000
+      internalID: 5969069614069679343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6cec49f4d4890650800000000000000
+      internalID: 6199632412302699627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_37
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4780e685d7d88ca80800000000000000
+      internalID: -8446345531639330700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_38
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81e0924014136df30800000000000000
+      internalID: 4599918224717975064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_39
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a5c9e30c6e4376c0800000000000000
+      internalID: -4146884606049008222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5eff8705785baf3b0800000000000000
+      internalID: -5477866403967467547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_41
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8469ba4b882f760800000000000000
+      internalID: 7490199439824799982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_42
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d572575d1512560800000000000000
+      internalID: 7287195649297571161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_43
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5d464d6386a9c530800000000000000
+      internalID: 3875812037733272927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_44
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a72f92cbec266c0800000000000000
+      internalID: -4151528598929245568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_45
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41867cf10c274a2c0800000000000000
+      internalID: -4421282764678535148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_46
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b469196421d3f5ce0800000000000000
+      internalID: -1414344609268394421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_47
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aecbafade903dd850800000000000000
+      internalID: 6403327704027544810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_48
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa0c622397a655b0800000000000000
+      internalID: -5379928454467941645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_49
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e47685eda54e57e0800000000000000
+      internalID: -1774904589954943769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_50
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4cf520f3f1b72b0800000000000000
+      internalID: -5585836557339736848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_51
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59837ee57f2d9b0b0800000000000000
+      internalID: -5712302692451796843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b205b641aeb0ccc10800000000000000
+      internalID: 2075046628303786027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_53
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eec4637b80318210800000000000000
+      internalID: 1333400340172951266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1ca1abb953aec40800000000000000
+      internalID: 5542301234391335366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_55
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c043ce6b1de93e20800000000000000
+      internalID: 3330954101495382217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_56
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e17dc7e20f90020800000000000000
+      internalID: 2308640366457724458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_57
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca32477cf1a621e0800000000000000
+      internalID: -2222911260356101429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4753a0df033babfa0800000000000000
+      internalID: -5784113748418873996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_59
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 352
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7adb4bb5fc051840800000000000000
+      internalID: 5194071994790566526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e9b58f7e10b7c10800000000000000
+      internalID: 2052236151013219977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_61
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a6d7ba0a13f2dd0800000000000000
+      internalID: -2508731901280425448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_62
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c626329db0af690800000000000000
+      internalID: -7567723196613235678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_63
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e18f04d0507abb0800000000000000
+      internalID: -4924962113023631733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_64
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64105f4e84c458be0800000000000000
+      internalID: -1475689426931351226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_65
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a1e7542e084da90800000000000000
+      internalID: -7290060187489133937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0939f82366545440800000000000000
+      internalID: 4923655276511967502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_67
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba3f946509bdae7c0800000000000000
+      internalID: -4041176302642138197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a41033c30235070800000000000000
+      internalID: 8093848398240762419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_69
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3218c28726ef1b870800000000000000
+      internalID: 8697012054305571107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_70
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 070a63777870fc160800000000000000
+      internalID: 7047860220260163696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_71
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f77ad8170ad1e3e60800000000000000
+      internalID: 7943819367665215359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_72
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306eba45eaef80d70800000000000000
+      internalID: 9009731079252993539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_73
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa29476e799f6bc30800000000000000
+      internalID: 4374958518838792879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_74
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e54f3eec140a990800000000000000
+      internalID: -7376823832789361138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_75
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 320
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43f8190e30a45cae0800000000000000
+      internalID: -1529735117909422284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46230af680e3d8b10800000000000000
+      internalID: 1985311216693686884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_77
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da4c9272c3215b20800000000000000
+      internalID: 3121315334797937360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b353b6758ae3f8090800000000000000
+      internalID: -8030130717836233413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_79
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1968279964494d420800000000000000
+      internalID: 2653909111371105937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_80
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54808c09d7e8a70e0800000000000000
+      internalID: -2271346392103909307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_81
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8d8158ca9ad2840800000000000000
+      internalID: 5200999703115258059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d63e1096110a55450800000000000000
+      internalID: 6076939268842972013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_83
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66a23931897a5c40800000000000000
+      internalID: 5501843490703844970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0b2d0d713d43d400800000000000000
+      internalID: 347706471184411403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_85
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5413c748ee3918060800000000000000
+      internalID: 6954001952270987589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_86
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67c23af867e60640800000000000000
+      internalID: 5045974870575466346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_87
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796cfd9a37082d8c0800000000000000
+      internalID: -3975974286755117417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd41bc75eafce5f40800000000000000
+      internalID: 5719236924511294685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_89
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0193bad2340e80c20800000000000000
+      internalID: 3173032516616141072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36735544e95bd7330800000000000000
+      internalID: 3710321359379052387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54b737669d79dfd70800000000000000
+      internalID: 9078579383831329605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_92
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3085a04223b3440800000000000000
+      internalID: 4916578548578780135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_93
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac73ae48c73f4d10800000000000000
+      internalID: 2111968083712375975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c9c0e077574fc560800000000000000
+      internalID: 7336160758891334087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab48bdf0e27f7ec0800000000000000
+      internalID: -3567006069199189084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_96
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9201837be38e0e530800000000000000
+      internalID: 3882358234852888617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_97
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b79c490c1d4d440800000000000000
+      internalID: 4959819714701916955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_98
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65d5972194e315af0800000000000000
+      internalID: -409477607550526122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_99
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffeeb702ae5fadbc0800000000000000
+      internalID: -3757420553171112193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e2c34f8764226140800000000000000
+      internalID: 4711368187386774240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_101
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efd87089ac072dd60800000000000000
+      internalID: 7913511510679719422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_102
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c666cafa857b912d0800000000000000
+      internalID: -3307410859794602388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_103
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce236635de4a3600800000000000000
+      internalID: 448757790524255949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_104
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95591708ef081bb00800000000000000
+      internalID: 842596435859969369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_105
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc60f46e1acbef8a0800000000000000
+      internalID: -6269366227713456436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_106
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b63c31ddc47d1c0800000000000000
+      internalID: -4479026791993611468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_107
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 256
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a874069ec4ebc9b0800000000000000
+      internalID: -5058698180489348958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22b413b4d20d1f3a0800000000000000
+      internalID: -6633291883186402526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_109
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02498da7cd2a4760800000000000000
+      internalID: 7442811669816361487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_110
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a269cb6baabcb87d0800000000000000
+      internalID: -2915012399721572822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_111
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeb5eb835c1d03190800000000000000
+      internalID: -7984651494337127442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_112
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10b05a585d6e53d0800000000000000
+      internalID: -3216012857656168422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_113
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b7c0b22f166c9e20800000000000000
+      internalID: 3358671706023577526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_114
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4779ab7e39b9c9690800000000000000
+      internalID: -7594023812103235724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc7a15c60de91880800000000000000
+      internalID: -8639613796801151749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21f046e0ee3312530800000000000000
+      internalID: 3828398255778303762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_117
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcb9dc95bc383c640800000000000000
+      internalID: 5099064112521780175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_118
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f439097db684ee0800000000000000
+      internalID: -1276651920771821683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_119
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f257f377335685b90800000000000000
+      internalID: -7252935928161798865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_120
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c8ac585dfc7d4820800000000000000
+      internalID: 2904114762274875587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_121
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cd3fe4528a6acf30800000000000000
+      internalID: 4596603477688270274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_122
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d2cd93fe0c8fe20800000000000000
+      internalID: 3384667253669375389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_123
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 224
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95bc7e3976376cf40800000000000000
+      internalID: 5748408863085284185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_124
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a877be42e6a00d3c0800000000000000
+      internalID: -4336954972975695990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_125
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81e4a9900f65f0c0800000000000000
+      internalID: -4542602600764874354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_126
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 312d27f84eb09fce0800000000000000
+      internalID: -1371051535270489581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_127
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba201cfa5139e8920800000000000000
+      internalID: 2994492523600216747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_128
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75498eceb5c07bc10800000000000000
+      internalID: 2069136142756254807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d82d5a320238c20800000000000000
+      internalID: 3207442697095908761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_130
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4db3333fc37a7010800000000000000
+      internalID: 1187388785520000331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_131
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424c086aaaac88190800000000000000
+      internalID: -7959889507090643932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 304469dd3b7b13420800000000000000
+      internalID: 2608067642368869379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_133
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee8d0f995e47ee310800000000000000
+      internalID: 1436213860656797934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_134
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42fa14bb9f57ec600800000000000000
+      internalID: 490459124878913316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_135
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86013806acc357050800000000000000
+      internalID: 5797606935209644136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_136
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d3d4164d31e37b0800000000000000
+      internalID: -5242731113326232219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_137
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 092da7c7e66575040800000000000000
+      internalID: 4636269373936030352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_138
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9c1b47aee2349180800000000000000
+      internalID: -9109600145673347937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_139
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b90a98e3ac134f360800000000000000
+      internalID: 7202436448774627483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d67438bd201054550800000000000000
+      internalID: 6144318378401285997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_141
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53866a8e4b549bc70800000000000000
+      internalID: 8987291174694185013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b75c4a1a22c057780800000000000000
+      internalID: -8686022963433781893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_143
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f22857c6a47afdc80800000000000000
+      internalID: -8295728050504105425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_144
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbd4f8043b7483b0800000000000000
+      internalID: -5511144580575863866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_145
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48396392cfe4828f0800000000000000
+      internalID: -565114908304829564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_146
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42abd26a9fcdc410800000000000000
+      internalID: 1499082512974717517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_147
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52133d613ad7c9660800000000000000
+      internalID: 7393922827651592485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0baae5ff321e8e5a0800000000000000
+      internalID: -6491691318130070864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_149
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd20ddbf714f9d630800000000000000
+      internalID: 3952458531841311455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_150
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c955b8ea7879c7610800000000000000
+      internalID: 1620336574951282076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_151
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a72c948ec789b10800000000000000
+      internalID: 1988476572595812865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_152
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6bcc2e7a54471800800000000000000
+      internalID: 583009832222378861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_153
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831f26bce14beb960800000000000000
+      internalID: 7619725663911735608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_154
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5345d0eade34b1a10800000000000000
+      internalID: 1881171957463733301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_155
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 160
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11cd1260601eeb670800000000000000
+      internalID: 8556523758039456785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_156
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8c30d719ba79f560800000000000000
+      internalID: 7348039202418736270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_157
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dd29a819a9fcf00800000000000000
+      internalID: 1139299180633840934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_158
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0222dde54fc9a2530800000000000000
+      internalID: 3831047006409531936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_159
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4786bfafe6d26750800000000000000
+      internalID: 6296831553950877514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_160
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7927c51124a196e00800000000000000
+      internalID: 1038390060147045015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_161
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd2d5d24a56fe90d0800000000000000
+      internalID: -3414020599971458339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_162
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a71ef57b79781c70800000000000000
+      internalID: 8942030631311644578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_163
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bca61eeae3d4df270800000000000000
+      internalID: 8285863821048900299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 252fb50b45f49d880800000000000000
+      internalID: -8585743989450476974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_165
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b130fab735544d20800000000000000
+      internalID: 3261825727970947508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_166
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 649b7250e168de790800000000000000
+      internalID: -7499190341008377530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_167
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bb6a53cc5fc5e220800000000000000
+      internalID: 2514643964277713845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_168
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdea33ab2a925560800000000000000
+      internalID: 7301067458133814709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_169
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1aacc3f3486c87190800000000000000
+      internalID: -7964397669705790815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_170
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef7c87528cab20d0800000000000000
+      internalID: -3446471414007431185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_171
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 128
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24b0f4ff7b6ecf890800000000000000
+      internalID: -7422804407876646078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_172
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d61675c9aeb7e1d20800000000000000
+      internalID: 3251172228583612781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_173
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d668655db7613e800800000000000000
+      internalID: 640380293132748397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_174
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1abfc69fa4681e7a0800000000000000
+      internalID: -6349646343045317727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 864bb6963c00744b0800000000000000
+      internalID: -5456391584248777624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_176
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 277dcd9a6057b8bd0800000000000000
+      internalID: -2626877286160476302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_177
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aebff961f766bbd60800000000000000
+      internalID: 7907026266805500906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_178
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee1d7bfe2a8a6c630800000000000000
+      internalID: 3947027541196788206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_179
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0702d141cb1f91f0800000000000000
+      internalID: -1036078872425003254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6a6d4bcb4e108b0800000000000000
+      internalID: -5187613796615149828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_181
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8de38d280aeefaf60800000000000000
+      internalID: 8047913432291753688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_182
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9fdea223a4eeb90800000000000000
+      internalID: -7210744374044526126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_183
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2c1e21dd58e84ee0800000000000000
+      internalID: -1276515004720473045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_184
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d747008764992e0800000000000000
+      internalID: -2118584668483453671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_185
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0ce7b43206055660800000000000000
+      internalID: 7373806571433225226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_186
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1eed5da9a8722f60800000000000000
+      internalID: 8008095757571583516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_187
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ed94bd956f88030800000000000000
+      internalID: 3497315976444763804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_188
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20689e00f919a0b60800000000000000
+      internalID: 7713137423926527490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_189
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51336f3b2d97e98e0800000000000000
+      internalID: -1684775264720637163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_190
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e379e0fc17a2ea910800000000000000
+      internalID: 1850463165189363518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_191
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b1913d03f04dfda0800000000000000
+      internalID: -5909495723397639755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_192
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dbcd23c1efa43ca0800000000000000
+      internalID: -6038007816219931687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_193
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d471dc5d9b1d160800000000000000
+      internalID: 7048619219731565875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_194
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f29de7c782e720c0800000000000000
+      internalID: -4600459421532974343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_195
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e345d2612903dbb0800000000000000
+      internalID: -4912572729534364696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9ae57060885f1e0800000000000000
+      internalID: -2164674486406829661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_197
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e12868a7a203ecf0800000000000000
+      internalID: -224332637330202142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_198
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06458758acbf61ca0800000000000000
+      internalID: -6046368602457090976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_199
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dac236ab21091a0e0800000000000000
+      internalID: -2260367127852405587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_200
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a39204b2545fd70800000000000000
+      internalID: 9076236676097456797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_201
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cbcae32e8a7c8b70800000000000000
+      internalID: 8902625314311162820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_202
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fba4ace539a461d0800000000000000
+      internalID: -3358373373042971659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_203
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 64
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 707b45f5df4c1ddb0800000000000000
+      internalID: -4768813937903487225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_204
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1779fee02f6514990800000000000000
+      internalID: -7403540714787727503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_205
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f3f100cf4a46dbb0800000000000000
+      internalID: -4911656637216721934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_206
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43a842a53bd887cd0800000000000000
+      internalID: -2560140586709120460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_207
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 082b541478266ff00800000000000000
+      internalID: 1150215087894934144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_208
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 965a5ab4764db6d30800000000000000
+      internalID: 4425864598937511273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_209
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b2d4ae478be9e40800000000000000
+      internalID: 5665168193565305641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_210
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176c8c902eaa67b20800000000000000
+      internalID: 3131878478686242417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_211
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6c75894f20e052c0800000000000000
+      internalID: -4444806338513109907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c678a968e7f2d280800000000000000
+      internalID: -9019874526092560703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_213
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e2f9041d5e94490800000000000000
+      internalID: -7761419795901239692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_214
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c62f93a46b9b4f0800000000000000
+      internalID: -812417827847639937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_215
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 713a65b38121d0e40800000000000000
+      internalID: 5624171404939666199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_216
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7fcbc314be04f530800000000000000
+      internalID: 3887748544916606843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_217
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34332fe0b7e2508c0800000000000000
+      internalID: -4033766785173802173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_218
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54d903e15103437b0800000000000000
+      internalID: -5245514798720836283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_219
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 32
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49fc659160982a4a0800000000000000
+      internalID: -6583549045974315116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_220
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 221369eb70a2a9610800000000000000
+      internalID: 1628660427998507298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_221
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a6ea74383a203120800000000000000
+      internalID: 2391457823020738210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: SpriteSheet Mike Viller_222
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87a602c702b64f880800000000000000
+      internalID: -8578113602968327560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 6edc9ff5c63d7fe49afd67147495c338
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      SpriteSheet Mike Viller_0: 3711160665393876323
+      SpriteSheet Mike Viller_1: -7481663347420695932
+      SpriteSheet Mike Viller_10: -7958147966811362786
+      SpriteSheet Mike Viller_100: 4711368187386774240
+      SpriteSheet Mike Viller_101: 7913511510679719422
+      SpriteSheet Mike Viller_102: -3307410859794602388
+      SpriteSheet Mike Viller_103: 448757790524255949
+      SpriteSheet Mike Viller_104: 842596435859969369
+      SpriteSheet Mike Viller_105: -6269366227713456436
+      SpriteSheet Mike Viller_106: -4479026791993611468
+      SpriteSheet Mike Viller_107: -5058698180489348958
+      SpriteSheet Mike Viller_108: -6633291883186402526
+      SpriteSheet Mike Viller_109: 7442811669816361487
+      SpriteSheet Mike Viller_11: -6928663105181899572
+      SpriteSheet Mike Viller_110: -2915012399721572822
+      SpriteSheet Mike Viller_111: -7984651494337127442
+      SpriteSheet Mike Viller_112: -3216012857656168422
+      SpriteSheet Mike Viller_113: 3358671706023577526
+      SpriteSheet Mike Viller_114: -7594023812103235724
+      SpriteSheet Mike Viller_115: -8639613796801151749
+      SpriteSheet Mike Viller_116: 3828398255778303762
+      SpriteSheet Mike Viller_117: 5099064112521780175
+      SpriteSheet Mike Viller_118: -1276651920771821683
+      SpriteSheet Mike Viller_119: -7252935928161798865
+      SpriteSheet Mike Viller_12: -8878629995942679322
+      SpriteSheet Mike Viller_120: 2904114762274875587
+      SpriteSheet Mike Viller_121: 4596603477688270274
+      SpriteSheet Mike Viller_122: 3384667253669375389
+      SpriteSheet Mike Viller_123: 5748408863085284185
+      SpriteSheet Mike Viller_124: -4336954972975695990
+      SpriteSheet Mike Viller_125: -4542602600764874354
+      SpriteSheet Mike Viller_126: -1371051535270489581
+      SpriteSheet Mike Viller_127: 2994492523600216747
+      SpriteSheet Mike Viller_128: 2069136142756254807
+      SpriteSheet Mike Viller_129: 3207442697095908761
+      SpriteSheet Mike Viller_13: -9087377530124203031
+      SpriteSheet Mike Viller_130: 1187388785520000331
+      SpriteSheet Mike Viller_131: -7959889507090643932
+      SpriteSheet Mike Viller_132: 2608067642368869379
+      SpriteSheet Mike Viller_133: 1436213860656797934
+      SpriteSheet Mike Viller_134: 490459124878913316
+      SpriteSheet Mike Viller_135: 5797606935209644136
+      SpriteSheet Mike Viller_136: -5242731113326232219
+      SpriteSheet Mike Viller_137: 4636269373936030352
+      SpriteSheet Mike Viller_138: -9109600145673347937
+      SpriteSheet Mike Viller_139: 7202436448774627483
+      SpriteSheet Mike Viller_14: -4244441576480112868
+      SpriteSheet Mike Viller_140: 6144318378401285997
+      SpriteSheet Mike Viller_141: 8987291174694185013
+      SpriteSheet Mike Viller_142: -8686022963433781893
+      SpriteSheet Mike Viller_143: -8295728050504105425
+      SpriteSheet Mike Viller_144: -5511144580575863866
+      SpriteSheet Mike Viller_145: -565114908304829564
+      SpriteSheet Mike Viller_146: 1499082512974717517
+      SpriteSheet Mike Viller_147: 7393922827651592485
+      SpriteSheet Mike Viller_148: -6491691318130070864
+      SpriteSheet Mike Viller_149: 3952458531841311455
+      SpriteSheet Mike Viller_15: -5208124689611501120
+      SpriteSheet Mike Viller_150: 1620336574951282076
+      SpriteSheet Mike Viller_151: 1988476572595812865
+      SpriteSheet Mike Viller_152: 583009832222378861
+      SpriteSheet Mike Viller_153: 7619725663911735608
+      SpriteSheet Mike Viller_154: 1881171957463733301
+      SpriteSheet Mike Viller_155: 8556523758039456785
+      SpriteSheet Mike Viller_156: 7348039202418736270
+      SpriteSheet Mike Viller_157: 1139299180633840934
+      SpriteSheet Mike Viller_158: 3831047006409531936
+      SpriteSheet Mike Viller_159: 6296831553950877514
+      SpriteSheet Mike Viller_16: -4560872338490231869
+      SpriteSheet Mike Viller_160: 1038390060147045015
+      SpriteSheet Mike Viller_161: -3414020599971458339
+      SpriteSheet Mike Viller_162: 8942030631311644578
+      SpriteSheet Mike Viller_163: 8285863821048900299
+      SpriteSheet Mike Viller_164: -8585743989450476974
+      SpriteSheet Mike Viller_165: 3261825727970947508
+      SpriteSheet Mike Viller_166: -7499190341008377530
+      SpriteSheet Mike Viller_167: 2514643964277713845
+      SpriteSheet Mike Viller_168: 7301067458133814709
+      SpriteSheet Mike Viller_169: -7964397669705790815
+      SpriteSheet Mike Viller_17: 2247188223913033193
+      SpriteSheet Mike Viller_170: -3446471414007431185
+      SpriteSheet Mike Viller_171: -7422804407876646078
+      SpriteSheet Mike Viller_172: 3251172228583612781
+      SpriteSheet Mike Viller_173: 640380293132748397
+      SpriteSheet Mike Viller_174: -6349646343045317727
+      SpriteSheet Mike Viller_175: -5456391584248777624
+      SpriteSheet Mike Viller_176: -2626877286160476302
+      SpriteSheet Mike Viller_177: 7907026266805500906
+      SpriteSheet Mike Viller_178: 3947027541196788206
+      SpriteSheet Mike Viller_179: -1036078872425003254
+      SpriteSheet Mike Viller_18: -1189700213777267569
+      SpriteSheet Mike Viller_180: -5187613796615149828
+      SpriteSheet Mike Viller_181: 8047913432291753688
+      SpriteSheet Mike Viller_182: -7210744374044526126
+      SpriteSheet Mike Viller_183: -1276515004720473045
+      SpriteSheet Mike Viller_184: -2118584668483453671
+      SpriteSheet Mike Viller_185: 7373806571433225226
+      SpriteSheet Mike Viller_186: 8008095757571583516
+      SpriteSheet Mike Viller_187: 3497315976444763804
+      SpriteSheet Mike Viller_188: 7713137423926527490
+      SpriteSheet Mike Viller_189: -1684775264720637163
+      SpriteSheet Mike Viller_19: 2273108726599565260
+      SpriteSheet Mike Viller_190: 1850463165189363518
+      SpriteSheet Mike Viller_191: -5909495723397639755
+      SpriteSheet Mike Viller_192: -6038007816219931687
+      SpriteSheet Mike Viller_193: 7048619219731565875
+      SpriteSheet Mike Viller_194: -4600459421532974343
+      SpriteSheet Mike Viller_195: -4912572729534364696
+      SpriteSheet Mike Viller_196: -2164674486406829661
+      SpriteSheet Mike Viller_197: -224332637330202142
+      SpriteSheet Mike Viller_198: -6046368602457090976
+      SpriteSheet Mike Viller_199: -2260367127852405587
+      SpriteSheet Mike Viller_2: -2377952242288055846
+      SpriteSheet Mike Viller_20: 6616236527275659634
+      SpriteSheet Mike Viller_200: 9076236676097456797
+      SpriteSheet Mike Viller_201: 8902625314311162820
+      SpriteSheet Mike Viller_202: -3358373373042971659
+      SpriteSheet Mike Viller_203: -4768813937903487225
+      SpriteSheet Mike Viller_204: -7403540714787727503
+      SpriteSheet Mike Viller_205: -4911656637216721934
+      SpriteSheet Mike Viller_206: -2560140586709120460
+      SpriteSheet Mike Viller_207: 1150215087894934144
+      SpriteSheet Mike Viller_208: 4425864598937511273
+      SpriteSheet Mike Viller_209: 5665168193565305641
+      SpriteSheet Mike Viller_21: -85121621896455580
+      SpriteSheet Mike Viller_210: 3131878478686242417
+      SpriteSheet Mike Viller_211: -4444806338513109907
+      SpriteSheet Mike Viller_212: -9019874526092560703
+      SpriteSheet Mike Viller_213: -7761419795901239692
+      SpriteSheet Mike Viller_214: -812417827847639937
+      SpriteSheet Mike Viller_215: 5624171404939666199
+      SpriteSheet Mike Viller_216: 3887748544916606843
+      SpriteSheet Mike Viller_217: -4033766785173802173
+      SpriteSheet Mike Viller_218: -5245514798720836283
+      SpriteSheet Mike Viller_219: -6583549045974315116
+      SpriteSheet Mike Viller_22: -6623863235369883798
+      SpriteSheet Mike Viller_220: 1628660427998507298
+      SpriteSheet Mike Viller_221: 2391457823020738210
+      SpriteSheet Mike Viller_222: -8578113602968327560
+      SpriteSheet Mike Viller_23: -7802159425426756266
+      SpriteSheet Mike Viller_24: 3069487058831378498
+      SpriteSheet Mike Viller_25: 1537147192910486359
+      SpriteSheet Mike Viller_26: 6740729958639585303
+      SpriteSheet Mike Viller_27: 4907173694932769686
+      SpriteSheet Mike Viller_28: -2851380553421450957
+      SpriteSheet Mike Viller_29: -2033825202877779150
+      SpriteSheet Mike Viller_3: 8106010138715446564
+      SpriteSheet Mike Viller_30: -8216270356651938470
+      SpriteSheet Mike Viller_31: -8819728816171653806
+      SpriteSheet Mike Viller_32: -1422066421162547258
+      SpriteSheet Mike Viller_33: -7694873973317734658
+      SpriteSheet Mike Viller_34: -800467975349671325
+      SpriteSheet Mike Viller_35: 5969069614069679343
+      SpriteSheet Mike Viller_36: 6199632412302699627
+      SpriteSheet Mike Viller_37: -8446345531639330700
+      SpriteSheet Mike Viller_38: 4599918224717975064
+      SpriteSheet Mike Viller_39: -4146884606049008222
+      SpriteSheet Mike Viller_4: -1802581158462728916
+      SpriteSheet Mike Viller_40: -5477866403967467547
+      SpriteSheet Mike Viller_41: 7490199439824799982
+      SpriteSheet Mike Viller_42: 7287195649297571161
+      SpriteSheet Mike Viller_43: 3875812037733272927
+      SpriteSheet Mike Viller_44: -4151528598929245568
+      SpriteSheet Mike Viller_45: -4421282764678535148
+      SpriteSheet Mike Viller_46: -1414344609268394421
+      SpriteSheet Mike Viller_47: 6403327704027544810
+      SpriteSheet Mike Viller_48: -5379928454467941645
+      SpriteSheet Mike Viller_49: -1774904589954943769
+      SpriteSheet Mike Viller_5: -4087509344165183478
+      SpriteSheet Mike Viller_50: -5585836557339736848
+      SpriteSheet Mike Viller_51: -5712302692451796843
+      SpriteSheet Mike Viller_52: 2075046628303786027
+      SpriteSheet Mike Viller_53: 1333400340172951266
+      SpriteSheet Mike Viller_54: 5542301234391335366
+      SpriteSheet Mike Viller_55: 3330954101495382217
+      SpriteSheet Mike Viller_56: 2308640366457724458
+      SpriteSheet Mike Viller_57: -2222911260356101429
+      SpriteSheet Mike Viller_58: -5784113748418873996
+      SpriteSheet Mike Viller_59: 5194071994790566526
+      SpriteSheet Mike Viller_6: 8194844323420304014
+      SpriteSheet Mike Viller_60: 2052236151013219977
+      SpriteSheet Mike Viller_61: -2508731901280425448
+      SpriteSheet Mike Viller_62: -7567723196613235678
+      SpriteSheet Mike Viller_63: -4924962113023631733
+      SpriteSheet Mike Viller_64: -1475689426931351226
+      SpriteSheet Mike Viller_65: -7290060187489133937
+      SpriteSheet Mike Viller_66: 4923655276511967502
+      SpriteSheet Mike Viller_67: -4041176302642138197
+      SpriteSheet Mike Viller_68: 8093848398240762419
+      SpriteSheet Mike Viller_69: 8697012054305571107
+      SpriteSheet Mike Viller_7: -3816341641954799994
+      SpriteSheet Mike Viller_70: 7047860220260163696
+      SpriteSheet Mike Viller_71: 7943819367665215359
+      SpriteSheet Mike Viller_72: 9009731079252993539
+      SpriteSheet Mike Viller_73: 4374958518838792879
+      SpriteSheet Mike Viller_74: -7376823832789361138
+      SpriteSheet Mike Viller_75: -1529735117909422284
+      SpriteSheet Mike Viller_76: 1985311216693686884
+      SpriteSheet Mike Viller_77: 3121315334797937360
+      SpriteSheet Mike Viller_78: -8030130717836233413
+      SpriteSheet Mike Viller_79: 2653909111371105937
+      SpriteSheet Mike Viller_8: 3982321335207713923
+      SpriteSheet Mike Viller_80: -2271346392103909307
+      SpriteSheet Mike Viller_81: 5200999703115258059
+      SpriteSheet Mike Viller_82: 6076939268842972013
+      SpriteSheet Mike Viller_83: 5501843490703844970
+      SpriteSheet Mike Viller_84: 347706471184411403
+      SpriteSheet Mike Viller_85: 6954001952270987589
+      SpriteSheet Mike Viller_86: 5045974870575466346
+      SpriteSheet Mike Viller_87: -3975974286755117417
+      SpriteSheet Mike Viller_88: 5719236924511294685
+      SpriteSheet Mike Viller_89: 3173032516616141072
+      SpriteSheet Mike Viller_9: 4432484898293058470
+      SpriteSheet Mike Viller_90: 3710321359379052387
+      SpriteSheet Mike Viller_91: 9078579383831329605
+      SpriteSheet Mike Viller_92: 4916578548578780135
+      SpriteSheet Mike Viller_93: 2111968083712375975
+      SpriteSheet Mike Viller_94: 7336160758891334087
+      SpriteSheet Mike Viller_95: -3567006069199189084
+      SpriteSheet Mike Viller_96: 3882358234852888617
+      SpriteSheet Mike Viller_97: 4959819714701916955
+      SpriteSheet Mike Viller_98: -409477607550526122
+      SpriteSheet Mike Viller_99: -3757420553171112193
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
