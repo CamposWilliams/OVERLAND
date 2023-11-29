@@ -4955,6 +4955,7 @@ GameObject:
   - component: {fileID: 193771424}
   - component: {fileID: 193771430}
   - component: {fileID: 193771431}
+  - component: {fileID: 193771432}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Untagged
@@ -5192,6 +5193,19 @@ MonoBehaviour:
   PointDia_De_Aba: {fileID: 618775893}
   PointDia_Iz_Aba: {fileID: 995169463}
   Speed: 10
+--- !u!114 &193771432
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 193771423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2725bc35c0bb17343b464bf6534f8e4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  NombreScena: FabrizioPantallaVictoria
 --- !u!1 &194962492
 GameObject:
   m_ObjectHideFlags: 0

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SistemaDeVida : MonoBehaviour
 {
@@ -9,9 +10,12 @@ public class SistemaDeVida : MonoBehaviour
    float dañoEntrante;
    public bool PUAzulActivo;
 
+    public Image barraDeVida;
+
     void Start()
     {
         vidaActualMike = vidaMáximaMike;
+        ActualizarBarraDeVida();
     }
 
      public void BajarVida(float daño)
@@ -31,9 +35,15 @@ public class SistemaDeVida : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        ActualizarBarraDeVida();
+    }
+    void ActualizarBarraDeVida()
+    {
+        float porcentajeVida = vidaActualMike / vidaMáximaMike;
+        barraDeVida.fillAmount = porcentajeVida;
     }
 
-     public void AumentarVida(float vida)
+    public void AumentarVida(float vida)
     {
         Debug.Log($"Recibiste {vida} de salud");
         vidaActualMike += vida;
@@ -42,6 +52,8 @@ public class SistemaDeVida : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
+        ActualizarBarraDeVida();
     }
+
     
 }
