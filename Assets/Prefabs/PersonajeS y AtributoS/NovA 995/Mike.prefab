@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 6872339547321806450}
   - component: {fileID: 94821872740906734}
   - component: {fileID: 968392148945423333}
+  - component: {fileID: 4494588169737514408}
   m_Layer: 6
   m_Name: DisfrazPU
   m_TagString: Untagged
@@ -96,7 +97,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 20
-  m_Sprite: {fileID: -7403540714787727503, guid: 8d68163edba0a0a42a594a773d167c86, type: 3}
+  m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -104,9 +105,26 @@ SpriteRenderer:
   m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4494588169737514408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2315579594471127296}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8708bf343d1f7e04bb19a643720e0394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MikeRb2D: {fileID: 2138201573474913780}
+  cajas:
+  - {fileID: 5847703349894984288}
+  - {fileID: 3101259737779146476}
+  Mike: {fileID: 9141027121088976495}
 --- !u!1 &3101259737779146476
 GameObject:
   m_ObjectHideFlags: 0
@@ -133,7 +151,7 @@ Transform:
   m_GameObject: {fileID: 3101259737779146476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.41, y: -0.81, z: 0}
+  m_LocalPosition: {x: 0.85, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -202,8 +220,7 @@ GameObject:
   - component: {fileID: 348293359577726232}
   - component: {fileID: 492118568638668142}
   - component: {fileID: 4105532030170191003}
-  - component: {fileID: 315777723902430309}
-  - component: {fileID: 4836181751939463642}
+  - component: {fileID: 2702254503833589565}
   m_Layer: 6
   m_Name: Mike
   m_TagString: Player
@@ -219,7 +236,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4500289332756847621}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -13.509, y: -33.474, z: 0}
   m_LocalScale: {x: 0.27522, y: 0.27522, z: 0}
   m_ConstrainProportionsScale: 0
@@ -273,12 +290,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -3011895399059424396, guid: 0d8ca60e5901bd9418c40ad2bb0f7c4e, type: 3}
+  m_Sprite: {fileID: 3711160665393876323, guid: 8d68163edba0a0a42a594a773d167c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.25}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -349,8 +366,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.625, y: 3.5}
-    newSize: {x: 0.19, y: 0.25}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -387,8 +404,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cdDisparo: 0.6
-  balaPrefab: {fileID: 0}
-  AmmoSudmisil: 0
+  balaPrefab: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
+  AmmoSudmisil: 5
   AmmoRifle: 5
   AmmoEspecial: 5
   CambioArma: 5
@@ -407,7 +424,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd773c715ea2f154fbd43b57177e50a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  "vidaM\xE1ximaMike": 1000
+  "vidaM\xE1ximaMike": 300
   vidaActualMike: 0
   PUAzulActivo: 0
   sinVida: 0
@@ -441,7 +458,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4500289332756847621}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: a98b4720eaf42e743989ad1a89fde187, type: 3}
   m_Name: 
@@ -452,7 +469,7 @@ MonoBehaviour:
   - {fileID: 5847703349894984288}
   - {fileID: 7928465935099437915}
   leerCorrutina: 0
---- !u!114 &315777723902430309
+--- !u!114 &2702254503833589565
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -461,35 +478,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 4500289332756847621}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d35adc036e5093743bb34d2e97b8a53b, type: 3}
+  m_Script: {fileID: 11500000, guid: efcea28e12c9639498f604ac8a6509c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  puntoDeDisparo: {fileID: 5873429933262774301}
-  cam: {fileID: 0}
-  angulo: 0
-  arma: {fileID: 8488075384745391274}
-  balaPrefab: {fileID: 5480834034631623769, guid: 681a8e07f2aa9f34db945a3eb3db3820, type: 3}
-  Direction: {x: 0, y: 0}
-  cuchilloCajasColliders:
+  balaCreada: 0
+  cajas:
   - {fileID: 3101259737779146476}
   - {fileID: 4838074220014621099}
   - {fileID: 5847703349894984288}
   - {fileID: 7928465935099437915}
-  armaSpr: {fileID: 8698676098248096874}
-  balaCreada: 0
---- !u!114 &4836181751939463642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4500289332756847621}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eed48d2610dbebe4b911f5cc2bae63b6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Mike: {fileID: 4500289332756847621}
 --- !u!1 &4838074220014621099
 GameObject:
   m_ObjectHideFlags: 0
@@ -516,7 +513,7 @@ Transform:
   m_GameObject: {fileID: 4838074220014621099}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.56, z: 0}
+  m_LocalPosition: {x: -0.95, y: 0.3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -594,7 +591,7 @@ Transform:
   m_GameObject: {fileID: 5847703349894984288}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.48, y: -0.81, z: 0}
+  m_LocalPosition: {x: -0.85, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -672,7 +669,7 @@ Transform:
   m_GameObject: {fileID: 7928465935099437915}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: -1.5736561, z: 0}
+  m_LocalPosition: {x: 0.74, y: -1.92, z: 0}
   m_LocalScale: {x: 1.357, y: 1.5529999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -788,7 +785,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 4397620186456617614, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 608684988329956330, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -796,20 +798,5 @@ PrefabInstance:
 --- !u!4 &5211294907229214324 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4077905064762817012, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
-  m_PrefabInstance: {fileID: 8126072727301205888}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5873429933262774301 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 2397886909973073821, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
-  m_PrefabInstance: {fileID: 8126072727301205888}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &8488075384745391274 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 364280848003586858, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
-  m_PrefabInstance: {fileID: 8126072727301205888}
-  m_PrefabAsset: {fileID: 0}
---- !u!212 &8698676098248096874 stripped
-SpriteRenderer:
-  m_CorrespondingSourceObject: {fileID: 608684988329956330, guid: 6999ab0e67ee1aa4e823065bc1515b2b, type: 3}
   m_PrefabInstance: {fileID: 8126072727301205888}
   m_PrefabAsset: {fileID: 0}

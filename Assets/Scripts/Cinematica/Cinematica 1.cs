@@ -19,11 +19,11 @@ public class Cinematica : MonoBehaviour
         if (animator.GetCurrentAnimatorStateInfo(0).normalizedTime > 1 && !animator.IsInTransition(0))
         {
             // Ir a la escena Nivel1
-            SceneManager.LoadScene("CinematicaJose");
+            SceneManager.LoadScene("2CinematicaControles");
         }
         else if (Input.anyKeyDown)
         {
-            SceneManager.LoadScene("CinematicaJose");
+            SceneManager.LoadScene("2CinematicaControles");
         }
     }
 }
