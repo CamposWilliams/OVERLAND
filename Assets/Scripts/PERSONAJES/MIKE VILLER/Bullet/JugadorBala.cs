@@ -11,7 +11,7 @@ public class JugadorBala : MonoBehaviour
     Rigidbody2D rb2dBala;
     public Vector2 direction;
     Animator animacionBala;
-   public float numeroDeBala;
+    public float numeroDeBala;
    
 
     private void Awake()
@@ -24,7 +24,7 @@ public class JugadorBala : MonoBehaviour
         animacionBala = GetComponent<Animator>();
         velocidadMike =GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity;
         rb2dBala = GetComponent<Rigidbody2D>();
-        direction = GameObject.Find("Mike").GetComponent<CambiarDireccionArmaBalaYAnimacion>().Direction.normalized;
+      
         
         
           
@@ -32,14 +32,19 @@ public class JugadorBala : MonoBehaviour
 
     void Update()
     {
-        Movimiento();
-        ReproducirAnimacionDelTipoDeBala();
        
+        ReproducirAnimacionDelTipoDeBala();
+        Movimiento();
     }
 
-    void Movimiento()
+     void Movimiento()
     {
-        rb2dBala.velocity = rapidezBala * direction + 0.5f*velocidadMike;
+        rb2dBala.velocity = velocidadMike + rapidezBala * velocidadMike.normalized;
+        
+        if (velocidadMike == Vector2.zero)
+        {
+            rb2dBala.velocity = rapidezBala * Vector2.up;
+        }
 
         Destroy(gameObject, 1);
     }

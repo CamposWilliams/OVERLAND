@@ -20,6 +20,7 @@ public class EscaneoNavegacion : MonoBehaviour
 
     void EscanearGrafo()
     {
+        
         // Escanea el grafo solo en las posiciones de la capa especificada
         GraphUpdateObject guo = new GraphUpdateObject(GetComponent<Collider2D>().bounds);
         guo.modifyTag = true;
@@ -27,6 +28,7 @@ public class EscaneoNavegacion : MonoBehaviour
 
         // Aplica la actualización del grafo
         AstarPath.active.UpdateGraphs(guo);
+       
     }
 
     // Llamado después de cambiar la capa de la puerta

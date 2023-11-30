@@ -1,5 +1,7 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
+using System.IO;
 using UnityEngine;
 
 public class VidaBonk : MonoBehaviour
@@ -29,7 +31,7 @@ public class VidaBonk : MonoBehaviour
         if (saludBonk <= 0)
         {
             GetComponent<Collider2D>().enabled = false;
-            GetComponentInParent<Seguir>().navMeshAgent.speed = 0;
+            GetComponent<AIPath>().maxSpeed = 0;
             StartCoroutine(AnimacionDeMuerte());
         }
 

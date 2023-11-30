@@ -1,3 +1,4 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -28,7 +29,7 @@ public class VidaVoment : MonoBehaviour
         if (saludVoment <= 0)
         {
             GetComponent<Collider2D>().enabled = false;
-            GetComponentInParent<Seguir>().navMeshAgent.speed = 0;
+            GetComponent<AIPath>().maxSpeed = 0;
             StartCoroutine(AnimacionDeMuerte());
         }
 
@@ -42,6 +43,7 @@ public class VidaVoment : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         VomentAnimacion.SetBool("EstaSinVida", true);
+
         yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }

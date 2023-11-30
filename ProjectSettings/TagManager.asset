@@ -10,15 +10,6 @@ TagManager:
   - ZonaContaminada
   - Tarjeta1
   - Tarjeta2
-  - BulletPistola
-  - BulletRifle
-  - BulletEspecial
-  - BulletSudMisil
-  - BulletCuchillo
-  - AmmoCuchillo
-  - AmmoRifle
-  - AmmoEspecial
-  - AmmoMisil
   - TileCollider
   - Enemigo1
   - Boss
@@ -26,6 +17,7 @@ TagManager:
   - PocionAmarilla
   - PocionAzul
   - PocionMorada
+  - Ammo
   layers:
   - Default
   - TransparentFX
@@ -38,8 +30,8 @@ TagManager:
   - TileColliderLayer
   - SueloLayer
   - Boss
-  - 
-  - 
+  - PuertasLayer
+  - EnemigoLayer
   - 
   - 
   - 

@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.Search;
 using UnityEngine;
 using UnityEngine.UIElements;
 
@@ -10,68 +11,61 @@ public class JugadorDisparo : MonoBehaviour
     bool puedeDisparar = true;
     public float cdDisparo = 0.6f;
     public GameObject balaPrefab;
+    Animator MikeAnimator;
+    bool muere;
 
-    //punto de disparo y Prefabs osea las balas 
-    //public GameObject BPrePistola;
-    //public GameObject BPreSudmisil;
-    //public GameObject BPreRifle;
-    //public GameObject BPreEspecial;
-    //public GameObject BPreCuchillo;
-
-    /*Velocidad de Armas
-    [SerializeField] float speedPistola = 2;
-    [SerializeField] float speedSudmisil = 4;
-    [SerializeField] float speedRifle = 6;
-    [SerializeField] float speedEspecial = 5;*/
 
     //Municion de armas 
-    [SerializeField] int AmmoPistola;
+    int AmmoPistola;
     [SerializeField] int AmmoSudmisil = 5;
     [SerializeField] int AmmoRifle = 5;
     [SerializeField] int AmmoEspecial = 5;
-    [SerializeField] int AmmoCuchillo = 5;
     [SerializeField] int CambioArma = 5;
 
     //cambio de arma 
-    public int MaxCambioArma = 5;
+    //public int MaxCambioArma = 2;
 
 
     //Maxima capacidad de municion de cada arma
-    public int maxAmmoPistola;
-    public int maxAmmoSudmisil = 25;
-    public int maxAmmoRifle = 20;
-    public int maxAmmoEspecial = 25;
-    public int maxAmmoCuchillo = 10;
+    int maxAmmoPistola;
+    int maxAmmoSudmisil = 25;
+    int maxAmmoRifle = 20;
+    int maxAmmoEspecial = 25;
 
     //Almacen de balas
 
     public int almacenBulletSudmisil = 0;
     public int almacenBulletRifle = 0;
     public int almacenBulletEspecial = 0;
-    public int almacenCuchillo = 0;
 
     //maxAlmacen
-    public int maxAlmacenBulletSudmisil = 25;
-    public int maxAlmacenBulletRifle = 25;
-    public int maxAlmacenBulletEspecial = 25;
-    public int maxAlmacenCuchillo = 25;
+    int maxAlmacenBulletSudmisil = 25;
+    int maxAlmacenBulletRifle = 25;
+    int maxAlmacenBulletEspecial = 25;
 
-
+    private void Start()
+    {
+        MikeAnimator=GetComponent<Animator>();  
+    }
     void Update()
     {
-
-        Recargando();
-        ShootGeneral();
-
-        if (Input.GetKeyDown(KeyCode.Q))
+        muere = GetComponent<SistemaDeVida>().sinVida;
+        if (muere==false)
         {
-            CambioArma++;
-            CambioArma %= MaxCambioArma;
+
+            Recargando();
+            ShootGeneral();
+
+            if (Input.GetKeyDown(KeyCode.Q))
+            {
+                MikeAnimator.SetTrigger("PresionaQ");
+                CambioArma++;
+                CambioArma %= 4;
+            }
+            //Debug.Log(CambioArma);
         }
 
     }
-
-
 
     void Recargando() // Como son para 4 armas diferentes, puedes ampliarlo o cambiarlo si quieres (por enmuarator por ejemplo)
     {
@@ -92,7 +86,7 @@ public class JugadorDisparo : MonoBehaviour
     void ShootGeneral()
     {
 
-        if (CambioArma >= MaxCambioArma)
+        if (CambioArma >= 4)
         {
             CambioArma *= 0;
         }
@@ -102,7 +96,7 @@ public class JugadorDisparo : MonoBehaviour
             ShootPistola();
         }
 
-        else if (CambioArma == 1)
+        else if (CambioArma == 2)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
@@ -129,7 +123,7 @@ public class JugadorDisparo : MonoBehaviour
         }
 
 
-        else if (CambioArma == 2)
+        else if (CambioArma == 1)
         {
             if (Input.GetKeyDown(KeyCode.R))
             {
@@ -148,9 +142,6 @@ public class JugadorDisparo : MonoBehaviour
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletSudmisil = Mathf.Abs(almacenBulletSudmisil);
             }
-
-
-
 
 
             if (Input.GetMouseButtonDown(0) && AmmoSudmisil > 0)
@@ -192,38 +183,7 @@ public class JugadorDisparo : MonoBehaviour
                 AmmoEspecial--;
             }
 
-        }
-
-        else if (CambioArma == 4)
-        {
-
-            if (Input.GetKeyDown(KeyCode.R))
-            {
-                // Recargar
-                if (AmmoCuchillo < maxAmmoCuchillo)
-                {
-                    int bulletsToReload = Mathf.Min(almacenCuchillo, maxAmmoCuchillo - AmmoCuchillo);
-                    AmmoCuchillo += bulletsToReload;
-                    almacenCuchillo -= bulletsToReload;
-                }
-
-                // Asegurarnos de que AmmoRifle no exceda el máximo
-                AmmoCuchillo = Mathf.Min(AmmoCuchillo, maxAmmoCuchillo);
-
-                // Mantener almacenBulletRifle en positivo
-                almacenCuchillo = Mathf.Abs(almacenCuchillo);
-
-            }
-
-
-
-            if (Input.GetMouseButtonDown(0) && AmmoCuchillo > 0)
-            {
-                ShootCuchillo();
-                AmmoCuchillo--;
-            }
-
-        }
+        }  
 
     }
 
@@ -238,8 +198,8 @@ public class JugadorDisparo : MonoBehaviour
             puedeDisparar = false;
 
 
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab,0);
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab,0);
          
         }
 
@@ -250,8 +210,8 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
         
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 1);
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
 
         }
     }
@@ -260,8 +220,8 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
-            GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 2);         
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);         
 
         }
     }
@@ -270,21 +230,13 @@ public class JugadorDisparo : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0))
             {
-                GetComponent<CambiarDireccionArmaBalaYAnimacion>().balaCreada = true;
-                GetComponent<CambiarDireccionArmaBalaYAnimacion>().DireccionDeLaBala(balaPrefab, 3);
+                GetComponent<MikeDisparo>().balaCreada = true;
+                GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
 
             }
 
         }
 
-        void ShootCuchillo()
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-               
-            }
-
-        }
 
         /// <summary>
         /// //            Changes De Ammo y MaxAlmacen
@@ -363,61 +315,27 @@ public class JugadorDisparo : MonoBehaviour
 
         }
 
-        //CUCHILLO
-
-        void ChangeAmmoCuchillo(int value)
-        {
-
-            AmmoCuchillo += value;
-
-            if (AmmoCuchillo >= maxAmmoCuchillo)
-            {
-                AmmoCuchillo = maxAmmoCuchillo;
-            }
-        }
-
-        void StoreAmmoCuchillo(int value)
-        {
-            almacenCuchillo += value;
-
-            if (almacenCuchillo >= maxAlmacenCuchillo)
-            {
-                almacenCuchillo = maxAlmacenCuchillo;
-            }
-
-        }
-
 
         ////////////////
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if (collision.gameObject.CompareTag("AmmoCuchillo"))
-            {
-                StoreAmmoCuchillo(2);
-                // Destroy(collision.gameObject);
-            }
 
-            if (collision.gameObject.CompareTag("AmmoEspecial"))
-            {
-                StoreAmmoEspecial(2);
-                //Destroy(collision.gameObject);
-            }
+        if (collision.gameObject.CompareTag("Ammo"))
+        {
+            StoreAmmoEspecial(2);
 
-            if (collision.gameObject.CompareTag("AmmoRifle"))
-            {
-                StoreAmmoRifle(2);
-                // Destroy(collision.gameObject);
-            }
-            if (collision.gameObject.CompareTag("AmmoMisil"))
-            {
-                StoreAmmoSubMisil(2);
-                //  Destroy(collision.gameObject);
-            }
-
+            Destroy(collision.gameObject);
         }
 
+        if (collision.gameObject.CompareTag("Ammo"))
+        {
+            StoreAmmoRifle(2);
+            StoreAmmoSubMisil(2);
+            Destroy(collision.gameObject);
+        }
 
+    }
 
 
 

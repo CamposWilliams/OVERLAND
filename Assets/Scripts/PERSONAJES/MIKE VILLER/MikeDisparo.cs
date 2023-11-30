@@ -23,34 +23,43 @@ public class MikeDisparo : MonoBehaviour
 
             if (rb2DMike.velocity.x > 0 && Mathf.Abs(rb2DMike.velocity.x) > Mathf.Abs(rb2DMike.velocity.y))
             {
-                nuevaBala.transform.position = cajas[1].transform.position;
+                nuevaBala.transform.position = cajas[0].transform.position;
                 nuevaBala.transform.Rotate(Vector3.forward * -90);
-               
+                              
             }
 
             else if (rb2DMike.velocity.x < 0 && Mathf.Abs(rb2DMike.velocity.x) > Mathf.Abs(rb2DMike.velocity.y))
             {
-                nuevaBala.transform.position = cajas[0].transform.position;
+                nuevaBala.transform.position = cajas[2].transform.position;
                 nuevaBala.transform.Rotate(Vector3.forward * 90);
+               
             }
 
             else if (rb2DMike.velocity.y < 0 && Mathf.Abs(rb2DMike.velocity.x) < Mathf.Abs(rb2DMike.velocity.y))
             {
-                nuevaBala.transform.position = cajas[2].transform.position;
+                nuevaBala.transform.position = cajas[3].transform.position;
                 nuevaBala.transform.Rotate(Vector3.forward * 180);
+             
 
             }
             else if (rb2DMike.velocity.y > 0 && Mathf.Abs(rb2DMike.velocity.x) < Mathf.Abs(rb2DMike.velocity.y))
             {
-                nuevaBala.transform.position = cajas[3].transform.position;
+                nuevaBala.transform.position = cajas[1].transform.position;
                 nuevaBala.transform.Rotate(Vector3.forward * 0);
+                
 
             }
 
+            else
+            {
+                nuevaBala.transform.position = cajas[1].transform.position;
+                nuevaBala.transform.Rotate(Vector3.forward * 0);
+            }
 
         }
-            balaCreada = false;
-        }
+           
+        balaCreada = false;
+    }
 
     
 }

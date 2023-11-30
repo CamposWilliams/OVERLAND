@@ -14,6 +14,11 @@ public class JugadorMovimiento : MonoBehaviour
     public float moveX;
     public float moveY;
     public bool retrocediendo;
+    float valorDelParametroX;
+    float valorDelParametroY;
+    float timer=5;
+    float time;
+    bool muere;
 
     void Start()
     {
@@ -23,11 +28,17 @@ public class JugadorMovimiento : MonoBehaviour
 
     void Update()
     {
-        if (retrocediendo==false)
+        muere = GetComponent<SistemaDeVida>().sinVida;
+        if (muere==false)
         {
-            Movimiento();
+            if (retrocediendo == false)
+            {
+                Movimiento();
+                MovimientoAnimacion();
 
+            }
         }
+      
     }
 
     void Movimiento()
@@ -52,5 +63,70 @@ public class JugadorMovimiento : MonoBehaviour
 
     }
 
-    
+    void MovimientoAnimacion()
+    {
+       
+        if (rb2DMike.velocity != Vector2.zero)
+        {
+            animaciónMike.SetBool("SeMueve", true);
+            animaciónMike.SetBool("ExcedeTiempo", false);
+            if (rb2DMike.velocity.x > 0)
+            {
+                //Debug.Log("Derecha");
+                animaciónMike.SetFloat("ValorY", 0);
+                animaciónMike.SetFloat("ValorX", 1);
+                valorDelParametroX = animaciónMike.GetFloat("ValorX");
+                valorDelParametroY = animaciónMike.GetFloat("ValorY");
+            }
+
+            else if (rb2DMike.velocity.x < 0)
+            {
+                //Debug.Log("Izquierda");
+                animaciónMike.SetFloat("ValorY", 0);
+                animaciónMike.SetFloat("ValorX", -1);
+                valorDelParametroX = animaciónMike.GetFloat("ValorX");
+                valorDelParametroY = animaciónMike.GetFloat("ValorY");
+            }
+
+            else if (rb2DMike.velocity.y < 0)
+            {
+                animaciónMike.SetFloat("ValorX", 0);
+                animaciónMike.SetFloat("ValorY", -1);
+                valorDelParametroX = animaciónMike.GetFloat("ValorX");
+                valorDelParametroY = animaciónMike.GetFloat("ValorY");
+            }
+            else if (rb2DMike.velocity.y > 0)
+            {
+                animaciónMike.SetFloat("ValorX", 0);
+                animaciónMike.SetFloat("ValorY", 1);
+                valorDelParametroX = animaciónMike.GetFloat("ValorX");
+                valorDelParametroY = animaciónMike.GetFloat("ValorY");
+            }
+
+        }
+
+        else
+        {
+            animaciónMike.SetBool("SeMueve", false);
+            animaciónMike.SetFloat("ValorX", valorDelParametroX);
+            animaciónMike.SetFloat("ValorY", valorDelParametroY);
+            time += Time.deltaTime;
+            
+            if (time >= timer)
+            {              
+                
+                StartCoroutine(AnimacionIddle());
+
+            }
+        }
+
+    }
+
+    IEnumerator AnimacionIddle()
+    {
+        animaciónMike.SetBool("ExcedeTiempo", true);
+        yield return new WaitForSeconds(2);
+        animaciónMike.SetBool("ExcedeTiempo", false);
+        time = 0;
+    }
 }
