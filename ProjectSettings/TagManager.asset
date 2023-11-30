@@ -26,6 +26,7 @@ TagManager:
   - PocionAmarilla
   - PocionAzul
   - PocionMorada
+  - paredes
   layers:
   - Default
   - TransparentFX

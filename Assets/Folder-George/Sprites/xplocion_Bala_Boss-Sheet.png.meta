@@ -1,0 +1,298 @@
+fileFormatVersion: 2
+guid: f89a36aef995853458387dd6219cba2d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4076711593968999448
+    second: xplocion_Bala_Boss-Sheet_0
+  - first:
+      213: -3831468351240167780
+    second: xplocion_Bala_Boss-Sheet_1
+  - first:
+      213: -5108516487362835316
+    second: xplocion_Bala_Boss-Sheet_2
+  - first:
+      213: 3468086755620405965
+    second: xplocion_Bala_Boss-Sheet_3
+  - first:
+      213: -8297354489838094816
+    second: xplocion_Bala_Boss-Sheet_4
+  - first:
+      213: -2086059344958580423
+    second: xplocion_Bala_Boss-Sheet_5
+  - first:
+      213: 3022358019604126453
+    second: xplocion_Bala_Boss-Sheet_6
+  - first:
+      213: 1062690372474343246
+    second: xplocion_Bala_Boss-Sheet_7
+  - first:
+      213: 8944843609535881493
+    second: xplocion_Bala_Boss-Sheet_8
+  - first:
+      213: -5700478992449843805
+    second: xplocion_Bala_Boss-Sheet_9
+  - first:
+      213: -7361702872179870124
+    second: xplocion_Bala_Boss-Sheet_10
+  - first:
+      213: -7894350330389825837
+    second: xplocion_Bala_Boss-Sheet_11
+  - first:
+      213: -8218660198798793580
+    second: xplocion_Bala_Boss-Sheet_12
+  - first:
+      213: -3677850780402529359
+    second: xplocion_Bala_Boss-Sheet_13
+  - first:
+      213: 4587541289006043209
+    second: xplocion_Bala_Boss-Sheet_14
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 20
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 33
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c1d3a6893639830800000000000000
+      internalID: 4076711593968999448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 33
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9e9d24a5d3e3dac0800000000000000
+      internalID: -3831468351240167780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 33
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc2cdfe878e112030800000000000000
+      internalID: 3468086755620405965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 33
+        width: 30
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9391c530414dc03e0800000000000000
+      internalID: -2086059344958580423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 45
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4f8f8d634f6fbe00800000000000000
+      internalID: 1062690372474343246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: xplocion_Bala_Boss-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 8
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94094ab1f783aaf30800000000000000
+      internalID: 4587541289006043209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 988690ed05be39048a1188876ac665d0
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      xplocion_Bala_Boss-Sheet_0: 4076711593968999448
+      xplocion_Bala_Boss-Sheet_1: -3831468351240167780
+      xplocion_Bala_Boss-Sheet_10: -7361702872179870124
+      xplocion_Bala_Boss-Sheet_11: -7894350330389825837
+      xplocion_Bala_Boss-Sheet_12: -8218660198798793580
+      xplocion_Bala_Boss-Sheet_13: -3677850780402529359
+      xplocion_Bala_Boss-Sheet_14: 4587541289006043209
+      xplocion_Bala_Boss-Sheet_2: -5108516487362835316
+      xplocion_Bala_Boss-Sheet_3: 3468086755620405965
+      xplocion_Bala_Boss-Sheet_4: -8297354489838094816
+      xplocion_Bala_Boss-Sheet_5: -2086059344958580423
+      xplocion_Bala_Boss-Sheet_6: 3022358019604126453
+      xplocion_Bala_Boss-Sheet_7: 1062690372474343246
+      xplocion_Bala_Boss-Sheet_8: 8944843609535881493
+      xplocion_Bala_Boss-Sheet_9: -5700478992449843805
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
