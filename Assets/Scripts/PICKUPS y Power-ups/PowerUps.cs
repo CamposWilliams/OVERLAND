@@ -13,8 +13,9 @@ using UnityEngine;
         float rapidezBala;
         SpriteRenderer sprPowerUp;
         Collider2D collPowerUp;
+        public Animator disfrazAnimator;
 
-        private void Start()
+    private void Start()
         {
             sprPowerUp = GetComponent<SpriteRenderer>();
             collPowerUp = GetComponent<Collider2D>();
@@ -31,6 +32,9 @@ using UnityEngine;
                 switch (tag)
                 {
                     case "PocionAzul":
+                        disfrazAnimator.SetBool("ConPU", true);
+                        disfrazAnimator.SetFloat("PU", 1);
+                        StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         Mike.GetComponent<SistemaDeVida>().PUAzulActivo = true;
@@ -38,7 +42,9 @@ using UnityEngine;
                     break;
                
                     case "PocionMorada":
-
+                        disfrazAnimator.SetBool("ConPU", true);
+                        disfrazAnimator.SetFloat("PU", 2);
+                        StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         cd = Mike.GetComponent<JugadorDisparo>().cdDisparo;
@@ -51,7 +57,9 @@ using UnityEngine;
 
 
                     case "PocionAmarilla":
-                   
+                        disfrazAnimator.SetBool("ConPU", true);
+                        disfrazAnimator.SetFloat("PU", 0);
+                        StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         rapidez=collision.GetComponent<JugadorMovimiento>().rapidez;
@@ -99,4 +107,12 @@ using UnityEngine;
             
         }
 
+    IEnumerator AnimacionesPU()
+    {
+        Debug.Log("Adios");
+        yield return new WaitForSeconds(5);
+        disfrazAnimator.SetBool("ConPU", false);
     }
+
+}
+

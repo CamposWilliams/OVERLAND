@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 706320895027878739}
   - component: {fileID: 2489223242163298392}
   - component: {fileID: 1775844155343892813}
-  - component: {fileID: 5129983372331891625}
   m_Layer: 0
   m_Name: PocionAzul
   m_TagString: PocionAzul
@@ -162,15 +161,4 @@ MonoBehaviour:
   prefabBala: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
   Mike: {fileID: 0}
   conPU: 0
---- !u!114 &5129983372331891625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8203572220302472201}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6b1b6cfd242f3eb48bceb097b8a03191, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  disfrazAnimator: {fileID: 0}

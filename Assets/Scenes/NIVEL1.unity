@@ -13384,7 +13384,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &244107556
 Transform:
   m_ObjectHideFlags: 0
@@ -94723,9 +94723,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3632767948252871268}
     - target: {fileID: 6485766365619711617, guid: e053ad6c5ad28a545b7a4126fda2ce93, type: 3}
-      propertyPath: prefabBala
+      propertyPath: disfrazAnimator
       value: 
-      objectReference: {fileID: 5480834034631623769, guid: 681a8e07f2aa9f34db945a3eb3db3820, type: 3}
+      objectReference: {fileID: 1064027356}
     - target: {fileID: 7195282716689230617, guid: e053ad6c5ad28a545b7a4126fda2ce93, type: 3}
       propertyPath: m_LocalPosition.x
       value: 4.972204
@@ -97790,6 +97790,28 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!1 &2023904531 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2315579594471127296, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+  m_PrefabInstance: {fileID: 1103698328487497197}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2023904535
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2023904531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8708bf343d1f7e04bb19a643720e0394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MikeRb2D: {fileID: 7781382139627321903}
+  cajas:
+  - {fileID: 1882569828}
+  - {fileID: 636716931}
+  Mike: {fileID: 7781382139627321886}
 --- !u!1 &2026966600
 GameObject:
   m_ObjectHideFlags: 0
@@ -101841,11 +101863,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3347889679996602023, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.42
+      value: -0.85
       objectReference: {fileID: 0}
     - target: {fileID: 3347889679996602023, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3370935988001670984, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: BPreRifle
@@ -101913,13 +101935,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5598928656867008183, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.41
+      value: 0.85
       objectReference: {fileID: 0}
     - target: {fileID: 5598928656867008183, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.53
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5603287546224336142, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6774495802811226850, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
@@ -101977,6 +102003,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 4500289332756847621, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
       insertIndex: -1
       addedObject: {fileID: 7781382139627321896}
+    - targetCorrespondingSourceObject: {fileID: 2315579594471127296, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2023904535}
   m_SourcePrefab: {fileID: 100100000, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
 --- !u!1001 &2791476351003852175
 PrefabInstance:
@@ -102276,6 +102305,10 @@ PrefabInstance:
       propertyPath: Mike
       value: 
       objectReference: {fileID: 3632767948252871268}
+    - target: {fileID: 5606048105336503586, guid: 501c4ddb01ce01e4bb81bc89de6efda3, type: 3}
+      propertyPath: disfrazAnimator
+      value: 
+      objectReference: {fileID: 1064027356}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -102371,9 +102404,9 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 3632767948252871268}
     - target: {fileID: 6485766365619711617, guid: e053ad6c5ad28a545b7a4126fda2ce93, type: 3}
-      propertyPath: prefabBala
+      propertyPath: disfrazAnimator
       value: 
-      objectReference: {fileID: 5480834034631623769, guid: 681a8e07f2aa9f34db945a3eb3db3820, type: 3}
+      objectReference: {fileID: 1064027356}
     - target: {fileID: 7195282716689230617, guid: e053ad6c5ad28a545b7a4126fda2ce93, type: 3}
       propertyPath: m_LocalPosition.x
       value: -16.227797
@@ -102548,6 +102581,11 @@ MonoBehaviour:
   - {fileID: 373388227}
   - {fileID: 1882569828}
   - {fileID: 1369058903}
+--- !u!50 &7781382139627321903 stripped
+Rigidbody2D:
+  m_CorrespondingSourceObject: {fileID: 2138201573474913780, guid: e2d26a8efb74a344db335c575b96bb4e, type: 3}
+  m_PrefabInstance: {fileID: 1103698328487497197}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8216192431417848203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102600,6 +102638,10 @@ PrefabInstance:
       propertyPath: Mike
       value: 
       objectReference: {fileID: 3632767948252871268}
+    - target: {fileID: 1775844155343892813, guid: 20b79ccc97f35d344a50ce05b52e283a, type: 3}
+      propertyPath: disfrazAnimator
+      value: 
+      objectReference: {fileID: 1064027356}
     - target: {fileID: 8203572220302472201, guid: 20b79ccc97f35d344a50ce05b52e283a, type: 3}
       propertyPath: m_Name
       value: PocionAzul
