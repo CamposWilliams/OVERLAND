@@ -17,7 +17,11 @@ TagManager:
   - PocionAmarilla
   - PocionAzul
   - PocionMorada
+<<<<<<< HEAD
   - Ammo
+=======
+  - paredes
+>>>>>>> b4b53c06e5c4156b90a39a600b4ddc36edec9a66
   layers:
   - Default
   - TransparentFX
