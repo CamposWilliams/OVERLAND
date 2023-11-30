@@ -4,24 +4,16 @@
 TagManager:
   serializedVersion: 2
   tags:
-  - Mutante_01
-  - Bala_player
-  - Door
-  - ZonaContaminada
-  - Tarjeta1
-  - Tarjeta2
+  - Ammo
   - TileCollider
   - Enemigo1
-  - Boss
-  - Espada
-  - PocionAmarilla
-  - PocionAzul
   - PocionMorada
-<<<<<<< HEAD
-  - Ammo
-=======
-  - paredes
->>>>>>> b4b53c06e5c4156b90a39a600b4ddc36edec9a66
+  - Bala_player
+  - Tarjeta1
+  - PocionAzul
+  - PocionAmarilla
+  - Tarjeta2
+  - Espada
   layers:
   - Default
   - TransparentFX

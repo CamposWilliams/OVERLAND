@@ -33,6 +33,7 @@ public class AnimacionPU : MonoBehaviour
     }
     IEnumerator AnimacionesPU()
     {
+        Debug.Log("Adios");
         yield return new WaitForSeconds(5);
         disfrazAnimator.SetBool("ConPU", false);
     }
