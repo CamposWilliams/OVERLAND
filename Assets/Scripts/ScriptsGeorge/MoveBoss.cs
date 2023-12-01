@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class MoveBoss : MonoBehaviour
 {
@@ -40,8 +41,13 @@ public class MoveBoss : MonoBehaviour
 
                 // Actualizar las animaciones
                 UpdateAnimations(new Vector2(roundedX, roundedY));
-            }
+            } else
+                 {
+                   transform.position = player.position;
+                 }
+
         }
+       
     }
 
     void UpdateAnimations(Vector2 direction)
