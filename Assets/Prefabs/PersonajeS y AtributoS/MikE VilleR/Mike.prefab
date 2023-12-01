@@ -82,7 +82,7 @@ SpriteRenderer:
   m_Size: {x: 0.2, y: 0.17}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &3052097805364919886
@@ -205,12 +205,12 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 3
-  m_Sprite: {fileID: -3011895399059424396, guid: 0d8ca60e5901bd9418c40ad2bb0f7c4e, type: 3}
+  m_Sprite: {fileID: 3711160665393876323, guid: 8d68163edba0a0a42a594a773d167c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.19, y: 0.25}
+  m_Size: {x: 4, y: 4}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -281,8 +281,8 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 2.625, y: 3.5}
-    newSize: {x: 0.19, y: 0.25}
+    oldSize: {x: 4, y: 4}
+    newSize: {x: 4, y: 4}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -318,37 +318,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e389b52680311784e88e52103cd2229c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cam: {fileID: 0}
   cdDisparo: 0.6
-  angulo: 0
-  PointShoot: {fileID: 0}
-  gun: {fileID: 0}
-  BPrePistola: {fileID: 0}
-  BPreSudmisil: {fileID: 0}
-  BPreRifle: {fileID: 0}
-  BPreEspecial: {fileID: 0}
-  BPreCuchillo: {fileID: 0}
-  AmmoPistola: 0
+  balaPrefab: {fileID: 0}
   AmmoSudmisil: 0
   AmmoRifle: 5
   AmmoEspecial: 5
-  AmmoCuchillo: 5
   CambioArma: 5
-  MaxCambioArma: 5
-  maxAmmoPistola: 0
-  maxAmmoSudmisil: 25
-  maxAmmoRifle: 20
-  maxAmmoEspecial: 25
-  maxAmmoCuchillo: 10
   almacenBulletSudmisil: 0
   almacenBulletRifle: 0
   almacenBulletEspecial: 0
-  almacenCuchillo: 0
-  maxAlmacenBulletSudmisil: 25
-  maxAlmacenBulletRifle: 25
-  maxAlmacenBulletEspecial: 25
-  maxAlmacenCuchillo: 25
-  Direction: {x: 0, y: 0}
 --- !u!114 &3758124497231241492
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,6 +342,8 @@ MonoBehaviour:
   "vidaM\xE1ximaMike": 10
   vidaActualMike: 0
   PUAzulActivo: 0
+  sinVida: 0
+  barraDeVida: {fileID: 0}
 --- !u!95 &3159713536766560193
 Animator:
   serializedVersion: 7
@@ -399,6 +379,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   collidersCuchillo: []
+  leerCorrutina: 0
 --- !u!114 &270240291034013013
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -418,6 +399,8 @@ MonoBehaviour:
   balaPrefab: {fileID: 0}
   Direction: {x: 0, y: 0}
   cuchilloCajasColliders: []
+  armaSpr: {fileID: 0}
+  balaCreada: 0
 --- !u!114 &1534981378516583640
 MonoBehaviour:
   m_ObjectHideFlags: 0
