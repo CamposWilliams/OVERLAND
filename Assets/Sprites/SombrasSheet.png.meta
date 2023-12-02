@@ -1,10 +1,7 @@
 fileFormatVersion: 2
-guid: 0ffb91bf090665a42b33a6dc4571a32e
+guid: a148c1776aa10684798bf3e13e29cf85
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 9154434213992728777
-    second: Te2_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -51,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -94,38 +91,29 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Te2_0
+      name: SombrasSheet_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 500
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c808b45a651b0f70800000000000000
-      internalID: 9154434213992728777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Te2_1
-      rect:
-        serializedVersion: 2
-        x: 500
-        y: 0
-        width: 500
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -133,20 +121,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 14a1e711aa41cdc4c80c61686a1818fe
-      internalID: 1858051053
+      spriteID: 12e872db6c3ce284a87711f708bf8154
+      internalID: -2065108063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Te2_2
+      name: SombrasSheet_1
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 32
         y: 0
-        width: 500
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -154,20 +142,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf30071bfd668b84abd4f1c7f04ff201
-      internalID: -561932771
+      spriteID: 539d7110b0d96a447b23bf8754291ed8
+      internalID: 566923844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Te2_3
+      name: SombrasSheet_2
       rect:
         serializedVersion: 2
-        x: 1500
+        x: 64
         y: 0
-        width: 500
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -175,20 +163,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b29d21a7005a6cd438f6672ca2f93698
-      internalID: 745870922
+      spriteID: dc8a499c4651d0b4a8bd46555a2eeef0
+      internalID: 1122456034
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Te2_4
+      name: SombrasSheet_3
       rect:
         serializedVersion: 2
-        x: 2000
+        x: 96
         y: 0
-        width: 500
-        height: 300
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,92 +184,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ccb6ff99b3a075488773bfd949c4bb7
-      internalID: 1037590723
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Te2_5
-      rect:
-        serializedVersion: 2
-        x: 2500
-        y: 0
-        width: 500
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 675c2b3d657cab84ea9eba3d228d9ec9
-      internalID: -604558388
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Te2_6
-      rect:
-        serializedVersion: 2
-        x: 3000
-        y: 0
-        width: 500
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 247833709359a5a4b8584c349367cac9
-      internalID: -1482883931
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Te2_7
-      rect:
-        serializedVersion: 2
-        x: 3500
-        y: 0
-        width: 500
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 3e475d8d9257ebf47b062159d7f9f7da
-      internalID: -83316848
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Te2_8
-      rect:
-        serializedVersion: 2
-        x: 4000
-        y: 0
-        width: 500
-        height: 300
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: dbc1ba1becc3a54488ee56cd4da278f3
-      internalID: -1280748845
+      spriteID: 4424f81003b491544bfd798fb104b8f6
+      internalID: 556408795
       vertices: []
       indices: 
       edges: []
@@ -289,7 +193,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: 1c279bfc24d2a904cb3836e32eb920ad
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -297,15 +201,10 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Te2_0: 9154434213992728777
-      Te2_1: 1858051053
-      Te2_2: -561932771
-      Te2_3: 745870922
-      Te2_4: 1037590723
-      Te2_5: -604558388
-      Te2_6: -1482883931
-      Te2_7: -83316848
-      Te2_8: -1280748845
+      SombrasSheet_0: -2065108063
+      SombrasSheet_1: 566923844
+      SombrasSheet_2: 1122456034
+      SombrasSheet_3: 556408795
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
