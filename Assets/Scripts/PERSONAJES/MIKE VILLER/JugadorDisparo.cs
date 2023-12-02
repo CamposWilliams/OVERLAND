@@ -207,7 +207,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
-        
+            puedeDisparar = false;
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
 
@@ -218,6 +218,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
+            puedeDisparar = false;
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);         
 
@@ -228,6 +229,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
             {
+                puedeDisparar = false;
                 GetComponent<MikeDisparo>().balaCreada = true;
                 GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
 

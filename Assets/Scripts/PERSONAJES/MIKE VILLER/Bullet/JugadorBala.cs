@@ -23,12 +23,12 @@ public class JugadorBala : MonoBehaviour
         rb2dBala = GetComponent<Rigidbody2D>();
         direccionBala = GameObject.Find("Mike").GetComponent<MikeDisparo>().referencia;
         Destroy(gameObject, 4);
-
+         
     }
 
     void Update()
     {
-        Debug.Log(GameObject.Find("Mike").GetComponent<JugadorDisparo>().puedeDisparar);
+      
         ReproducirAnimacionDelTipoDeBala();
         Movimiento();
     }
