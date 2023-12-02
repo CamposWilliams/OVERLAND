@@ -20,7 +20,7 @@ using UnityEngine;
             sprPowerUp = GetComponent<SpriteRenderer>();
             collPowerUp = GetComponent<Collider2D>();
             tag=gameObject.tag;
-            Debug.Log(tag);
+            //Debug.Log(tag);
         
         }
         private void OnTriggerEnter2D(Collider2D collision)

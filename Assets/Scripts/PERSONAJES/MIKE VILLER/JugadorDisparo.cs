@@ -6,7 +6,7 @@ public class JugadorDisparo : MonoBehaviour
 {
 
     float tiempo;
-    bool puedeDisparar = true;
+   public bool puedeDisparar = true;
     public float cdDisparo = 0.6f;
     public GameObject balaPrefab;
     Animator MikeAnimator;
@@ -205,7 +205,7 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootRifle()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
         
             GetComponent<MikeDisparo>().balaCreada = true;
@@ -216,7 +216,7 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootSudMisil()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);         
@@ -226,7 +226,7 @@ public class JugadorDisparo : MonoBehaviour
 
         void ShootEspecial()
         {
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
             {
                 GetComponent<MikeDisparo>().balaCreada = true;
                 GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
