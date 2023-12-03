@@ -8,38 +8,42 @@ public class JugadorBala : MonoBehaviour
     Animator animacionBala;
     public float numeroDeBala;
     public Vector2 direccionBala;
-   
+
+
 
     private void Awake()
     {
-        rapidezBala = 10;
-       
+        rapidezBala = 12;
+
     }
     void Start()
     {
+        Debug.Log(numeroDeBala);
         //Debug.Log(direccionBala);
         animacionBala = GetComponent<Animator>();
         velocidadMike =GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity;
         rb2dBala = GetComponent<Rigidbody2D>();
-        direccionBala = GameObject.Find("Mike").GetComponent<MikeDisparo>().referencia;
         Destroy(gameObject, 4);
-         
+
     }
 
     void Update()
     {
-      
+        //direccionBala = GameObject.Find("Mike").GetComponent<MikeDisparo>().referencia;
+        
         ReproducirAnimacionDelTipoDeBala();
         Movimiento();
     }
 
     void Movimiento()
     {
-        rb2dBala.velocity = direccionBala*rapidezBala;
-        
        
-
+        
+            rb2dBala.velocity = direccionBala * rapidezBala;
+        
+               
     }
+ 
     void ReproducirAnimacionDelTipoDeBala()
     {
         
@@ -51,10 +55,15 @@ public class JugadorBala : MonoBehaviour
 
         if (collision.CompareTag("TileCollider"))
         {
-            Destroy(gameObject);
+            //Destroy(gameObject);
         }
        
     }
+
+    //public void ArmaSecreta(GameObject nuevaBala)
+    //{
+
+    //}
 
    
 }
