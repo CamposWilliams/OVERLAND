@@ -16,7 +16,7 @@ public class SistemaDeVida : MonoBehaviour
     void Start()
     {
         vidaActualMike = vidaMáximaMike;
-        //ActualizarBarraDeVida();
+        ActualizarBarraDeVida();
     }
 
      public void BajarVida(float daño)
@@ -40,13 +40,13 @@ public class SistemaDeVida : MonoBehaviour
             GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             
         }
-        //ActualizarBarraDeVida();
+        ActualizarBarraDeVida();
     }
-    //void ActualizarBarraDeVida()
-    //{
-    //    float porcentajeVida = vidaActualMike / vidaMáximaMike;
-    //    barraDeVida.fillAmount = porcentajeVida;
-    //}
+    void ActualizarBarraDeVida()
+    {
+        float porcentajeVida = vidaActualMike / vidaMáximaMike;
+        barraDeVida.fillAmount = porcentajeVida;
+    }
     IEnumerator Muriendo()
     {
         GetComponent<Animator>().SetBool("Muere", true);
@@ -65,7 +65,7 @@ public class SistemaDeVida : MonoBehaviour
         {
             gameObject.SetActive(false);
         }
-        //ActualizarBarraDeVida();
+        ActualizarBarraDeVida();
     }
 
     
