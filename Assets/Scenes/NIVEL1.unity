@@ -1604,11 +1604,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!1 &42216729 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7859856221718394211, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-  m_PrefabInstance: {fileID: 1249008318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &46796400
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,11 +4363,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &120351576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 4167170225643881490, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-  m_PrefabInstance: {fileID: 1249008318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &122188556
 GameObject:
   m_ObjectHideFlags: 0
@@ -45045,11 +45035,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &618882616 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6785656231435434662, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-  m_PrefabInstance: {fileID: 1249008318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &621770367
 GameObject:
   m_ObjectHideFlags: 0
@@ -52140,11 +52125,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &867280427 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-  m_PrefabInstance: {fileID: 1249008318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &869599916
 GameObject:
   m_ObjectHideFlags: 0
@@ -66131,78 +66111,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 13869091}
     m_Modifications:
-    - target: {fileID: 1534981378516583640, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: AmmoRifle
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: balaPrefab
-      value: 
-      objectReference: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
-    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: AmmoEspecial
-      value: 100
-      objectReference: {fileID: 0}
-    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: AmmoSudmisil
-      value: 100
-      objectReference: {fileID: 0}
     - target: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_Name
       value: Mike
       objectReference: {fileID: 0}
     - target: {fileID: 3758124497231241492, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: sinVida
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3758124497231241492, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: barraDeVida
       value: 
       objectReference: {fileID: 1842416999}
-    - target: {fileID: 3758124497231241492, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: "vidaM\xE1ximaMike"
-      value: 50
-      objectReference: {fileID: 0}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+    - target: {fileID: 5994250934849146187, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 297539745}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: balaPrefab
-      value: 
-      objectReference: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: cajas.Array.size
-      value: 4
-      objectReference: {fileID: 0}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: 'cajas.Array.data[0]'
-      value: 
-      objectReference: {fileID: 120351576}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: 'cajas.Array.data[1]'
-      value: 
-      objectReference: {fileID: 618882616}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: 'cajas.Array.data[2]'
-      value: 
-      objectReference: {fileID: 1281464888}
-    - target: {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: 'cajas.Array.data[3]'
-      value: 
-      objectReference: {fileID: 42216729}
-    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Enabled
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_RootOrder
-      value: -1
-      objectReference: {fileID: 0}
     - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -27.921776
@@ -66243,35 +66163,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 8397885594597783964, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Size.x
-      value: 2.1507292
-      objectReference: {fileID: 0}
-    - target: {fileID: 8397885594597783964, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Size.y
-      value: 2.9273872
-      objectReference: {fileID: 0}
-    - target: {fileID: 8397885594597783964, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 8397885594597783964, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Offset.x
-      value: -0.06273174
-      objectReference: {fileID: 0}
-    - target: {fileID: 8397885594597783964, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      propertyPath: m_Offset.y
-      value: 0.0019087791
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3928551838790544269, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-    m_RemovedGameObjects:
-    - {fileID: 3052097805364919886, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2068569318}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
 --- !u!1 &1249218256
 GameObject:
@@ -66998,11 +66893,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &1281464888 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3980459643737472140, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
-  m_PrefabInstance: {fileID: 1249008318}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1282979820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94777,28 +94667,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
   m_PrefabInstance: {fileID: 1249008318}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &2068569318
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 867280427}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed7ceb21c5d5d1e43aa727f6eaf3cdf1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  balaCreada: 0
-  cajas:
-  - {fileID: 120351576}
-  - {fileID: 618882616}
-  - {fileID: 1281464888}
-  - {fileID: 42216729}
-  cam: {fileID: 297539745}
-  anguloConstante: 0
-  balaPrefab: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
-  referencia: {x: 0, y: 0}
 --- !u!1 &2073803720
 GameObject:
   m_ObjectHideFlags: 0
