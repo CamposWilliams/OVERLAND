@@ -1039,8 +1039,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Cambio de Armas
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
-  m_sharedMaterial: {fileID: -5899553466851002729, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1648,8 +1648,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Recargar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
-  m_sharedMaterial: {fileID: -5899553466851002729, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -1974,8 +1974,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Disparar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
-  m_sharedMaterial: {fileID: -5899553466851002729, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -2108,8 +2108,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Pausar el Juegp
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
-  m_sharedMaterial: {fileID: -5899553466851002729, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
