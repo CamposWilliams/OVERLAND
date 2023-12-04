@@ -45,10 +45,10 @@ public class VidaBonk : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         bonkAnimacion.SetBool("EstaSinVida", true);
+        yield return new WaitForSeconds(0.015f);
+        bonkAnimacion.SetBool("EstaSinVida", false);
 
-
-             
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1.9f);
         Destroy(gameObject);
     }
 

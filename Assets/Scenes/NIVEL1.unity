@@ -251,6 +251,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -791,6 +795,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (17)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1038,18 +1046,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1557471746}
     m_Modifications:
-    - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
-      propertyPath: m_IsTrigger
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 256
-      objectReference: {fileID: 0}
     - target: {fileID: 5913322344155325575, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: target
       value: 
@@ -1057,10 +1053,6 @@ PrefabInstance:
     - target: {fileID: 6895972694885802845, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Name
       value: Bonk
-      objectReference: {fileID: 0}
-    - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
-      propertyPath: m_RootOrder
-      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3030,6 +3022,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3636,6 +3632,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -4495,6 +4495,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4804,6 +4808,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5013,6 +5021,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -11461,6 +11473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -12817,9 +12833,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12860,6 +12888,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -13891,6 +13923,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -16120,6 +16156,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303932307}
   m_CullTransparentMesh: 1
+--- !u!1 &309590434 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4167170225643881490, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+  m_PrefabInstance: {fileID: 1249008318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &312094032
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16784,6 +16825,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17694,6 +17739,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -17707,9 +17756,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17750,6 +17811,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24084,9 +24149,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24128,6 +24205,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -24141,9 +24222,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -24184,6 +24277,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -24553,6 +24650,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (19)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -25418,6 +25519,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -39615,6 +39720,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41086,6 +41195,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -41245,6 +41358,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -45156,7 +45273,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACYn+sSFnqnhAIAAEAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenWsPH4bYvbXEcXpI4onTyYWLDIvRWEiMJGI7Gf/3rgQY4nJBvP16+3bFF2FC15AZqdaK5U8yB/JzQuyZ/JgMxkc40b0UW/YJvc87y01pnajzeaWGScR9G6ZlBUax7JfYc+vsIdgIVkhVrfI9JFIbjXBBuQY0KWlstEDoa0JO+JoubcgZT8GdPX3iaelNLnjMQBhQg6sfzYIlPmHURUwDf+ZHXdA0mMWLYL70wmA19RYuQyMyTqsactvOkCiezwIPn3ncJYr8mf32wjZMYONdhDcLLRPJOdMdb2LOtdMlobVusGt0yBlFHRxZK0sJbF8a29M4+KUoNJhOJEXP90yhnG1W8lu2GldUH1qmH5Q3tk4QxY5Vm/TpP/vUd+ZCyeqxr+t7toYpWXZ4peeMajMawhi+/068EUfKD3TH4b0E8SzXSjYiR6NRjQ1tNAT3w+e1taSE7DDgLdUbsKmHCfQz7ydue7i47k8JZ9XOKT9vgS2XTm+3KKBwNn+QsFsj3aVA1LL4q+GN7sf71hkemNIGTV2XwtLbyUZZV7JymtluGpNIJcDBHekaBOXmvME05naEN7ZR2RvLA7U3qyve2foLcxPi4MHf825MG3m8DkuX8vgEunxpDGcCBtLW8Iw6JVKIdsPGmvRh20YVNBuF7RuWf18tEvtRDrtiAfE8COIIposi9EPv7o6Gi4zGQUHc7jGBfVK+aYl29HBqYkgucM/6H85krWjttj1X9Lhmn5UcSc5EIbeZAhAvbYYrcVBYBO9lvsoZCrQFY5hw8yZfKeEyO0CeXhOlrtPVySiaDllSUrMPaSySksT9YVJi4esubxR8MDja4n2yC7n8A1BLAwQUAAAICAAAmJ/r0QTJ/W0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0kpmhaUpqUppFqpmJkZGZaaquRZqxobGBuXmisUVyoplRmlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAmJ/rEhZ6p4QCAABABQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAmJ/r0QTJ/W0AAAB4AAAACQAkAAAAAAAAAAAAAADRAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAIkDAAAAAA==
+    dataString: UEsDBBQAAAgIAACYn+uugKtZhQIAAD8FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFlVE1zmzAQ/SsenWsPH4bYvbXYcXpI4onbyYWLDIvRWEiMJGI7Gf/3rgQY6nJBvP16+3bFF2FC15AZqTaK5c8yB/J9QuyZfJsMxic404MUO/YJvc87y01pnajzeaOGScR9G6ZlBUax7Ic4cOvsIdgIVkhVrfMDJFIbjXBBuQY0KWlstEDoa0LO+JoubcgFT8GDPX3iaelNrnjMQBhQg6sfzYIlPmHURUwDf+ZHXdA0mMWLYL70wmA99RYuQyMyTqsactvOkCiezwIPn3ncJYr8mf32wjZMYONdhDcLLRPJOdMdb2IutdMlobVusGt0yBlFHRxZ618CO5TG9jQOfi0KDaYTSdHLiimUs81KfspW44rqY8v0g/LG1gmi2LFqkz7/Z5/6zlwoWT31dX3P1jAly45v9JJRbUZDGMOrgbjvBDtRfqR7Du8liBe5UbIRORqNamxooyFYDZ+31pISsuOAt1TvwKYeJtDPvJ+47eHquj8nnFV7p/y8BXZcOr3dooDC2fxCwm6NdJcCUcvij4bf9DDet87wyJQ2aOq6FJbeXjbKupJHPFjls8YkUglwaMe5BkG5uWwxi7mf4J1tVPXO8kjtxepqd7b+vtyFOHjw97w701aebrPSpTw9gy5fG8OZgIG0NbygTIkUol2wsSR92K5RBc1GYYeG5f9uFon9KId9sYB4HgRxBNNFEfqh9/BAw0VG46AgbvWYwD4p37ZEu7XHoYkhucA16/83k42itVv2XNHThn1WciQ5E4XcZQpAvLYZbsRBYRG8lvk6ZyjQDoxhwo2bfKWEy+wIeXpLlLpO12ejaDpkSUnNPqSxSEoS94NJiYVvq7xV8MHgZIv3ya7k+hdQSwMEFAAACAgAAJif69EEyf1tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJKZoWlKalKaRaqZiZGRmWmqrkWasaGxgbl5orFFcqKZUZpSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJif666Aq1mFAgAAPwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJif69EEyf1tAAAAeAAAAAkAJAAAAAAAAAAAAAAA0gIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAACKAwAAAAA=
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -46951,9 +47068,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -46994,6 +47123,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -48570,6 +48703,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -51562,9 +51699,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -51605,6 +51754,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -52159,6 +52312,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -52922,6 +53079,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -54126,6 +54287,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (5)
@@ -54169,6 +54338,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -56299,9 +56472,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -56342,6 +56527,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57220,6 +57409,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (18)
@@ -57263,6 +57460,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -57410,6 +57611,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60677,6 +60882,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61378,9 +61587,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -61421,6 +61642,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -61844,7 +62069,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1113552675
 Transform:
   m_ObjectHideFlags: 0
@@ -66593,10 +66818,50 @@ PrefabInstance:
       propertyPath: barraDeVida
       value: 
       objectReference: {fileID: 1842416999}
+    - target: {fileID: 3980459643737472140, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4167170225643881490, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: Mike
+      value: 
+      objectReference: {fileID: 1074673003}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: collidersCuchillo.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: 'collidersCuchillo.Array.data[0]'
+      value: 
+      objectReference: {fileID: 309590434}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: 'collidersCuchillo.Array.data[1]'
+      value: 
+      objectReference: {fileID: 1645445448}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: 'collidersCuchillo.Array.data[2]'
+      value: 
+      objectReference: {fileID: 1303624287}
+    - target: {fileID: 4474119655712687456, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: 'collidersCuchillo.Array.data[3]'
+      value: 
+      objectReference: {fileID: 1786785126}
     - target: {fileID: 5994250934849146187, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: cam
       value: 
       objectReference: {fileID: 297539745}
+    - target: {fileID: 6785656231435434662, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6894167006595696075, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.5
@@ -66647,6 +66912,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7781382140318432739, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7859856221718394211, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents:
@@ -67874,6 +68143,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e053ad6c5ad28a545b7a4126fda2ce93, type: 3}
+--- !u!1 &1303624287 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3980459643737472140, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+  m_PrefabInstance: {fileID: 1249008318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1305133317
 GameObject:
   m_ObjectHideFlags: 0
@@ -74462,9 +74736,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (15)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -74505,6 +74791,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -75038,6 +75328,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -76085,9 +76379,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -76128,6 +76434,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -77065,6 +77375,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -77140,6 +77454,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6930680526243010504, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -78100,9 +78418,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -78143,6 +78473,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -78978,9 +79312,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -79021,6 +79367,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -79316,6 +79666,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -79461,6 +79815,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -81742,6 +82100,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -82131,10 +82493,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
-    - target: {fileID: 5333628101757119832, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
-      propertyPath: m_SortingOrder
-      value: 10
-      objectReference: {fileID: 0}
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock
@@ -83417,6 +83783,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -83543,6 +83913,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -84176,9 +84550,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -84219,6 +84605,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -84926,6 +85316,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Computadora: {fileID: 382061796}
+--- !u!1 &1645445448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6785656231435434662, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+  m_PrefabInstance: {fileID: 1249008318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1650943827
 GameObject:
   m_ObjectHideFlags: 0
@@ -88267,6 +88662,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88328,6 +88727,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88501,6 +88904,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1786785126 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7859856221718394211, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+  m_PrefabInstance: {fileID: 1249008318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1787473040
 GameObject:
   m_ObjectHideFlags: 0
@@ -88645,9 +89053,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (16)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -88689,6 +89109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -88702,9 +89126,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -88745,6 +89181,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -89087,9 +89527,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
+    - target: {fileID: 5372039190327887051, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Name
       value: Gordock (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6136093048687695856, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
@@ -89130,6 +89582,10 @@ PrefabInstance:
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8222605927977666564, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: m_ExcludeLayers.m_Bits
+      value: 256
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -93132,6 +93588,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -93585,6 +94045,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -96902,6 +97366,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Voment (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 7312264055506256121, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: target
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -98425,6 +98893,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1047233162}
     m_Modifications:
+    - target: {fileID: 1093723703793438565, guid: 458ab949ae3a5804a9ec0f596cb97a6b, type: 3}
+      propertyPath: m_Size.y
+      value: 1.9976745
+      objectReference: {fileID: 0}
+    - target: {fileID: 1093723703793438565, guid: 458ab949ae3a5804a9ec0f596cb97a6b, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.01760602
+      objectReference: {fileID: 0}
     - target: {fileID: 3580350842888794820, guid: 458ab949ae3a5804a9ec0f596cb97a6b, type: 3}
       propertyPath: astarPath
       value: 

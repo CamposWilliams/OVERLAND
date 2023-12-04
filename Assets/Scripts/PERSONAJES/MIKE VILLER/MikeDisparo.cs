@@ -117,7 +117,7 @@ public class MikeDisparo : MonoBehaviour
              else if (numeroDeBala == 1)
              {
                
-                GetComponent<JugadorDisparo>().cdDisparo = 0.2f;
+                GetComponent<JugadorDisparo>().cdDisparo = 0.19f;
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 nuevaBala.GetComponent<JugadorBala>().numeroDeBala = numeroDeBala;
 
@@ -206,7 +206,7 @@ public class MikeDisparo : MonoBehaviour
                        
                         if (!IsInvoking("Subfusil"))
                         {
-                            InvokeRepeating("Subfusil", 0, 009f);
+                            InvokeRepeating("Subfusil", 0, 0.09f);
                         }
                     }
 
@@ -234,7 +234,8 @@ public class MikeDisparo : MonoBehaviour
             else if (numeroDeBala == 3)
            
             {
-               
+                GetComponent<JugadorDisparo>().cdDisparo = 0.4f;
+
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 GameObject nuevaBala2 = Instantiate(balaPrefab);
                 GameObject nuevaBala3 = Instantiate(balaPrefab);
@@ -248,20 +249,20 @@ public class MikeDisparo : MonoBehaviour
                     
                     nuevaBala.transform.position = cajas[0].transform.position;
                     nuevaBala.transform.Rotate(Vector3.forward * -90);
-                    nuevaBala.GetComponent<JugadorBala>().direccionBala=Vector2.right*1.5f;
+                    nuevaBala.GetComponent<JugadorBala>().direccionBala=Vector2.right*0.9f;
 
 
                    
                     nuevaBala2.transform.position = cajas[0].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * -90);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala =new Vector2 (1.5f,0.15f);
-                    nuevaBala2.transform.up = new Vector2(1.5f, 0.15f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala =new Vector2 (0.9f,0.16f);
+                    nuevaBala2.transform.up = new Vector2(0.9f, 0.16f);
 
 
                     nuevaBala3.transform.position = cajas[0].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * -90);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(1.5f,-0.15f);
-                    nuevaBala3.transform.up = new Vector2(1.5f, -0.15f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f,-0.16f);
+                    nuevaBala3.transform.up = new Vector2(0.9f, -0.16f);
 
 
 
@@ -271,19 +272,19 @@ public class MikeDisparo : MonoBehaviour
                 {
                     nuevaBala.transform.position = cajas[2].transform.position;
                     nuevaBala.transform.Rotate(Vector3.forward * 90);
-                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.left*1.5f;
+                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.left*0.9f;
 
 
 
                     nuevaBala2.transform.position = cajas[2].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 90);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = new Vector2(1.5f, 0.15f)*-1;
-                    nuevaBala2.transform.up = new Vector2(1.5f, 0.15f) * -1;
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, 0.16f)*-1;
+                    nuevaBala2.transform.up = new Vector2(0.9f, 0.15f) * -1;
 
                     nuevaBala3.transform.position = cajas[2].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 90);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(1.5f, -0.15f)*-1;
-                    nuevaBala3.transform.up = new Vector2(1.5f, -0.15f) * -1;
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, -0.16f)*-1;
+                    nuevaBala3.transform.up = new Vector2(0.9f, -0.16f) * -1;
 
 
 
@@ -293,37 +294,37 @@ public class MikeDisparo : MonoBehaviour
                 {
                     nuevaBala.transform.position = cajas[3].transform.position;
                     nuevaBala.transform.Rotate(Vector3.forward * 180);
-                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.down*1.5f;
+                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.down*0.9f;
 
                     
                     nuevaBala2.transform.position = cajas[3].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 180);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(1.5f, 0.15f);
-                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(1.5f, 0.15f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, 0.16f);
+                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, 0.16f);
 
 
                     nuevaBala3.transform.position = cajas[3].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 180);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(1.5f, -0.15f);
-                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(1.5f, -0.15f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, -0.16f);
+                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, -0.16f);
                 }
                 else if (anguloConstante == 90)
                 {
 
                     nuevaBala.transform.position = cajas[1].transform.position;
                     nuevaBala.transform.Rotate(Vector3.forward * 0);
-                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.up*1.5f;
+                    nuevaBala.GetComponent<JugadorBala>().direccionBala = Vector2.up*0.9f;
 
                     
                     nuevaBala2.transform.position = cajas[1].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 0);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(1.5f, 0.15f);
-                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(1.5f, 0.15f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, 0.16f);
+                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, 0.16f);
 
                     nuevaBala3.transform.position = cajas[1].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 0);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(1.5f, -0.15f);
-                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(1.5f, -0.15f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, -0.16f);
+                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, -0.16f);
 
                 }
             }
