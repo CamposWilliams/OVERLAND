@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
+    public AudioSource Disparo1;
 
     float tiempo;
    public bool puedeDisparar = true;
@@ -193,6 +194,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
         {
+            Disparo1.Play();
             puedeDisparar = false;
 
 

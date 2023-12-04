@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class SistemaDeVida : MonoBehaviour
 {
+    public AudioSource MuerteMikeSonido;
    public float vidaMáximaMike=10;
    public float vidaActualMike;
    float dañoEntrante;
@@ -17,6 +18,7 @@ public class SistemaDeVida : MonoBehaviour
     {
         vidaActualMike = vidaMáximaMike;
         ActualizarBarraDeVida();
+        
     }
 
      public void BajarVida(float daño)
@@ -34,6 +36,7 @@ public class SistemaDeVida : MonoBehaviour
        
         if( vidaActualMike <= 0)
         {
+            MuerteMikeSonido.Play();
             sinVida = true;
             GetComponent<Collider2D>().enabled = false;
             StartCoroutine(Muriendo());
