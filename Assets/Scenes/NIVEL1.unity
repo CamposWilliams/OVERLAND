@@ -1169,11 +1169,23 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
       value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757790508405365886, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: startEndModifier.exactEndPoint
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7757790508405365886, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: startEndModifier.exactStartPoint
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3344,11 +3356,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -3972,11 +3988,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -4900,11 +4920,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -5448,11 +5472,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -41787,11 +41815,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -41968,11 +42000,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -46248,7 +46284,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACYn+tPYO5bdgIAAC8FAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2kAM/SvMnguDDRjTW2sI6SEJE9rJhctiy3iH9a5nPwIkw3+vdm1jh05PiCc9SU/S+pMwoStIjVRrxbInmQH5PiDOJt8GnfMRzvQgxZZ9QBvzxjJTuCDqY16pYRLxwNG0LMEolv4QB+6CxwhawXKpylV2gERqoxHOKdeALiWNYwuEPgfkjD/DhaNc0ArnzvpAazEeXNFMQRhQXWgwHc0Xi0U8bQjDMBgFUwTisCEO41E8jcIoXg2Dic9hRcppWUHmBHWpojbHrC4lUGoT4WSlknOmmz6JuVR+DgmttEWVGJAxirp9cy6+AHYojNPQJ7/kuQbTDEXRy5IpHF+dlfyU9UxLqo91X++UW1cnnEW+pzrp0z/+YeDduZLlY1s3GLsapmDp8ZVeUqpNb+h9ePm1cStOlB/pnsNbAeJZrpW0IkOnUdZRrYZw2f29SUsKSI8dXrd6B9qqm3e743bDTsPVqz8nnJV75xpNa2DLpZ+3PwxQuJlf2LA/G92kQNR18UfDb3ro31fjeGBKG3Q1KoVrby+tcqHkAQ03+dSaRCoBqp+gAkG5uWwwjblf4Z3v/6wH6l5SU7zxtQ/kjuLhLn48vnNt5Om2LF3I0xPo4sUazgR0k3aOZ5xTIoWoL6wvqaVtrcpp2qMdLMu+nhaJglkG+zyGaBqG0QyGcT4JJuP5nE7ilEZhTvztMYE6Kd/UjTZ3j1sTXXKBd9Z+YAZrRSt/7ZmipzX7KKXuIpnI5TZVAOKlznBrHBQWwVeZrTKGA9qCMUz4fZPPHeEyPUK2uyXaeaWrs1G0D1bsXRoH7EjiPyg74uDbKW8UvDM4udot7UqufwFQSwMEFAAACAgAAJif69EEyf1tAAAAeAAAAAkAJABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQGrVipLLSrOzM9TslIw0TPSMzTXUVBKL0osyCgGihiCOKWZKSB2tJKZoWlKalKaRaqZiZGRmWmqrkWasaGxgbl5orFFcqKZUZpSLFB9SWVBql9ibipET0BiSUZaZl5KZl66nntRZoo7yGil2FoAUEsBAi0AFAAACAgAAJif609g7lt2AgAALwUAAAsAJAAAAAAAAAAAAAAAAAAAAGdyYXBoMC5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsBAi0AFAAACAgAAJif69EEyf1tAAAAeAAAAAkAJAAAAAAAAAAAAAAAwwIAAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLBQYAAAAAAgACALgAAAB7AwAAAAA=
+    dataString: UEsDBBQAAAgIAACYn+sQ3WIkeAIAADAFAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE1z2kAM/SvMnguDDRjTW2sI6SEJE9rJxZfFlvEOy65nPwIkw3+vdm1jh05PiCfpSU/S+pMwoSvIjFRrxfInmQP5PiDOJt8GnfMRznQvxZZ9QBvzxnJTuiDqY16pYRLxwKVpeQSjWPZD7LkLHiNoBSukOq7yPSRSG41wQbkGdClpXLZA6HNAzvgzXLiUC1rh3FkfaC3GgyuaGQgDqgsNpqP5YrGIp03CMAxGwRSBOGwSh/EonkZhFK+GwcRzWJFxeqwgd4I6qqjlmNWlBEptIpysTHLOdNMnMZfKzyGhlbaoEgNyRlG3b87Fl8D2pXEa+skvRaHBNENR9LJkCsdXs5Kfsp7pkepD3dc75dbVCWeR76kmffrHPwy8u1Dy+NjWDcauhilZdnill4xq0xt6H15+bdyKE+UHuuPwVoJ4lmslrcjRaZR1qVZDuOz+3qQlJWSHDq9bvQNt1c273XG7Yafh6tWfE86OO+caTWtgy6Wftz8MULiZX9iwPxvdUCDquvij4Tfd9++rcTwwpQ26GpXCtbeTVrlQ8oCGm3xmTSKVANUnqEBQbi4bpDH3K7zz/T/rgbqX1BRvfO0DuUvxcBc/Ht+5NvJ0W5Yu5ekJdPliDWcCukk7xzPOKZFC1BfWl9Smba0qaNZL21uWfz0tEgWzHHZFDNE0DKMZDONiEkzG8zmdxBmNwoL422MCdVK+qRtt7h63JjpygXfWfmAGa0Urf+25oqc1+zhK3UUyUchtpgDES81waxwUFsFXma9yhgPagjFM+H2Tz5RwmR0gT29EqVe6OhtF044lJRV7l8YhKUn8FyUlDr7d8kbBO4OTK96SXcn1L1BLAwQUAAAICAAAmJ/r0QTJ/W0AAAB4AAAACQAkAG1ldGEuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAatWKkstKs7Mz1OyUjDRM9IzNNdRUEovSizIKAaKGII4pZkpIHa0kpmhaUpqUppFqpmJkZGZaaquRZqxobGBuXmisUVyoplRmlIsUH1JZUGqX2JuKkRPQGJJRlpmXkpmXrqee1FmijvIaKXYWgBQSwECLQAUAAAICAAAmJ/rEN1iJHgCAAAwBQAACwAkAAAAAAAAAAAAAAAAAAAAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwECLQAUAAAICAAAmJ/r0QTJ/W0AAAB4AAAACQAkAAAAAAAAAAAAAADFAgAAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0BUEsFBgAAAAACAAIAuAAAAH0DAAAAAA==
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -53637,7 +53673,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -54296,11 +54336,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -77442,11 +77486,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -79609,11 +79657,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -79706,11 +79758,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -81880,11 +81936,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -90958,11 +91018,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
@@ -95937,11 +96001,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: maxSpeed
-      value: 5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
+      propertyPath: maxAcceleration
+      value: 100000
       objectReference: {fileID: 0}
     - target: {fileID: 7340152643227060161, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: slowdownDistance
