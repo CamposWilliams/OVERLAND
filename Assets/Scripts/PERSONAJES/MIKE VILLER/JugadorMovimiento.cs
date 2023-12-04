@@ -155,7 +155,7 @@ public class JugadorMovimiento : MonoBehaviour
                 time += Time.deltaTime;
             }
            
-            if (time >= timer && animaciónMike.GetBool("ExcedeTimepo")==false)
+            if (time >= timer && animaciónMike.GetBool("ExcedeTiempo")==false)
             {                          
                 StartCoroutine("AnimacionIddle");
                

@@ -15,6 +15,7 @@ TagManager:
   - Tarjeta2
   - Espada
   - BotiquinTag
+  - AreaComputadora
   layers:
   - Default
   - TransparentFX

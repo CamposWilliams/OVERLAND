@@ -7,11 +7,16 @@ public class CompuDeControl : MonoBehaviour
    public int contador=0;
    public GameObject GasToxico;
 
-    private void Update()
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        if (contador == 2)
+        if (collision.CompareTag("Player"))
         {
-            Destroy(GasToxico);
+            if (contador == 2 && Input.GetKey("e"))
+            {
+                Destroy(GasToxico);
+            }
+
         }
+        
     }
 }
