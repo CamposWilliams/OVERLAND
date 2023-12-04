@@ -1,16 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class SistemaDeVida : MonoBehaviour
 {
-    public AudioSource MuerteMikeSonido;
+   public AudioSource MuerteMikeSonido;
    public float vidaMáximaMike=10;
    public float vidaActualMike;
    float dañoEntrante;
    public bool PUAzulActivo;
    public bool sinVida;
+
+    public string NombreScena = "";
 
     public Image barraDeVida;
 
@@ -56,6 +59,7 @@ public class SistemaDeVida : MonoBehaviour
         yield return new WaitForSeconds(0.1f);
         GetComponent<Animator>().SetBool("Muere", false);
         yield return new WaitForSeconds(0.9f);
+        SceneManager.LoadScene(NombreScena);
         gameObject.SetActive(false);
 
     }
