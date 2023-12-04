@@ -5255,7 +5255,6 @@ GameObject:
   - component: {fileID: 139058764}
   - component: {fileID: 139058765}
   - component: {fileID: 139058766}
-  - component: {fileID: 139058767}
   m_Layer: 8
   m_Name: Mesa7
   m_TagString: Untagged
@@ -5379,18 +5378,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.929575, y: 0.7854538}
   m_EdgeRadius: 0
---- !u!114 &139058767
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 139058763}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &140015772
 GameObject:
   m_ObjectHideFlags: 0
@@ -14384,7 +14371,6 @@ GameObject:
   - component: {fileID: 262361686}
   - component: {fileID: 262361685}
   - component: {fileID: 262361684}
-  - component: {fileID: 262361687}
   m_Layer: 8
   m_Name: 'Maceta '
   m_TagString: Untagged
@@ -14532,18 +14518,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &262361687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 262361682}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &263946811
 GameObject:
   m_ObjectHideFlags: 0
@@ -15893,7 +15867,6 @@ GameObject:
   - component: {fileID: 299362464}
   - component: {fileID: 299362465}
   - component: {fileID: 299362466}
-  - component: {fileID: 299362467}
   m_Layer: 8
   m_Name: Mesa
   m_TagString: Untagged
@@ -16014,18 +15987,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8544044, y: 0.63175297}
   m_EdgeRadius: 0
---- !u!114 &299362467
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 299362463}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &302537426
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25473,7 +25434,6 @@ GameObject:
   - component: {fileID: 395674489}
   - component: {fileID: 395674492}
   - component: {fileID: 395674491}
-  - component: {fileID: 395674493}
   m_Layer: 8
   m_Name: Maceta
   m_TagString: Untagged
@@ -25621,18 +25581,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &395674493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 395674488}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &399832126
 GameObject:
   m_ObjectHideFlags: 0
@@ -39688,7 +39636,6 @@ GameObject:
   - component: {fileID: 444966935}
   - component: {fileID: 444966934}
   - component: {fileID: 444966933}
-  - component: {fileID: 444966936}
   m_Layer: 8
   m_Name: 'Maceta '
   m_TagString: Untagged
@@ -39836,18 +39783,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &444966936
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 444966931}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &455748831
 GameObject:
   m_ObjectHideFlags: 0
@@ -43092,7 +43027,6 @@ GameObject:
   - component: {fileID: 572100867}
   - component: {fileID: 572100868}
   - component: {fileID: 572100869}
-  - component: {fileID: 572100870}
   m_Layer: 8
   m_Name: Mesa4
   m_TagString: Untagged
@@ -43217,18 +43151,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.0625, y: 0.8223343}
   m_EdgeRadius: 0
---- !u!114 &572100870
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 572100866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &572857605
 GameObject:
   m_ObjectHideFlags: 0
@@ -43324,7 +43246,6 @@ GameObject:
   - component: {fileID: 575573850}
   - component: {fileID: 575573851}
   - component: {fileID: 575573852}
-  - component: {fileID: 575573853}
   m_Layer: 8
   m_Name: Escritorio2
   m_TagString: Untagged
@@ -43445,18 +43366,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9676647, y: 1.2963305}
   m_EdgeRadius: 0
---- !u!114 &575573853
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 575573849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &579072275
 GameObject:
   m_ObjectHideFlags: 0
@@ -45635,7 +45544,6 @@ GameObject:
   m_Component:
   - component: {fileID: 621770368}
   - component: {fileID: 621770369}
-  - component: {fileID: 621770370}
   m_Layer: 8
   m_Name: Mesa de conferencia1
   m_TagString: Untagged
@@ -45710,18 +45618,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &621770370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 621770367}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &625681700
 GameObject:
   m_ObjectHideFlags: 0
@@ -51024,7 +50920,6 @@ GameObject:
   - component: {fileID: 789875826}
   - component: {fileID: 789875827}
   - component: {fileID: 789875828}
-  - component: {fileID: 789875829}
   m_Layer: 8
   m_Name: Mesa
   m_TagString: Untagged
@@ -51145,18 +51040,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.8372942, y: 0.6297178}
   m_EdgeRadius: 0
---- !u!114 &789875829
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 789875825}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &790201784
 GameObject:
   m_ObjectHideFlags: 0
@@ -51739,7 +51622,6 @@ GameObject:
   - component: {fileID: 826134765}
   - component: {fileID: 826134764}
   - component: {fileID: 826134763}
-  - component: {fileID: 826134766}
   m_Layer: 8
   m_Name: 'Maceta '
   m_TagString: Untagged
@@ -51887,18 +51769,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &826134766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 826134761}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &830047437
 GameObject:
   m_ObjectHideFlags: 0
@@ -53489,7 +53359,6 @@ GameObject:
   m_Component:
   - component: {fileID: 891844499}
   - component: {fileID: 891844500}
-  - component: {fileID: 891844501}
   m_Layer: 8
   m_Name: Archivero (1)
   m_TagString: Untagged
@@ -53564,18 +53433,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &891844501
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 891844498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &892034744
 GameObject:
   m_ObjectHideFlags: 0
@@ -53721,7 +53578,6 @@ GameObject:
   - component: {fileID: 892594492}
   - component: {fileID: 892594493}
   - component: {fileID: 892594494}
-  - component: {fileID: 892594495}
   m_Layer: 8
   m_Name: Mesa3
   m_TagString: Untagged
@@ -53845,18 +53701,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9771118, y: 0.7860565}
   m_EdgeRadius: 0
---- !u!114 &892594495
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 892594491}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &892722397
 GameObject:
   m_ObjectHideFlags: 0
@@ -55066,7 +54910,6 @@ GameObject:
   - component: {fileID: 918272913}
   - component: {fileID: 918272914}
   - component: {fileID: 918272915}
-  - component: {fileID: 918272916}
   m_Layer: 8
   m_Name: Mesa1
   m_TagString: Untagged
@@ -55196,18 +55039,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.982357, y: 0.8008919}
   m_EdgeRadius: 0
---- !u!114 &918272916
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 918272912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &918284640
 GameObject:
   m_ObjectHideFlags: 0
@@ -65986,7 +65817,6 @@ GameObject:
   - component: {fileID: 1234556060}
   - component: {fileID: 1234556061}
   - component: {fileID: 1234556062}
-  - component: {fileID: 1234556063}
   m_Layer: 8
   m_Name: Mesa2
   m_TagString: Untagged
@@ -66111,18 +65941,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.9727831, y: 0.80498886}
   m_EdgeRadius: 0
---- !u!114 &1234556063
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1234556059}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1235322393
 GameObject:
   m_ObjectHideFlags: 0
@@ -74929,7 +74747,6 @@ GameObject:
   - component: {fileID: 1348976026}
   - component: {fileID: 1348976029}
   - component: {fileID: 1348976028}
-  - component: {fileID: 1348976030}
   m_Layer: 8
   m_Name: Maceta
   m_TagString: Untagged
@@ -75077,18 +74894,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1348976030
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1348976025}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &1353169438 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1625359093463801551, guid: 530e3ea4abfe15f43ae77c1e295e1c43, type: 3}
@@ -77934,7 +77739,6 @@ GameObject:
   - component: {fileID: 1433194689}
   - component: {fileID: 1433194690}
   - component: {fileID: 1433194691}
-  - component: {fileID: 1433194692}
   m_Layer: 8
   m_Name: Mesa5
   m_TagString: Untagged
@@ -78060,18 +77864,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.03125, y: 0.81531525}
   m_EdgeRadius: 0
---- !u!114 &1433194692
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1433194688}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1435425197
 GameObject:
   m_ObjectHideFlags: 0
@@ -79261,7 +79053,6 @@ GameObject:
   - component: {fileID: 1455478075}
   - component: {fileID: 1455478076}
   - component: {fileID: 1455478077}
-  - component: {fileID: 1455478078}
   m_Layer: 8
   m_Name: Mesa
   m_TagString: Untagged
@@ -79384,18 +79175,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 3.684545, y: 0.6487284}
   m_EdgeRadius: 0
---- !u!114 &1455478078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1455478074}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1459823598
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -79757,7 +79536,6 @@ GameObject:
   - component: {fileID: 1483099158}
   - component: {fileID: 1483099157}
   - component: {fileID: 1483099156}
-  - component: {fileID: 1483099159}
   m_Layer: 8
   m_Name: Botes grande
   m_TagString: Untagged
@@ -79878,18 +79656,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1751368330}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1483099159
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1483099155}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1485357982
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84129,7 +83895,6 @@ GameObject:
   - component: {fileID: 1629090915}
   - component: {fileID: 1629090918}
   - component: {fileID: 1629090917}
-  - component: {fileID: 1629090919}
   m_Layer: 8
   m_Name: Maceta
   m_TagString: Untagged
@@ -84277,18 +84042,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &1629090919
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1629090914}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &1630315235
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94208,7 +93961,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2015301834}
   - component: {fileID: 2015301835}
-  - component: {fileID: 2015301836}
   m_Layer: 8
   m_Name: Mesa
   m_TagString: Untagged
@@ -94283,18 +94035,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2015301836
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2015301833}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2017084409
 GameObject:
   m_ObjectHideFlags: 0
@@ -95623,7 +95363,6 @@ GameObject:
   - component: {fileID: 2060247507}
   - component: {fileID: 2060247508}
   - component: {fileID: 2060247509}
-  - component: {fileID: 2060247510}
   m_Layer: 8
   m_Name: Mesa6
   m_TagString: Untagged
@@ -95749,18 +95488,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 2.03125, y: 0.81679153}
   m_EdgeRadius: 0
---- !u!114 &2060247510
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2060247506}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7fa0352a4d56abd42ad2fc69deb72448, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &2068434095
 GameObject:
   m_ObjectHideFlags: 0
