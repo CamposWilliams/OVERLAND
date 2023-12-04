@@ -16,6 +16,7 @@ TagManager:
   - Espada
   - BotiquinTag
   - AreaComputadora
+  - BloqueadorTag
   layers:
   - Default
   - TransparentFX

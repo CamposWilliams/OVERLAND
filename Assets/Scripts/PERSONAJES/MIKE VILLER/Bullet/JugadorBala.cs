@@ -53,9 +53,14 @@ public class JugadorBala : MonoBehaviour
 
         if (collision.CompareTag("TileCollider"))
         {
-            //Destroy(gameObject);
+            Destroy(gameObject);
         }
-       
+
+        if (collision.CompareTag("BloqueadorTag"))
+        {
+            Destroy(gameObject);
+        }
+
     }
 
     //public void ArmaSecreta(GameObject nuevaBala)
