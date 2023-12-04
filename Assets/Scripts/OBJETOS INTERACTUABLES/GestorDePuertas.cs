@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class GestorDePuertas : MonoBehaviour
 {
-
+    public AudioSource ABRIR;
+    public AudioSource CERRAR;
     private Animator AnimacionPuerta;
     public GameObject bloqueador;
 
@@ -21,6 +22,7 @@ public class GestorDePuertas : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            ABRIR.Play();
             AnimacionPuerta.SetBool("Abierto", true);
             gameObject.layer = 11;
             bloqueador.SetActive(false);
@@ -35,6 +37,7 @@ public class GestorDePuertas : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
+            CERRAR.Play();
             AnimacionPuerta.SetBool("Abierto", false);
             gameObject.layer = 8;
             bloqueador.SetActive(true);
