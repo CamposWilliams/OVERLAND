@@ -323,7 +323,7 @@ public class JugadorDisparo : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Ammo"))
         {
-            StoreAmmoEspecial(2);
+            StoreAmmoEspecial(3);
 
             Destroy(collision.gameObject);
         }

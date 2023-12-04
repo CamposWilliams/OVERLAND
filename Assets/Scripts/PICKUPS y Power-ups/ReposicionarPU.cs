@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class ReposicionarPU : MonoBehaviour
 {
-    public Rigidbody2D MikeRb2D;
+   public GameObject Mike;
     Transform transformInicial;
     public GameObject[] cajas;
-    public Transform Mike;
+    public Transform MikeTrf;
 
     private void Start()
     {
@@ -22,18 +22,18 @@ public class ReposicionarPU : MonoBehaviour
     {
         
 
-        if (MikeRb2D.velocity.x > 0)
+        if (Mike.GetComponent<MikeDisparo>().anguloConstante==180)
         {
 
             transform.position = cajas[0].transform.position;
         }
-       else if (MikeRb2D.velocity.x <0)
+       else if (Mike.GetComponent<MikeDisparo>().anguloConstante ==0)
         {
             transform.position = cajas[1].transform.position;
         }
         else
         {
-            transform.position = Mike.transform.position;
+            transform.position = MikeTrf.transform.position;
         }
 
 

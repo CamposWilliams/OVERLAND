@@ -30,6 +30,15 @@ public class AnimacionPU : MonoBehaviour
             disfrazAnimator.SetFloat("PU", 2);
             StartCoroutine(AnimacionesPU());
         }
+
+        else if (collision.CompareTag("BotiquinTag"))
+        {
+            Debug.Log("Hola");
+           
+            disfrazAnimator.SetBool("ConPU", true);
+            disfrazAnimator.SetFloat("PU", 3);
+            StartCoroutine(AnimacionesPU());
+        }
     }
     IEnumerator AnimacionesPU()
     {

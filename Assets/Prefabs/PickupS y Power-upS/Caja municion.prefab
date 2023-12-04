@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3653635054959883010}
   - component: {fileID: 1549232962185286634}
   - component: {fileID: 5893219488567580350}
+  - component: {fileID: 1137067302757950894}
   m_Layer: 0
   m_Name: Caja municion
   m_TagString: Ammo
@@ -131,3 +132,25 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.8125, y: 0.53125}
   m_EdgeRadius: 0
+--- !u!95 &1137067302757950894
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5132664501384646670}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 7398bb0a9b2d57547a0d7834cf65ed26, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0

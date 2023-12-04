@@ -24,7 +24,7 @@ public class GestorDePuertas : MonoBehaviour
             AnimacionPuerta.SetBool("Abierto", true);
             gameObject.layer = 11;
             bloqueador.SetActive(false);
-            Debug.Log("EstaDentro");
+            //Debug.Log("EstaDentro");
 
             // Llama al escaneo después de cambiar la capa
             GetComponent<EscaneoNavegacion>().RealizarEscaneo();
@@ -38,7 +38,7 @@ public class GestorDePuertas : MonoBehaviour
             AnimacionPuerta.SetBool("Abierto", false);
             gameObject.layer = 8;
             bloqueador.SetActive(true);
-            Debug.Log("EstaFuera");
+            //Debug.Log("EstaFuera");
 
             // Llama al escaneo después de cambiar la capa
             GetComponent<EscaneoNavegacion>().RealizarEscaneo();

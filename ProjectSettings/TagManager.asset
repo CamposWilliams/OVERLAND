@@ -14,6 +14,7 @@ TagManager:
   - PocionAmarilla
   - Tarjeta2
   - Espada
+  - BotiquinTag
   layers:
   - Default
   - TransparentFX
@@ -28,7 +29,7 @@ TagManager:
   - Boss
   - PuertasLayer
   - EnemigoLayer
-  - 
+  - Botiquin
   - 
   - 
   - 

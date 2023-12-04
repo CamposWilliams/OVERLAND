@@ -18,7 +18,7 @@ public class JugadorBala : MonoBehaviour
     }
     void Start()
     {
-        Debug.Log(numeroDeBala);
+        //Debug.Log(numeroDeBala);
         //Debug.Log(direccionBala);
         animacionBala = GetComponent<Animator>();
         velocidadMike =GameObject.Find("Mike").GetComponent<Rigidbody2D>().velocity;
@@ -38,10 +38,8 @@ public class JugadorBala : MonoBehaviour
     void Movimiento()
     {
        
-        
             rb2dBala.velocity = direccionBala * rapidezBala;
-        
-               
+                     
     }
  
     void ReproducirAnimacionDelTipoDeBala()
