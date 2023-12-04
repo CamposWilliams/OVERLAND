@@ -63293,7 +63293,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - Descubrimos un gran hallazo serca del Monte Utah
+  - Descubrimos un gran hallazgo serca del Monte Utah
   - 'Investigacion Confidelcial del Gobierno : Meteorito Nova - 995'
 --- !u!61 &1096474664
 BoxCollider2D:
