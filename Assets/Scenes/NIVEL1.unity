@@ -70704,6 +70704,10 @@ PrefabInstance:
       propertyPath: Disparo1
       value: 
       objectReference: {fileID: 2068569317}
+    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: disfazAnimator
+      value: 
+      objectReference: {fileID: 2029621703}
     - target: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_Name
       value: Mike
@@ -70724,6 +70728,10 @@ PrefabInstance:
       propertyPath: barraDeVida
       value: 
       objectReference: {fileID: 1842416999}
+    - target: {fileID: 3758124497231241492, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: "vidaM\xE1ximaMike"
+      value: 51
+      objectReference: {fileID: 0}
     - target: {fileID: 3758124497231241492, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: MuerteMikeSonido
       value: 
@@ -70768,6 +70776,10 @@ PrefabInstance:
       propertyPath: cam
       value: 
       objectReference: {fileID: 297539745}
+    - target: {fileID: 5994250934849146187, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: disfaz
+      value: 
+      objectReference: {fileID: 2029621703}
     - target: {fileID: 5994250934849146187, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: 'cajas.Array.data[0]'
       value: 

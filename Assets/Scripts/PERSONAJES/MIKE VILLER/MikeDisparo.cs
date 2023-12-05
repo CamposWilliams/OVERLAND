@@ -5,7 +5,6 @@ using UnityEngine;
 public class MikeDisparo : MonoBehaviour
 {
     public bool balaCreada;
-    Rigidbody2D rb2DMike;
     public GameObject[] cajas;
     public Camera cam;
     float angulo;
@@ -15,18 +14,14 @@ public class MikeDisparo : MonoBehaviour
     public Vector2 referencia;
     float contador;
     float bala;
-    private void Start()
-    {
-       
-        rb2DMike = GetComponent<Rigidbody2D>();
-    }
-
     private void Update()
     {
         //Debug.Log(GameObject.Find("Mike").GetComponent<JugadorDisparo>().puedeDisparar);
         DireccionDelArma();
         //ArmaSecreta();
     }
+
+   
     void  DireccionDelArma()
     {
        
@@ -73,9 +68,8 @@ public class MikeDisparo : MonoBehaviour
         if (balaCreada)
         {
             if (numeroDeBala == 0)
-            {
-              
-                GetComponent<JugadorDisparo>().cdDisparo = 0.6f;
+            {          
+                
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 nuevaBala.GetComponent<JugadorBala>().numeroDeBala = numeroDeBala;
 
@@ -116,8 +110,8 @@ public class MikeDisparo : MonoBehaviour
 
              else if (numeroDeBala == 1)
              {
-               
-                GetComponent<JugadorDisparo>().cdDisparo = 0.4f;
+                
+                
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 nuevaBala.GetComponent<JugadorBala>().numeroDeBala = numeroDeBala;
 
@@ -160,7 +154,7 @@ public class MikeDisparo : MonoBehaviour
             else if (numeroDeBala == 2)
             {
                 
-                GetComponent<JugadorDisparo>().cdDisparo = 0.8f;
+               
                
                 if (anguloConstante == 0)
                 {
@@ -235,7 +229,7 @@ public class MikeDisparo : MonoBehaviour
             else if (numeroDeBala == 3)
            
             {
-                GetComponent<JugadorDisparo>().cdDisparo = 0.6f;
+                
 
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 GameObject nuevaBala2 = Instantiate(balaPrefab);

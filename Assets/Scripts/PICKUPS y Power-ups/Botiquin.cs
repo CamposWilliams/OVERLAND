@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Botiquín : MonoBehaviour
 {
-    float curación=5;
+    float curación=17;
     public Animator Mike;
 
 

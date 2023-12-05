@@ -7,12 +7,13 @@ public class JugadorDisparo : MonoBehaviour
     public AudioSource Disparo1;
 
     float tiempo;
-   public bool puedeDisparar = true;
+    public bool puedeDisparar = true;
     public float cdDisparo = 0.6f;
     public GameObject balaPrefab;
     Animator MikeAnimator;
     bool muere;
     bool estaConRifle;
+    public Animator disfazAnimator;
 
 
     //Municion de armas 
@@ -121,7 +122,7 @@ public class JugadorDisparo : MonoBehaviour
                 almacenBulletRifle = Mathf.Abs(almacenBulletRifle);
             }
 
-            if (Input.GetMouseButtonDown(0) && AmmoRifle > 0)
+            if (Input.GetMouseButton(0) && AmmoRifle > 0)
             {
           
                 AmmoRifle--;
@@ -152,15 +153,13 @@ public class JugadorDisparo : MonoBehaviour
             }
 
 
-            if (Input.GetMouseButtonDown(0) && AmmoSubfusil > 0)
+            if (Input.GetMouseButton(0) && AmmoSubfusil > 0)
             {
                 
                 AmmoSubfusil--;
             }
 
-
         }
-
 
         else if (CambioArma == 3)
         {
@@ -186,7 +185,7 @@ public class JugadorDisparo : MonoBehaviour
 
 
 
-            if (Input.GetMouseButtonDown(0) && AmmoArmaEspecial > 0)
+            if (Input.GetMouseButton(0) && AmmoArmaEspecial > 0)
             {
                
                 AmmoArmaEspecial--;
@@ -207,10 +206,15 @@ public class JugadorDisparo : MonoBehaviour
             Disparo1.Play();
             puedeDisparar = false;
 
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                cdDisparo = 0.2f;
+            }
+            else  cdDisparo = 0.6f;
 
             GetComponent<MikeDisparo>().balaCreada = true;
-            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab,0);
-         
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 0);
+
         }
 
     }
@@ -220,6 +224,13 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
             puedeDisparar = false;
+
+
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                 cdDisparo = 0.13f;
+            }
+            else cdDisparo = 0.4f;
 
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
@@ -232,6 +243,13 @@ public class JugadorDisparo : MonoBehaviour
         if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
             puedeDisparar = false;
+
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                cdDisparo = 0.26f;
+            }
+            else cdDisparo = 0.8f;
+
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);         
 
@@ -243,8 +261,15 @@ public class JugadorDisparo : MonoBehaviour
             if (Input.GetMouseButton(0) && puedeDisparar == true)
             {
                 puedeDisparar = false;
-                GetComponent<MikeDisparo>().balaCreada = true;
-                GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
+
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                cdDisparo = 0.2f;
+            }
+            else cdDisparo = 0.6f;
+
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
 
             }
 
