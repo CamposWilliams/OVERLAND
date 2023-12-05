@@ -163,6 +163,7 @@ MonoBehaviour:
   Mike: {fileID: 0}
   conPU: 0
   disfrazAnimator: {fileID: 0}
+  sombrita: {fileID: 5925823304986531845}
 --- !u!1 &5925823304986531845
 GameObject:
   m_ObjectHideFlags: 0

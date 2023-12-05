@@ -14,6 +14,7 @@ using UnityEngine;
         SpriteRenderer sprPowerUp;
         Collider2D collPowerUp;
         public Animator disfrazAnimator;
+        public GameObject sombrita;
 
     private void Start()
         {
@@ -28,6 +29,7 @@ using UnityEngine;
             if (collision.CompareTag("Player"))
             {
                 conPU = true;
+                Destroy(sombrita);
 
                 switch (tag)
                 {
