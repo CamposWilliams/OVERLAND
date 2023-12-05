@@ -7,17 +7,19 @@ using UnityEngine.AI;
 public class SeguirAstar : MonoBehaviour
 {
 
-    Animator BonkAnimacion;
+    Animator EnemigoAnimacion;
     private AIPath aiPath;
     public Transform MikeTrf;
     float valorDelParametroX;
     float valorDelParametroY;
+    public Collider2D enemigoCollider;
+    public bool reactivar;
 
 
     void Start()
     {
         aiPath = GetComponent<AIPath>();
-        BonkAnimacion = GetComponent<Animator>();
+       EnemigoAnimacion = GetComponent<Animator>();
 
     }
 
@@ -27,10 +29,14 @@ public class SeguirAstar : MonoBehaviour
 
         SeguimientoDeAnimacion();
         AtaqueAnimacion();
+        if(reactivar==true)
+        {
+           StartCoroutine(ReactivarCollider());
+        }
 
     }
 
-  
+
 
     void AtaqueAnimacion()
     {
@@ -42,52 +48,80 @@ public class SeguirAstar : MonoBehaviour
     {
         if (aiPath.velocity != Vector3.zero)
         {
-            BonkAnimacion.SetBool("SeMueve", true);
+            EnemigoAnimacion.SetBool("SeMueve", true);
 
             if (aiPath.velocity.x > 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
             {
                 //Debug.Log("Derecha");
-                BonkAnimacion.SetFloat("ValorY", 0);
-                BonkAnimacion.SetFloat("ValorX", 1);
-                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
-                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+                EnemigoAnimacion.SetFloat("ValorY", 0);
+                EnemigoAnimacion.SetFloat("ValorX", 1);
+                valorDelParametroX = EnemigoAnimacion.GetFloat("ValorX");
+                valorDelParametroY = EnemigoAnimacion.GetFloat("ValorY");
             }
 
             else if (aiPath.velocity.x < 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
             {
                 //Debug.Log("Izquierda");
-                BonkAnimacion.SetFloat("ValorY", 0);
-                BonkAnimacion.SetFloat("ValorX", -1);
-                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
-                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+                EnemigoAnimacion.SetFloat("ValorY", 0);
+                EnemigoAnimacion.SetFloat("ValorX", -1);
+                valorDelParametroX = EnemigoAnimacion.GetFloat("ValorX");
+                valorDelParametroY = EnemigoAnimacion.GetFloat("ValorY");
             }
 
             else if (aiPath.velocity.y < 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
             {
-                BonkAnimacion.SetFloat("ValorX", 0);
-                BonkAnimacion.SetFloat("ValorY", -1);
-                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
-                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+                EnemigoAnimacion.SetFloat("ValorX", 0);
+                EnemigoAnimacion.SetFloat("ValorY", -1);
+                valorDelParametroX = EnemigoAnimacion.GetFloat("ValorX");
+                valorDelParametroY = EnemigoAnimacion.GetFloat("ValorY");
             }
             else if (aiPath.velocity.y > 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
             {
-                BonkAnimacion.SetFloat("ValorX", 0);
-                BonkAnimacion.SetFloat("ValorY", 1);
-                valorDelParametroX = BonkAnimacion.GetFloat("ValorX");
-                valorDelParametroY = BonkAnimacion.GetFloat("ValorY");
+                EnemigoAnimacion.SetFloat("ValorX", 0);
+                EnemigoAnimacion.SetFloat("ValorY", 1);
+                valorDelParametroX = EnemigoAnimacion.GetFloat("ValorX");
+                valorDelParametroY = EnemigoAnimacion.GetFloat("ValorY");
             }
 
         }
 
         else
         {
-            BonkAnimacion.SetBool("SeMueve", false);
-            BonkAnimacion.SetFloat("ValorX", valorDelParametroX);
-            BonkAnimacion.SetFloat("ValorY", valorDelParametroY);
+            EnemigoAnimacion.SetBool("SeMueve", false);
+            EnemigoAnimacion.SetFloat("ValorX", valorDelParametroX);
+            EnemigoAnimacion.SetFloat("ValorY", valorDelParametroY);
+        }
+
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Enemigo1"))
+        {
+            enemigoCollider.isTrigger = true;
+            reactivar = true;
+            
+                
+                if (EnemigoAnimacion.GetBool("SeMueve") == false)
+                {
+                    Debug.Log("ActivandoCorrutina");
+                   
+
+                }        
+
         }
 
     }
 
 
-
+    IEnumerator ReactivarCollider()
+    {
+        yield return null;
+        if (EnemigoAnimacion.GetBool("SeMueve") == false)
+        {
+            enemigoCollider.isTrigger = false;
+        }
+           
+    }
 }

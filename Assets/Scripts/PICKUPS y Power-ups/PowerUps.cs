@@ -100,7 +100,7 @@ using UnityEngine;
        
         yield return new WaitForSeconds(5);
         Mike.GetComponent<JugadorMovimiento>().rapidez = 5;
-        Debug.Log("Hola");
+        //Debug.Log("Hola");
         Destroy(gameObject);
                 
                 
@@ -109,7 +109,7 @@ using UnityEngine;
 
     IEnumerator AnimacionesPU()
     {
-        Debug.Log("Adios");
+        //Debug.Log("Adios");
         yield return new WaitForSeconds(5);
         disfrazAnimator.SetBool("ConPU", false);
     }

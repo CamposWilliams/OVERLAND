@@ -117,7 +117,7 @@ public class MikeDisparo : MonoBehaviour
              else if (numeroDeBala == 1)
              {
                
-                GetComponent<JugadorDisparo>().cdDisparo = 0.19f;
+                GetComponent<JugadorDisparo>().cdDisparo = 0.4f;
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 nuevaBala.GetComponent<JugadorBala>().numeroDeBala = numeroDeBala;
 
@@ -160,7 +160,8 @@ public class MikeDisparo : MonoBehaviour
             else if (numeroDeBala == 2)
             {
                 
-                GetComponent<JugadorDisparo>().cdDisparo = 0.6f;
+                GetComponent<JugadorDisparo>().cdDisparo = 0.8f;
+               
                 if (anguloConstante == 0)
                 {
 
@@ -234,7 +235,7 @@ public class MikeDisparo : MonoBehaviour
             else if (numeroDeBala == 3)
            
             {
-                GetComponent<JugadorDisparo>().cdDisparo = 0.4f;
+                GetComponent<JugadorDisparo>().cdDisparo = 0.6f;
 
                 GameObject nuevaBala = Instantiate(balaPrefab);
                 GameObject nuevaBala2 = Instantiate(balaPrefab);
@@ -255,14 +256,14 @@ public class MikeDisparo : MonoBehaviour
                    
                     nuevaBala2.transform.position = cajas[0].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * -90);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala =new Vector2 (0.9f,0.16f);
-                    nuevaBala2.transform.up = new Vector2(0.9f, 0.16f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala =new Vector2 (0.9f,0.22f);
+                    nuevaBala2.transform.up = new Vector2(0.9f, 0.22f);
 
 
                     nuevaBala3.transform.position = cajas[0].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * -90);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f,-0.16f);
-                    nuevaBala3.transform.up = new Vector2(0.9f, -0.16f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f,-0.22f);
+                    nuevaBala3.transform.up = new Vector2(0.9f, -0.22f);
 
 
 
@@ -278,13 +279,13 @@ public class MikeDisparo : MonoBehaviour
 
                     nuevaBala2.transform.position = cajas[2].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 90);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, 0.16f)*-1;
-                    nuevaBala2.transform.up = new Vector2(0.9f, 0.15f) * -1;
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, 0.22f)*-1;
+                    nuevaBala2.transform.up = new Vector2(0.9f, 0.22f) * -1;
 
                     nuevaBala3.transform.position = cajas[2].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 90);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, -0.16f)*-1;
-                    nuevaBala3.transform.up = new Vector2(0.9f, -0.16f) * -1;
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = new Vector2(0.9f, -0.22f)*-1;
+                    nuevaBala3.transform.up = new Vector2(0.9f, -0.22f) * -1;
 
 
 
@@ -299,14 +300,14 @@ public class MikeDisparo : MonoBehaviour
                     
                     nuevaBala2.transform.position = cajas[3].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 180);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, 0.16f);
-                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, 0.16f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, 0.22f);
+                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, 0.22f);
 
 
                     nuevaBala3.transform.position = cajas[3].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 180);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, -0.16f);
-                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, -0.16f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, -90)*new Vector2(0.9f, -0.22f);
+                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, -90) * new Vector2(0.9f, -0.22f);
                 }
                 else if (anguloConstante == 90)
                 {
@@ -318,13 +319,13 @@ public class MikeDisparo : MonoBehaviour
                     
                     nuevaBala2.transform.position = cajas[1].transform.position;
                     nuevaBala2.transform.Rotate(Vector3.forward * 0);
-                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, 0.16f);
-                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, 0.16f);
+                    nuevaBala2.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, 0.22f);
+                    nuevaBala2.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, 0.22f);
 
                     nuevaBala3.transform.position = cajas[1].transform.position;
                     nuevaBala3.transform.Rotate(Vector3.forward * 0);
-                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, -0.16f);
-                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, -0.16f);
+                    nuevaBala3.GetComponent<JugadorBala>().direccionBala = Quaternion.Euler(0, 0, 90)* new Vector2(0.9f, -0.22f);
+                    nuevaBala3.transform.up = Quaternion.Euler(0, 0, 90) * new Vector2(0.9f, -0.22f);
 
                 }
             }

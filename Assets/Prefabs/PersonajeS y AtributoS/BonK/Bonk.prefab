@@ -98,11 +98,11 @@ GameObject:
   - component: {fileID: 4126855927115646373}
   - component: {fileID: 2540103966401751576}
   - component: {fileID: 5141048360052326301}
-  - component: {fileID: 3209393857101570506}
   - component: {fileID: 7757790508405365886}
   - component: {fileID: 7340152643227060161}
   - component: {fileID: 5913322344155325575}
   - component: {fileID: 1543904585829243645}
+  - component: {fileID: 8731208370774236892}
   m_Layer: 0
   m_Name: Bonk
   m_TagString: Enemigo1
@@ -239,52 +239,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MikeTrf: {fileID: 0}
---- !u!61 &3209393857101570506
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6895972694885802845}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Density: 1
-  m_Material: {fileID: 6200000, guid: db57a4ad35992fa43b41dff1129390d7, type: 2}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 16640
-  m_LayerOverridePriority: 0
-  m_ForceSendLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ForceReceiveLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_ContactCaptureLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_CallbackLayers:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.9375, y: 1}
-    newSize: {x: 0.9375, y: 1}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  m_Size: {x: 0.9375, y: 1}
-  m_EdgeRadius: 0
+  time: 0
+  enemigoCollider: {fileID: 8731208370774236892}
+  BonkRb2d: {fileID: 1543904585829243645}
 --- !u!114 &7757790508405365886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -326,10 +283,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 0.5
-  height: 2
+  radius: 0.7
+  height: 1
   canMove: 1
-  maxSpeed: 2
+  maxSpeed: 3
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -349,8 +306,8 @@ MonoBehaviour:
   maxAcceleration: 10000000
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 0.3
-  endReachedDistance: 2
+  pickNextWaypointDist: 0.1
+  endReachedDistance: 1.5
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -382,20 +339,57 @@ Rigidbody2D:
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
   m_Mass: 2000
-  m_LinearDrag: 1
+  m_LinearDrag: 10000
   m_AngularDrag: 0.05
   m_GravityScale: 0
-  m_Material: {fileID: 6200000, guid: db57a4ad35992fa43b41dff1129390d7, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &8731208370774236892
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895972694885802845}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 16640
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 32511
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0.0037299395, y: -0.014371872}
+  m_Size: {x: 0.4371531, y: 0.97125626}
+  m_Direction: 0
 --- !u!1 &8391565628777802260
 GameObject:
   m_ObjectHideFlags: 0

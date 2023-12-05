@@ -7,8 +7,7 @@ public class Botiquín : MonoBehaviour
 {
     float curación=5;
     public Animator Mike;
-    float timer=5;
-    float time;
+
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

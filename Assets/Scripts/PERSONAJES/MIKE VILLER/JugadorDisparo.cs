@@ -12,13 +12,14 @@ public class JugadorDisparo : MonoBehaviour
     public GameObject balaPrefab;
     Animator MikeAnimator;
     bool muere;
+    bool estaConRifle;
 
 
     //Municion de armas 
     int AmmoPistola;
-    [SerializeField] int AmmoSudmisil = 5;
+    [SerializeField] int AmmoSubfusil = 5;
     [SerializeField] int AmmoRifle = 5;
-    [SerializeField] int AmmoEspecial = 5;
+    [SerializeField] int AmmoArmaEspecial = 5;
     [SerializeField] int CambioArma = 5;
 
     //cambio de arma 
@@ -27,18 +28,18 @@ public class JugadorDisparo : MonoBehaviour
 
     //Maxima capacidad de municion de cada arma
     int maxAmmoPistola;
-    int maxAmmoSudmisil = 25;
+    int maxAmmoSubfusil = 25;
     int maxAmmoRifle = 20;
-    int maxAmmoEspecial = 25;
+    int maxAmmoArmaEspecial = 25;
 
     //Almacen de balas
 
-    public int almacenBulletSudmisil = 0;
+    public int almacenBulletSubfusil = 0;
     public int almacenBulletRifle = 0;
     public int almacenBulletEspecial = 0;
 
     //maxAlmacen
-    int maxAlmacenBulletSudmisil = 25;
+    int maxAlmacenBulletSubfusil = 25;
     int maxAlmacenBulletRifle = 25;
     int maxAlmacenBulletEspecial = 25;
 
@@ -55,6 +56,7 @@ public class JugadorDisparo : MonoBehaviour
             Recargando();
             ShootGeneral();
 
+           
             if (Input.GetKeyDown(KeyCode.Q))
             {
                 MikeAnimator.SetTrigger("PresionaQ");
@@ -66,11 +68,10 @@ public class JugadorDisparo : MonoBehaviour
 
     }
 
-    void Recargando() // Como son para 4 armas diferentes, puedes ampliarlo o cambiarlo si quieres (por enmuarator por ejemplo)
+    void Recargando() 
     {
         if (puedeDisparar == false)
         {
-            /*Debug.Log("Iniciando");*/
 
             tiempo += Time.deltaTime;
 
@@ -84,19 +85,25 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootGeneral()
     {
-
+        switch (CambioArma)
+        {
+            case 0:ShootPistola();break;
+            case 1: ShootSubfusil(); break;
+            case 2: ShootRifle(); break;
+            case 3: ShootArmaEspecial(); break;
+        }
+      
         if (CambioArma >= 4)
         {
             CambioArma *= 0;
         }
 
-        if (CambioArma == 0)
-        {
-            ShootPistola();
-        }
+        
 
         else if (CambioArma == 2)
         {
+            estaConRifle = false;
+
             if (Input.GetKeyDown(KeyCode.R))
             {
                 // Recargar
@@ -116,7 +123,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if (Input.GetMouseButtonDown(0) && AmmoRifle > 0)
             {
-                ShootRifle();
+          
                 AmmoRifle--;
             }
         }
@@ -124,29 +131,31 @@ public class JugadorDisparo : MonoBehaviour
 
         else if (CambioArma == 1)
         {
+            estaConRifle = true;
+
             if (Input.GetKeyDown(KeyCode.R))
             {
 
                 // Recargar
-                if (AmmoSudmisil < maxAmmoSudmisil)
+                if (AmmoSubfusil < maxAmmoSubfusil)
                 {
-                    int bulletsToReload = Mathf.Min(almacenBulletSudmisil, maxAmmoSudmisil - AmmoSudmisil);
-                    AmmoSudmisil += bulletsToReload;
-                    almacenBulletSudmisil -= bulletsToReload;
+                    int bulletsToReload = Mathf.Min(almacenBulletSubfusil, maxAmmoSubfusil - AmmoSubfusil);
+                    AmmoSubfusil += bulletsToReload;
+                    almacenBulletSubfusil -= bulletsToReload;
                 }
 
                 // Asegurarnos de que AmmoRifle no exceda el máximo
-                AmmoSudmisil = Mathf.Min(AmmoSudmisil, maxAmmoSudmisil);
+                AmmoSubfusil = Mathf.Min(AmmoSubfusil, maxAmmoSubfusil);
 
                 // Mantener almacenBulletRifle en positivo
-                almacenBulletSudmisil = Mathf.Abs(almacenBulletSudmisil);
+                almacenBulletSubfusil = Mathf.Abs(almacenBulletSubfusil);
             }
 
 
-            if (Input.GetMouseButtonDown(0) && AmmoSudmisil > 0)
+            if (Input.GetMouseButtonDown(0) && AmmoSubfusil > 0)
             {
-                ShootSudMisil();
-                AmmoSudmisil--;
+                
+                AmmoSubfusil--;
             }
 
 
@@ -155,19 +164,20 @@ public class JugadorDisparo : MonoBehaviour
 
         else if (CambioArma == 3)
         {
+            estaConRifle = false;
 
             if (Input.GetKeyDown(KeyCode.R))
             {
                 // Recargar
-                if (AmmoEspecial < maxAmmoEspecial)
+                if (AmmoArmaEspecial < maxAmmoArmaEspecial)
                 {
-                    int bulletsToReload = Mathf.Min(almacenBulletEspecial, maxAmmoEspecial - AmmoEspecial);
-                    AmmoEspecial += bulletsToReload;
+                    int bulletsToReload = Mathf.Min(almacenBulletEspecial, maxAmmoArmaEspecial - AmmoArmaEspecial);
+                    AmmoArmaEspecial += bulletsToReload;
                     almacenBulletEspecial -= bulletsToReload;
                 }
 
                 // Asegurarnos de que AmmoRifle no exceda el máximo
-                AmmoEspecial = Mathf.Min(AmmoEspecial, maxAmmoEspecial);
+                AmmoArmaEspecial = Mathf.Min(AmmoArmaEspecial, maxAmmoArmaEspecial);
 
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletEspecial = Mathf.Abs(almacenBulletEspecial);
@@ -176,10 +186,10 @@ public class JugadorDisparo : MonoBehaviour
 
 
 
-            if (Input.GetMouseButtonDown(0) && AmmoEspecial > 0)
+            if (Input.GetMouseButtonDown(0) && AmmoArmaEspecial > 0)
             {
-                ShootEspecial();
-                AmmoEspecial--;
+               
+                AmmoArmaEspecial--;
             }
 
         }  
@@ -192,7 +202,7 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootPistola()
     {
-        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
+        if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
             Disparo1.Play();
             puedeDisparar = false;
@@ -207,18 +217,19 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootRifle()
     {
-        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
+        if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
             puedeDisparar = false;
+
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
 
         }
     }
 
-    void ShootSudMisil()
+    void ShootSubfusil()
     {
-        if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
+        if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
             puedeDisparar = false;
             GetComponent<MikeDisparo>().balaCreada = true;
@@ -227,9 +238,9 @@ public class JugadorDisparo : MonoBehaviour
         }
     }
 
-        void ShootEspecial()
+        void ShootArmaEspecial()
         {
-            if (Input.GetMouseButtonDown(0) && puedeDisparar == true)
+            if (Input.GetMouseButton(0) && puedeDisparar == true)
             {
                 puedeDisparar = false;
                 GetComponent<MikeDisparo>().balaCreada = true;
@@ -270,43 +281,43 @@ public class JugadorDisparo : MonoBehaviour
 
 
 
-        //SUBMISIL
-        void ChangeAmmoSudMisil(int value)
+        //SUBFUSIL
+        void ChangeAmmoSubfusil(int value)
         {
 
-            AmmoSudmisil += value;
+            AmmoSubfusil += value;
 
-            if (AmmoSudmisil >= maxAmmoSudmisil)
+            if (AmmoSubfusil >= maxAmmoSubfusil)
             {
-                AmmoSudmisil = maxAmmoSudmisil;
+                AmmoSubfusil = maxAmmoSubfusil;
             }
         }
 
-        void StoreAmmoSubMisil(int value)
+        void StoreAmmoSubfusil(int value)
         {
-            almacenBulletSudmisil += value;
+            almacenBulletSubfusil += value;
 
-            if (almacenBulletSudmisil >= maxAlmacenBulletSudmisil)
+            if (almacenBulletSubfusil >= maxAlmacenBulletSubfusil)
             {
-                almacenBulletSudmisil = maxAlmacenBulletSudmisil;
+                almacenBulletSubfusil = maxAlmacenBulletSubfusil;
             }
 
         }
 
 
         //ESPECIAL
-        void ChangeAmmoEspecial(int value)
+        void ChangeAmmoArmaEspecial(int value)
         {
 
-            AmmoEspecial += value;
+            AmmoArmaEspecial += value;
 
-            if (AmmoEspecial >= maxAmmoEspecial)
+            if (AmmoArmaEspecial >= maxAmmoArmaEspecial)
             {
-                AmmoEspecial = maxAmmoEspecial;
+                AmmoArmaEspecial = maxAmmoArmaEspecial;
             }
         }
 
-        void StoreAmmoEspecial(int value)
+        void StoreAmmoArmaEspecial(int value)
         {
             almacenBulletEspecial += value;
 
@@ -325,7 +336,7 @@ public class JugadorDisparo : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Ammo"))
         {
-            StoreAmmoEspecial(3);
+            StoreAmmoArmaEspecial(3);
 
             Destroy(collision.gameObject);
         }
@@ -333,7 +344,7 @@ public class JugadorDisparo : MonoBehaviour
         if (collision.gameObject.CompareTag("Ammo"))
         {
             StoreAmmoRifle(2);
-            StoreAmmoSubMisil(2);
+            StoreAmmoSubfusil(2);
             Destroy(collision.gameObject);
         }
 
