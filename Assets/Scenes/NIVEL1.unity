@@ -1615,9 +1615,9 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - Al descurir esta complejidad creiamos que entenderiamos el universo
-  - pero fuimos muy avaros al querer saberlo todo , ahora no hay vuelta atras ....Meteorito
-    Nova - 995.
+  - "Al descubrir esta complejidad, cre\xEDamos que entender\xEDamos el universo"
+  - "pero fuimos muy avaros al querer saberlo todo; ahora no hay vuelta atr\xE1s\u2026
+    Meteorito Nova - 995."
 --- !u!61 &30582366
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5095,10 +5095,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -260}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &122188558
 MonoBehaviour:
@@ -5383,7 +5383,7 @@ MonoBehaviour:
       m_Calls: []
   m_text: 
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_sharedMaterial: {fileID: -5899553466851002729, guid: d04543de09b6fb34bbe0ef6b1563326d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
@@ -5408,8 +5408,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70
-  m_fontSizeBase: 70
+  m_fontSize: 50
+  m_fontSizeBase: 50
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5447,7 +5447,7 @@ MonoBehaviour:
   m_margin: {x: 0, y: 0, z: 0, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
+  m_hasFontAssetChanged: 1
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 --- !u!222 &129814721
@@ -12093,7 +12093,7 @@ MonoBehaviour:
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
+  m_ScreenMatchMode: 1
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
@@ -13002,8 +13002,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - 'Mike Viller : De aqui revivio , destruyo la capsula y se escapo el desgraciado
-    , destruyendo el laboratorio y mutando a los cientificos.'
+  - "Mike Viller: De aqu\xED revivi\xF3, destruy\xF3 la c\xE1psula y se escap\xF3
+    el desgraciado, destruyendo el laboratorio y mutando a los cient\xEDficos."
 --- !u!61 &193570313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14482,7 +14482,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &244107556
 Transform:
   m_ObjectHideFlags: 0
@@ -16801,10 +16801,10 @@ RectTransform:
   - {fileID: 952772333}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 365, y: -155}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &303932309
 MonoBehaviour:
@@ -26088,9 +26088,9 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - 'Porfavor Busque las dos Tarjetas para acceder al control '
-  - "Para acceder al control y ventilar los pasillos \xA1Necesita las tarejtas!"
-  - ' Precionado "E" Para registrar las tarjetas'
+  - ' Por favor, busque las dos tarjetas para acceder al control. Para ventilar los
+    pasillos'
+  - "\xA1necesita las tarjetas! Presione \u201CE\u201D para registrar las tarjetas.\r\n\r\n"
 --- !u!61 &382061804
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26210,8 +26210,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: VOLUMEN
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -26235,7 +26235,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.85
+  m_fontSize: 24.5
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -44003,8 +44003,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - A los mutantes luchadores conocidos como Bonk , Puden ser eliminados fasilmente
-    con la arma de mano o la balas de la Pistola (GLOCK-18)
+  - "Los mutantes luchadores conocidos como Bonk pueden ser eliminados f\xE1cilmente
+    con un arma de mano o las balas de la pistola Glock-18."
 --- !u!61 &545678578
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -45341,10 +45341,10 @@ RectTransform:
   - {fileID: 938727808}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &586287288
 MonoBehaviour:
@@ -48479,11 +48479,11 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Como termine aca, yo se los habia dicho '
+      value: "OjoMutante: \xBFC\xF3mo termin\xE9 aqu\xED? Yo se los hab\xEDa dicho:"
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: NO HAY QUE HACERLO , NUNCA HACEN CASO...
+      value: "\xA1NO HAY QUE HACERLO! NUNCA HACEN CASO\u2026"
       objectReference: {fileID: 0}
     - target: {fileID: 6751565105136860573, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: m_SortingOrder
@@ -50120,10 +50120,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -155}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &721984084
 MonoBehaviour:
@@ -53969,10 +53969,10 @@ RectTransform:
   - {fileID: 1086535433}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -155}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &851046322
 MonoBehaviour:
@@ -55131,17 +55131,18 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: lineasDialogo.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Fui el inventor de una gran pocion Morada , que puede
-        aumentar las habilidades de cualquier ser humano  '
+      value: "OjoMutante: Fui el inventor de una gran poci\xF3n morada que puede
+        aumentar las habilidades de cualquier ser humano"
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: 'Agente Mike asi te llamas no, creo que en tu caso, aumentaria la velocidad
-        de tus disparos y te olvidarias de recargar '
+      value: "Agente Mike, as\xED te llamas, \xBFno? Creo que en tu caso, aumentar\xEDa
+        la velocidad de tus disparos y te olvidar\xEDas de recargar. Soy un cient\xEDfico
+        magn\xEDfico, el mejor."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[2]'
@@ -57165,8 +57166,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - Todos investigamos la muestra encontrada en un meteorito , algo que creiamos
-    que era un fosil , no lo era.
+  - "Todos investigamos la muestra encontrada en un meteorito; algo que cre\xEDamos
+    que era un f\xF3sil, no lo era."
 --- !u!61 &918284644
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -58861,10 +58862,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -260}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &965454847
 MonoBehaviour:
@@ -58986,17 +58987,18 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: lineasDialogo.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Hola, Seguramente te haz encontrado por alli mis pociones
-        ?'
+      value: "OjoMutante: Hola. Seguramente te has encontrado mis pociones por ah\xED.
+        Las pociones azules ofrecen una resistencia \xFAnica, y la amarilla, gran
+        velocidad de movimiento."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: Las pociones azules dan una resistencia unica , ah pero la amarilla
-        , gran velocidad de movimiento , soy un genio
+      value: "Soy un genio. Aunque no s\xE9 qu\xE9 efecto tiene una poci\xF3n morada;
+        la hizo mi compa\xF1ero, un idiota que se cree m\xE1s inteligente que yo."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[2]'
@@ -62620,8 +62622,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - "Encontramos muchas muestras para el fenomeno, al final si tuvimos exito , el
-    especimen ya podia dar se\xF1ales de vida."
+  - "Encontramos muchas muestras para el fen\xF3meno; al final, s\xED tuvimos \xE9xito:
+    el esp\xE9cimen ya pod\xEDa dar se\xF1ales de vida."
 --- !u!1 &1062999489
 GameObject:
   m_ObjectHideFlags: 0
@@ -62739,10 +62741,10 @@ RectTransform:
   - {fileID: 1562762975}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 365, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1064307007
 MonoBehaviour:
@@ -63485,13 +63487,13 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: "OjoMutante : \xA1Hola! Gracias por acercarte , seguro te preguntaras
-        que son esos seres que te atacan , pues son cientificos mutados"
+      value: "OjoMutante: \xA1Hola! Gracias por acercarte. Seguro te preguntar\xE1s
+        qu\xE9 son esos seres que te atacan; pues son cient\xEDficos mutados"
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: Ya no podemos hablar , ya se acercan mas , ten agarra esa caja de municiones
-        esta a mi derecha , seguro que le das mejor uso.
+      value: "Ya no podemos hablar, ya se acercan m\xE1s. Toma, agarra esa caja de
+        municiones que est\xE1 a mi derecha; seguro que le dar\xE1s mejor uso."
       objectReference: {fileID: 0}
     - target: {fileID: 6751565105136860573, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: m_SortingOrder
@@ -63652,8 +63654,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: SFX
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+  m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -63677,7 +63679,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 26.85
+  m_fontSize: 24.5
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -63916,8 +63918,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - Descubrimos un gran hallazgo serca del Monte Utah
-  - 'Investigacion Confidelcial del Gobierno : Meteorito Nova - 995'
+  - Descubrimos un gran hallazgo cerca del Monte Utah
+  - "Investigaci\xF3n Confidencial del Gobierno: Meteorito Nova - 995"
 --- !u!61 &1096474664
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -64563,7 +64565,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1113552675
 Transform:
   m_ObjectHideFlags: 0
@@ -64850,10 +64852,10 @@ RectTransform:
   - {fileID: 1089849361}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1120515342
 MonoBehaviour:
@@ -65643,11 +65645,11 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4397636855544687740, guid: d3b742bfed35aec46a8e4047651f068d, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'Mike Viller : Que demonios ocurrio aqui...'
+      value: "\xBFQu\xE9 demonios ocurri\xF3 aqu\xED?"
       objectReference: {fileID: 0}
     - target: {fileID: 4397636855544687740, guid: d3b742bfed35aec46a8e4047651f068d, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: "\xBFEsto es un corazon humano?."
+      value: "\xBFEsto es un coraz\xF3n humano?"
       objectReference: {fileID: 0}
     - target: {fileID: 6254168741045025548, guid: d3b742bfed35aec46a8e4047651f068d, type: 3}
       propertyPath: m_IsTrigger
@@ -67904,7 +67906,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1211679322
 Transform:
   m_ObjectHideFlags: 0
@@ -69345,11 +69347,11 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 5925459261159873987, guid: 74400a494b3096545bf16ddae6ff83e7, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'Mike Viller : Que asco , esto ya esta apestando '
+      value: "Mike Viller: Qu\xE9 asco, esto ya est\xE1 apestando."
       objectReference: {fileID: 0}
     - target: {fileID: 5925459261159873987, guid: 74400a494b3096545bf16ddae6ff83e7, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: El gobierno no me habia dicho nada de esto.
+      value: "El gobierno no me hab\xEDa dicho nada de esto."
       objectReference: {fileID: 0}
     - target: {fileID: 6076077060728867343, guid: 74400a494b3096545bf16ddae6ff83e7, type: 3}
       propertyPath: m_SortingOrder
@@ -70385,10 +70387,10 @@ RectTransform:
   - {fileID: 1328381007}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1278295541
 MonoBehaviour:
@@ -70598,7 +70600,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Creo que lo que buscas podria estar en las Habitaciones.'
+      value: "OjoMutante: Creo que lo que buscas podr\xEDa estar en las habitaciones.."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
@@ -78493,17 +78495,20 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: lineasDialogo.Array.size
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Si eso somos , cientificos mutados tambien , no nos mires
-        con desprecio , bueno hazlo si damos asco al final de todo'
+      value: "OjoMutante: S\xED, eso somos, cient\xEDficos mutados tambi\xE9n. No
+        nos mires con desprecio, aunque puedes hacerlo si consideras que damos asco
+        al final de todo. "
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
-      value: Al parecer no perdimos el cerebro , sigo con todos mis recuerdos cuando
-        tenia cuerpo , ahora mirame soy un ojo con un cerebro activo
+      value: "Al parecer, no perdimos el cerebro; sigo con todos mis recuerdos de
+        cuando ten\xEDa cuerpo. Ahora m\xEDrame, soy un ojo con un cerebro activo.
+        Solo te pedir\xE9 un favor: mata al maldito que nos hizo esto. \xBFPodr\xE1s
+        hacerlo?"
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[2]'
@@ -78902,10 +78907,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 365, y: -260}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1374187323
 MonoBehaviour:
@@ -79680,7 +79685,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Creo que lo que buscas podria estar en las Habitaciones.'
+      value: "OjoMutante: Creo que lo que buscas podr\xEDa estar en las habitaciones."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
@@ -81802,10 +81807,10 @@ RectTransform:
   - {fileID: 331937327}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260, y: -155}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1443455697
 MonoBehaviour:
@@ -83160,12 +83165,13 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: lineasDialogo.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Le puedes llamar GORDOCK , son un fastidio verdad ,por
-        su ataque a distancia  pero creo que con el Sub-Fusil(Kriss Vector)  '
+      value: "OjoMutante: Puedes llamarlo Gordock. Son un fastidio, \xBFverdad? Por
+        su ataque a distancia. Pero creo que con el subfusil Kriss Vector ser\xE1
+        suficiente para eliminarlos."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
@@ -84498,12 +84504,14 @@ PrefabInstance:
       objectReference: {fileID: 129814720}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: lineasDialogo.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[0]'
-      value: 'OjoMutante : Ten cuidado con esa habitacion , hay un mutante fuera
-        de control , le apodamos VOMET , suele tener  una boca muy grande en particular.'
+      value: "OjoMutante: Ten cuidado con esa habitaci\xF3n, hay un mutante fuera
+        de control al que apodamos Vomet. Suele tener una boca muy grande en particular.
+        Si te encuentras con uno, usa tu rifle M-16; con eso bastar\xE1 para hacerles
+        da\xF1o."
       objectReference: {fileID: 0}
     - target: {fileID: 4161755428692024545, guid: df9d0ffa672ff31448be920c315f893a, type: 3}
       propertyPath: 'lineasDialogo.Array.data[1]'
@@ -85256,7 +85264,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1557471746
 Transform:
   m_ObjectHideFlags: 0
@@ -85574,10 +85582,10 @@ RectTransform:
   - {fileID: 2078250337}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -155}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1561078209
 MonoBehaviour:
@@ -89752,9 +89760,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1999265791}
   TextodeDialogo: {fileID: 129814720}
   lineasDialogo:
-  - 'Mike Viller : Seguro que esto me mata, yo por alli no paso mejor'
-  - Deberia buscar como puedo pasar , activar  la ventilacion del laboratorio me
-    ayudaria .
+  - "Mike Viller : Seguro que esto me mata; yo por ah\xED no paso, mejor."
 --- !u!61 &1720686989
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -96974,10 +96980,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 260, y: -260}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1974046898
 MonoBehaviour:
@@ -100069,10 +100075,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 470, y: -260}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2073803722
 MonoBehaviour:
@@ -101975,10 +101981,10 @@ RectTransform:
   - {fileID: 1552936199}
   m_Father: {fileID: 1933049002}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 155, y: -50}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2117352765
 MonoBehaviour:
