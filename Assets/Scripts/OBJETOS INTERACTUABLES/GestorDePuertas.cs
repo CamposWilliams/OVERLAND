@@ -8,6 +8,8 @@ public class GestorDePuertas : MonoBehaviour
     public AudioSource CERRAR;
     private Animator AnimacionPuerta;
     public GameObject bloqueador;
+    float contadorEntran;
+    float contadorSalen;
 
 
 
@@ -20,9 +22,10 @@ public class GestorDePuertas : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
-            ABRIR.Play();
+            contadorEntran++;
+            
             AnimacionPuerta.SetBool("Abierto", true);
             gameObject.layer = 11;
             bloqueador.SetActive(false);
@@ -31,16 +34,27 @@ public class GestorDePuertas : MonoBehaviour
             // Llama al escaneo después de cambiar la capa
             GetComponent<EscaneoNavegacion>().RealizarEscaneo();
         }
+        if (contadorEntran == 1)
+        {
+            ABRIR.Play();
+        }
     }
 
     private void OnTriggerExit2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
-            CERRAR.Play();
-            AnimacionPuerta.SetBool("Abierto", false);
-            gameObject.layer = 8;
-            bloqueador.SetActive(true);
+            contadorSalen++;
+            if(contadorEntran==contadorSalen)
+            {
+                CERRAR.Play();
+                AnimacionPuerta.SetBool("Abierto", false);
+                gameObject.layer = 8;
+                bloqueador.SetActive(true);
+                contadorEntran = 0;
+                contadorSalen = 0;
+            }
+           
             //Debug.Log("EstaFuera");
 
             // Llama al escaneo después de cambiar la capa

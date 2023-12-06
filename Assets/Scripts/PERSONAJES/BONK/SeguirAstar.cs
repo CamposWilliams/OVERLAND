@@ -14,13 +14,16 @@ public class SeguirAstar : MonoBehaviour
     float valorDelParametroY;
     public Collider2D enemigoCollider;
     public bool reactivar;
+    float time;
+    Rigidbody2D enemigoRb2D;
 
 
     void Start()
     {
         aiPath = GetComponent<AIPath>();
-       EnemigoAnimacion = GetComponent<Animator>();
-
+        EnemigoAnimacion = GetComponent<Animator>();
+        //StartCoroutine(VolverTrigger());
+        enemigoRb2D = GetComponent<Rigidbody2D>();    
     }
 
 
@@ -29,14 +32,35 @@ public class SeguirAstar : MonoBehaviour
 
         SeguimientoDeAnimacion();
         AtaqueAnimacion();
-        if(reactivar==true)
-        {
-           StartCoroutine(ReactivarCollider());
-        }
+       
+
+        //if (reactivar == true)
+        //{
+        //    StartCoroutine(ReactivarCollider());
+        //}
+       
+
+
 
     }
 
+    IEnumerator VolverTrigger()
+    {
+        while (true)
+        {
+            if (enemigoRb2D.velocity == Vector2.zero)
+            {
+                enemigoCollider.isTrigger = true;
+                yield return new WaitForSeconds(3);           
+                enemigoCollider.isTrigger = false;
+            }     
+            else
+            {
+                yield return new WaitForSeconds(1); 
+            }
 
+        }
+    }
 
     void AtaqueAnimacion()
     {
@@ -100,28 +124,61 @@ public class SeguirAstar : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemigo1"))
         {
             enemigoCollider.isTrigger = true;
-            reactivar = true;
-            
-                
-                if (EnemigoAnimacion.GetBool("SeMueve") == false)
+           
+
+            if (EnemigoAnimacion.GetBool("SeMueve") == false)
+            {
+                enemigoCollider.isTrigger = false;
+
+            }
+        }
+        
+    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("EscritorioTag"))
+        {
+            enemigoCollider.isTrigger = true;
+        }
+        if (collision.gameObject.CompareTag("Enemigo1"))
+        {
+            time += Time.deltaTime;
+            if (time >= 3)
+            {
+                enemigoCollider.isTrigger = true;
+
+                if (time >= 5)
                 {
-                    Debug.Log("ActivandoCorrutina");
-                   
+                 enemigoCollider.isTrigger = false;
+                }
+            }
+   
 
-                }        
+            if (EnemigoAnimacion.GetBool("SeMueve") == false)
+            {
+                enemigoCollider.isTrigger = false;
 
+            }
         }
 
+
     }
-
-
-    IEnumerator ReactivarCollider()
+    private void OnTriggerStay2D(Collider2D collision)
     {
-        yield return null;
-        if (EnemigoAnimacion.GetBool("SeMueve") == false)
+        if (collision.CompareTag("Player"))
         {
             enemigoCollider.isTrigger = false;
         }
-           
+
     }
+
+    //IEnumerator ReactivarCollider()
+    //{
+    //    yield return null;
+    //    if (EnemigoAnimacion.GetBool("SeMueve") == false )
+    //    {
+    //        enemigoCollider.isTrigger = false;
+    //    }
+
+    //}
 }

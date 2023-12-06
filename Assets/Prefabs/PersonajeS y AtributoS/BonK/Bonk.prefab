@@ -239,9 +239,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MikeTrf: {fileID: 0}
-  time: 0
   enemigoCollider: {fileID: 8731208370774236892}
-  BonkRb2d: {fileID: 1543904585829243645}
+  reactivar: 0
 --- !u!114 &7757790508405365886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,10 +282,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 0.7
+  radius: 0.6
   height: 1
   canMove: 1
-  maxSpeed: 3
+  maxSpeed: 2.9
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -305,7 +304,7 @@ MonoBehaviour:
   targetCompatibility: {fileID: 0}
   maxAcceleration: 10000000
   rotationSpeed: 360
-  slowdownDistance: 0.6
+  slowdownDistance: 1.5
   pickNextWaypointDist: 0.1
   endReachedDistance: 1.5
   alwaysDrawGizmos: 0

@@ -17,6 +17,7 @@ TagManager:
   - BotiquinTag
   - AreaComputadora
   - BloqueadorTag
+  - EscritorioTag
   layers:
   - Default
   - TransparentFX
