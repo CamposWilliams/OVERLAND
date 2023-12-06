@@ -53,7 +53,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -216,7 +216,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -350,14 +350,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e389b52680311784e88e52103cd2229c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Disparo1: {fileID: 0}
   puedeDisparar: 1
   cdDisparo: 0.6
   balaPrefab: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
-  AmmoSudmisil: 100
+  disfazAnimator: {fileID: 0}
+  AmmoSubfusil: 5
   AmmoRifle: 100
-  AmmoEspecial: 100
+  AmmoArmaEspecial: 5
   CambioArma: 5
-  almacenBulletSudmisil: 0
+  almacenBulletSubfusil: 0
   almacenBulletRifle: 0
   almacenBulletEspecial: 0
 --- !u!114 &3758124497231241492
@@ -372,10 +374,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dd773c715ea2f154fbd43b57177e50a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MuerteMikeSonido: {fileID: 0}
   "vidaM\xE1ximaMike": 50
   vidaActualMike: 0
   PUAzulActivo: 0
   sinVida: 0
+  NombreScena: 
   barraDeVida: {fileID: 0}
 --- !u!95 &3159713536766560193
 Animator:
@@ -413,6 +417,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   collidersCuchillo: []
   leerCorrutina: 0
+  Mike: {fileID: 0}
 --- !u!114 &1534981378516583640
 MonoBehaviour:
   m_ObjectHideFlags: 0
