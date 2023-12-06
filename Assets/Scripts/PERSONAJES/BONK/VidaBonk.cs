@@ -48,7 +48,7 @@ public class VidaBonk : MonoBehaviour
         yield return new WaitForSeconds(0.015f);
         bonkAnimacion.SetBool("EstaSinVida", false);
 
-        yield return new WaitForSeconds(1.9f);
+        yield return new WaitForSeconds(1f);
         Destroy(gameObject);
     }
 

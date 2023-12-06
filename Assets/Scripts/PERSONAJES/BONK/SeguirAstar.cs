@@ -10,8 +10,8 @@ public class SeguirAstar : MonoBehaviour
     Animator EnemigoAnimacion;
     private AIPath aiPath;
     public Transform MikeTrf;
-    float valorDelParametroX;
-    float valorDelParametroY;
+    public float valorDelParametroX;
+    public float valorDelParametroY;
     public Collider2D enemigoCollider;
     public bool reactivar;
     public bool seHanJuntado;
@@ -34,8 +34,8 @@ public class SeguirAstar : MonoBehaviour
        
         ReactivarCollider();
 
-        Debug.Log(seHanJuntado);
-        Debug.Log(time);
+        //Debug.Log(seHanJuntado);
+        //Debug.Log(time);
 
     }
 

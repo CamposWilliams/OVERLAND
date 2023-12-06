@@ -14,8 +14,8 @@ public class MovimientoGordock : MonoBehaviour
     bool leyendoDatos = true;
     bool estaDentro;
     Vector2 direccion2;
-    float valorDelParametroX;
-    float valorDelParametroY;
+    public float valorDelParametroX;
+    public float valorDelParametroY;
 
     private void Start()
     {
@@ -25,9 +25,7 @@ public class MovimientoGordock : MonoBehaviour
 
     private void Update()
     {
-
-        SeguimientoDeAnimacion();
-       
+        SeguimientoDeAnimacion();     
     }
 
     private void OnTriggerExit2D(Collider2D collision)
