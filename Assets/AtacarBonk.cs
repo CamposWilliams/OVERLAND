@@ -16,8 +16,8 @@ public class AtacarBonk : MonoBehaviour
 
     private void Update()
     {
-        //DesactivarAnimacionAtaque();
-        
+        DesactivarAnimacionAtaque();
+       
         //Debug.Log(mantenerAnimacionDeAtaque);
     }
 
@@ -26,13 +26,11 @@ public class AtacarBonk : MonoBehaviour
 
         if (collision.CompareTag("Player") && puedeAtacar)
         {
-            Debug.Log("Hola");
-            aiPath.maxSpeed = 0;
-            BonkAnimator.SetBool("SeMueve", false);
-            BonkAnimator.SetBool("Atacando", true);
+            Debug.Log("Hola");         
             puedeAtacar = false;
             mantenerAnimacionDeAtaque = true;
-         
+            StartCoroutine(VolverActivar());
+
         }
     }
 
@@ -40,8 +38,8 @@ public class AtacarBonk : MonoBehaviour
     {
         if (!puedeAtacar)
         {
-            time1 += Time.time;
-          
+            time1 += Time.deltaTime;
+            Debug.Log(time1);
 
             if (time1>=1 && mantenerAnimacionDeAtaque)
             {
@@ -52,19 +50,26 @@ public class AtacarBonk : MonoBehaviour
 
             }
 
-                if(time1 >= 3)
-                {
-                      time1 = 0;
-                      puedeAtacar =true;
-                    
-                }
-            
+            if (time1 >= 3)
+            {
+                time1 = 0;
+                puedeAtacar = true;
 
+            }
 
 
         }
 
 
 
+    }
+
+    IEnumerator VolverActivar()
+    {
+        BonkAnimator.SetBool("SeMueve", false);
+        BonkAnimator.SetBool("Atacando", true);
+        yield return new WaitForSeconds(0.1f);
+        aiPath.maxSpeed = 0;
+    
     }
 }

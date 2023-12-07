@@ -8,12 +8,14 @@ public class DañoVoment : MonoBehaviour
     public AIPath aiPath;
     float dañoPorGolpe = 3;
     float time1;
+    float time2;    
     public float tiempoParaVolverADisparar = 5;
     float cadenciaDeTiro = 0.3f;
     Animator VomentAnimator;
     bool disparando;
     public GameObject balaGordock;
     bool puedeDisparar = true;
+    bool disparandoEspecial;
 
     private void Start()
     {
@@ -54,27 +56,48 @@ public class DañoVoment : MonoBehaviour
     {
         if (disparando)
         {
+            time2 += Time.deltaTime;
 
             if (puedeDisparar)
-            {                            
+            {
                 GameObject nuevaBala = Instantiate(balaGordock);
                 nuevaBala.transform.position = transform.position;
                 nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
-                Destroy(nuevaBala,1);
+                Destroy(nuevaBala, 1);
                 puedeDisparar = false;
 
             }
+            if (disparandoEspecial)
+            {
+                aiPath.maxSpeed = 0;
+                VomentAnimator.SetBool("Disparando", true);
+                time2 += Time.deltaTime;
 
-        }
+                if (time2 >= 3)
+                {
+
+                    VomentAnimator.SetBool("Disparando", false);
+                    VomentAnimator.SetBool("SeMueve", true);
+                    disparandoEspecial = false;
+                    puedeDisparar = true;
+                    aiPath.maxSpeed = 3.3f;
+                    time2 = 0;
+
+                }
+
+            }
+        }  
 
     }
 
     void ReactivarAnimacionYBala()
     {
+        time1 += Time.deltaTime;
+        
 
-        if (!puedeDisparar)
+        if (!puedeDisparar && !disparandoEspecial)
         {
-            time1 += Time.deltaTime;
+           
 
             if (time1 >= cadenciaDeTiro)
             {
@@ -82,7 +105,6 @@ public class DañoVoment : MonoBehaviour
                 puedeDisparar = true;
                 time1 = 0;
             }
-
            
         }
 
