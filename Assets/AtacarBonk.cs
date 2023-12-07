@@ -1,43 +1,67 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Pathfinding;
 
 public class AtacarBonk : MonoBehaviour
 {
-    float time;
+    float time1;
+    float time2;
     bool atacando;
     bool puedeAtacar=true;
     public Animator BonkAnimator;
+    public AIPath aiPath;
+    bool mantenerAnimacionDeAtaque;
 
 
     private void Update()
     {
-        DesactivarAnimacionAtaque();
+        //DesactivarAnimacionAtaque();
+        
+        //Debug.Log(mantenerAnimacionDeAtaque);
     }
-    private void OnTriggerEnter2D(Collider2D collision)
+
+    private void OnTriggerStay2D(Collider2D collision)
     {
 
         if (collision.CompareTag("Player") && puedeAtacar)
         {
+            Debug.Log("Hola");
+            aiPath.maxSpeed = 0;
+            BonkAnimator.SetBool("SeMueve", false);
             BonkAnimator.SetBool("Atacando", true);
             puedeAtacar = false;
-            atacando = true;
-
+            mantenerAnimacionDeAtaque = true;
+         
         }
     }
 
     void DesactivarAnimacionAtaque()
     {
-        if (atacando)
+        if (!puedeAtacar)
         {
-            time += Time.time;
+            time1 += Time.time;
+          
 
-            if (time == 1)
+            if (time1>=1 && mantenerAnimacionDeAtaque)
             {
                 BonkAnimator.SetBool("Atacando", false);
-                puedeAtacar = true;
-                time = 0;
+                BonkAnimator.SetBool("SeMueve", true);
+                aiPath.maxSpeed = 2.9f;
+                mantenerAnimacionDeAtaque = false;
+
             }
+
+                if(time1 >= 3)
+                {
+                      time1 = 0;
+                      puedeAtacar =true;
+                    
+                }
+            
+
+
+
         }
 
 

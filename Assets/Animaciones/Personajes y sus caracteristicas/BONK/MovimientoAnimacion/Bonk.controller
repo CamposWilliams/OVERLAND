@@ -11,6 +11,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Atacando
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SeMueve
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4229143392229773969}
   m_Solo: 0
@@ -312,6 +315,9 @@ AnimatorStateTransition:
   - m_ConditionMode: 1
     m_ConditionEvent: Atacando
     m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SeMueve
+    m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: 4229143392229773969}
   m_Solo: 0
@@ -575,6 +581,9 @@ AnimatorStateTransition:
   m_Conditions:
   - m_ConditionMode: 2
     m_ConditionEvent: Atacando
+    m_EventTreshold: 0
+  - m_ConditionMode: 2
+    m_ConditionEvent: SeMueve
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -2366905197384810544}

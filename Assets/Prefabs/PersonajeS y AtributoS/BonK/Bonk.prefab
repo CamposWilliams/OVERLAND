@@ -166,6 +166,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   BonkAnimator: {fileID: 2974730599791480718}
+  aiPath: {fileID: 7340152643227060161}
 --- !u!1 &6895972694885802845
 GameObject:
   m_ObjectHideFlags: 0
