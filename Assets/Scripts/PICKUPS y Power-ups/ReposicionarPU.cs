@@ -8,6 +8,7 @@ public class ReposicionarPU : MonoBehaviour
     Transform transformInicial;
     public GameObject[] cajas;
     public Transform MikeTrf;
+    public bool pocionAzul;
 
     private void Start()
     {
@@ -31,12 +32,19 @@ public class ReposicionarPU : MonoBehaviour
         {
             transform.position = cajas[1].transform.position;
         }
-        else
+        else if (Mike.GetComponent<MikeDisparo>().anguloConstante == 90 && pocionAzul)
         {
-            transform.position = MikeTrf.transform.position;
+            transform.position = cajas[2].transform.position;
         }
 
-
+        else if (Mike.GetComponent<MikeDisparo>().anguloConstante == 270 && pocionAzul)
+        {
+            transform.position = cajas[3].transform.position;
+        }
+        else
+        {
+            transform.position=transformInicial.position;
+        }
 
     }
 }

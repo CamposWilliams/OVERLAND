@@ -6,6 +6,7 @@ using UnityEngine;
     {
         new string tag;
         public GameObject prefabBala;
+        public GameObject Disfraz;
         public GameObject Mike;
         public bool conPU = false;
         float cd;
@@ -34,12 +35,13 @@ using UnityEngine;
                 switch (tag)
                 {
                     case "PocionAzul":
+                        Disfraz.GetComponent<ReposicionarPU>().pocionAzul = true;
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 1);
                         StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
-                        Mike.GetComponent<SistemaDeVida>().PUAzulActivo = true;
+                        collision.GetComponent<SistemaDeVida>().PUAzulActivo = true;
                         StartCoroutine(DesactivarPowerUpAzul());
                     break;
                
@@ -93,6 +95,7 @@ using UnityEngine;
                                 
                     yield return new WaitForSeconds(5);
                     Mike.GetComponent<SistemaDeVida>().PUAzulActivo = false;
+                    Disfraz.GetComponent<ReposicionarPU>().pocionAzul = false;
                     Destroy(gameObject);
         
             }
