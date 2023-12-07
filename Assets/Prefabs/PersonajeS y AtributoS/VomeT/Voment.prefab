@@ -226,7 +226,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aiPath: {fileID: 1636298408140163330}
   tiempoParaVolverADisparar: 5
-  balaGordock: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+  balaVomet: {fileID: 0}
 --- !u!114 &783517563065696348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -373,7 +373,7 @@ CapsuleCollider2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 16384
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2

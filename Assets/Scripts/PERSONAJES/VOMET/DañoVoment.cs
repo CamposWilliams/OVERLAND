@@ -13,9 +13,13 @@ public class DañoVoment : MonoBehaviour
     float cadenciaDeTiro = 0.3f;
     Animator VomentAnimator;
     bool disparando;
-    public GameObject balaGordock;
+    public GameObject balaVomet;
     bool puedeDisparar = true;
+    bool puedeDisparar2;
     bool disparandoEspecial;
+    int contador;
+    int contador2;
+    
 
     private void Start()
     {
@@ -47,57 +51,63 @@ public class DañoVoment : MonoBehaviour
     }
     private void Update()
     {
-        //Debug.Log(time1);
-        DispararGordock();
-        ReactivarAnimacionYBala();
+        if (GetComponent<VidaVoment>().muriendo == false)
+        {
+            //Debug.Log(time1);
+            DispararGordock();
+            ReactivarAnimacionYBala();
+        }
+        
     }
 
     void DispararGordock()
     {
         if (disparando)
         {
-            time2 += Time.deltaTime;
-
-            if (puedeDisparar)
+           
+            if (puedeDisparar==true && disparandoEspecial==false)
             {
-                GameObject nuevaBala = Instantiate(balaGordock);
+                GameObject nuevaBala = Instantiate(balaVomet);
                 nuevaBala.transform.position = transform.position;
                 nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
-                Destroy(nuevaBala, 1);
-                puedeDisparar = false;
+                Destroy(nuevaBala, 1);               
+                contador++;
+                Debug.Log(contador);
 
-            }
-            if (disparandoEspecial)
-            {
-                aiPath.maxSpeed = 0;
-                VomentAnimator.SetBool("Disparando", true);
-                time2 += Time.deltaTime;
-
-                if (time2 >= 3)
+                if (contador == 16)
                 {
+                
+                    puedeDisparar= false;
+                    puedeDisparar2 = true;
+                    disparandoEspecial= true;
+                    
 
-                    VomentAnimator.SetBool("Disparando", false);
-                    VomentAnimator.SetBool("SeMueve", true);
-                    disparandoEspecial = false;
-                    puedeDisparar = true;
-                    aiPath.maxSpeed = 3.3f;
-                    time2 = 0;
 
+                    if (!IsInvoking("AtaqueEspecial"))
+                    {
+                       
+                        InvokeRepeating("AtaqueEspecial", 2f, 0.2f);
+                    }
+                }
+
+                else
+                {
+                    puedeDisparar = false;
                 }
 
             }
+           
         }  
 
     }
 
     void ReactivarAnimacionYBala()
-    {
-        time1 += Time.deltaTime;
-        
+    {      
 
-        if (!puedeDisparar && !disparandoEspecial)
+        if (puedeDisparar==false && disparandoEspecial==false)
         {
-           
+            
+            time1 += Time.deltaTime;
 
             if (time1 >= cadenciaDeTiro)
             {
@@ -107,8 +117,37 @@ public class DañoVoment : MonoBehaviour
             }
            
         }
+        
 
+    }
+    void AtaqueEspecial()
+    {
+        if(puedeDisparar2)
+        {
+            VomentAnimator.SetBool("Disparando", true);
+            aiPath.maxSpeed = 0;
+            GameObject nuevaBala = Instantiate(balaVomet);
+            nuevaBala.transform.position = transform.position;
+            nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
+            Destroy(nuevaBala, 1);
+            contador2++;
+            Debug.Log(contador2);
 
+            if (contador2 == 10)
+            {
+                contador = 0;
+                contador2 = 0;
+                puedeDisparar2 = false;
+                puedeDisparar = true;
+                disparandoEspecial = false;
+                VomentAnimator.SetBool("Disparando", false);
+                aiPath.maxSpeed = 3.3f;
+                CancelInvoke("AtaqueEspecial");
+               
+            }
+           
+        }
+       
     }
 
 }

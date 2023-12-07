@@ -9,6 +9,7 @@ public class VidaGordock : MonoBehaviour
     public float saludGordock = 5;
     Animator GordockAnimacion;
     SpriteRenderer spriteGordock;
+    public bool muriendo=false;
     private void Start()
     {
         GordockAnimacion = GetComponent<Animator>();
@@ -28,6 +29,7 @@ public class VidaGordock : MonoBehaviour
         }
         if (saludGordock <= 0)
         {
+            muriendo = true;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<AIPath>().maxSpeed = 0;
             StartCoroutine(AnimacionDeMuerte());

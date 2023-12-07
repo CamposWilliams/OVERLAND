@@ -68,7 +68,7 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0.20202398, y: 0}
-  m_Radius: 6
+  m_Radius: 8
 --- !u!114 &7343780302433112325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -212,7 +212,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 7554223148460842352}
-  balaGordock: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+  tiempoParaVolverADisparar: 5
+  balaGordock: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
 --- !u!114 &4133364890119410135
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -226,6 +227,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saludGordock: 2
+  muriendo: 0
 --- !u!114 &6904851701658609968
 MonoBehaviour:
   m_ObjectHideFlags: 0

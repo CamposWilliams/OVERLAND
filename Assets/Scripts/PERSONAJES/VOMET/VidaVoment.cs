@@ -8,6 +8,7 @@ public class VidaVoment : MonoBehaviour
     public float saludVoment = 5;
     Animator VomentAnimacion;
     SpriteRenderer spriteVoment;
+    public bool muriendo = false;
     private void Start()
     {
         VomentAnimacion = GetComponent<Animator>();
@@ -28,6 +29,7 @@ public class VidaVoment : MonoBehaviour
         }
         if (saludVoment <= 0)
         {
+            muriendo = true;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<AIPath>().maxSpeed = 0;
             StartCoroutine(AnimacionDeMuerte());

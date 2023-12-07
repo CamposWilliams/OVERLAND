@@ -11,5 +11,9 @@ public class BalaGordock : MonoBehaviour
             collision.GetComponent<SistemaDeVida>().BajarVida(1);
             Destroy(gameObject);
         }
+        if (collision.CompareTag("TileCollider"))
+        {
+            Destroy(gameObject);
+        }
     }
 }

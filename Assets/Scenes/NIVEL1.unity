@@ -284,6 +284,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -913,6 +917,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -6716,6 +6724,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -13614,6 +13626,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -15252,6 +15268,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: balaGordock
+      value: 
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -16296,7 +16316,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &244107556
 Transform:
   m_ObjectHideFlags: 0
@@ -16420,6 +16440,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -19758,6 +19782,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -20871,6 +20899,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -21001,7 +21033,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -27447,7 +27479,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -27578,7 +27610,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -28192,6 +28224,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -29262,6 +29298,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -29319,7 +29359,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &395674489
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -29712,8 +29752,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.19921564, y: 0.033920713, z: 0}
-    m_Extent: {x: 0.6279156, y: 0.20667928, z: 0}
+    m_Center: {x: -0.20139998, y: 0.031450003, z: 0}
+    m_Extent: {x: 0.6271, y: 0.20885, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -43776,6 +43816,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -45022,8 +45066,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.6609, y: -0.1164784, z: 0}
-    m_Extent: {x: 0.1695, y: 0.35517842, z: 0}
+    m_Center: {x: -0.6641, y: -0.11845254, z: 0}
+    m_Extent: {x: 0.1667, y: 0.35320425, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -45761,8 +45805,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.1487, y: 0.19060001, z: 0}
-    m_Extent: {x: 0.9087, y: 0.3105, z: 0}
+    m_Center: {x: -0.15210003, y: 0.20050001, z: 0}
+    m_Extent: {x: 0.8984, y: 0.3104, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -54201,7 +54245,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -56497,6 +56541,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -61265,8 +61313,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.659, y: -0.1152284, z: 0}
-    m_Extent: {x: 0.1689, y: 0.35642838, z: 0}
+    m_Center: {x: -0.6615, y: -0.12064999, z: 0}
+    m_Extent: {x: 0.16910002, y: 0.36005, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -61565,7 +61613,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -65032,7 +65080,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -65962,8 +66010,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.14916563, y: 0.03385, z: 0}
-    m_Extent: {x: 0.67796564, y: 0.20905, z: 0}
+    m_Center: {x: -0.15551668, y: 0.029097162, z: 0}
+    m_Extent: {x: 0.68008333, y: 0.20899716, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -67828,7 +67876,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -69156,7 +69204,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: radius
       value: 0.75
@@ -69355,6 +69403,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -69813,7 +69865,7 @@ GameObject:
   - component: {fileID: 993041488}
   - component: {fileID: 993041487}
   - component: {fileID: 993041489}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Banca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -71391,8 +71443,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.20080002, y: 0.034520708, z: 0}
-    m_Extent: {x: 0.6334, y: 0.2072793, z: 0}
+    m_Center: {x: -0.19945, y: 0.030550003, z: 0}
+    m_Extent: {x: 0.63175, y: 0.21325, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -73519,6 +73571,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -74565,7 +74621,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -90150,7 +90206,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -92171,7 +92227,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -94345,8 +94401,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.18865, y: -0.244, z: 0}
-    m_Extent: {x: 0.66515, y: 0.2174, z: 0}
+    m_Center: {x: -0.18509999, y: -0.2465, z: 0}
+    m_Extent: {x: 0.6718, y: 0.21949999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -94934,11 +94990,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.547351
+      value: 8.74
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 19.26743
+      value: 19.4
       objectReference: {fileID: 0}
     - target: {fileID: 6701140359558758760, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_LocalPosition.z
@@ -94983,7 +95039,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -95918,7 +95974,7 @@ GameObject:
   - component: {fileID: 1448503402}
   - component: {fileID: 1448503401}
   - component: {fileID: 1448503403}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: Banca
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96090,7 +96146,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: cadenciaDeTiro
       value: 0.85
@@ -97273,6 +97329,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -100086,6 +100146,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -100140,7 +100204,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1557471746
 Transform:
   m_ObjectHideFlags: 0
@@ -100585,10 +100649,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
-      propertyPath: balaGordock
-      value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -102168,6 +102228,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -102318,11 +102382,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2728425384525786000, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.24
+      value: 4.35
       objectReference: {fileID: 0}
     - target: {fileID: 2728425384525786000, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -20.29
+      value: -4.95
       objectReference: {fileID: 0}
     - target: {fileID: 2728425384525786000, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: m_LocalPosition.z
@@ -102356,6 +102420,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2812427561176658142, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 16640
@@ -102435,8 +102507,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.20050001, y: 0.031097405, z: 0}
-    m_Extent: {x: 0.634, y: 0.2069974, z: 0}
+    m_Center: {x: -0.20169999, y: 0.02865, z: 0}
+    m_Extent: {x: 0.634, y: 0.21115, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -102966,7 +103038,7 @@ GameObject:
   - component: {fileID: 1629090915}
   - component: {fileID: 1629090918}
   - component: {fileID: 1629090917}
-  m_Layer: 8
+  m_Layer: 14
   m_Name: Maceta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -103298,7 +103370,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -106901,8 +106973,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.19891563, y: 0.033070713, z: 0}
-    m_Extent: {x: 0.6282157, y: 0.20582929, z: 0}
+    m_Center: {x: -0.20054999, y: 0.03255, z: 0}
+    m_Extent: {x: 0.63014996, y: 0.20855, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -108219,8 +108291,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.66085, y: -0.116550006, z: 0}
-    m_Extent: {x: 0.16624999, y: 0.36105, z: 0}
+    m_Center: {x: -0.6596, y: -0.12272414, z: 0}
+    m_Extent: {x: 0.1703, y: 0.35747585, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -108668,6 +108740,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
@@ -109161,7 +109237,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -109299,7 +109375,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -109906,7 +109982,7 @@ PrefabInstance:
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
-      objectReference: {fileID: 5610994053469846185, guid: 7a6019a32be810b4fbd8ff36e6d982b5, type: 3}
+      objectReference: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -115971,6 +116047,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -116520,8 +116600,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.65970004, y: -0.11845254, z: 0}
-    m_Extent: {x: 0.1665, y: 0.35320425, z: 0}
+    m_Center: {x: -0.65964997, y: -0.1183784, z: 0}
+    m_Extent: {x: 0.17045, y: 0.3532784, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -120331,6 +120411,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: balaVomet
+      value: 
+      objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+    - target: {fileID: 4652860726896542814, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: balaGordock
       value: 
       objectReference: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
@@ -121378,8 +121462,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.66300833, y: -0.1157284, z: 0}
-    m_Extent: {x: 0.16549167, y: 0.3559284, z: 0}
+    m_Center: {x: -0.6635083, y: -0.11845254, z: 0}
+    m_Extent: {x: 0.1659917, y: 0.35320425, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
