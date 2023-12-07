@@ -18,6 +18,9 @@ TagManager:
   - AreaComputadora
   - BloqueadorTag
   - EscritorioTag
+  - paredes
+  - BalaBoss
+  - Boss
   layers:
   - Default
   - TransparentFX
