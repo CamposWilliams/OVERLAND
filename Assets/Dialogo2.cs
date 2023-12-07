@@ -37,7 +37,7 @@ public class Dialogo2 : MonoBehaviour
         haIniciadoElDialogo = true;
         PanelDialogo.SetActive(true);
         IniciarDialogo.SetActive(false);
-        indiceLinea = 8;
+        indiceLinea = 0;
         //detener el tiempo
         //Time.timeScale = 0f;
 
@@ -92,3 +92,5 @@ public class Dialogo2 : MonoBehaviour
         }
     }
 }
+
+
