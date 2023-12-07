@@ -1,14 +1,14 @@
+using Pathfinding;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using Pathfinding;
 
-public class AtacarBonk : MonoBehaviour
+public class AtaqueBonk : MonoBehaviour
 {
     float time1;
     float time2;
     bool atacando;
-    bool puedeAtacar=true;
+    bool puedeAtacar;
     public Animator BonkAnimator;
     public AIPath aiPath;
     bool mantenerAnimacionDeAtaque;
@@ -16,47 +16,55 @@ public class AtacarBonk : MonoBehaviour
 
     private void Update()
     {
-        DesactivarAnimacionAtaque();
-       
+        AnimacionAtaque();
+        Debug.Log(puedeAtacar);
         //Debug.Log(mantenerAnimacionDeAtaque);
     }
 
-    private void OnTriggerStay2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
 
-        if (collision.CompareTag("Player") && puedeAtacar)
+        if (collision.CompareTag("Player"))
+        {      
+            puedeAtacar = true;
+        }
+    }
+
+    private void OnTriggerExit2D(Collider2D collision)
+    {
+        if(collision.CompareTag("Player"))
         {
-            Debug.Log("Hola");         
+
             puedeAtacar = false;
-            mantenerAnimacionDeAtaque = true;
-            StartCoroutine(VolverActivar());
+            BonkAnimator.SetBool("Atacando", false);
+            aiPath.maxSpeed = 2.9f;
+            time1 = 0;
 
         }
     }
 
-    void DesactivarAnimacionAtaque()
+    void AnimacionAtaque()
     {
-        if (!puedeAtacar)
+        if (puedeAtacar)
         {
+            
+            aiPath.maxSpeed = 0;
+            BonkAnimator.SetBool("Atacando", true);
             time1 += Time.deltaTime;
             Debug.Log(time1);
 
-            if (time1>=1 && mantenerAnimacionDeAtaque)
+            if (time1 >= 2)
             {
                 BonkAnimator.SetBool("Atacando", false);
-                BonkAnimator.SetBool("SeMueve", true);
+               
                 aiPath.maxSpeed = 2.9f;
-                mantenerAnimacionDeAtaque = false;
-
-            }
-
-            if (time1 >= 3)
-            {
                 time1 = 0;
-                puedeAtacar = true;
-
+                puedeAtacar=false;
+                
             }
-
+            
+            
+            
 
         }
 
@@ -68,6 +76,6 @@ public class AtacarBonk : MonoBehaviour
         BonkAnimator.SetBool("Atacando", true);
         yield return new WaitForSeconds(0.1f);
         aiPath.maxSpeed = 0;
-    
+
     }
 }
