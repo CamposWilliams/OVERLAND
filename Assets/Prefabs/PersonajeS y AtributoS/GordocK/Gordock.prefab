@@ -226,7 +226,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30162ee5d46c8564981a6056ec7f43f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludGordock: 2
+  saludGordock: 5
   muriendo: 0
 --- !u!114 &6904851701658609968
 MonoBehaviour:
