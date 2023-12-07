@@ -313,7 +313,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -947,7 +947,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -1344,7 +1344,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5141048360052326301, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: MikeTrf
@@ -3963,7 +3963,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -4824,7 +4824,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -6084,7 +6084,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -6754,7 +6754,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -7012,7 +7012,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -13655,7 +13655,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -15190,7 +15190,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -16470,7 +16470,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 0}
@@ -19811,7 +19811,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -20928,7 +20928,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -20952,7 +20952,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -27408,6 +27408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: saludGordock
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
       value: 
@@ -27529,7 +27533,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -28254,7 +28258,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -29327,7 +29331,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -29752,8 +29756,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.20555, y: 0.0312, z: 0}
-    m_Extent: {x: 0.63105, y: 0.20809999, z: 0}
+    m_Center: {x: -0.20139998, y: 0.031450003, z: 0}
+    m_Extent: {x: 0.6271, y: 0.20885, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -43845,7 +43849,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -45066,8 +45070,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.6584523, y: -0.1157, z: 0}
-    m_Extent: {x: 0.16655229, y: 0.3584, z: 0}
+    m_Center: {x: -0.6641, y: -0.11845254, z: 0}
+    m_Extent: {x: 0.1667, y: 0.35320425, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -45805,8 +45809,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.13690004, y: 0.1916, z: 0}
-    m_Extent: {x: 0.9029, y: 0.3094, z: 0}
+    m_Center: {x: -0.15210003, y: 0.20050001, z: 0}
+    m_Extent: {x: 0.8984, y: 0.3104, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -46035,7 +46039,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -46281,7 +46285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -54174,6 +54178,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: saludGordock
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
       value: 
@@ -56571,7 +56579,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -61313,8 +61321,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.65730226, y: -0.11845254, z: 0}
-    m_Extent: {x: 0.16770229, y: 0.35320425, z: 0}
+    m_Center: {x: -0.6615, y: -0.12064999, z: 0}
+    m_Extent: {x: 0.16910002, y: 0.36005, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -61532,7 +61540,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -62408,7 +62416,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 5141048360052326301, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: MikeTrf
@@ -63435,7 +63443,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -65007,7 +65015,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -66014,8 +66022,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.14926565, y: 0.037520707, z: 0}
-    m_Extent: {x: 0.6778656, y: 0.21027929, z: 0}
+    m_Center: {x: -0.15551668, y: 0.029097162, z: 0}
+    m_Extent: {x: 0.68008333, y: 0.20899716, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -67799,7 +67807,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -68091,7 +68099,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 365, y: 19.118225}
+  m_AnchoredPosition: {x: 365, y: 19.118164}
   m_SizeDelta: {x: 1045.5383, y: 165.5596}
   m_Pivot: {x: 0.3912882, y: 1.7986428}
 --- !u!114 &949922868
@@ -69153,6 +69161,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: saludGordock
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
       value: 
@@ -69437,7 +69449,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -71447,8 +71459,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.20275211, y: 0.030050002, z: 0}
-    m_Extent: {x: 0.6264479, y: 0.21204999, z: 0}
+    m_Center: {x: -0.19945, y: 0.030550003, z: 0}
+    m_Extent: {x: 0.63175, y: 0.21325, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -73604,7 +73616,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -74544,7 +74556,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -81441,6 +81453,10 @@ PrefabInstance:
     - target: {fileID: 384611907647082274, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1298867305724573672, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_Mass
+      value: 1000000
       objectReference: {fileID: 0}
     - target: {fileID: 2510943433008345974, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: cajas.Array.size
@@ -90133,7 +90149,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -90694,7 +90710,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -92154,7 +92170,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -93389,7 +93405,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -93551,7 +93567,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -94409,8 +94425,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.18380001, y: -0.2523, z: 0}
-    m_Extent: {x: 0.663, y: 0.2157, z: 0}
+    m_Center: {x: -0.18509999, y: -0.2465, z: 0}
+    m_Extent: {x: 0.6718, y: 0.21949999, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -94966,7 +94982,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -96091,6 +96107,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1113552675}
     m_Modifications:
+    - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: saludGordock
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
       value: 
@@ -96861,7 +96881,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -97367,7 +97387,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -100183,7 +100203,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -100596,6 +100616,10 @@ PrefabInstance:
     - target: {fileID: 2813700203030786660, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: m_Offset.y
       value: 0.0067288876
+      objectReference: {fileID: 0}
+    - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: saludGordock
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -102261,7 +102285,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -102454,7 +102478,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 2830672609807154333, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -102515,8 +102539,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.1995, y: 0.031647407, z: 0}
-    m_Extent: {x: 0.62909997, y: 0.2064474, z: 0}
+    m_Center: {x: -0.20169999, y: 0.02865, z: 0}
+    m_Extent: {x: 0.634, y: 0.21115, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -103297,7 +103321,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -106981,8 +107005,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.2024521, y: 0.032899998, z: 0}
-    m_Extent: {x: 0.62614787, y: 0.21020001, z: 0}
+    m_Center: {x: -0.20054999, y: 0.03255, z: 0}
+    m_Extent: {x: 0.63014996, y: 0.20855, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -108299,8 +108323,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.66240835, y: -0.1149284, z: 0}
-    m_Extent: {x: 0.16489169, y: 0.3567284, z: 0}
+    m_Center: {x: -0.6596, y: -0.12272414, z: 0}
+    m_Extent: {x: 0.1703, y: 0.35747585, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -108524,7 +108548,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -108778,7 +108802,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -109164,7 +109188,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -109302,7 +109326,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -109909,7 +109933,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4133364890119410135, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: saludGordock
-      value: 2
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 4188114644173125095, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: MikeTrf
@@ -115322,7 +115346,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2540103966401751576, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: saludBonk
-      value: 4
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3209393857101570506, guid: 2936aa02b7c059f4eb26174d72c7cbd3, type: 3}
       propertyPath: m_Enabled
@@ -116084,7 +116108,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -116608,8 +116632,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.65835, y: -0.1183784, z: 0}
-    m_Extent: {x: 0.17075, y: 0.3532784, z: 0}
+    m_Center: {x: -0.65964997, y: -0.1183784, z: 0}
+    m_Extent: {x: 0.17045, y: 0.3532784, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -120485,7 +120509,7 @@ PrefabInstance:
       objectReference: {fileID: 2068569307}
     - target: {fileID: 7330918751653584271, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: saludVoment
-      value: 3
+      value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6376828796933318881, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
@@ -121507,8 +121531,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.6608, y: -0.1176, z: 0}
-    m_Extent: {x: 0.1654, y: 0.3614, z: 0}
+    m_Center: {x: -0.6635083, y: -0.11845254, z: 0}
+    m_Extent: {x: 0.1659917, y: 0.35320425, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
