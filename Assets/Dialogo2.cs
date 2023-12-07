@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-public class Dialogo : MonoBehaviour
+public class Dialogo2 : MonoBehaviour
 {
     [SerializeField] private GameObject IniciarDialogo; //collider is trigger
     [SerializeField] private GameObject PanelDialogo; //canvas
@@ -18,14 +18,14 @@ public class Dialogo : MonoBehaviour
     void Update()
     {
         //if (estaElJugadorEnRango && Input.GetButtonDown("Fire1"))
-        if (estaElJugadorEnRango && Input.GetKeyDown(KeyCode.E))
+        if (estaElJugadorEnRango )
         {
             if (!haIniciadoElDialogo)
             {
                 StartDialogo();
             }
             //agrgado
-            else if(TextodeDialogo.text == lineasDialogo[indiceLinea])
+            else if (TextodeDialogo.text == lineasDialogo[indiceLinea])
             {
                 SiguienteLineaDeDialogo();
             }
@@ -37,27 +37,27 @@ public class Dialogo : MonoBehaviour
         haIniciadoElDialogo = true;
         PanelDialogo.SetActive(true);
         IniciarDialogo.SetActive(false);
-        indiceLinea = 0;
+        indiceLinea = 8;
         //detener el tiempo
-        Time.timeScale = 0f;
+        //Time.timeScale = 0f;
 
         StartCoroutine(MostrarLínea());
     }
 
-    private void SiguienteLineaDeDialogo() 
+    private void SiguienteLineaDeDialogo()
     {
         indiceLinea++;
-        if(indiceLinea < lineasDialogo.Length)
+        if (indiceLinea < lineasDialogo.Length)
         {
             StartCoroutine(MostrarLínea());
         }
-        else 
+        else
         {
-            haIniciadoElDialogo=false;
-            PanelDialogo.SetActive(false );
+            haIniciadoElDialogo = false;
+            PanelDialogo.SetActive(false);
             IniciarDialogo.SetActive(true);
             //
-            Time.timeScale = 1f;
+            //Time.timeScale = 1f;
         }
     }
     //para que los caracteres aparezcan por line, tipeo
@@ -68,9 +68,9 @@ public class Dialogo : MonoBehaviour
         foreach (char ch in lineasDialogo[indiceLinea])
         {
             TextodeDialogo.text += ch;
-            //yield return new WaitForSeconds(tiempoDeEscribir);
+            yield return new WaitForSeconds(tiempoDeEscribir);
             //para que las lineas del dialogo no sea afectado por timeScale
-            yield return new WaitForSecondsRealtime(tiempoDeEscribir);
+            //yield return new WaitForSecondsRealtime(tiempoDeEscribir);
         }
     }
 
