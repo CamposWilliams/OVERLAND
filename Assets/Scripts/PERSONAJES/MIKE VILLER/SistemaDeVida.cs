@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class SistemaDeVida : MonoBehaviour
@@ -12,6 +13,7 @@ public class SistemaDeVida : MonoBehaviour
    float dañoEntrante;
    public bool PUAzulActivo;
    public bool sinVida;
+   SpriteRenderer MikeSpr;
 
     public string NombreScena = "";
 
@@ -19,6 +21,7 @@ public class SistemaDeVida : MonoBehaviour
 
     void Start()
     {
+        MikeSpr = GetComponent<SpriteRenderer>();
         vidaActualMike = vidaMáximaMike;
         ActualizarBarraDeVida();
         
@@ -29,10 +32,13 @@ public class SistemaDeVida : MonoBehaviour
         if(PUAzulActivo)
         {
             dañoEntrante = daño/2;
+                        StartCoroutine(CambiarColor());
+
         }
         else
         {
             dañoEntrante = daño;
+            StartCoroutine(CambiarColor());
         }
         //Debug.Log($"Recibiste {dañoEntrante} de daño");
         vidaActualMike -= dañoEntrante;
@@ -75,5 +81,12 @@ public class SistemaDeVida : MonoBehaviour
         ActualizarBarraDeVida();
     }
 
-    
+   public IEnumerator CambiarColor()
+    {
+        MikeSpr.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        MikeSpr.color = Color.white;
+    }
+
+
 }

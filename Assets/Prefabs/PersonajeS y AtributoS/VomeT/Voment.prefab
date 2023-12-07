@@ -224,6 +224,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a67c3a9de59145a438fa4fa5edc64109, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  aiPath: {fileID: 1636298408140163330}
+  tiempoParaVolverADisparar: 5
+  balaGordock: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
 --- !u!114 &783517563065696348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -307,8 +310,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MikeTrf: {fileID: 0}
+  valorDelParametroX: 0
+  valorDelParametroY: 0
   enemigoCollider: {fileID: 2812427561176658142}
   reactivar: 0
+  seHanJuntado: 0
+  time: 0
 --- !u!50 &6716773432585040790
 Rigidbody2D:
   serializedVersion: 4
