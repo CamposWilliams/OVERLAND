@@ -4,8 +4,10 @@ using UnityEngine;
 
 public class BonkDaño : MonoBehaviour
 {
+    
     float dañoPorGolpe=3;
-  
+    
+   
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -13,5 +15,7 @@ public class BonkDaño : MonoBehaviour
             collision.gameObject.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
         }
     }
-    
+
+   
+
 }
