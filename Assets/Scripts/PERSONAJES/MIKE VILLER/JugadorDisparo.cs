@@ -4,8 +4,11 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
+    public AudioSource CambioDeArma;
+    public AudioSource Recarga1;
+    
     public AudioSource Disparo1;
-
+    public AudioSource Disparo2;
     float tiempo;
     public bool puedeDisparar = true;
     public float cdDisparo = 0.6f;
@@ -60,6 +63,7 @@ public class JugadorDisparo : MonoBehaviour
            
             if (Input.GetKeyDown(KeyCode.Q))
             {
+                CambioDeArma.Play();
                 MikeAnimator.SetTrigger("PresionaQ");
                 CambioArma++;
                 CambioArma %= 4;
@@ -107,6 +111,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.R))
             {
+                
                 // Recargar
                 if (AmmoRifle < maxAmmoRifle)
                 {
@@ -136,6 +141,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.R))
             {
+                Recarga1.Play();
 
                 // Recargar
                 if (AmmoSubfusil < maxAmmoSubfusil)
@@ -242,6 +248,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
+            Disparo2.Play();
             puedeDisparar = false;
 
             if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
