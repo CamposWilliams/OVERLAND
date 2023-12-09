@@ -21,19 +21,12 @@ EditorBuildSettings:
     path: Assets/Scenes/MenuCreditos.unity
     guid: 4b596bd763941ad40a1fbc6069e3cda7
   - enabled: 1
-    path: Assets/Scenes/2CinematicaControles.unity
-    guid: 84689194894d7e5428d6ed1c5b255892
-  - enabled: 1
     path: Assets/Scenes/NIVEL2.unity
     guid: 5d4a4e5dab3741c42be16aaf66909b75
   - enabled: 1
     path: Assets/Scenes/PantallaVictoria.unity
     guid: 1d3ecaf7815f49c499445fecfdcc5815
   - enabled: 1
-    path: Assets/Scenes/PantallaDePausa.unity
-    guid: 33c69f69825950a48b96aad9b0f7f90e
-  - enabled: 1
     path: Assets/Scenes/PantallaDerrota.unity
     guid: 10686f48c79fe9641a8a5e0d9efad513
   m_configObjects: {}
-  m_UseUCBPForAssetBundles: 0

@@ -1,10 +1,7 @@
 fileFormatVersion: 2
 guid: 58df4d62069bc8b4d9901f38978c2721
 TextureImporter:
-  internalIDToNameTable:
-  - first:
-      213: 6711294892750175937
-    second: Cinematica_0
+  internalIDToNameTable: []
   externalObjects: {}
   serializedVersion: 12
   mipmaps:
@@ -80,6 +77,7 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
@@ -92,6 +90,20 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
@@ -110,10 +122,10 @@ TextureImporter:
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 1ce7441a52f432d50800000000000000
-      internalID: 6711294892750175937
+      spriteID: 58d3d2cab8da77d488f55f195779bf12
+      internalID: -1448437193
       vertices: []
       indices: 
       edges: []
@@ -133,8 +145,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dbaca22779c2da458d6a53ee29e7d51
-      internalID: -1387030097
+      spriteID: 7b19c61f09876a346bc9e6a4b79bfdc9
+      internalID: 1425431150
       vertices: []
       indices: 
       edges: []
@@ -154,8 +166,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2fffc833a32bd834a8950a3202d67b56
-      internalID: 909494482
+      spriteID: 86b4a1d8eefedfa4ba2485efc82aaed8
+      internalID: 1369713933
       vertices: []
       indices: 
       edges: []
@@ -175,8 +187,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 59d1156caadddf1499e01df348334af8
-      internalID: -931991126
+      spriteID: 6b0714cfd2e1f13439fd85620dec2a2b
+      internalID: -197703356
       vertices: []
       indices: 
       edges: []
@@ -196,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b80cdd0c268420e428f2ac2e2815d5e8
-      internalID: 1495157645
+      spriteID: 30b18290da809f84796e5fc777e6890d
+      internalID: 1237366502
       vertices: []
       indices: 
       edges: []
@@ -217,8 +229,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 73429130cc3f1994fa5e1148aff027d7
-      internalID: 749717406
+      spriteID: 77b869db98e51e140aadc12aab962582
+      internalID: -422288440
       vertices: []
       indices: 
       edges: []
@@ -238,8 +250,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa420f286228dae44bf4825bf95afc34
-      internalID: -1101928914
+      spriteID: e3db4c5968605644faf4a93ad056281e
+      internalID: 1963742414
       vertices: []
       indices: 
       edges: []
@@ -259,8 +271,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a504308521ec53f4c80400813156a47f
-      internalID: 226085007
+      spriteID: 3a95eeae4b1a177499babf469f339bac
+      internalID: 816502671
       vertices: []
       indices: 
       edges: []
@@ -268,7 +280,7 @@ TextureImporter:
     outline: []
     physicsShape: []
     bones: []
-    spriteID: afc384ba60acf6a44bdb400507be8397
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -276,14 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Cinematica_0: 6711294892750175937
-      Cinematica_1: -1387030097
-      Cinematica_2: 909494482
-      Cinematica_3: -931991126
-      Cinematica_4: 1495157645
-      Cinematica_5: 749717406
-      Cinematica_6: -1101928914
-      Cinematica_7: 226085007
+      Cinematica_0: -1448437193
+      Cinematica_1: 1425431150
+      Cinematica_2: 1369713933
+      Cinematica_3: -197703356
+      Cinematica_4: 1237366502
+      Cinematica_5: -422288440
+      Cinematica_6: 1963742414
+      Cinematica_7: 816502671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
