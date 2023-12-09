@@ -34,7 +34,11 @@ public class EscaneoNavegacion : MonoBehaviour
     // Llamado después de cambiar la capa de la puerta
     public void RealizarEscaneo()
     {
-        StartCoroutine(EscanearDespuesDeTiempo());
+        //Esta linea agregada 
+        if (gameObject.activeInHierarchy)
+        {
+            StartCoroutine(EscanearDespuesDeTiempo());
+        }
     }
 
     IEnumerator EscanearDespuesDeTiempo()
