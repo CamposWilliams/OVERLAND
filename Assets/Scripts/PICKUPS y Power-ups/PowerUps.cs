@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-    public class PowerUps : MonoBehaviour
-    {
+public class PowerUps : MonoBehaviour
+{
         new string tag;
         public GameObject prefabBala;
         public GameObject Disfraz;
@@ -16,29 +16,35 @@ using UnityEngine;
         Collider2D collPowerUp;
         public Animator disfrazAnimator;
         public GameObject sombrita;
+        public float contadorAmarillo;
+        public float contadorAzul;
+        public float contadorMorado;
 
     private void Start()
-        {
+    {
             sprPowerUp = GetComponent<SpriteRenderer>();
             collPowerUp = GetComponent<Collider2D>();
             tag=gameObject.tag;
             //Debug.Log(tag);
         
-        }
-        private void OnTriggerEnter2D(Collider2D collision)
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
         {
             if (collision.CompareTag("Player"))
             {
+               
                 conPU = true;
                 Destroy(sombrita);
-
+             
                 switch (tag)
                 {
                     case "PocionAzul":
+
                         Disfraz.GetComponent<ReposicionarPU>().pocionAzul = true;
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 1);
-                        StartCoroutine(AnimacionesPU());
+                        //StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         collision.GetComponent<SistemaDeVida>().PUAzulActivo = true;
@@ -48,7 +54,7 @@ using UnityEngine;
                     case "PocionMorada":
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 2);
-                        StartCoroutine(AnimacionesPU());
+                        //StartCoroutine(AnimacionesPU());
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         cd = Mike.GetComponent<JugadorDisparo>().cdDisparo;
@@ -62,12 +68,10 @@ using UnityEngine;
 
                     case "PocionAmarilla":
                         disfrazAnimator.SetBool("ConPU", true);
-                        disfrazAnimator.SetFloat("PU", 0);
-                        StartCoroutine(AnimacionesPU());
+                        disfrazAnimator.SetFloat("PU", 0);            
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
-                        rapidez=collision.GetComponent<JugadorMovimiento>().rapidez;
-                        collision.GetComponent<JugadorMovimiento>().rapidez=rapidez*1.4f;
+                        collision.GetComponent<JugadorMovimiento>().rapidez=4*1.5f;                  
                         StartCoroutine(DesactivarPowerUpAmarillo());
 
                     break;
@@ -78,46 +82,54 @@ using UnityEngine;
         }
 
         IEnumerator DesactivarPowerUpMorado()
-        {      
-                      
-                    yield return new WaitForSeconds(5);
-                    Debug.Log("Desactivado Morado");
-                    prefabBala.GetComponent<JugadorBala>().rapidezBala = rapidezBala;
-                    Mike.GetComponent<JugadorDisparo>().cdDisparo = cd;
-                    Destroy(gameObject);          
+        {                          
+            yield return new WaitForSeconds(5);
+            Mike.GetComponent<MikeGestorDePU>().contadorMorado--;
+
+           if (contadorMorado == 0)
+           {
+                //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
+                //Debug.Log("Desactivado Morado");
+                prefabBala.GetComponent<JugadorBala>().rapidezBala = rapidezBala;
+                Mike.GetComponent<JugadorDisparo>().cdDisparo = cd;
+                Destroy(gameObject);
+           }
+                   
                
         }
 
     IEnumerator DesactivarPowerUpAzul()
+    {
+        yield return new WaitForSeconds(5);
+        Mike.GetComponent<MikeGestorDePU>().contadorAzul--;
+
+        if (Mike.GetComponent<SistemaDeVida>().PUAzulActivo ==true && Mike.GetComponent<MikeGestorDePU>().contadorAzul==0)
         {
-            if (Mike.GetComponent<SistemaDeVida>().PUAzulActivo ==true)
-            {
-                                
-                    yield return new WaitForSeconds(5);
+
+                    //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
                     Mike.GetComponent<SistemaDeVida>().PUAzulActivo = false;
                     Disfraz.GetComponent<ReposicionarPU>().pocionAzul = false;
-                    Destroy(gameObject);
-        
-            }
+                    Destroy(gameObject);      
         }
+    }
+    
     IEnumerator DesactivarPowerUpAmarillo()
-        {
+    {
        
         yield return new WaitForSeconds(5);
-        Mike.GetComponent<JugadorMovimiento>().rapidez = 5;
-        //Debug.Log("Hola");
-        Destroy(gameObject);
-                
-                
-            
+        Mike.GetComponent<MikeGestorDePU>().contadorAmarillo--;
+       
+        if (Mike.GetComponent<MikeGestorDePU>().contadorAmarillo== 0)
+        {
+            //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
+            Mike.GetComponent<JugadorMovimiento>().rapidez = 4;
+            //Debug.Log("Hola");
+            Destroy(gameObject);
         }
-
-    IEnumerator AnimacionesPU()
-    {
-        //Debug.Log("Adios");
-        yield return new WaitForSeconds(5);
-        disfrazAnimator.SetBool("ConPU", false);
+                                
     }
+
+ 
 
 }
 

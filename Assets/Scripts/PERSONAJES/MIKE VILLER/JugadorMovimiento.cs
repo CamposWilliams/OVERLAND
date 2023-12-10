@@ -5,7 +5,7 @@ using UnityEngine;
 public class JugadorMovimiento : MonoBehaviour
 {
     Rigidbody2D rb2DMike;
-    public float rapidez;
+    public float rapidez=4;
     Vector2 dirección;
     bool colisionaConPared;
     Animator animaciónMike;
@@ -166,13 +166,11 @@ public class JugadorMovimiento : MonoBehaviour
 
     IEnumerator AnimacionIddle()
     {
-        
-       
+              
         animaciónMike.SetBool("ExcedeTiempo", true);
         yield return new WaitForSeconds(2);
         animaciónMike.SetBool("ExcedeTiempo", false);
         time = 0;
-
          
     }
 }

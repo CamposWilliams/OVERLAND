@@ -100,7 +100,7 @@ public class SeguirAstar : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Enemigo1"))
+        if (collision.gameObject.CompareTag("Enemigo1") && GetComponent<VidaBonk>().saludBonk > 0)
         {
             enemigoCollider.isTrigger = true;
             //reactivar = true;
@@ -111,7 +111,7 @@ public class SeguirAstar : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("EscritorioTag"))
+        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
         {
             enemigoCollider.isTrigger = true;
         }
@@ -120,12 +120,12 @@ public class SeguirAstar : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player")) 
+        if (collision.CompareTag("Player") && GetComponent<VidaBonk>().saludBonk > 0) 
             {
                enemigoCollider.isTrigger= false;
             }
 
-        if (collision.CompareTag("Enemigo1"))
+        if (collision.CompareTag("Enemigo1") && GetComponent<VidaBonk>().saludBonk>0)
         {
             enemigoCollider.isTrigger= true;
             seHanJuntado = true;
@@ -137,12 +137,12 @@ public class SeguirAstar : MonoBehaviour
     void ReactivarCollider()
     {
           
-        if (EnemigoAnimacion.GetBool("SeMueve") == false)
+        if (EnemigoAnimacion.GetBool("SeMueve") == false && GetComponent<VidaBonk>().saludBonk>0)
         {
             enemigoCollider.isTrigger = false;
         }
 
-        if(seHanJuntado == true)
+        if(seHanJuntado == true && GetComponent<VidaBonk>().saludBonk > 0)
         {
             time += Time.deltaTime;
 

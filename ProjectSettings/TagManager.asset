@@ -37,8 +37,8 @@ TagManager:
   - EnemigoLayer
   - Botiquin
   - MacetaLayer
-  - 
-  - 
+  - IgnoraTodoLayer
+  - AreaDeAtaqueLayer
   - 
   - 
   - 

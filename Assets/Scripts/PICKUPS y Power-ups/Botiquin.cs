@@ -6,17 +6,17 @@ using UnityEngine;
 public class Botiquín : MonoBehaviour
 {
     float curación=17;
-    public Animator Mike;
+    public Animator MikeAnimator;
 
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
+            Debug.Log(gameObject.name);
             StartCoroutine(InciarDesactivacion());
             collision.GetComponent<SistemaDeVida>().AumentarVida(curación);
-            Mike.SetBool("ConPU", true);
-            Mike.SetFloat("PU", 3);
+            MikeAnimator.SetBool("ConBotiquin", true);
             GetComponent<Collider2D>().enabled = false;
             GetComponent<SpriteRenderer>().enabled = false;
             
@@ -27,7 +27,7 @@ public class Botiquín : MonoBehaviour
          IEnumerator InciarDesactivacion()
         {
             yield return new WaitForSeconds(1);
-            Mike.SetBool("ConPU", false);
+            MikeAnimator.SetBool("ConBotiquin", false);
             Destroy(gameObject);
         }
 

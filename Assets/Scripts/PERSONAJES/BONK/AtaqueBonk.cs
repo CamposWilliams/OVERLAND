@@ -17,7 +17,7 @@ public class AtaqueBonk : MonoBehaviour
     private void Update()
     {
         AnimacionAtaque();
-        Debug.Log(puedeAtacar);
+        //Debug.Log(puedeAtacar);
         //Debug.Log(mantenerAnimacionDeAtaque);
     }
 
@@ -51,7 +51,7 @@ public class AtaqueBonk : MonoBehaviour
             aiPath.maxSpeed = 0;
             BonkAnimator.SetBool("Atacando", true);
             time1 += Time.deltaTime;
-            Debug.Log(time1);
+            //Debug.Log(time1);
 
             if (time1 >= 2)
             {
@@ -63,9 +63,7 @@ public class AtaqueBonk : MonoBehaviour
                 
             }
             
-            
-            
-
+           
         }
 
     }
