@@ -41,7 +41,6 @@ CircleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 420102199802818060}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -65,9 +64,9 @@ CircleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
   m_Radius: 6
 --- !u!114 &4370998386049493920
 MonoBehaviour:
@@ -97,11 +96,11 @@ GameObject:
   - component: {fileID: 4652860726896542814}
   - component: {fileID: 783517563065696348}
   - component: {fileID: 1636298408140163330}
-  - component: {fileID: 36712057079108835}
   - component: {fileID: 6716773432585040790}
   - component: {fileID: 7312264055506256121}
   - component: {fileID: 2812427561176658142}
   - component: {fileID: 6121747003281876291}
+  - component: {fileID: 2734819242727080459}
   m_Layer: 12
   m_Name: Voment
   m_TagString: Untagged
@@ -179,7 +178,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &6102990261326726879
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -193,7 +192,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -298,25 +296,6 @@ MonoBehaviour:
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
   constrainInsideGraph: 0
---- !u!114 &36712057079108835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6702688703124979866}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 45a3704867cbab54baf5bd2abc9058af, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MikeTrf: {fileID: 0}
-  valorDelParametroX: 0
-  valorDelParametroY: 0
-  enemigoCollider: {fileID: 2812427561176658142}
-  reactivar: 0
-  seHanJuntado: 0
-  time: 0
 --- !u!50 &6716773432585040790
 Rigidbody2D:
   serializedVersion: 4
@@ -366,7 +345,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6702688703124979866}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -390,8 +368,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 0
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: -0.023472603, y: 0.0000009480856}
   m_Size: {x: 0.5765494, y: 1}
   m_Direction: 0
@@ -407,14 +384,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
+  m_ComponentVersion: 1
   m_LightType: 3
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 1
   m_Color: {r: 1, g: 0.015686275, b: 0, a: 0.5882353}
   m_Intensity: 1.04
   m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -424,10 +401,8 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0.3
-  m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
@@ -447,3 +422,22 @@ MonoBehaviour:
   - {x: 0.5, y: -0.5, z: 0}
   - {x: 0.5, y: 0.5, z: 0}
   - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &2734819242727080459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6702688703124979866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e434335d6d5569428f42d1cada2bdb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MikeTrf: {fileID: 0}
+  valorDelParametroX: 0
+  valorDelParametroY: 0
+  enemigoCollider: {fileID: 2812427561176658142}
+  reactivar: 0
+  seHanJuntado: 0
+  time: 0

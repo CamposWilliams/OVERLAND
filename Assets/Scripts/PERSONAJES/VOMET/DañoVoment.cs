@@ -69,7 +69,7 @@ public class DañoVoment : MonoBehaviour
             {
                 GameObject nuevaBala = Instantiate(balaVomet);
                 nuevaBala.transform.position = transform.position;
-                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
                 Destroy(nuevaBala, 1);               
                 contador++;
                 Debug.Log(contador);
@@ -128,7 +128,7 @@ public class DañoVoment : MonoBehaviour
             aiPath.maxSpeed = 0;
             GameObject nuevaBala = Instantiate(balaVomet);
             nuevaBala.transform.position = transform.position;
-            nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
+            nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
             Destroy(nuevaBala, 1);
             contador2++;
             Debug.Log(contador2);

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SeguirAstar : MonoBehaviour
+public class SeguirAstarVomet : MonoBehaviour
 {
 
     Animator EnemigoAnimacion;
@@ -100,7 +100,7 @@ public class SeguirAstar : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Enemigo1") && GetComponent<VidaBonk>().saludBonk > 0)
+        if (collision.gameObject.CompareTag("Enemigo1") && GetComponent<VidaVoment>().saludVoment > 0)
         {
             enemigoCollider.isTrigger = true;
             //reactivar = true;
@@ -111,7 +111,7 @@ public class SeguirAstar : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
+        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaVoment>().saludVoment > 0)
         {
             enemigoCollider.isTrigger = true;
         }
@@ -120,12 +120,12 @@ public class SeguirAstar : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && GetComponent<VidaBonk>().saludBonk > 0) 
+        if (collision.CompareTag("Player") && GetComponent<VidaVoment>().saludVoment > 0) 
             {
                enemigoCollider.isTrigger= false;
             }
 
-        if (collision.CompareTag("Enemigo1") && GetComponent<VidaBonk>().saludBonk>0)
+        if (collision.CompareTag("Enemigo1") && GetComponent<VidaVoment>().saludVoment >0)
         {
             enemigoCollider.isTrigger= true;
             seHanJuntado = true;
@@ -137,12 +137,12 @@ public class SeguirAstar : MonoBehaviour
     void ReactivarCollider()
     {
           
-        if (EnemigoAnimacion.GetBool("SeMueve") == false && GetComponent<VidaBonk>().saludBonk>0)
+        if (EnemigoAnimacion.GetBool("SeMueve") == false && GetComponent<VidaVoment>().saludVoment >0)
         {
             enemigoCollider.isTrigger = false;
         }
 
-        if(seHanJuntado == true && GetComponent<VidaBonk>().saludBonk > 0)
+        if(seHanJuntado == true && GetComponent<VidaVoment>().saludVoment > 0)
         {
             time += Time.deltaTime;
 

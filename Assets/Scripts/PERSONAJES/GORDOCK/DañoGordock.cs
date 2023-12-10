@@ -93,7 +93,7 @@ public class DañoGordock : MonoBehaviour
                 //GordockAnimator.SetBool("Disparando", true);
                 GameObject nuevaBala = Instantiate(balaGordock);
                 nuevaBala.transform.position = transform.position;
-                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
                 Destroy(nuevaBala, 1);
                 if (contador2 == 0)
                 {

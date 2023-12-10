@@ -15375,6 +15375,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -16420,7 +16424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &244107556
 Transform:
   m_ObjectHideFlags: 0
@@ -21264,6 +21268,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -27708,6 +27716,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -27839,6 +27851,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -54531,6 +54547,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -62017,6 +62037,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -65331,6 +65355,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -68107,6 +68135,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -69431,6 +69463,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -75020,6 +75056,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -75626,7 +75666,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1113552675
 Transform:
   m_ObjectHideFlags: 0
@@ -90951,6 +90991,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -93072,6 +93116,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -95860,6 +95908,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -97039,6 +97091,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -101729,6 +101785,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7554223148460842352, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: height
       value: 1
@@ -101757,8 +101817,12 @@ PrefabInstance:
       propertyPath: whenCloseToDestination
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8847070715920447824, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     m_RemovedComponents:
-    - {fileID: 2813700203030786660, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -103496,6 +103560,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2734819242727080459, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 2812427561176658142, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -103525,7 +103593,7 @@ PrefabInstance:
       value: 10
       objectReference: {fileID: 0}
     m_RemovedComponents:
-    - {fileID: 2830672609807154333, guid: 9e0dffc74cfca594ea80f9ff96fe5b72, type: 3}
+    - {fileID: 0}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -104437,6 +104505,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -110280,6 +110352,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -110418,6 +110494,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
@@ -111020,6 +111100,10 @@ PrefabInstance:
       propertyPath: startEndModifier.exactStartPoint
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7350526114377138187, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
+      propertyPath: MikeTrf
+      value: 
+      objectReference: {fileID: 2068569307}
     - target: {fileID: 7514543385785539756, guid: f19dc8d017d08374b8d35aa7a1ee2dd8, type: 3}
       propertyPath: balaGordock
       value: 
