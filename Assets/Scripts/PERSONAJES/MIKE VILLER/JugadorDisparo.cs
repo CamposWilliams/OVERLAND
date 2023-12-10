@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
-    
+    public AudioSource Disparo3;
+    public AudioSource Recarga2;
     public AudioSource CambioDeArma;
     public AudioSource Recarga1;
     public AudioSource DisparoEspecial;
@@ -112,7 +113,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.R))
             {
-                
+                Recarga1.Play();
                 // Recargar
                 if (AmmoRifle < maxAmmoRifle)
                 {
@@ -174,6 +175,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if (Input.GetKeyDown(KeyCode.R))
             {
+                Recarga2.Play();
                 // Recargar
                 if (AmmoArmaEspecial < maxAmmoArmaEspecial)
                 {
@@ -230,6 +232,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (Input.GetMouseButton(0) && puedeDisparar == true)
         {
+            Disparo3.Play();
             puedeDisparar = false;
 
 
