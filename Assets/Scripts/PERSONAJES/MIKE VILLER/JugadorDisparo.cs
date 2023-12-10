@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
+    
     public AudioSource CambioDeArma;
     public AudioSource Recarga1;
-    
+    public AudioSource DisparoEspecial;
     public AudioSource Disparo1;
     public AudioSource Disparo2;
     float tiempo;
@@ -267,7 +268,9 @@ public class JugadorDisparo : MonoBehaviour
         {
             if (Input.GetMouseButton(0) && puedeDisparar == true)
             {
+                DisparoEspecial.Play();
                 puedeDisparar = false;
+
 
             if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
             {
