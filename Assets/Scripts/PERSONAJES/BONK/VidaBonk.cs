@@ -11,6 +11,7 @@ public class VidaBonk : MonoBehaviour
   Animator bonkAnimacion;
   SpriteRenderer spriteBonk;
     public AudioSource MuertoSonido;
+    private bool yaEstaMuerto = false;
     private void Start()
     {
         bonkAnimacion = GetComponent<Animator>();
@@ -19,6 +20,8 @@ public class VidaBonk : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (yaEstaMuerto) return;
+
         if (collision.CompareTag("Bala_player"))
         {
            
@@ -30,15 +33,16 @@ public class VidaBonk : MonoBehaviour
             
                 
         }
-        if (saludBonk <= 0)
+        if (saludBonk <= 0&& !yaEstaMuerto)
         {
-            
+            yaEstaMuerto = true;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<AIPath>().maxSpeed = 0;
             StartCoroutine(AnimacionDeMuerte());
             MuertoSonido.Play();
 
         }
+        
 
         else if (collision.CompareTag("Espada"))
         {
@@ -54,12 +58,13 @@ public class VidaBonk : MonoBehaviour
         yield return new WaitForSeconds(0.015f);
 
 
-        
 
 
         bonkAnimacion.SetBool("EstaSinVida", false);
 
         yield return new WaitForSeconds(1f);
+
+        
         Destroy(gameObject);
     }
 
