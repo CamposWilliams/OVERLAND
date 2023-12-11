@@ -82177,16 +82177,20 @@ PrefabInstance:
       objectReference: {fileID: 2068569367}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: AmmoRifle
-      value: 25
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: AmmoSubfusil
-      value: 25
+      value: 300
       objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: CambioDeArma
       value: 
       objectReference: {fileID: 2068569349}
+    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: MikeAnimator
+      value: 
+      objectReference: {fileID: 2068569371}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: disfazAnimator
       value: 
@@ -82197,19 +82201,19 @@ PrefabInstance:
       objectReference: {fileID: 2068569359}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: AmmoArmaEspecial
-      value: 25
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: almacenBulletRifle
-      value: 1000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: almacenBulletEspecial
-      value: 1000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: almacenBulletSubfusil
-      value: 3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_Name
@@ -121202,6 +121206,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!95 &2068569371 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 3159713536766560193, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+  m_PrefabInstance: {fileID: 1249008318}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2073803720
 GameObject:
   m_ObjectHideFlags: 0

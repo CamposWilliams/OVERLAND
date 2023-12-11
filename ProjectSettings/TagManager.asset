@@ -21,6 +21,7 @@ TagManager:
   - paredes
   - BalaBoss
   - Boss
+  - AmmoEspecial
   layers:
   - Default
   - TransparentFX

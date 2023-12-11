@@ -1,4 +1,5 @@
 
+using System.Collections;
 using UnityEngine;
 
 
@@ -14,14 +15,16 @@ public class JugadorDisparo : MonoBehaviour
     float tiempo;
     float tiempo2;
     float contador2=1;
+    float contador1;
     public bool puedeDisparar = true;
     public bool puedeDisparar2=true;
     public float cdDisparo = 0.6f;
     public float cdRecarga = 2;
     public GameObject balaPrefab;
     float contador;
-    Animator MikeAnimator;
+    public Animator MikeAnimator;
     bool muere;
+    bool cogiendoMunicion;
     bool estaConRifle;
     public Animator disfazAnimator;
 
@@ -60,7 +63,8 @@ public class JugadorDisparo : MonoBehaviour
     }
     void Update()
     {
-        //Debug.Log(contador2);
+
+        //Debug.Log(contador1);
         muere = GetComponent<SistemaDeVida>().sinVida;
         if (muere==false)
         {
@@ -68,6 +72,7 @@ public class JugadorDisparo : MonoBehaviour
             Recargando();
             ShootGeneral();
             RecargandoReal();
+         
 
            
             if (Input.GetKeyDown(KeyCode.Q))
@@ -81,9 +86,7 @@ public class JugadorDisparo : MonoBehaviour
 
             if(Input.GetKeyDown(KeyCode.R))
             {
-                puedeDisparar2 = false;
-                contador2 = 0;
-               
+                puedeDisparar2 = false; 
             }
         }
 
@@ -93,7 +96,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         if (puedeDisparar == false && puedeDisparar2)
         {
-
+            MikeAnimator.SetBool("ExcedeTiempo", false);
             tiempo += Time.deltaTime;
 
             if (tiempo >= cdDisparo)
@@ -110,17 +113,14 @@ public class JugadorDisparo : MonoBehaviour
         {
             puedeDisparar = false;
             tiempo2 += Time.deltaTime;
-
+            
             if (tiempo2 >= cdRecarga)
-            {
-               
-                
-                
+            {             
+                    contador1 = 0;
                     puedeDisparar2 = true;
                     puedeDisparar = true;
                     tiempo2 = 0;
-                
-                                      
+                                              
             }
         }
     }
@@ -128,7 +128,7 @@ public class JugadorDisparo : MonoBehaviour
     {
         switch (CambioArma)
         {
-            case 0:ShootPistola();break;
+            case 0: ShootPistola();break;
             case 1: ShootSubfusil(); break;
             case 2: ShootRifle(); break;
             case 3: ShootArmaEspecial(); break;
@@ -139,13 +139,24 @@ public class JugadorDisparo : MonoBehaviour
             CambioArma *= 0;
         }
 
-        
+        else if (CambioArma == 0)
+        {
+            estaConRifle = false;
+            
+            if (contador1 == 12)
+            {
+                Recarga1.Play();
+                puedeDisparar2 = false;
+            }
+
+
+        }
 
         else if (CambioArma == 2)
         {
             estaConRifle = false;
 
-            if ((Input.GetKeyDown(KeyCode.R)||!puedeDisparar2) && contador2==0)
+            if (Input.GetKeyDown(KeyCode.R))
             {
                
                 Recarga1.Play();
@@ -163,7 +174,29 @@ public class JugadorDisparo : MonoBehaviour
 
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletRifle = Mathf.Abs(almacenBulletRifle);
-               
+           
+            }
+
+
+            if (!puedeDisparar2 && contador2 == 0)
+            {
+
+                Recarga1.Play();
+                // Recargar
+                if (AmmoRifle < maxAmmoRifle)
+                {
+                    Debug.Log("Se recargo");
+                    int bulletsToReload = Mathf.Min(almacenBulletRifle, maxAmmoRifle - AmmoRifle);
+                    AmmoRifle += bulletsToReload;
+                    almacenBulletRifle -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoRifle = Mathf.Min(AmmoRifle, maxAmmoRifle);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletRifle = Mathf.Abs(almacenBulletRifle);
+
                 contador2++;
             }
 
@@ -174,7 +207,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             estaConRifle = true;
 
-            if ((Input.GetKeyDown(KeyCode.R) || !puedeDisparar2) && contador2 == 0)
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 Recarga1.Play();
 
@@ -191,8 +224,29 @@ public class JugadorDisparo : MonoBehaviour
 
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletSubfusil = Mathf.Abs(almacenBulletSubfusil);
-                       
+                                    
+            }
+           
+            if (!puedeDisparar2 && contador2==0)
+            {
+                Debug.Log(puedeDisparar2);
+                Debug.Log(almacenBulletSubfusil);
+               
+                Recarga1.Play();
 
+                // Recargar
+                if (AmmoSubfusil < maxAmmoSubfusil)
+                {
+                    int bulletsToReload = Mathf.Min(almacenBulletSubfusil, maxAmmoSubfusil - AmmoSubfusil);
+                    AmmoSubfusil += bulletsToReload;
+                    almacenBulletSubfusil -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoSubfusil = Mathf.Min(AmmoSubfusil, maxAmmoSubfusil);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletSubfusil = Mathf.Abs(almacenBulletSubfusil);
                 contador2++;
             }
 
@@ -202,7 +256,7 @@ public class JugadorDisparo : MonoBehaviour
         {
             estaConRifle = false;
 
-            if ((Input.GetKeyDown(KeyCode.R) || !puedeDisparar2) && contador2 == 0)
+            if (Input.GetKeyDown(KeyCode.R))
             {
                 Recarga2.Play();
                 // Recargar
@@ -219,6 +273,26 @@ public class JugadorDisparo : MonoBehaviour
                 // Mantener almacenBulletRifle en positivo
                 almacenBulletEspecial = Mathf.Abs(almacenBulletEspecial);
                
+
+            }
+
+            if (!puedeDisparar2 && contador2 == 0)
+            {
+                Recarga2.Play();
+                // Recargar
+                if (AmmoArmaEspecial < maxAmmoArmaEspecial)
+                {
+                    int bulletsToReload = Mathf.Min(almacenBulletEspecial, maxAmmoArmaEspecial - AmmoArmaEspecial);
+                    AmmoArmaEspecial += bulletsToReload;
+                    almacenBulletEspecial -= bulletsToReload;
+                }
+
+                // Asegurarnos de que AmmoRifle no exceda el máximo
+                AmmoArmaEspecial = Mathf.Min(AmmoArmaEspecial, maxAmmoArmaEspecial);
+
+                // Mantener almacenBulletRifle en positivo
+                almacenBulletEspecial = Mathf.Abs(almacenBulletEspecial);
+
                 contador2++;
 
             }
@@ -233,8 +307,10 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootPistola()
     {
-        if (Input.GetMouseButton(0) && puedeDisparar == true)
+        if ((Input.GetMouseButton(0) && puedeDisparar == true )&& puedeDisparar2)
         {
+         
+            contador1++;
             Disparo1.Play();
             puedeDisparar = false;
 
@@ -253,102 +329,104 @@ public class JugadorDisparo : MonoBehaviour
 
     void ShootRifle()
     {
-        if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoRifle>0)
+        if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoRifle > 0)
         {
            
-                AmmoRifle--;
-                Disparo3.Play();
-                puedeDisparar = false;
+            AmmoRifle--;
+            Disparo3.Play();
+            puedeDisparar = false;
 
-                if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
-                {
-                    cdDisparo = 0.13f;
-                }
-                else cdDisparo = 0.4f;
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                cdDisparo = 0.13f;
+            }
+            else cdDisparo = 0.4f;
 
-                GetComponent<MikeDisparo>().balaCreada = true;
-                GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
-            
-           
-
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
         }
-
-        else if (AmmoRifle <= 0 && almacenBulletRifle!= 0)
+        else if (AmmoRifle <= 0 && almacenBulletRifle != 0 && !puedeDisparar2)
         {
             contador2 = 0;
-            puedeDisparar2 = false;
+            puedeDisparar2 = true;  // Hacer que pueda disparar automáticamente al recargar
+            RecargarArma(AmmoRifle, almacenBulletRifle, maxAmmoRifle, ref AmmoRifle, ref almacenBulletRifle);
         }
     }
+
 
     void ShootSubfusil()
     {
-        if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoSubfusil>=3)
+        if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoSubfusil >= 3)
         {
-           
-                AmmoSubfusil -= 3;
-                Disparo2.Play();
-                puedeDisparar = false;
-            //Condicion del Power Up (PU)
-                if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
-                {
-                    cdDisparo = 0.26f;
-                }
-                else cdDisparo = 0.8f;
+          
+            AmmoSubfusil -= 3;
+            Disparo2.Play();
+            puedeDisparar = false;
 
-                GetComponent<MikeDisparo>().balaCreada = true;
-                GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);
-            
-                       
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
+            {
+                cdDisparo = 0.26f;
+            }
+            else cdDisparo = 0.8f;
+
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);
         }
-       
-        else if (AmmoSubfusil<=0 && almacenBulletSubfusil!=0)
-        {       
-            contador2=0;
-            puedeDisparar2 = false;
+        else if (AmmoSubfusil <= 0 && almacenBulletSubfusil != 0 && !puedeDisparar2)
+        {
+            contador2 = 0;
+            puedeDisparar2 = true;  // Hacer que pueda disparar automáticamente al recargar
+            RecargarArma(AmmoSubfusil, almacenBulletSubfusil, maxAmmoSubfusil, ref AmmoSubfusil, ref almacenBulletSubfusil);
         }
-        
     }
 
-        void ShootArmaEspecial()
+    void RecargarArma(int currentAmmo, int storedAmmo, int maxAmmo, ref int Ammo, ref int almacenBullet)
+    {
+        Recarga1.Play();
+
+        int bulletsToReload = Mathf.Min(storedAmmo, maxAmmo - currentAmmo);
+        Ammo += bulletsToReload;
+        almacenBullet -= bulletsToReload;
+
+        Ammo = Mathf.Min(Ammo, maxAmmo);
+        almacenBullet = Mathf.Abs(almacenBullet);
+    }
+
+
+    void ShootArmaEspecial()
+    {
+        if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoArmaEspecial >= 3)
         {
-            
-            if ((Input.GetMouseButton(0) && puedeDisparar == true) && AmmoArmaEspecial >=3)
-            {       
-                    AmmoArmaEspecial -= 3;
-                    DisparoEspecial.Play();
-                    puedeDisparar = false;
+            AmmoArmaEspecial -= 3;
+            DisparoEspecial.Play();
+            puedeDisparar = false;
 
-
-                        if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
-                        {
-                            cdDisparo = 0.2f;
-                        }
-
-                        else cdDisparo = 0.6f;
-
-                         GetComponent<MikeDisparo>().balaCreada = true;
-                         GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
-                
-            }
-
-            else if (AmmoArmaEspecial <= 3 && almacenBulletEspecial!= 0)
+            if (disfazAnimator.GetFloat("PU") == 2 && disfazAnimator.GetBool("ConPU"))
             {
-                 contador2 = 0;
-                puedeDisparar2 = false;
+                cdDisparo = 0.2f;
             }
+            else cdDisparo = 0.6f;
 
-
-
+            GetComponent<MikeDisparo>().balaCreada = true;
+            GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
         }
+        else if (AmmoArmaEspecial <= 3 && almacenBulletEspecial != 0 && !puedeDisparar2)
+        {
+            contador2 = 0;
+            puedeDisparar2 = true;  // Hacer que pueda disparar automáticamente al recargar
+            RecargarArma(AmmoArmaEspecial, almacenBulletEspecial, maxAmmoArmaEspecial, ref AmmoArmaEspecial, ref almacenBulletEspecial);
+        }
+    }
 
 
-        /// <summary>
-        /// //            Changes De Ammo y MaxAlmacen
-        /// </summary>
 
-        //RIFLE
+    /// <summary>
+    /// //            Changes De Ammo y MaxAlmacen
+    /// </summary>
 
-        void ChangeAmmoRifle(int value)
+    //RIFLE
+
+    void ChangeAmmoRifle(int value)
         {
             AmmoRifle += value;
 
@@ -425,23 +503,24 @@ public class JugadorDisparo : MonoBehaviour
        
         {
 
-          if (collision.gameObject.CompareTag("Ammo"))
+          if (collision.gameObject.CompareTag("AmmoEspecial"))
           {
-            StoreAmmoArmaEspecial(3);
+           
+            StoreAmmoArmaEspecial(6);
 
             Destroy(collision.gameObject);
           }
 
           if (collision.gameObject.CompareTag("Ammo"))
           {
-            StoreAmmoRifle(2);
-            StoreAmmoSubfusil(2);
+          
+            StoreAmmoRifle(3);
+            StoreAmmoSubfusil(3);
             Destroy(collision.gameObject);
           }
 
         }
-
-    
+      
 }
 
 

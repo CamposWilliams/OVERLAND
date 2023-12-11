@@ -177,7 +177,7 @@ public class MikeDisparo : MonoBehaviour
                 {
                     if (contador <= 3)
                     {
-                        Debug.Log(contador);
+                        //Debug.Log(contador);
                         GetComponent<JugadorDisparo>().puedeDisparar = false;
 
                       
