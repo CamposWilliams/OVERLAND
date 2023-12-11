@@ -6,8 +6,12 @@ using UnityEngine.UIElements;
 public class MoveBoss : MonoBehaviour
 {
     public Transform player; // Referencia al objeto del jugador
+    public Transform TeleTrans;
     public float speed = 3f; // Velocidad de movimiento del enemigo
     public float detectionRadius = 3f; // Radio de detección del jugador
+
+    public float timer = 0;
+    public float maxTimer = 5;
 
     private Animator animator;
     private LifeBoss lifeScript; // Referencia al script LifeBoss
@@ -41,13 +45,19 @@ public class MoveBoss : MonoBehaviour
 
                 // Actualizar las animaciones
                 UpdateAnimations(new Vector2(roundedX, roundedY));
-            } else
-                 {
-                   transform.position = player.position;
-                 }
+            } 
 
         }
-       
+
+        timer += Time.deltaTime;
+        if (timer >= maxTimer)
+        {
+            transform.position = TeleTrans.position;
+            timer = 0;
+        }
+
+
+
     }
 
     void UpdateAnimations(Vector2 direction)

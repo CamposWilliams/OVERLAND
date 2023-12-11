@@ -5,11 +5,16 @@ using UnityEngine.UI;
 
 public class LifeBoss : MonoBehaviour
 {
-    [SerializeField] int vida = 5;
+    
     private Animator animator;
 
     public float maxHealth = 5f;
     private float currentHealth;
+
+    public GameObject pre01;
+    public GameObject pre02;
+    public GameObject pre03;
+    public GameObject pre04;    
 
     public Image healthBar;
 
@@ -41,6 +46,37 @@ public class LifeBoss : MonoBehaviour
             animator.SetTrigger("Dead");
             Destroy(gameObject, 3f);
         }
+
+        else if(currentHealth == 80)
+        {
+            GameObject obj = Instantiate(pre01);
+            obj.transform.position = transform.position;
+
+            Destroy(obj, 10f);
+
+        }
+
+        else if (currentHealth == 60)
+        {
+            GameObject obj = Instantiate(pre02);
+            obj.transform.position = transform.position;
+
+            Destroy(obj, 10f);
+
+        }
+        else if (currentHealth == 40)
+        {
+            GameObject obj = Instantiate(pre03);
+            obj.transform.position = transform.position;
+            Destroy(obj, 10f);
+        }
+        else if (currentHealth == 20)
+        {
+            GameObject obj = Instantiate(pre04);
+            obj.transform.position = transform.position;
+            Destroy(obj, 10f);
+        }
+
 
         UpdateHealthBar();
     }
