@@ -10,6 +10,7 @@ public class Tarjetas : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             Computadora.GetComponent<CompuDeControl>().contador++;
+            
             Destroy(gameObject);
         }
     }
