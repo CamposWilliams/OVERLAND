@@ -47,12 +47,16 @@ public class DañoGordock : MonoBehaviour
     }
     private void Update()
     {
-        if (GetComponent<VidaGordock>().muriendo==false)
+        if (aiPath.enabled)
         {
-            //Debug.Log(time1);
-            DispararGordock();
-            ReactivarAnimacionYBala();
+            if (GetComponent<VidaGordock>().muriendo == false)
+            {
+                //Debug.Log(time1);
+                DispararGordock();
+                ReactivarAnimacionYBala();
+            }
         }
+      
        
     }
 

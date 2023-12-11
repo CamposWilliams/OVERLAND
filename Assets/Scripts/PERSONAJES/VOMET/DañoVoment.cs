@@ -51,12 +51,16 @@ public class DañoVoment : MonoBehaviour
     }
     private void Update()
     {
-        if (GetComponent<VidaVoment>().muriendo == false)
+         if(aiPath.enabled)
         {
-            //Debug.Log(time1);
-            DispararGordock();
-            ReactivarAnimacionYBala();
+            if (GetComponent<VidaVoment>().muriendo == false)
+            {
+                //Debug.Log(time1);
+                DispararGordock();
+                ReactivarAnimacionYBala();
+            }
         }
+      
         
     }
 

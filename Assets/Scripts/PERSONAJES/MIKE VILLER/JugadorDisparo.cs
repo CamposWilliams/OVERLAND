@@ -13,7 +13,7 @@ public class JugadorDisparo : MonoBehaviour
     public AudioSource Disparo2;
     float tiempo;
     float tiempo2;
-    float contador2 = 1;
+    float contador2;
     float contador1;
     public bool puedeDisparar = true;
     public bool puedeDisparar2 = true;
@@ -142,12 +142,13 @@ public class JugadorDisparo : MonoBehaviour
         {
             estaConRifle = false;
 
-            if (contador1 == 12)
+            if (contador1 == 12 && contador2==0 )
             {
                 Recarga1.Play();
                 puedeDisparar2 = false;
+                contador2++;
             }
-
+            //HolaHola
 
         }
 
