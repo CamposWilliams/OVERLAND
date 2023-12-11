@@ -4015,8 +4015,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -2.09285, y: 1.1241499, z: 0}
-    m_Extent: {x: 4.9235497, y: 1.64175, z: 0}
+    m_Center: {x: -2.0935001, y: 1.1236999, z: 0}
+    m_Extent: {x: 4.9242, y: 1.6415, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -46148,8 +46148,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00059986115, y: -0.00074982643, z: 0}
-    m_Extent: {x: 4.579, y: 4.57815, z: 0}
+    m_Center: {x: -0.00034999847, y: 0.00045013428, z: 0}
+    m_Extent: {x: 4.57915, y: 4.57825, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -47415,8 +47415,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.6473999, y: 1.1351, z: 0}
-    m_Extent: {x: 3.6852999, y: 1.634, z: 0}
+    m_Center: {x: 0.64760005, y: 1.1349, z: 0}
+    m_Extent: {x: 3.6861, y: 1.6339, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -49488,8 +49488,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00014996529, y: -0.0001001358, z: 0}
-    m_Extent: {x: 4.33895, y: 4.3392, z: 0}
+    m_Center: {x: 0.00055003166, y: -0.00034999847, z: 0}
+    m_Extent: {x: 4.3385496, y: 4.33945, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -53145,8 +53145,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 3.8959002, y: 1.1305001, z: 0}
-    m_Extent: {x: 6.9352, y: 1.6371, z: 0}
+    m_Center: {x: 3.8955, y: 1.13135, z: 0}
+    m_Extent: {x: 6.9350996, y: 1.6377499, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -55294,8 +55294,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 2.15425, y: 1.14205, z: 0}
-    m_Extent: {x: 5.19355, y: 1.6591499, z: 0}
+    m_Center: {x: 2.1548998, y: 1.14215, z: 0}
+    m_Extent: {x: 5.1928997, y: 1.6595501, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -57323,8 +57323,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.000099897385, y: 0.00040006638, z: 0}
-    m_Extent: {x: 4.5782003, y: 4.5782, z: 0}
+    m_Center: {x: 0.00029993057, y: 0.0001001358, z: 0}
+    m_Extent: {x: 4.5787, y: 4.5787, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -71556,8 +71556,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00034999847, y: 0.00039982796, z: 0}
-    m_Extent: {x: 4.57915, y: 4.5785, z: 0}
+    m_Center: {x: 0.000300169, y: -0.00014996529, z: 0}
+    m_Extent: {x: 4.5781, y: 4.57895, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -72053,8 +72053,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00020003319, y: -0.000049948692, z: 0}
-    m_Extent: {x: 3.629, y: 3.62895, z: 0}
+    m_Center: {x: -0.00014996529, y: -0.00030004978, z: 0}
+    m_Extent: {x: 3.62925, y: 3.6288, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -72208,7 +72208,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1049463875}
   TextodeDialogo: {fileID: 1697813853}
   lineasDialogo:
-  - 'Operador Encubierta: Hola, Agente Mike, tras un accidente en la entrada del
+  - 'Operador Encubierto: Hola, Agente Mike, tras un accidente en la entrada del
     Laboratorio, los mutantes no te han devorado, pero tus municiones han desaparecido. '
   - "No te preocupes, no est\xE1s indefenso. Los cient\xEDficos fallecidos dejaron
     pociones m\xE1gicas: AMARILLA para velocidad, AZUL para escudos, y MORADO para
@@ -72632,8 +72632,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00029993057, y: -0.0001500845, z: 0}
-    m_Extent: {x: 3.6292, y: 3.62895, z: 0}
+    m_Center: {x: -0.000100016594, y: 0.0000500679, z: 0}
+    m_Extent: {x: 3.6297002, y: 3.62925, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -76109,8 +76109,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00095009804, y: -0.0010001659, z: 0}
-    m_Extent: {x: 4.5785503, y: 4.5785, z: 0}
+    m_Center: {x: 0.00014996529, y: 0.00034999847, z: 0}
+    m_Extent: {x: 4.5785503, y: 4.57775, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -89158,8 +89158,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -1.1120999, y: 1.1322, z: 0}
-    m_Extent: {x: 5.9044, y: 1.635, z: 0}
+    m_Center: {x: -1.11205, y: 1.1331, z: 0}
+    m_Extent: {x: 5.90565, y: 1.6357, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -113023,8 +113023,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.00020003319, y: 0, z: 0}
-    m_Extent: {x: 4.5783997, y: 4.5785, z: 0}
+    m_Center: {x: 0.00080013275, y: -0.000099897385, z: 0}
+    m_Extent: {x: 4.578, y: 4.5783997, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -113853,8 +113853,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: -0.00029993057, y: -0.00049996376, z: 0}
-    m_Extent: {x: 4.758, y: 4.7585, z: 0}
+    m_Center: {x: 0.0013501644, y: -0.0001001358, z: 0}
+    m_Extent: {x: 4.75895, y: 4.7584, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
