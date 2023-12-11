@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
-
 public class Dialogo2 : MonoBehaviour
 {
     [SerializeField] private GameObject IniciarDialogo; //collider is trigger
@@ -14,6 +13,9 @@ public class Dialogo2 : MonoBehaviour
     private bool haIniciadoElDialogo;
     private bool haMostradoDialogo; // Nueva variable para verificar si el diálogo ya se ha mostrado
     private int indiceLinea;
+
+    // Referencia al script que quieres reactivar
+    public MonoBehaviour scriptToEnable;
 
     //variable nueva controla el tiempo del tipeo 
     private float tiempoDeEscribir = 0.07f;
@@ -54,6 +56,9 @@ public class Dialogo2 : MonoBehaviour
             haMostradoDialogo = true; // Marca que el diálogo ya se ha mostrado
             PanelDialogo.SetActive(false);
             IniciarDialogo.SetActive(true);
+
+            // Reactiva el script
+            scriptToEnable.enabled = true;
         }
     }
 
