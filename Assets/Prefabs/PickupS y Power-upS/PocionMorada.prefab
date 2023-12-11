@@ -90,7 +90,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &3928258733774018355
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -104,7 +104,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -118,7 +117,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 292995298708117501}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -142,8 +140,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: -0.00368089, y: 0.11414322}
   m_Size: {x: 0.8453537, y: 0.8453537}
   m_Direction: 0
@@ -165,6 +162,9 @@ MonoBehaviour:
   conPU: 0
   disfrazAnimator: {fileID: 0}
   sombrita: {fileID: 5925823304986531845}
+  contadorAmarillo: 0
+  contadorAzul: 0
+  contadorMorado: 0
 --- !u!1 &5925823304986531845
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,14 +262,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
-  m_LightType: 3
+  m_ComponentVersion: 1
+  m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.4
   m_Color: {r: 0.227451, g: 0.30588236, b: 0.9960785, a: 0.69411767}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -279,15 +279,13 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0.3
-  m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0, y: -0.00000011920929, z: 0}
-    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+    m_Center: {x: 0.03320001, y: -0.1894, z: 0}
+    m_Extent: {x: 0.28689998, y: 0.2865, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -295,10 +293,16 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffSize: 0.09
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
+  - {x: -0.16443709, y: -0.30786318, z: 0}
+  - {x: -0.065325215, y: -0.38553482, z: -0.000000019143322}
+  - {x: 0.13357727, y: -0.3828287, z: -0.000000019143322}
+  - {x: 0.2280321, y: -0.29703876, z: 0}
+  - {x: 0.2296455, y: -0.25969887, z: -0.000000019143322}
+  - {x: 0.10380956, y: -0.09732982, z: -0.000000019143322}
+  - {x: 0.088392906, y: 0.006027578, z: 0}
+  - {x: -0.02696904, y: 0.0068423175, z: 0.000000019143322}
+  - {x: -0.048164833, y: -0.098673835, z: 0}
+  - {x: -0.15733384, y: -0.25022736, z: -0.000000019143322}

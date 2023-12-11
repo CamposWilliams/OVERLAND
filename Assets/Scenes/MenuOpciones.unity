@@ -431,6 +431,34 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_text
+      value: "Volumen de m\xFAsica"
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_fontSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_margin.x
+      value: -67.84735
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+    - target: {fileID: 383457771807161247, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2348368536865051771, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
@@ -1172,6 +1200,34 @@ PrefabInstance:
     - target: {fileID: 352107143732151036, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -27.099976
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_text
+      value: Volumen de efectos de sonido
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_fontSize
+      value: 29.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_margin.x
+      value: -26.969727
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 29.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
+    - target: {fileID: 383457771807161247, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_hasFontAssetChanged
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2348368536865051771, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_AnchorMax.x

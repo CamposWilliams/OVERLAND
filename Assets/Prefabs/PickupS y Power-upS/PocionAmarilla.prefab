@@ -97,14 +97,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_ComponentVersion: 2
-  m_LightType: 3
+  m_ComponentVersion: 1
+  m_LightType: 1
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.4
   m_Color: {r: 0.99607843, g: 0.972549, b: 0.39607844, a: 0.69411767}
   m_Intensity: 1
   m_LightVolumeIntensity: 1
-  m_LightVolumeEnabled: 0
+  m_LightVolumeIntensityEnabled: 0
   m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
@@ -114,15 +114,13 @@ MonoBehaviour:
   m_NormalMapDistance: 3
   m_NormalMapQuality: 2
   m_UseNormalMap: 0
-  m_ShadowsEnabled: 1
+  m_ShadowIntensityEnabled: 0
   m_ShadowIntensity: 0.75
-  m_ShadowSoftness: 0.3
-  m_ShadowSoftnessFalloffIntensity: 0.5
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0, y: -0.00000011920929, z: 0}
-    m_Extent: {x: 0.9985302, y: 0.99853027, z: 0}
+    m_Center: {x: 0.019950002, y: -0.0051999986, z: 0}
+    m_Extent: {x: 0.34135, y: 0.4381, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -130,13 +128,19 @@ MonoBehaviour:
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
-  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffSize: 0.09
   m_ShapeLightFalloffOffset: {x: 0, y: 0}
   m_ShapePath:
-  - {x: -0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: -0.5, z: 0}
-  - {x: 0.5, y: 0.5, z: 0}
-  - {x: -0.5, y: 0.5, z: 0}
+  - {x: -0.23152685, y: -0.214427, z: 0}
+  - {x: -0.053368807, y: -0.35258675, z: 0.000000029802322}
+  - {x: 0.11763334, y: -0.345747, z: 0.000000029802322}
+  - {x: 0.2708571, y: -0.22639656, z: 0}
+  - {x: 0.26127505, y: -0.019132614, z: 0.000000029802322}
+  - {x: 0.115923405, y: 0.112540245, z: 0.000000029802322}
+  - {x: 0.1032753, y: 0.34267807, z: 0}
+  - {x: -0.07420468, y: 0.34096813, z: 0}
+  - {x: -0.07388902, y: 0.11082935, z: 0.000000029802322}
+  - {x: -0.21582055, y: -0.012292862, z: 0.000000029802322}
 --- !u!1 &7996768565040979458
 GameObject:
   m_ObjectHideFlags: 0
@@ -227,7 +231,7 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 --- !u!95 &2787256973633513628
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -241,7 +245,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -255,7 +258,6 @@ CapsuleCollider2D:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7996768565040979458}
   m_Enabled: 1
-  serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
   m_IncludeLayers:
@@ -279,8 +281,7 @@ CapsuleCollider2D:
     m_Bits: 4294967295
   m_IsTrigger: 1
   m_UsedByEffector: 0
-  m_CompositeOperation: 0
-  m_CompositeOrder: 0
+  m_UsedByComposite: 0
   m_Offset: {x: 0.025448736, y: 0.060683914}
   m_Size: {x: 0.62022644, y: 0.878632}
   m_Direction: 0
@@ -302,3 +303,6 @@ MonoBehaviour:
   conPU: 1
   disfrazAnimator: {fileID: 0}
   sombrita: {fileID: 5243268508917675645}
+  contadorAmarillo: 0
+  contadorAzul: 0
+  contadorMorado: 0

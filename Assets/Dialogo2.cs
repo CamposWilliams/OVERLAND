@@ -16,7 +16,7 @@ public class Dialogo2 : MonoBehaviour
     private int indiceLinea;
 
     //variable nueva controla el tiempo del tipeo 
-    private float tiempoDeEscribir = 0.1f;
+    private float tiempoDeEscribir = 0.07f;
     void Update()
     {
         if (estaElJugadorEnRango && !haMostradoDialogo) // Solo inicia el diálogo si no se ha mostrado antes
