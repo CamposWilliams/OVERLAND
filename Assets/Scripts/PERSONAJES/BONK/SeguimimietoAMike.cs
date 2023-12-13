@@ -35,7 +35,7 @@ public class SeguimimietoAMike : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             estaDentro = false;
-            BonkAnimacion.SetBool("estaDentro", false);
+            BonkAnimacion.SetBool("SeMueve", false);
 
             if (leyendoDatos == false)
             {
@@ -50,7 +50,7 @@ public class SeguimimietoAMike : MonoBehaviour
         {
             direccion2 = Vector2.zero;
             estaDentro = true;
-            BonkAnimacion.SetBool("estaDentro", true);
+            BonkAnimacion.SetBool("SeMueve", true);
             direccion = MikeTrf.position - transform.position;
 
 

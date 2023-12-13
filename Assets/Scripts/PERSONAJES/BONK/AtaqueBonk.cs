@@ -50,20 +50,26 @@ public class AtaqueBonk : MonoBehaviour
             
             aiPath.maxSpeed = 0;
             BonkAnimator.SetBool("Atacando", true);
-            time1 += Time.deltaTime;
+            
             //Debug.Log(time1);
 
-            if (time1 >= 2)
-            {
-                BonkAnimator.SetBool("Atacando", false);
-               
-                aiPath.maxSpeed = 2.9f;
-                time1 = 0;
-                puedeAtacar=false;
-                
-            }
+            
             
            
+        }
+
+        else
+        {
+            time1 += Time.deltaTime;
+            if (time1 >= 0.8f)
+            {
+                BonkAnimator.SetBool("Atacando", false);
+
+                aiPath.maxSpeed = 2.9f;
+                time1 = 0;
+                puedeAtacar = false;
+
+            }
         }
 
     }

@@ -19,7 +19,12 @@ public class PowerUps : MonoBehaviour
         public float contadorAmarillo;
         public float contadorAzul;
         public float contadorMorado;
-
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+        Disfraz = GameObject.Find("DisfrazPU");
+        disfrazAnimator=GameObject.Find("DisfrazPU").GetComponent<Animator>();
+    }
     private void Start()
     {
             sprPowerUp = GetComponent<SpriteRenderer>();

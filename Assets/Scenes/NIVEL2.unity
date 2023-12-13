@@ -10532,8 +10532,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.007849991, y: -0.026050001, z: 0}
-    m_Extent: {x: 0.34395, y: 0.73605, z: 0}
+    m_Center: {x: 0.0073000044, y: -0.0255, z: 0}
+    m_Extent: {x: 0.34359998, y: 0.7365, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11275,8 +11275,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016550004, y: 0.20684999, z: 0}
-    m_Extent: {x: 0.54705, y: 0.54485, z: 0}
+    m_Center: {x: 0.016300023, y: 0.20675002, z: 0}
+    m_Extent: {x: 0.5467, y: 0.54485, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11869,6 +11869,10 @@ PrefabInstance:
       propertyPath: rapidez
       value: 4
       objectReference: {fileID: 0}
+    - target: {fileID: 8545213491317953596, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: disfrazAnimator
+      value: 
+      objectReference: {fileID: 41721884}
     m_RemovedComponents:
     - {fileID: 1534981378516583640, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
     m_RemovedGameObjects:
@@ -16434,8 +16438,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016000003, y: 0.20629999, z: 0}
-    m_Extent: {x: 0.5468, y: 0.54499996, z: 0}
+    m_Center: {x: 0.0167, y: 0.2062, z: 0}
+    m_Extent: {x: 0.5467, y: 0.5453, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17825,8 +17829,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016049981, y: 0.207, z: 0}
-    m_Extent: {x: 0.54745, y: 0.5459, z: 0}
+    m_Center: {x: 0.01640001, y: 0.20629999, z: 0}
+    m_Extent: {x: 0.54770005, y: 0.54569995, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -23641,7 +23645,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 365, y: 19.118225}
+  m_AnchoredPosition: {x: 365, y: 19.118164}
   m_SizeDelta: {x: 1045.5383, y: 165.5596}
   m_Pivot: {x: 0.3912882, y: 1.7986428}
 --- !u!114 &2035012898
@@ -23823,8 +23827,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.01605001, y: 0.20655002, z: 0}
-    m_Extent: {x: 0.54754996, y: 0.54575, z: 0}
+    m_Center: {x: 0.016650021, y: 0.2064, z: 0}
+    m_Extent: {x: 0.54705, y: 0.5452, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

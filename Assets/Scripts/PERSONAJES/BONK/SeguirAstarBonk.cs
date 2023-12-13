@@ -109,14 +109,14 @@ public class SeguirAstarBonk : MonoBehaviour
         }
 
     }
-    private void OnCollisionStay2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
-        {
-            enemigoCollider.isTrigger = true;
-        }
+    //private void OnCollisionStay2D(Collision2D collision)
+    //{
+    //    if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
+    //    {
+    //        enemigoCollider.isTrigger = true;
+    //    }
 
-    }
+    //}
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

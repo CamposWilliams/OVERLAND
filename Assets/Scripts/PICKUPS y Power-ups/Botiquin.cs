@@ -6,9 +6,12 @@ using UnityEngine;
 public class Botiquín : MonoBehaviour
 {
     float curación=17;
-    public Animator MikeAnimator;
+    public Animator DisfrazBotiquin;
 
-
+    private void Awake()
+    {
+        DisfrazBotiquin = GameObject.Find("DisfrazBotiquin").GetComponent<Animator>();
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
@@ -16,7 +19,7 @@ public class Botiquín : MonoBehaviour
             Debug.Log(gameObject.name);
             StartCoroutine(InciarDesactivacion());
             collision.GetComponent<SistemaDeVida>().AumentarVida(curación);
-            MikeAnimator.SetBool("ConBotiquin", true);
+            DisfrazBotiquin.SetBool("ConBotiquin", true);
             GetComponent<Collider2D>().enabled = false;
             GetComponent<SpriteRenderer>().enabled = false;
             
@@ -27,7 +30,7 @@ public class Botiquín : MonoBehaviour
          IEnumerator InciarDesactivacion()
         {
             yield return new WaitForSeconds(1);
-            MikeAnimator.SetBool("ConBotiquin", false);
+            DisfrazBotiquin.SetBool("ConBotiquin", false);
             Destroy(gameObject);
         }
 

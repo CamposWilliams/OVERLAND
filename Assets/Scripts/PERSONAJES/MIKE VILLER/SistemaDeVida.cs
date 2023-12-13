@@ -93,31 +93,17 @@ public class SistemaDeVida : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("BalaBoss"))
         {
-            AumentarVida(-1);
+            BajarVida(-1);
 
         }
 
         if(collision.gameObject.CompareTag("Boss"))
         {
-            AumentarVida(-1);
+            BajarVida(-1);
         }
 
 
     }
-
-     void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.gameObject.CompareTag("BalaBoss"))
-        {
-            AumentarVida(-1);
-        }
-
-        if (collision.gameObject.CompareTag("Boss"))
-        {
-            AumentarVida(-1);
-        }
-    }
-
 
 
 }
