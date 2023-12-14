@@ -116,6 +116,7 @@ public class JugadorDisparo : MonoBehaviour
             if (tiempo2 >= cdRecarga)
             {
                 contador1 = 0;
+                contador2 = 0;
                 puedeDisparar2 = true;
                 puedeDisparar = true;
                 tiempo2 = 0;

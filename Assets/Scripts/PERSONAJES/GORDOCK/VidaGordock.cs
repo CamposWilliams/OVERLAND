@@ -10,10 +10,29 @@ public class VidaGordock : MonoBehaviour
     Animator GordockAnimacion;
     SpriteRenderer spriteGordock;
     public bool muriendo=false;
+    bool muriendo2;
+    public GameObject municionEspecial;
+    float contador;
+    float valor;
     private void Start()
     {
         GordockAnimacion = GetComponent<Animator>();
         spriteGordock = GetComponent<SpriteRenderer>();
+    }
+    private void Update()
+    {
+        BotarMunicion();
+    }
+
+    void BotarMunicion()
+    {
+        if ((muriendo2 && contador == 0) && valor==2)
+        {
+            contador++;
+            GameObject municionSuelta = Instantiate(municionEspecial);
+            municionSuelta.transform.position = transform.position;
+        }
+        
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -45,11 +64,16 @@ public class VidaGordock : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         GordockAnimacion.SetBool("EstaSinVida", true);
-        yield return new WaitForSeconds(0.015f);
-        GordockAnimacion.SetBool("EstaSinVida", false);    
+        //yield return new WaitForSeconds(0.015f);
+        //GordockAnimacion.SetBool("EstaSinVida", false);    
 
-        yield return new WaitForSeconds(1.9f);
-        Destroy(gameObject);
+        yield return new WaitForSeconds(1.7f);
+        spriteGordock.enabled = false;
+        muriendo2=true;
+        valor=Random.Range(1, 3);
+
+        
+        Destroy(gameObject,0.1f);
     }
 
     IEnumerator CambiarColor()

@@ -188,7 +188,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &6701140359558758760
 Transform:
   m_ObjectHideFlags: 0
@@ -308,6 +308,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   saludGordock: 5
   muriendo: 0
+  municionEspecial: {fileID: 295194416245180670, guid: 530e3ea4abfe15f43ae77c1e295e1c43, type: 3}
 --- !u!114 &6904851701658609968
 MonoBehaviour:
   m_ObjectHideFlags: 0

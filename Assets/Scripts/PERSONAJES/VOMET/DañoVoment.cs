@@ -135,7 +135,7 @@ public class DañoVoment : MonoBehaviour
             nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
             Destroy(nuevaBala, 1);
             contador2++;
-            Debug.Log(contador2);
+            //Debug.Log(contador2);
 
             if (contador2 == 10)
             {
