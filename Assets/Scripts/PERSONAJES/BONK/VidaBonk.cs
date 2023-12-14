@@ -12,19 +12,35 @@ public class VidaBonk : MonoBehaviour
     SpriteRenderer spriteBonk;
     public AudioSource MuertoSonido;
     public Collider2D BonkCollider;
+    public float numeroDeBala;
     int contador;
+    public GameObject Mike;
+
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void Start()
     {
+        Debug.Log(numeroDeBala);
         bonkAnimacion = GetComponent<Animator>();
         spriteBonk = GetComponent<SpriteRenderer>();
     }
-
+    private void Update()
+    {
+        numeroDeBala = Mike.GetComponent<JugadorDisparo>().CambioArma;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Bala_player"))
         {
-
-            saludBonk--;
+            switch (numeroDeBala)
+            {
+                case 0:saludBonk --; break;
+                case 1:saludBonk --; break;
+                case 2: saludBonk -=5; break;
+                case 3: saludBonk -=8; break;
+            }
             StartCoroutine(CambiarColor());
             Destroy(collision.gameObject);
 

@@ -13,7 +13,7 @@ public class MikeDisparo : MonoBehaviour
     public GameObject balaPrefab;
     public Vector2 referencia;
     float contador;
-    float bala;
+   public float bala;
     private void Update()
     {
         //Debug.Log(GameObject.Find("Mike").GetComponent<JugadorDisparo>().puedeDisparar);

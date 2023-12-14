@@ -8,6 +8,7 @@ public class JugadorBala : MonoBehaviour
     Animator animacionBala;
     public float numeroDeBala;
     public Vector2 direccionBala;
+    
 
 
 

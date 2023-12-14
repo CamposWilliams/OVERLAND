@@ -36,7 +36,7 @@ public class JugadorDisparo : MonoBehaviour
     [SerializeField] int AmmoSubfusil = 5;
     [SerializeField] int AmmoRifle = 5;
     [SerializeField] int AmmoArmaEspecial = 5;
-    [SerializeField] int CambioArma = 5;
+    public int CambioArma = 5;
 
     //cambio de arma 
     //public int MaxCambioArma = 2;

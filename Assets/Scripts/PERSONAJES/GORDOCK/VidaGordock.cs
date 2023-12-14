@@ -14,14 +14,22 @@ public class VidaGordock : MonoBehaviour
     public GameObject municionEspecial;
     float contador;
     float valor;
+    float numeroDeBala;
+    public GameObject Mike;
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void Start()
     {
+        
         GordockAnimacion = GetComponent<Animator>();
         spriteGordock = GetComponent<SpriteRenderer>();
     }
     private void Update()
     {
         BotarMunicion();
+        numeroDeBala = Mike.GetComponent<JugadorDisparo>().CambioArma;
     }
 
     void BotarMunicion()
@@ -38,8 +46,13 @@ public class VidaGordock : MonoBehaviour
     {
         if (collision.CompareTag("Bala_player"))
         {
-
-            saludGordock--;
+            switch (numeroDeBala)
+            {
+                case 0: saludGordock--; break;
+                case 1: saludGordock--; break;
+                case 2: saludGordock -= 5; break;
+                case 3: saludGordock -= 8; break;
+            }
             StartCoroutine(CambiarColor());
             Destroy(collision.gameObject);
 

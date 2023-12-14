@@ -12,9 +12,14 @@ public class VidaVoment : MonoBehaviour
     SpriteRenderer spriteVoment;
     public bool muriendo = false;
     public Collider2D[] Areas;
-   public bool AreaDeDaño;
-   public bool dentroDelAcido;
+    public bool AreaDeDaño;
+    public bool dentroDelAcido;
     float time;
+    float numeroDeBala;
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void Start()
     {
         VomentAnimacion = GetComponent<Animator>();
@@ -24,6 +29,7 @@ public class VidaVoment : MonoBehaviour
     {
         //Debug.Log(time);
         DañoZonaAcida();
+        numeroDeBala = Mike.GetComponent<JugadorDisparo>().CambioArma;
     }
     void DañoZonaAcida()
     {
@@ -47,7 +53,13 @@ public class VidaVoment : MonoBehaviour
     {
         if (collision.CompareTag("Bala_player"))
         {
-            saludVoment--;
+            switch (numeroDeBala)
+            {
+                case 0: saludVoment--; break;
+                case 1: saludVoment--; break;
+                case 2: saludVoment -= 5; break;
+                case 3: saludVoment -= 8; break;
+            }
             StartCoroutine(CambiarColor());
 
             Destroy(collision.gameObject);         

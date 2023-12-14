@@ -314,6 +314,7 @@ MonoBehaviour:
   saludGordock: 5
   muriendo: 0
   municionEspecial: {fileID: 295194416245180670, guid: 530e3ea4abfe15f43ae77c1e295e1c43, type: 3}
+  Mike: {fileID: 0}
 --- !u!114 &6904851701658609968
 MonoBehaviour:
   m_ObjectHideFlags: 0

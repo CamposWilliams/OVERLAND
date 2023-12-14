@@ -28,7 +28,7 @@ public class CambiadorDeArmas : MonoBehaviour
         if (imagenes.Length > 0)
         {
             indiceActual = (indiceActual + 1) % imagenes.Length;
-            Debug.Log(indiceActual);
+            //Debug.Log(indiceActual);
             ActualizarImagen();
         }
         
