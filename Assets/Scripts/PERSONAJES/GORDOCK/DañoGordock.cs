@@ -124,7 +124,7 @@ public class DañoGordock : MonoBehaviour
                         nuevaBala.transform.position = transform.position;
                         nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
                         nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
-                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        nuevaBala.transform.Rotate(Vector3.forward * 90);
                         Destroy(nuevaBala, 1);
                         if (contador2 == 0)
                         {

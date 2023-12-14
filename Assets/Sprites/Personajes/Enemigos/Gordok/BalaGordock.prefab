@@ -183,3 +183,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe45e12c9be6c384c96c8efbfa460fbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  contadorGordock: 0
