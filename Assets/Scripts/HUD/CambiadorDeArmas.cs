@@ -11,8 +11,8 @@ public class CambiadorDeArmas : MonoBehaviour
     void Start()
     {
         imagen = GetComponent<Image>();
-        indiceActual = 0;
-        ActualizarImagen();
+        //indiceActual = 0;
+        //ActualizarImagen();
     }
 
     void Update()
@@ -25,12 +25,21 @@ public class CambiadorDeArmas : MonoBehaviour
 
     void CambiarImagen()
     {
-        indiceActual = (indiceActual + 1) % imagenes.Length;
-        ActualizarImagen();
+        if (imagenes.Length > 0)
+        {
+            indiceActual = (indiceActual + 1) % imagenes.Length;
+            Debug.Log(indiceActual);
+            ActualizarImagen();
+        }
+        
     }
 
     void ActualizarImagen()
     {
-        imagen.sprite = imagenes[indiceActual];
+        if (indiceActual >= 0 && indiceActual<4)
+        {
+            imagen.sprite = imagenes[indiceActual];
+        }
+        
     }
 }

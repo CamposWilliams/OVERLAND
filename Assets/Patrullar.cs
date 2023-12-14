@@ -21,7 +21,7 @@ public class Patrullar : MonoBehaviour
     private void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, puntosMovimiento[numeroAleatorio].position, velocidadMovimiento * Time.deltaTime);
-        if (Vector2.Distance(transform.position, puntosMovimiento[numeroAleatorio].position) < distanciaMinima) ;
+        if (Vector2.Distance(transform.position, puntosMovimiento[numeroAleatorio].position) < distanciaMinima) 
         {
             numeroAleatorio = Random.Range(0, puntosMovimiento.Length);
             Girar();

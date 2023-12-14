@@ -22,7 +22,7 @@ public class VidaVoment : MonoBehaviour
     }
     private void Update()
     {
-        Debug.Log(time);
+        //Debug.Log(time);
         DañoZonaAcida();
     }
     void DañoZonaAcida()
