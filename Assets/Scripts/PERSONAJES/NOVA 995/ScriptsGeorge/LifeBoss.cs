@@ -5,6 +5,7 @@ using UnityEngine.UI;
 
 public class LifeBoss : MonoBehaviour
 {
+    public AudioSource MuerteBoss;
     
     private Animator animator;
 
@@ -42,6 +43,7 @@ public class LifeBoss : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            MuerteBoss.Play();
             currentHealth = 0;
             animator.SetTrigger("Dead");
             Destroy(gameObject, 3f);

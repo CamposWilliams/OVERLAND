@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
+    public TextMesh cantidadBalasTextMesh;
     public AudioSource Disparo3;
     public AudioSource Recarga2;
     public AudioSource CambioDeArma;
