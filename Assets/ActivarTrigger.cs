@@ -11,7 +11,7 @@ public class ActivarTrigger : MonoBehaviour
         {
             if (collision.CompareTag("Enemigo1"))
             {
-                Debug.Log("Entre");
+                //Debug.Log("Entre");
                 colliderBonk.isTrigger = true;
             }
         }

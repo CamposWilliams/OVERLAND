@@ -21,9 +21,13 @@ public class PatrullarRefuerzoGordock : MonoBehaviour
 
             if (Vector2.Distance(transform.position, puntosMovimiento[indice].position) < 0.1f)
             {
-                indice++;
+                //indice++;
 
-                if (indice == 4)
+                //if (indice == 4)
+                //{
+                //indice = 0;
+                //}
+                if (indice == puntosMovimiento.Length)
                 {
                     indice = 0;
                 }

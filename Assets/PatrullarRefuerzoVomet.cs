@@ -23,7 +23,7 @@ public class PatrullarRefuerzoVomet : MonoBehaviour
             {
                 indice++;
 
-                if (indice == 4)
+                if (indice == puntosMovimiento.Length)
                 {
                     indice = 0;
                 }

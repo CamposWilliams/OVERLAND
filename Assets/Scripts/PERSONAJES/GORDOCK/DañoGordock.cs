@@ -35,7 +35,7 @@ public class DañoGordock : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            Debug.Log("Entre");
+            //Debug.Log("Entre");
             disparando = true;
         }
     }
