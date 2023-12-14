@@ -257,6 +257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6930680526243010504}
   - component: {fileID: 2795626263022844937}
+  - component: {fileID: 7759353020480727954}
   - component: {fileID: 2974730599791480718}
   - component: {fileID: 4126855927115646373}
   - component: {fileID: 2540103966401751576}
@@ -268,6 +269,7 @@ GameObject:
   - component: {fileID: 8731208370774236892}
   - component: {fileID: 6703503519664280235}
   - component: {fileID: 5777136001756577055}
+  - component: {fileID: 7882514664219220713}
   m_Layer: 12
   m_Name: Bonk
   m_TagString: Enemigo1
@@ -346,6 +348,26 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &7759353020480727954
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895972694885802845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9964bf1e55c9ccc449d72c4491439f1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntosMovimiento:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  indice: 0
+  velocidadMovimiento: 2
+  patrullar: 0
 --- !u!95 &2974730599791480718
 Animator:
   serializedVersion: 5
@@ -448,7 +470,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6895972694885802845}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
@@ -509,7 +531,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 2000
+  m_Mass: 200000
   m_LinearDrag: 10000
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -521,7 +543,7 @@ Rigidbody2D:
     serializedVersion: 2
     m_Bits: 0
   m_Interpolate: 0
-  m_SleepingMode: 1
+  m_SleepingMode: 0
   m_CollisionDetection: 0
   m_Constraints: 4
 --- !u!70 &8731208370774236892
@@ -553,7 +575,7 @@ CapsuleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0037299395, y: -0.014371872}
@@ -705,6 +727,26 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7882514664219220713
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6895972694885802845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d15ceeae6421df944a73f942616ea972, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volviendoAlPunto: 0
+  distance: 0
+  patrullar: 0
+  puntosMovimiento:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!1 &8391565628777802260
 GameObject:
   m_ObjectHideFlags: 0
@@ -772,7 +814,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6
+  m_Radius: 4
 --- !u!114 &6322276673420156409
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -786,3 +828,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 7340152643227060161}
+  Bonk: {fileID: 6895972694885802845}

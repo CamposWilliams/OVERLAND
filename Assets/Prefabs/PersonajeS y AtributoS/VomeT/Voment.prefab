@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1174353761284839390}
   - component: {fileID: 4572928164574183171}
-  - component: {fileID: 4370998386049493920}
+  - component: {fileID: 2596499956863516136}
   m_Layer: 3
   m_Name: AreaDeSeguimiento
   m_TagString: Untagged
@@ -67,8 +67,8 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
-  m_Radius: 6
---- !u!114 &4370998386049493920
+  m_Radius: 4
+--- !u!114 &2596499956863516136
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -77,10 +77,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 420102199802818060}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bafdf0660e64ac48be116deaa4b782c, type: 3}
+  m_Script: {fileID: 11500000, guid: cd28486bd2558b14fa21d2507731cb03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   aiPath: {fileID: 1636298408140163330}
+  Bonk: {fileID: 6702688703124979866}
 --- !u!1 &4162331718627263342
 GameObject:
   m_ObjectHideFlags: 0
@@ -182,9 +183,11 @@ GameObject:
   - component: {fileID: 2812427561176658142}
   - component: {fileID: 6121747003281876291}
   - component: {fileID: 2734819242727080459}
+  - component: {fileID: 3529228601484268936}
+  - component: {fileID: 5423680521423368048}
   m_Layer: 12
   m_Name: Voment
-  m_TagString: Untagged
+  m_TagString: Enemigo1
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -313,7 +316,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   aiPath: {fileID: 1636298408140163330}
   tiempoParaVolverADisparar: 5
-  balaVomet: {fileID: 0}
+  balaVomet: {fileID: 2162748954222701018, guid: c6d2780c16d0f8544bde1c2b334a3815, type: 3}
+  puedeDisparar: 1
+  puedeDisparar2: 0
+  disparandoEspecial: 0
+  contador: 0
+  contador2: 0
 --- !u!114 &783517563065696348
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -349,16 +357,16 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6702688703124979866}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f6eb1402c17e84a9282a7f0f62eb584f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   version: 5
-  radius: 0.5
-  height: 2
+  radius: 0.75
+  height: 1
   canMove: 1
-  maxSpeed: 2
+  maxSpeed: 3.3
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
@@ -378,8 +386,8 @@ MonoBehaviour:
   maxAcceleration: 10000000
   rotationSpeed: 360
   slowdownDistance: 0.6
-  pickNextWaypointDist: 0.3
-  endReachedDistance: 2
+  pickNextWaypointDist: 0.1
+  endReachedDistance: 1.5
   alwaysDrawGizmos: 0
   slowWhenNotFacingTarget: 1
   whenCloseToDestination: 0
@@ -529,3 +537,43 @@ MonoBehaviour:
   reactivar: 0
   seHanJuntado: 0
   time: 0
+--- !u!114 &3529228601484268936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6702688703124979866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7b901157fc518c4abdbbab290e5f9f8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  puntosMovimiento:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  indice: 0
+  velocidadMovimiento: 4
+  patrullar: 0
+--- !u!114 &5423680521423368048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6702688703124979866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ca759a51c85adb4b86fceea1ca77323, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volviendoAlPunto: 0
+  distance: 0
+  patrullar: 0
+  puntosMovimiento:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
