@@ -1,9 +1,13 @@
 
 using UnityEngine;
+using TMPro;
 
 
 public class JugadorDisparo : MonoBehaviour
 {
+    public TextMeshProUGUI textMeshProSubfusil;
+    public TextMeshProUGUI textMeshProRifle;
+    public TextMeshProUGUI textMeshProArmaEspecial;
 
     public TextMesh cantidadBalasTextMesh;
     public AudioSource Disparo3;
@@ -63,6 +67,7 @@ public class JugadorDisparo : MonoBehaviour
     {
      
         MikeAnimator = GetComponent<Animator>();
+        UpdateAmmoUI();
     }
     void Update()
     {
@@ -93,6 +98,13 @@ public class JugadorDisparo : MonoBehaviour
             }
         }
 
+    }
+    void UpdateAmmoUI()
+    {
+
+        textMeshProSubfusil.text = AmmoSubfusil.ToString();
+        textMeshProRifle.text = AmmoRifle.ToString();
+        textMeshProArmaEspecial.text = AmmoArmaEspecial.ToString();
     }
 
     void Recargando()
@@ -348,7 +360,7 @@ public class JugadorDisparo : MonoBehaviour
 
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 0);
-
+            UpdateAmmoUI();
         }
 
     }
@@ -371,7 +383,7 @@ public class JugadorDisparo : MonoBehaviour
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 1);
 
-
+            UpdateAmmoUI();
 
         }
 
@@ -399,7 +411,7 @@ public class JugadorDisparo : MonoBehaviour
 
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 2);
-
+            UpdateAmmoUI();
 
         }
 
@@ -430,7 +442,7 @@ public class JugadorDisparo : MonoBehaviour
 
             GetComponent<MikeDisparo>().balaCreada = true;
             GetComponent<MikeDisparo>().DireccionDeLaBala(balaPrefab, 3);
-
+            UpdateAmmoUI();
         }
 
         else if (AmmoArmaEspecial <= 3 && almacenBulletEspecial != 0)
