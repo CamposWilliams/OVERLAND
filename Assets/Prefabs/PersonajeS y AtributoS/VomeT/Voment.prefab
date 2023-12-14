@@ -292,7 +292,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   saludVoment: 10
+  Mike: {fileID: 0}
   muriendo: 0
+  Areas:
+  - {fileID: 4572928164574183171}
+  - {fileID: 5224740413082155360}
+  "AreaDeDa\xF1o": 0
+  dentroDelAcido: 0
 --- !u!114 &4652860726896542814
 MonoBehaviour:
   m_ObjectHideFlags: 0

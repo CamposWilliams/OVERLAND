@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class JugadorDisparo : MonoBehaviour
 {
+
     public TextMesh cantidadBalasTextMesh;
     public AudioSource Disparo3;
     public AudioSource Recarga2;
@@ -27,6 +28,7 @@ public class JugadorDisparo : MonoBehaviour
     bool cogiendoMunicion;
     bool estaConRifle;
     public Animator disfazAnimator;
+    float valorRandom;
 
 
     //Municion de armas 
@@ -59,6 +61,7 @@ public class JugadorDisparo : MonoBehaviour
 
     private void Start()
     {
+     
         MikeAnimator = GetComponent<Animator>();
     }
     void Update()
@@ -109,21 +112,43 @@ public class JugadorDisparo : MonoBehaviour
 
     void RecargandoReal()
     {
-        if (puedeDisparar2 == false)
+        if (CambioArma != 3)
         {
-            puedeDisparar = false;
-            tiempo2 += Time.deltaTime;
-
-            if (tiempo2 >= cdRecarga)
+            if (puedeDisparar2 == false)
             {
-                contador1 = 0;
-                contador2 = 0;
-                puedeDisparar2 = true;
-                puedeDisparar = true;
-                tiempo2 = 0;
+                puedeDisparar = false;
+                tiempo2 += Time.deltaTime;
 
+                if (tiempo2 >= 1)
+                {
+                    contador1 = 0;
+                    contador2 = 0;
+                    puedeDisparar2 = true;
+                    puedeDisparar = true;
+                    tiempo2 = 0;
+
+                }
             }
         }
+        else
+        {
+            if (puedeDisparar2 == false)
+            {
+                puedeDisparar = false;
+                tiempo2 += Time.deltaTime;
+
+                if (tiempo2 >= cdRecarga)
+                {
+                    contador1 = 0;
+                    contador2 = 0;
+                    puedeDisparar2 = true;
+                    puedeDisparar = true;
+                    tiempo2 = 0;
+
+                }
+            }
+        }
+        
     }
     void ShootGeneral()
     {
@@ -505,16 +530,36 @@ public class JugadorDisparo : MonoBehaviour
         if (collision.gameObject.CompareTag("AmmoEspecial"))
         {
 
-            StoreAmmoArmaEspecial(6);
+            int[] valoresPosibles = { 3, 5, 10 };
+            valorRandom = valoresPosibles[Random.Range(0, 3)];
+            switch (valorRandom)
+            {
+                case 3: StoreAmmoArmaEspecial(3); break;
+                case 5: StoreAmmoArmaEspecial(5); break;
+                case 10: StoreAmmoArmaEspecial(10); break;
+            }
+            
 
             Destroy(collision.gameObject);
         }
 
         if (collision.gameObject.CompareTag("Ammo"))
         {
-
-            StoreAmmoRifle(3);
-            StoreAmmoSubfusil(3);
+            int[] valoresPosibles = { 3, 5, 10 };
+            valorRandom = valoresPosibles[Random.Range(0, 3)];
+            switch (valorRandom)
+            {
+                case 3:
+                    StoreAmmoRifle(3);
+                    StoreAmmoSubfusil(3); break;
+                case 5:
+                    StoreAmmoRifle(5);
+                    StoreAmmoSubfusil(5); break;
+                case 10:
+                    StoreAmmoRifle(10);
+                    StoreAmmoSubfusil(10); break;
+            }
+            
             Destroy(collision.gameObject);
         }
 

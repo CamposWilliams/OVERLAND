@@ -14,9 +14,11 @@ public class DañoGordock : MonoBehaviour
     Animator GordockAnimator;
     bool disparando;
     public GameObject balaGordock;
+    public GameObject balaGordock2;
     float contador;
     bool puedeDisparar=true;
     float contador2;
+    public float contador3;    
     private void Start()
     {
         GordockAnimator = GetComponent<Animator>();
@@ -92,24 +94,158 @@ public class DañoGordock : MonoBehaviour
 
             if ((time1 >= cadenciaDeTiro && time1 < tiempoParaVolverADisparar) && contador == 1)
             {
-                
+
                 //GordockAnimator.SetBool("SeMueve", false);
                 //GordockAnimator.SetBool("Disparando", true);
-                GameObject nuevaBala = Instantiate(balaGordock);
-                nuevaBala.transform.position = transform.position;
-                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
-                Destroy(nuevaBala, 1);
-                if (contador2 == 0)
+                if (contador3 % 2==0)
                 {
-                    Destroy(nuevaBala);
+                   
+                    if (aiPath.velocity.x > 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock=contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+
+                    else if (aiPath.velocity.x < 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+
+                    else if (aiPath.velocity.y < 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * 90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+                    else if (aiPath.velocity.y > 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+                   
+                    
                 }
-                contador2++;
-                contador = 0;
+                else
+                {
+                   
+                    if (aiPath.velocity.x > 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock2);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 8;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+
+                    else if (aiPath.velocity.x < 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock2);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 8;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+
+                    else if (aiPath.velocity.y < 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock2);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 8;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * 90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+                    else if (aiPath.velocity.y > 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                    {
+                        GameObject nuevaBala = Instantiate(balaGordock2);
+                        nuevaBala.GetComponent<BalaGordock>().contadorGordock = contador3;
+                        nuevaBala.transform.position = transform.position;
+                        nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 8;
+                        nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
+                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        Destroy(nuevaBala, 1);
+                        if (contador2 == 0)
+                        {
+                            Destroy(nuevaBala);
+                        }
+                        contador2++;
+                        contador = 0;
+                    }
+                }
+               
             }  
 
                     if (time1 >= tiempoParaVolverADisparar)
                     {
                         puedeDisparar = true;
+                        contador3++;
                         time1 = 0;
                     }
         

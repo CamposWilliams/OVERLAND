@@ -294,6 +294,7 @@ MonoBehaviour:
   aiPath: {fileID: 7554223148460842352}
   tiempoParaVolverADisparar: 5
   balaGordock: {fileID: 7829309257093022098, guid: b1381830ce5d44f48b1773ed4888c8ca, type: 3}
+  balaGordock2: {fileID: 879332891277633444, guid: 38e96f5236a32e14d9f9674d325d9be7, type: 3}
 --- !u!114 &4133364890119410135
 MonoBehaviour:
   m_ObjectHideFlags: 0

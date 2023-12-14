@@ -14,11 +14,11 @@ public class DañoVoment : MonoBehaviour
     Animator VomentAnimator;
     bool disparando;
     public GameObject balaVomet;
-    bool puedeDisparar = true;
-    bool puedeDisparar2;
-    bool disparandoEspecial;
-    int contador;
-    int contador2;
+    public bool puedeDisparar = true;
+   public bool puedeDisparar2;
+   public bool disparandoEspecial;
+   public int contador;
+    public int contador2;
     
 
     private void Start()
@@ -27,7 +27,7 @@ public class DañoVoment : MonoBehaviour
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && GetComponent<VidaVoment>().muriendo == false)
         {
             collision.gameObject.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
         }
@@ -35,9 +35,9 @@ public class DañoVoment : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player")&& GetComponent<VidaVoment>().muriendo == false)
         {
-            Debug.Log("Entre");
+            //Debug.Log("Entre");
             disparando = true;
         }
     }
@@ -71,13 +71,52 @@ public class DañoVoment : MonoBehaviour
            
             if (puedeDisparar==true && disparandoEspecial==false)
             {
-                GameObject nuevaBala = Instantiate(balaVomet);
-                nuevaBala.transform.position = transform.position;
-                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
-                Destroy(nuevaBala, 1);               
-                contador++;
-                Debug.Log(contador);
+               
+                //Debug.Log(contador);
 
+                if (aiPath.velocity.x > 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                {
+                    GameObject nuevaBala = Instantiate(balaVomet);
+                    nuevaBala.transform.position = transform.position;
+                    nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
+                    nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                    nuevaBala.transform.Rotate(Vector3.forward * -90);
+                    Destroy(nuevaBala, 1);
+                    contador++;
+                }
+
+                else if (aiPath.velocity.x < 0 && Mathf.Abs(aiPath.velocity.x) > Mathf.Abs(aiPath.velocity.y))
+                {
+                    GameObject nuevaBala = Instantiate(balaVomet);
+                    nuevaBala.transform.position = transform.position;
+                    nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
+                    nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                    nuevaBala.transform.Rotate(Vector3.forward * -90);
+                    Destroy(nuevaBala, 1);
+                    contador++;
+                }
+
+                else if (aiPath.velocity.y < 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                {
+                    GameObject nuevaBala = Instantiate(balaVomet);
+                    nuevaBala.transform.position = transform.position;
+                    nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
+                    nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                    nuevaBala.transform.Rotate(Vector3.forward * 90);
+                    Destroy(nuevaBala, 1);
+                    contador++;
+                }
+                else if (aiPath.velocity.y > 0 && Mathf.Abs(aiPath.velocity.x) < Mathf.Abs(aiPath.velocity.y))
+                {
+                    GameObject nuevaBala = Instantiate(balaVomet);
+                    nuevaBala.transform.position = transform.position;
+                    nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
+                    nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                    nuevaBala.transform.Rotate(Vector3.forward * -90);
+                    Destroy(nuevaBala, 1);
+                    contador++;
+                }   
+                   
                 if (contador == 16)
                 {
                 
@@ -130,11 +169,52 @@ public class DañoVoment : MonoBehaviour
         {
             VomentAnimator.SetBool("Disparando", true);
             aiPath.maxSpeed = 0;
-            GameObject nuevaBala = Instantiate(balaVomet);
-            nuevaBala.transform.position = transform.position;
-            nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY) * 5;
-            Destroy(nuevaBala, 1);
-            contador2++;
+            
+            
+
+            if (VomentAnimator.GetFloat("ValorX")==1 && VomentAnimator.GetFloat("ValorY") == 0)
+            {
+                GameObject nuevaBala = Instantiate(balaVomet);
+                nuevaBala.transform.position = transform.position;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(VomentAnimator.GetFloat("ValorX"), VomentAnimator.GetFloat("ValorY")) * 5;
+                nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                nuevaBala.transform.Rotate(Vector3.forward * -90);
+                Destroy(nuevaBala, 1);
+                contador2++;
+            }
+
+            else if (VomentAnimator.GetFloat("ValorX") == -1 && VomentAnimator.GetFloat("ValorY") == 0)
+            {
+                GameObject nuevaBala = Instantiate(balaVomet);
+                nuevaBala.transform.position = transform.position;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(VomentAnimator.GetFloat("ValorX"), VomentAnimator.GetFloat("ValorY")) * 5;
+                nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                nuevaBala.transform.Rotate(Vector3.forward * -90);
+                Destroy(nuevaBala, 1);
+                contador2++;
+            }
+
+            else if (VomentAnimator.GetFloat("ValorX") == 0 && VomentAnimator.GetFloat("ValorY") == -1)
+            {
+                GameObject nuevaBala = Instantiate(balaVomet);
+                nuevaBala.transform.position = transform.position;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(VomentAnimator.GetFloat("ValorX"), VomentAnimator.GetFloat("ValorY")) * 5;
+                nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                nuevaBala.transform.Rotate(Vector3.forward * 90);
+                Destroy(nuevaBala, 1);
+                contador2++;
+            }
+            else if (VomentAnimator.GetFloat("ValorX") == 0 && VomentAnimator.GetFloat("ValorY") == 1)
+            {
+                GameObject nuevaBala = Instantiate(balaVomet);
+                nuevaBala.transform.position = transform.position;
+                nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(VomentAnimator.GetFloat("ValorX"), VomentAnimator.GetFloat("ValorY")) * 5;
+                nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarVomet>().valorDelParametroX, GetComponent<SeguirAstarVomet>().valorDelParametroY);
+                nuevaBala.transform.Rotate(Vector3.forward * -90);
+                Destroy(nuevaBala, 1);
+                contador2++;
+            }
+
             //Debug.Log(contador2);
 
             if (contador2 == 10)

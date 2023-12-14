@@ -14,6 +14,7 @@ public class SistemaDeVida : MonoBehaviour
    public bool PUAzulActivo;
    public bool sinVida;
    SpriteRenderer MikeSpr;
+    int contador;
 
     public string NombreScena = "";
 
@@ -43,8 +44,9 @@ public class SistemaDeVida : MonoBehaviour
         //Debug.Log($"Recibiste {dañoEntrante} de daño");
         vidaActualMike -= dañoEntrante;
        
-        if( vidaActualMike <= 0)
+        if( vidaActualMike <= 0 && contador==0)
         {
+            contador++;
             MuerteMikeSonido.Play();
             sinVida = true;
             GetComponent<Collider2D>().enabled = false;
@@ -83,6 +85,7 @@ public class SistemaDeVida : MonoBehaviour
 
    public IEnumerator CambiarColor()
     {
+        
         MikeSpr.color = Color.red;
         yield return new WaitForSeconds(0.2f);
         MikeSpr.color = Color.white;
