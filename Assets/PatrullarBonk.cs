@@ -29,7 +29,7 @@ public class PatrullarBonk : MonoBehaviour
         if (volviendoAlPunto)
         {
 
-            if (Vector2.Distance(transform.position, puntosMovimiento[0].position) <= 0.1f)
+            if (Vector2.Distance(transform.position, puntosMovimiento[0].position) <0.005f)
             {
                 volviendoAlPunto = false;
                 Debug.Log("HolaMundo");
