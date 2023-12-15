@@ -15,10 +15,10 @@ public class Dialogo2 : MonoBehaviour
     private int indiceLinea;
 
     // Referencia al script que quieres reactivar
-    public MonoBehaviour scriptToEnable;
+    //public MonoBehaviour scriptToEnable;
 
     //variable nueva controla el tiempo del tipeo 
-    private float tiempoDeEscribir = 0.07f;
+    private float tiempoDeEscribir = 0.2f;
     void Update()
     {
         if (estaElJugadorEnRango && !haMostradoDialogo) // Solo inicia el diálogo si no se ha mostrado antes
@@ -58,7 +58,7 @@ public class Dialogo2 : MonoBehaviour
             IniciarDialogo.SetActive(true);
 
             // Reactiva el script
-            scriptToEnable.enabled = true;
+            //scriptToEnable.enabled = true;
         }
     }
 
@@ -86,7 +86,7 @@ public class Dialogo2 : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            estaElJugadorEnRango = false;
+            //estaElJugadorEnRango = false;
             IniciarDialogo.SetActive(false);
         }
     }

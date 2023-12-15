@@ -14,7 +14,7 @@ public class Dialogo : MonoBehaviour
     private int indiceLinea;
 
     //variable nueva controla el tiempo del tipeo 
-    private float tiempoDeEscribir = 0.03f;
+    private float tiempoDeEscribir = 0.02f;
     void Update()
     {
         //if (estaElJugadorEnRango && Input.GetButtonDown("Fire1"))
