@@ -88,7 +88,7 @@ public class PowerUps : MonoBehaviour
 
         IEnumerator DesactivarPowerUpMorado()
         {                          
-            yield return new WaitForSeconds(10);
+            yield return new WaitForSeconds(20);
             Mike.GetComponent<MikeGestorDePU>().contadorMorado--;
 
            if (contadorMorado == 0)
@@ -121,7 +121,7 @@ public class PowerUps : MonoBehaviour
     IEnumerator DesactivarPowerUpAmarillo()
     {
        
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(20);
         Mike.GetComponent<MikeGestorDePU>().contadorAmarillo--;
        
         if (Mike.GetComponent<MikeGestorDePU>().contadorAmarillo== 0)
