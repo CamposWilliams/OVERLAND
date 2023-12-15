@@ -302,6 +302,7 @@ MonoBehaviour:
   - {fileID: 5224740413082155360}
   "AreaDeDa\xF1o": 0
   dentroDelAcido: 0
+  sangreDisparada: {fileID: 9014332779976866984, guid: 9fce714f2b38ccd4fbf78c33a0bb2f77, type: 3}
 --- !u!114 &4652860726896542814
 MonoBehaviour:
   m_ObjectHideFlags: 0
