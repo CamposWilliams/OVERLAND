@@ -18,7 +18,7 @@ public class Dialogo2 : MonoBehaviour
     //public MonoBehaviour scriptToEnable;
 
     //variable nueva controla el tiempo del tipeo 
-    private float tiempoDeEscribir = 0.04f;
+    private float tiempoDeEscribir = 0.06f;
     void Update()
     {
         if (estaElJugadorEnRango && !haMostradoDialogo) // Solo inicia el diálogo si no se ha mostrado antes
