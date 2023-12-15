@@ -33,7 +33,7 @@ public class SistemaDeVida : MonoBehaviour
     {
         GameObject nuevaSAngre = Instantiate(SangreAMIke);
         nuevaSAngre.transform.position = transform.position;
-        Destroy(nuevaSAngre,0.22f);
+        Destroy(nuevaSAngre,0.2f);
         
         if(PUAzulActivo)
         {
