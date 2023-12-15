@@ -418,6 +418,7 @@ MonoBehaviour:
   BonkCollider: {fileID: 8731208370774236892}
   numeroDeBala: 0
   Mike: {fileID: 0}
+  sangreDisparada: {fileID: 9014332779976866984, guid: 9fce714f2b38ccd4fbf78c33a0bb2f77, type: 3}
 --- !u!114 &5141048360052326301
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -580,8 +581,8 @@ CapsuleCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.0037299395, y: -0.28142345}
-  m_Size: {x: 0.4371531, y: 0.4371531}
+  m_Offset: {x: -0.012991905, y: -0.0062885284}
+  m_Size: {x: 0.668808, y: 0.88458633}
   m_Direction: 0
 --- !u!114 &6703503519664280235
 MonoBehaviour:

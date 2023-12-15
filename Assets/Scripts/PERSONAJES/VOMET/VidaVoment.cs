@@ -16,6 +16,7 @@ public class VidaVoment : MonoBehaviour
     public bool dentroDelAcido;
     float time;
     float numeroDeBala;
+    public GameObject sangreDisparada;
     private void Awake()
     {
         Mike = GameObject.Find("Mike");
@@ -27,6 +28,7 @@ public class VidaVoment : MonoBehaviour
     }
     private void Update()
     {
+      
         //Debug.Log(time);
         DañoZonaAcida();
         numeroDeBala = Mike.GetComponent<JugadorDisparo>().CambioArma;
@@ -53,6 +55,37 @@ public class VidaVoment : MonoBehaviour
     {
         if (collision.CompareTag("Bala_player"))
         {
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 0)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.GetComponent<SpriteRenderer>().flipX = true;
+                Destroy(nuevaSangre, 0.25f);
+            }
+
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 90)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.transform.Rotate(Vector3.forward * 90);
+                Destroy(nuevaSangre, 0.25f);
+            }
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 180)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.GetComponent<SpriteRenderer>().flipX = false;
+                Destroy(nuevaSangre, 0.25f);
+            }
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 270)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.transform.Rotate(Vector3.forward * 270);
+                Destroy(nuevaSangre, 0.25f);
+            }
+
+
             switch (numeroDeBala)
             {
                 case 0: saludVoment--; break;

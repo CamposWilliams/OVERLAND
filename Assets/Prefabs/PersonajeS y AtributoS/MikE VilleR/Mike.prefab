@@ -242,7 +242,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 90
   m_Sprite: {fileID: 3711160665393876323, guid: 8d68163edba0a0a42a594a773d167c86, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -310,6 +310,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e389b52680311784e88e52103cd2229c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  textMeshProSubfusil: {fileID: 0}
+  textMeshProRifle: {fileID: 0}
+  textMeshProArmaEspecial: {fileID: 0}
+  cantidadBalasTextMesh: {fileID: 0}
   Disparo3: {fileID: 2415348745104026330}
   Recarga2: {fileID: 4698297855981619525}
   CambioDeArma: {fileID: 5529118444830547861}
@@ -347,6 +351,7 @@ MonoBehaviour:
   vidaActualMike: 0
   PUAzulActivo: 0
   sinVida: 0
+  SangreAMIke: {fileID: 0}
   NombreScena: PantallaDerrota
   barraDeVida: {fileID: 0}
 --- !u!95 &3159713536766560193
@@ -411,6 +416,7 @@ MonoBehaviour:
   anguloConstante: 0
   balaPrefab: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
   referencia: {x: 0, y: 0}
+  bala: 0
 --- !u!82 &1749777989667571304
 AudioSource:
   m_ObjectHideFlags: 0

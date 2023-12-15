@@ -15,6 +15,7 @@ public class VidaBonk : MonoBehaviour
     public float numeroDeBala;
     int contador;
     public GameObject Mike;
+    public GameObject sangreDisparada;
 
     private void Awake()
     {
@@ -34,6 +35,37 @@ public class VidaBonk : MonoBehaviour
     {
         if (collision.CompareTag("Bala_player"))
         {
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 0)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.GetComponent<SpriteRenderer>().flipX = true;
+                Destroy(nuevaSangre, 0.25f);
+            }
+
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 90)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.transform.Rotate(Vector3.forward * 90);
+                Destroy(nuevaSangre, 0.25f);
+            }
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 180)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.GetComponent<SpriteRenderer>().flipX = false;
+                Destroy(nuevaSangre, 0.25f);
+            }
+            if (Mike.GetComponent<MikeDisparo>().anguloConstante == 270)
+            {
+                GameObject nuevaSangre = Instantiate(sangreDisparada);
+                nuevaSangre.transform.position = collision.transform.position;
+                nuevaSangre.transform.Rotate(Vector3.forward * 270);
+                Destroy(nuevaSangre, 0.25f);
+            }
+
+
             switch (numeroDeBala)
             {
                 case 0:saludBonk --; break;
@@ -62,11 +94,6 @@ public class VidaBonk : MonoBehaviour
 
             }
 
-
-
-
-
-
         }
 
 
@@ -94,4 +121,5 @@ public class VidaBonk : MonoBehaviour
         yield return new WaitForSeconds(0.2f);
         spriteBonk.color = Color.white;
     }
+   
 }

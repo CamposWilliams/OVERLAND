@@ -15,6 +15,7 @@ public class SistemaDeVida : MonoBehaviour
    public bool sinVida;
    SpriteRenderer MikeSpr;
     int contador;
+    public GameObject SangreAMIke;
 
     public string NombreScena = "";
 
@@ -30,6 +31,10 @@ public class SistemaDeVida : MonoBehaviour
 
      public void BajarVida(float daño)
     {
+        GameObject nuevaSAngre = Instantiate(SangreAMIke);
+        nuevaSAngre.transform.position = transform.position;
+        Destroy(nuevaSAngre,0.22f);
+        
         if(PUAzulActivo)
         {
             dañoEntrante = daño/2;
