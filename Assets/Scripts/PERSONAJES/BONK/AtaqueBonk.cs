@@ -39,7 +39,20 @@ public class AtaqueBonk : MonoBehaviour
             BonkAnimator.SetBool("Atacando", false);
             aiPath.maxSpeed = 2.9f;
             time1 = 0;
+            time2 = 0;
 
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player"))
+        {
+            time2 += Time.deltaTime;
+            if (time2 >= 0.65f)
+            {
+                collision.GetComponent<SistemaDeVida>().BajarVida(-1);
+                time2 = 0;
+            }          
         }
     }
 
@@ -51,11 +64,7 @@ public class AtaqueBonk : MonoBehaviour
             aiPath.maxSpeed = 0;
             BonkAnimator.SetBool("Atacando", true);
             
-            //Debug.Log(time1);
-
-            
-            
-           
+            //Debug.Log(time1);                     
         }
 
         else

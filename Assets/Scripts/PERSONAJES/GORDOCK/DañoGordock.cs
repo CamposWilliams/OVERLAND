@@ -18,16 +18,31 @@ public class DañoGordock : MonoBehaviour
     float contador;
     bool puedeDisparar=true;
     float contador2;
-    public float contador3;    
+    public float contador3;
+    bool dañoContinuo;
+    GameObject Mike;
+
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void Start()
     {
         GordockAnimator = GetComponent<Animator>();
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
         {
-            collision.gameObject.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
+            dañoContinuo = true;   
+        }
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            time2 = 0;
+            dañoContinuo = false;
         }
     }
 
@@ -36,6 +51,7 @@ public class DañoGordock : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             //Debug.Log("Entre");
+            
             disparando = true;
         }
     }
@@ -43,7 +59,7 @@ public class DañoGordock : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            disparando = false;
+            disparando = false;         
         }
         
     }
@@ -58,10 +74,23 @@ public class DañoGordock : MonoBehaviour
                 ReactivarAnimacionYBala();
             }
         }
-      
        
+        DañoContinuoPorChoque();
+
     }
 
+    void DañoContinuoPorChoque()
+    {
+        if (dañoContinuo)
+        {
+            time2 += Time.deltaTime;
+            if (time2 >= 0.6f)
+            {
+                Mike.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
+                time2 = 0;
+            }
+        }
+    }
     void DispararGordock()
     {
         if (disparando)

@@ -19,19 +19,35 @@ public class DañoVoment : MonoBehaviour
    public bool disparandoEspecial;
    public int contador;
     public int contador2;
-    
+    bool dañoContinuo;
+    GameObject Mike;
 
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     private void Start()
     {
         VomentAnimator = GetComponent<Animator>();
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnCollisionStay2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player") && GetComponent<VidaVoment>().muriendo == false)
         {
-            collision.gameObject.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
+            dañoContinuo = true;
+        }
+       
+    }
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player") && GetComponent<VidaVoment>().muriendo == false)
+        {
+            dañoContinuo = false;
+            time2 = 0;
         }
     }
+
+    
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -60,10 +76,23 @@ public class DañoVoment : MonoBehaviour
                 ReactivarAnimacionYBala();
             }
         }
-      
+
+        DañoContinuoPorChoque();
         
     }
-
+    void DañoContinuoPorChoque()
+    {
+        if (dañoContinuo)
+        {
+            time2 += Time.deltaTime;
+            if (time2 >= 0.6f)
+            {
+               Mike.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
+                time2 = 0;
+            }
+        }
+       
+    }
     void DispararGordock()
     {
         if (disparando)
