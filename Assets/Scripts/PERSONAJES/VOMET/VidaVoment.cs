@@ -139,6 +139,7 @@ public class VidaVoment : MonoBehaviour
     IEnumerator AnimacionDeMuerte()
     {
         VomentAnimacion.SetBool("EstaSinVida", true);
+        gameObject.layer = 17;
 
         yield return new WaitForSeconds(10f);
         Destroy(gameObject);

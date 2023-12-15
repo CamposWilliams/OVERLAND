@@ -109,7 +109,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 20
+  m_SortingOrder: 100
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -266,7 +266,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 1000000
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -347,11 +347,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MuerteMikeSonido: {fileID: 5604476907358341211}
-  "vidaM\xE1ximaMike": 1000
+  "vidaM\xE1ximaMike": 10000
   vidaActualMike: 0
   PUAzulActivo: 0
   sinVida: 0
-  SangreAMIke: {fileID: 0}
+  SangreAMIke: {fileID: 2831522198368287346, guid: 6fbaddb5edefcbf4b93e903ce4e8f2eb, type: 3}
   NombreScena: PantallaDerrota
   barraDeVida: {fileID: 0}
 --- !u!95 &3159713536766560193
@@ -808,7 +808,7 @@ AudioSource:
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 102
+  Priority: 122
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -1579,7 +1579,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 100
+  m_SortingOrder: 95
   m_Sprite: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
