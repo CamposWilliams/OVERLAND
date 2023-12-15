@@ -16,7 +16,7 @@ public class VolumenControlador : MonoBehaviour
 
     void Start()
     {
-       
+        DontDestroyOnLoad(gameObject);
         musicSlider.value = PlayerPrefs.GetFloat(musicVolumeParameter, 1f);
         soundSlider.value = PlayerPrefs.GetFloat(soundVolumeParameter, 1f);
 

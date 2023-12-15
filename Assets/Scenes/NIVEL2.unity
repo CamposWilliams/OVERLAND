@@ -10668,8 +10668,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.007799998, y: -0.025999993, z: 0}
-    m_Extent: {x: 0.34280002, y: 0.7363, z: 0}
+    m_Center: {x: 0.0075999945, y: -0.026349992, z: 0}
+    m_Extent: {x: 0.34289998, y: 0.73615, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11641,8 +11641,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.01640001, y: 0.20699999, z: 0}
-    m_Extent: {x: 0.5468, y: 0.5458, z: 0}
+    m_Center: {x: 0.016049981, y: 0.20695001, z: 0}
+    m_Extent: {x: 0.54775, y: 0.54595, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17875,8 +17875,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0158, y: 0.2071, z: 0}
-    m_Extent: {x: 0.5468, y: 0.5458, z: 0}
+    m_Center: {x: 0.015900016, y: 0.20690002, z: 0}
+    m_Extent: {x: 0.5467, y: 0.545, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18935,7 +18935,7 @@ AudioSource:
   m_GameObject: {fileID: 1177736211}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1223244685021692453, guid: 6140ee30f62f7484bbfb6a1df925a3df, type: 2}
   m_audioClip: {fileID: 8300000, guid: 73383c3ae8aba354d8b0d749bdd15b6a, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.06
@@ -19086,7 +19086,7 @@ AudioSource:
   m_GameObject: {fileID: 1191378777}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1223244685021692453, guid: 6140ee30f62f7484bbfb6a1df925a3df, type: 2}
   m_audioClip: {fileID: 8300000, guid: 85454c244f2a82640b3646d33c4ef92a, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.269
@@ -19182,7 +19182,7 @@ AudioSource:
   m_GameObject: {fileID: 1191378777}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: -1223244685021692453, guid: 6140ee30f62f7484bbfb6a1df925a3df, type: 2}
   m_audioClip: {fileID: 8300000, guid: 345881c6161047e489053cb43726d444, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 0.284
@@ -19799,8 +19799,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016599983, y: 0.2069, z: 0}
-    m_Extent: {x: 0.54760003, y: 0.5457, z: 0}
+    m_Center: {x: 0.016350001, y: 0.20674999, z: 0}
+    m_Extent: {x: 0.54665005, y: 0.54525, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -25807,7 +25807,6 @@ MonoBehaviour:
   - "Operador Encubierto: Agente Mike, me extra\xF1\xF3. Le vengo a decir solamente
     que si no elimina a ese fen\xF3meno, el mundo est\xE1 perdido. Bueno, quiz\xE1s
     ya compr\xE9 unos boletos para irme a Marte. Chao, \xA1Buena suerte, Mike!"
-  scriptToEnable: {fileID: 1259984234}
 --- !u!61 &1949504873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26750,8 +26749,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016550004, y: 0.20645002, z: 0}
-    m_Extent: {x: 0.54695, y: 0.54545, z: 0}
+    m_Center: {x: 0.01640001, y: 0.20754999, z: 0}
+    m_Extent: {x: 0.54760003, y: 0.54525, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
