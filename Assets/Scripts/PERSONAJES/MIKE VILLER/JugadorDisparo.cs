@@ -118,6 +118,8 @@ public class JugadorDisparo : MonoBehaviour
             {
                 puedeDisparar = true;
                 tiempo = 0;
+
+
             }
         }
     }
@@ -138,7 +140,7 @@ public class JugadorDisparo : MonoBehaviour
                     puedeDisparar2 = true;
                     puedeDisparar = true;
                     tiempo2 = 0;
-
+                    UpdateAmmoUI();
                 }
             }
         }
@@ -156,6 +158,7 @@ public class JugadorDisparo : MonoBehaviour
                     puedeDisparar2 = true;
                     puedeDisparar = true;
                     tiempo2 = 0;
+                    UpdateAmmoUI();
 
                 }
             }
