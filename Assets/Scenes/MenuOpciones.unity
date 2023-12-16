@@ -475,6 +475,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: MusicaSlider
       objectReference: {fileID: 0}
+    - target: {fileID: 2821195033909996813, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4935462315734343700, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_Value
       value: 0.513
@@ -1175,7 +1179,7 @@ Transform:
   m_GameObject: {fileID: 1461396578}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 105.5863, y: -220.4725, z: 3.5172145}
+  m_LocalPosition: {x: 44, y: -220.4725, z: 3.5172145}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1248,6 +1252,10 @@ PrefabInstance:
     - target: {fileID: 2821195033909996813, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_Name
       value: EfectosSlider
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821195033909996813, guid: 194331d742174084cbb8259014651627, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4935462315734343700, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_Value
