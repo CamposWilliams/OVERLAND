@@ -50,7 +50,7 @@ public class AtaqueBonk : MonoBehaviour
             time2 += Time.deltaTime;
             if (time2 >= 0.65f)
             {
-                collision.GetComponent<SistemaDeVida>().BajarVida(-1);
+                collision.GetComponent<SistemaDeVida>().BajarVida(1);
                 time2 = 0;
             }          
         }

@@ -173,4 +173,5 @@ public class JugadorMovimiento : MonoBehaviour
         time = 0;
          
     }
+
 }

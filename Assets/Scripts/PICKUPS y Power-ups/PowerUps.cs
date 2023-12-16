@@ -76,6 +76,7 @@ public class PowerUps : MonoBehaviour
                         disfrazAnimator.SetFloat("PU", 0);            
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
+                       
                         collision.GetComponent<JugadorMovimiento>().rapidez=4*1.5f;                  
                         StartCoroutine(DesactivarPowerUpAmarillo());
 
@@ -126,6 +127,7 @@ public class PowerUps : MonoBehaviour
        
         if (Mike.GetComponent<MikeGestorDePU>().contadorAmarillo== 0)
         {
+          
             //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
             Mike.GetComponent<JugadorMovimiento>().rapidez = 4;
             //Debug.Log("Hola");
