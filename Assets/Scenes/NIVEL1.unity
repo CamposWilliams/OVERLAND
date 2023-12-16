@@ -45089,6 +45089,83 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &460873451
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.92
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -32.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3758833599844408809, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5632769666588763547, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_Name
+      value: Cadaver3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744665635767018566, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: PanelDialogo
+      value: 
+      objectReference: {fileID: 1999265791}
+    - target: {fileID: 6744665635767018566, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: TextodeDialogo
+      value: 
+      objectReference: {fileID: 129814720}
+    - target: {fileID: 6744665635767018566, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: lineasDialogo.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6744665635767018566, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: lineasDialogo.Array.data[0]
+      value: Sala de Conferencias
+      objectReference: {fileID: 0}
+    - target: {fileID: 7083967688728923259, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
 --- !u!1 &469225008
 GameObject:
   m_ObjectHideFlags: 0
@@ -121533,3 +121610,4 @@ SceneRoots:
   - {fileID: 612193014}
   - {fileID: 1172778835}
   - {fileID: 1764528252}
+  - {fileID: 460873451}
