@@ -4,9 +4,8 @@ using UnityEngine;
 
 public class AnimacionPU : MonoBehaviour
 {
-   public Animator disfrazAnimator;
-
-    
+   public Animator disfrazAnimator; 
+   
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PocionAmarilla"))
@@ -14,6 +13,7 @@ public class AnimacionPU : MonoBehaviour
             Debug.Log("Hola");
             disfrazAnimator.SetBool("ConPU", true);           
             disfrazAnimator.SetFloat("PU", 0);
+            
             StartCoroutine(AnimacionesPU());
         }
         else if (collision.CompareTag("PocionAzul"))

@@ -299,10 +299,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prefabBala: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
-  Disfraz: {fileID: 0}
   Mike: {fileID: 0}
   conPU: 0
-  disfrazAnimator: {fileID: 0}
   sombrita: {fileID: 7074109695373462912}
   contadorAmarillo: 0
   contadorAzul: 0

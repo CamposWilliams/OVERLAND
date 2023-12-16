@@ -6,7 +6,7 @@ public class PowerUps : MonoBehaviour
 {
         new string tag;
         public GameObject prefabBala;
-        public GameObject Disfraz;
+        GameObject Disfraz;
         public GameObject Mike;
         public bool conPU = false;
         float cd;
@@ -14,7 +14,7 @@ public class PowerUps : MonoBehaviour
         float rapidezBala;
         SpriteRenderer sprPowerUp;
         Collider2D collPowerUp;
-        public Animator disfrazAnimator;
+        Animator disfrazAnimator;
         public GameObject sombrita;
         public float contadorAmarillo;
         public float contadorAzul;
@@ -32,6 +32,17 @@ public class PowerUps : MonoBehaviour
             tag=gameObject.tag;
             //Debug.Log(tag);
         
+    }
+    private void Update()
+    {
+        if (disfrazAnimator.GetFloat("PU") != 0 && disfrazAnimator.GetBool("ConPU"))
+        {
+            Mike.GetComponent<JugadorMovimiento>().conPUA = false;
+            Mike.GetComponent<CapsuleCollider2D>().isTrigger = false;
+            //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
+            Mike.GetComponent<JugadorMovimiento>().rapidez = 4;
+            //Debug.Log("Hola");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -53,7 +64,8 @@ public class PowerUps : MonoBehaviour
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
                         collision.GetComponent<SistemaDeVida>().PUAzulActivo = true;
-                        StartCoroutine(DesactivarPowerUpAzul());
+                  
+                    StartCoroutine(DesactivarPowerUpAzul());
                     break;
                
                     case "PocionMorada":
@@ -66,19 +78,22 @@ public class PowerUps : MonoBehaviour
                         Mike.GetComponent<JugadorDisparo>().cdDisparo = cd /3;
                         rapidezBala = prefabBala.GetComponent<JugadorBala>().rapidezBala;
                         prefabBala.GetComponent<JugadorBala>().rapidezBala = rapidezBala * 3;
-                        StartCoroutine(DesactivarPowerUpMorado());
+                   
+                    StartCoroutine(DesactivarPowerUpMorado());
 
                         break;
 
 
                     case "PocionAmarilla":
+                        Mike.GetComponent<JugadorMovimiento>().conPUA = true;
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 0);            
                         sprPowerUp.enabled = false;
                         collPowerUp.enabled = false;
-                       
-                        collision.GetComponent<JugadorMovimiento>().rapidez=4*1.5f;                  
-                        StartCoroutine(DesactivarPowerUpAmarillo());
+                        collision.GetComponent<JugadorMovimiento>().rapidez=4*1.5f;
+                    
+                    
+                    StartCoroutine(DesactivarPowerUpAmarillo());
 
                     break;
                     
@@ -121,13 +136,15 @@ public class PowerUps : MonoBehaviour
     
     IEnumerator DesactivarPowerUpAmarillo()
     {
+      
        
         yield return new WaitForSeconds(20);
         Mike.GetComponent<MikeGestorDePU>().contadorAmarillo--;
        
-        if (Mike.GetComponent<MikeGestorDePU>().contadorAmarillo== 0)
+        if (Mike.GetComponent<MikeGestorDePU>().contadorAmarillo== 0 )
         {
-          
+            Mike.GetComponent<JugadorMovimiento>().conPUA = false;
+            Mike.GetComponent<CapsuleCollider2D>().isTrigger = false;
             //Mike.GetComponent<MikeGestorDePU>().AnimacionesPU();
             Mike.GetComponent<JugadorMovimiento>().rapidez = 4;
             //Debug.Log("Hola");

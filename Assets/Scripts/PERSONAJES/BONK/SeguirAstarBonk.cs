@@ -16,8 +16,12 @@ public class SeguirAstarBonk : MonoBehaviour
     public bool reactivar;
     public bool seHanJuntado;
     public float time;
+    GameObject Mike;
 
-
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     void Start()
     {
         aiPath = GetComponent<AIPath>();
@@ -31,8 +35,11 @@ public class SeguirAstarBonk : MonoBehaviour
 
         SeguimientoDeAnimacion();
         AtaqueAnimacion();
-       
-        ReactivarCollider();
+
+        if (!Mike.GetComponent<JugadorMovimiento>().conPUA)
+        {
+            ReactivarCollider();
+        }
 
         //Debug.Log(seHanJuntado);
         //Debug.Log(time);
@@ -109,18 +116,18 @@ public class SeguirAstarBonk : MonoBehaviour
         }
 
     }
-    //private void OnCollisionStay2D(Collision2D collision)
-    //{
-    //    if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
-    //    {
-    //        enemigoCollider.isTrigger = true;
-    //    }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaBonk>().saludBonk > 0)
+        {
+            enemigoCollider.isTrigger = true;
+        }
 
-    //}
+    }
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && GetComponent<VidaBonk>().saludBonk > 0) 
+        if ((collision.CompareTag("Player") && GetComponent<VidaBonk>().saludBonk > 0) && !Mike.GetComponent<JugadorMovimiento>().conPUA) 
             {
                enemigoCollider.isTrigger= false;
             }

@@ -271,8 +271,8 @@ public class JugadorDisparo : MonoBehaviour
 
             if (!puedeDisparar2 && contador2 == 0)
             {
-                Debug.Log(puedeDisparar2);
-                Debug.Log(almacenBulletSubfusil);
+                //Debug.Log(puedeDisparar2);
+                //Debug.Log(almacenBulletSubfusil);
 
                 Recarga1.Play();
 

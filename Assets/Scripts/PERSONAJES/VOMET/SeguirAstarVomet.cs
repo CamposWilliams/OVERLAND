@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class SeguirAstarGordock : MonoBehaviour
+public class SeguirAstarVomet : MonoBehaviour
 {
 
     Animator EnemigoAnimacion;
@@ -16,8 +16,12 @@ public class SeguirAstarGordock : MonoBehaviour
     public bool reactivar;
     public bool seHanJuntado;
     public float time;
+    GameObject Mike;
 
-
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     void Start()
     {
         aiPath = GetComponent<AIPath>();
@@ -31,8 +35,12 @@ public class SeguirAstarGordock : MonoBehaviour
 
         SeguimientoDeAnimacion();
         AtaqueAnimacion();
-       
-        ReactivarCollider();
+
+        if (!Mike.GetComponent<JugadorMovimiento>().conPUA)
+        {
+            ReactivarCollider();
+        }
+        
 
         //Debug.Log(seHanJuntado);
         //Debug.Log(time);
@@ -100,7 +108,7 @@ public class SeguirAstarGordock : MonoBehaviour
     private void OnCollisionEnter2D(Collision2D collision)
     {
 
-        if (collision.gameObject.CompareTag("Enemigo1") && GetComponent<VidaGordock>().saludGordock > 0)
+        if (collision.gameObject.CompareTag("Enemigo1") && GetComponent<VidaVoment>().saludVoment > 0)
         {
             enemigoCollider.isTrigger = true;
             //reactivar = true;
@@ -111,7 +119,11 @@ public class SeguirAstarGordock : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaGordock>().saludGordock > 0)
+        if (collision.gameObject.CompareTag("EscritorioTag") && GetComponent<VidaVoment>().saludVoment > 0)
+        {
+            enemigoCollider.isTrigger = true;
+        }
+        if (collision.gameObject.CompareTag("Player") && GetComponent<VidaVoment>().saludVoment <= 0)
         {
             enemigoCollider.isTrigger = true;
         }
@@ -120,16 +132,26 @@ public class SeguirAstarGordock : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player") && GetComponent<VidaGordock>().saludGordock > 0) 
-            {
+        if ((collision.CompareTag("Player") && GetComponent<VidaVoment>().saludVoment > 0) && !Mike.GetComponent<JugadorMovimiento>().conPUA )
+        {
+           
                enemigoCollider.isTrigger= false;
-            }
+               
+        }
 
-        if (collision.CompareTag("Enemigo1") && GetComponent<VidaGordock>().saludGordock >0)
+        if (collision.CompareTag("Enemigo1") && GetComponent<VidaVoment>().saludVoment >0)
         {
             enemigoCollider.isTrigger= true;
             seHanJuntado = true;
              
+        }
+    }
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.CompareTag("Player") && GetComponent<VidaVoment>().saludVoment <= 0)
+        {
+            enemigoCollider.isTrigger = true;
+
         }
     }
 
@@ -137,12 +159,12 @@ public class SeguirAstarGordock : MonoBehaviour
     void ReactivarCollider()
     {
           
-        if (EnemigoAnimacion.GetBool("SeMueve") == false && GetComponent<VidaGordock>().saludGordock >0)
+        if (EnemigoAnimacion.GetBool("SeMueve") == false && GetComponent<VidaVoment>().saludVoment >0)
         {
             enemigoCollider.isTrigger = false;
         }
 
-        if(seHanJuntado == true && GetComponent<VidaGordock>().saludGordock > 0)
+        if(seHanJuntado == true && GetComponent<VidaVoment>().saludVoment > 0)
         {
             time += Time.deltaTime;
 

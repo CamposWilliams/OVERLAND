@@ -62,6 +62,8 @@ public class DañoVoment : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             disparando = false;
+            dañoContinuo = false;
+            time2 = 0;
         }
 
     }
@@ -84,6 +86,7 @@ public class DañoVoment : MonoBehaviour
     {
         if (dañoContinuo)
         {
+            Debug.Log("DañoVomet");
             time2 += Time.deltaTime;
             if (time2 >= 0.6f)
             {

@@ -12,7 +12,11 @@ public class AtaqueBonk : MonoBehaviour
     public Animator BonkAnimator;
     public AIPath aiPath;
     bool mantenerAnimacionDeAtaque;
-
+    GameObject Mike;
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
 
     private void Update()
     {
@@ -50,7 +54,8 @@ public class AtaqueBonk : MonoBehaviour
             time2 += Time.deltaTime;
             if (time2 >= 0.65f)
             {
-                collision.GetComponent<SistemaDeVida>().BajarVida(1);
+                //Debug.Log("BonkEjecutandose");
+                collision.GetComponent<SistemaDeVida>().BajarVida(2);
                 time2 = 0;
             }          
         }

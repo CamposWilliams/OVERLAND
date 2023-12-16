@@ -30,7 +30,7 @@ public class PatrullarGordock : MonoBehaviour
             if (Vector2.Distance(transform.position, puntosMovimiento[0].position) <= 0.1f)
             {
                 volviendoAlPunto = false;
-                Debug.Log("HolaMundo");
+                //Debug.Log("HolaMundo");
                 //GetComponent<AIPath>().enabled = false;
                 GetComponent<AIDestinationSetter>().enabled = false;
                 patrullar = true;

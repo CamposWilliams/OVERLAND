@@ -23,7 +23,7 @@ public class VidaBonk : MonoBehaviour
     }
     private void Start()
     {
-        Debug.Log(numeroDeBala);
+        //Debug.Log(numeroDeBala);
         bonkAnimacion = GetComponent<Animator>();
         spriteBonk = GetComponent<SpriteRenderer>();
     }

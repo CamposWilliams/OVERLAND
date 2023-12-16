@@ -32,34 +32,49 @@ public class DañoGordock : MonoBehaviour
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !Mike.GetComponent<JugadorMovimiento>().conPUA)
         {
             dañoContinuo = true;   
         }
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))
+        if (collision.gameObject.CompareTag("Player") && !Mike.GetComponent<JugadorMovimiento>().conPUA)
         {
             time2 = 0;
             dañoContinuo = false;
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerStay2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            //Debug.Log("Entre");
-            
             disparando = true;
+           
+            //if (Mike.GetComponent<JugadorMovimiento>().conPUA)
+            //{
+            //    //Debug.Log("Entre");
+            //    dañoContinuo = true;
+            //}
+            
         }
+        
     }
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
-            disparando = false;         
+            disparando = false;
+            dañoContinuo = false;
+            time2 = 0;
+            //if (Mike.GetComponent<JugadorMovimiento>().conPUA)
+            //{
+            //    dañoContinuo = false;
+            //    time2 = 0;
+            //}       
+
+
         }
         
     }
@@ -86,10 +101,14 @@ public class DañoGordock : MonoBehaviour
             time2 += Time.deltaTime;
             if (time2 >= 0.6f)
             {
+                Debug.Log("DañoGordock");
                 Mike.GetComponent<SistemaDeVida>().BajarVida(dañoPorGolpe);
                 time2 = 0;
             }
         }
+        
+         
+        
     }
     void DispararGordock()
     {

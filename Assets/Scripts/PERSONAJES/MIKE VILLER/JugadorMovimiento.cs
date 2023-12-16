@@ -18,8 +18,10 @@ public class JugadorMovimiento : MonoBehaviour
     float valorDelParametroY;
     float timer=5;
     float time;
+    float time2;
     bool muere;
     float anguloMikeDisparo;
+    public bool conPUA;
 
     void Start()
     {
@@ -36,6 +38,7 @@ public class JugadorMovimiento : MonoBehaviour
         {
             if (retrocediendo == false)
             {
+                //Reactivar();
                 Movimiento();
                 MovimientoAnimacion();
 
@@ -43,7 +46,36 @@ public class JugadorMovimiento : MonoBehaviour
         }
       
     }
+    private void OnCollisionStay2D(Collision2D collision)
+    {
+        if ((collision.gameObject.CompareTag("Enemigo1") && conPUA) && !colisionaConPared)
+        {
+           GetComponent<CapsuleCollider2D>().isTrigger = true;
+        }
 
+        if (collision.gameObject.CompareTag("TileCollider"))
+        {
+            colisionaConPared = true;
+        }
+        
+       
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("TileCollider"))
+        {
+            colisionaConPared = false;
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (!collision.CompareTag("Enemigo1"))
+        {
+            GetComponent<CapsuleCollider2D>().isTrigger = false;
+        }
+    }
     void Movimiento()
     {    
             
@@ -62,10 +94,31 @@ public class JugadorMovimiento : MonoBehaviour
             }
 
             dirección = new Vector2(moveX, moveY).normalized;
+        
+             
             rb2DMike.velocity = dirección * rapidez;
+        
+        //else if (colisionaConPared == true)
+        //{
+        //    rb2DMike.velocity = Vector2.zero;
+        //}
+            
 
     }
 
+    //void Reactivar()
+    //{
+    //    if (colisionaConPared)
+    //    {
+    //        time2 += Time.deltaTime;
+            
+    //        if(time2 >= 2f)
+    //        {
+    //            colisionaConPared=false;
+    //            time2 = 0;
+    //        }
+    //    }
+    //}
     void MovimientoAnimacion()
     {
        

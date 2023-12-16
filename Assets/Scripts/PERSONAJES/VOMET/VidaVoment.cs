@@ -141,7 +141,7 @@ public class VidaVoment : MonoBehaviour
         VomentAnimacion.SetBool("EstaSinVida", true);
         gameObject.layer = 17;
 
-        yield return new WaitForSeconds(10f);
+        yield return new WaitForSeconds(100f);
         Destroy(gameObject);
     }
 
