@@ -22,7 +22,8 @@ public class JugadorMovimiento : MonoBehaviour
     bool muere;
     float anguloMikeDisparo;
     public bool conPUA;
-
+    bool vuelve;
+    float contador;
     void Start()
     {
         rb2DMike = GetComponent<Rigidbody2D>();
@@ -30,21 +31,63 @@ public class JugadorMovimiento : MonoBehaviour
     }
 
     void Update()
-        
     {
         anguloMikeDisparo = GetComponent<MikeDisparo>().anguloConstante;
         muere = GetComponent<SistemaDeVida>().sinVida;
-        if (muere==false)
+        if (muere == false)
         {
             if (retrocediendo == false)
             {
-                //Reactivar();
                 Movimiento();
                 MovimientoAnimacion();
+                EjecutarIddle();
 
+                // Verificar si el mouse se ha movido
+                if (Input.mousePosition != mousePosAnterior)
+                {
+                    // El mouse se ha movido, restablecer el tiempo
+                    time = 0f;
+                    animaciónMike.SetBool("Volviendo", true);
+                }
+
+                // Actualizar la posición del mouse para la próxima verificación
+                mousePosAnterior = Input.mousePosition;
             }
         }
-      
+    }
+
+    void EjecutarIddle()
+    {
+        time += Time.deltaTime;
+        Debug.Log(time);
+       
+        if(!animaciónMike.GetBool("SeMueve") && time >= 5)
+        {
+            if (contador == 0)
+            {
+                animaciónMike.SetBool("Volviendo", false);
+                animaciónMike.SetTrigger("ExcedeTiempo");
+                contador++;
+            }
+           
+            
+            if (time >= 7 /*&& contador==1*/)
+            {
+                animaciónMike.SetBool("Volviendo", true);
+                vuelve = true;
+                contador = 0;
+                time = 0;
+               
+            }
+                       
+
+        }
+        else if (animaciónMike.GetBool("SeMueve"))
+        {
+            animaciónMike.SetBool("Volviendo", true);
+            time = 0;
+        }
+
     }
     private void OnCollisionStay2D(Collision2D collision)
     {
@@ -98,27 +141,8 @@ public class JugadorMovimiento : MonoBehaviour
              
             rb2DMike.velocity = dirección * rapidez;
         
-        //else if (colisionaConPared == true)
-        //{
-        //    rb2DMike.velocity = Vector2.zero;
-        //}
-            
-
     }
 
-    //void Reactivar()
-    //{
-    //    if (colisionaConPared)
-    //    {
-    //        time2 += Time.deltaTime;
-            
-    //        if(time2 >= 2f)
-    //        {
-    //            colisionaConPared=false;
-    //            time2 = 0;
-    //        }
-    //    }
-    //}
     void MovimientoAnimacion()
     {
        
@@ -175,7 +199,7 @@ public class JugadorMovimiento : MonoBehaviour
                 animaciónMike.SetFloat("ValorX", 1);
                 valorDelParametroX = animaciónMike.GetFloat("ValorX");
                 valorDelParametroY = animaciónMike.GetFloat("ValorY");
-                time += Time.deltaTime;
+                
             }
 
             else if (anguloMikeDisparo == 180)
@@ -186,7 +210,7 @@ public class JugadorMovimiento : MonoBehaviour
                 animaciónMike.SetFloat("ValorX", -1);
                 valorDelParametroX = animaciónMike.GetFloat("ValorX");
                 valorDelParametroY = animaciónMike.GetFloat("ValorY");
-                time += Time.deltaTime;
+               
             }
 
             else if (anguloMikeDisparo == 270)
@@ -196,7 +220,7 @@ public class JugadorMovimiento : MonoBehaviour
                 animaciónMike.SetFloat("ValorY", -1);
                 valorDelParametroX = animaciónMike.GetFloat("ValorX");
                 valorDelParametroY = animaciónMike.GetFloat("ValorY");
-                time += Time.deltaTime;
+               
             }
             else if (anguloMikeDisparo == 90)
             {
@@ -205,26 +229,12 @@ public class JugadorMovimiento : MonoBehaviour
                 animaciónMike.SetFloat("ValorY", 1);
                 valorDelParametroX = animaciónMike.GetFloat("ValorX");
                 valorDelParametroY = animaciónMike.GetFloat("ValorY");
-                time += Time.deltaTime;
+                
             }
            
-            if (time >= timer && animaciónMike.GetBool("ExcedeTiempo")==false)
-            {                          
-                StartCoroutine("AnimacionIddle");
-               
-            }
+
         }
-
     }
 
-    IEnumerator AnimacionIddle()
-    {
-              
-        animaciónMike.SetBool("ExcedeTiempo", true);
-        yield return new WaitForSeconds(2);
-        animaciónMike.SetBool("ExcedeTiempo", false);
-        time = 0;
-         
-    }
 
 }
