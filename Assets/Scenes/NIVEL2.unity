@@ -10534,8 +10534,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0068999976, y: -0.025750011, z: 0}
-    m_Extent: {x: 0.34329998, y: 0.73615, z: 0}
+    m_Center: {x: 0.006949991, y: -0.0255, z: 0}
+    m_Extent: {x: 0.34355, y: 0.7364, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11373,8 +11373,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016900003, y: 0.20699999, z: 0}
-    m_Extent: {x: 0.5472, y: 0.5458, z: 0}
+    m_Center: {x: 0.016550004, y: 0.20675, z: 0}
+    m_Extent: {x: 0.54705, y: 0.54555, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17128,8 +17128,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016499996, y: 0.20660001, z: 0}
-    m_Extent: {x: 0.5466, y: 0.5453, z: 0}
+    m_Center: {x: 0.016450018, y: 0.20674999, z: 0}
+    m_Extent: {x: 0.54684997, y: 0.54495, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18691,8 +18691,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016200006, y: 0.20665, z: 0}
-    m_Extent: {x: 0.5473, y: 0.54525, z: 0}
+    m_Center: {x: 0.016249985, y: 0.20635, z: 0}
+    m_Extent: {x: 0.54754996, y: 0.54515004, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -24517,9 +24517,9 @@ MonoBehaviour:
   PanelDialogo: {fileID: 785091380}
   TextodeDialogo: {fileID: 694013242}
   lineasDialogo:
-  - "Operador Encubierto: Agente Mike, me extra\xF1\xF3. Le vengo a decir solamente
-    que si no elimina a ese fen\xF3meno, el mundo est\xE1 perdido. Bueno, quiz\xE1s
-    ya compr\xE9 unos boletos para irme a Marte. Chao, \xA1Buena suerte, Mike!"
+  - "Operador Encubierto: Agente Mike, \xBFme extra\xF1aste? Solo vengo a decirte
+    que si no eliminas a ese fen\xF3meno, el mundo est\xE1 perdido. Bueno, quiz\xE1s
+    ya compr\xE9 unos boletos para ir a Marte. Chao, \xA1Buena suerte, Mike!"
 --- !u!61 &1949504873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25462,8 +25462,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.01575002, y: 0.2074, z: 0}
-    m_Extent: {x: 0.54655004, y: 0.54569995, z: 0}
+    m_Center: {x: 0.016550004, y: 0.2073, z: 0}
+    m_Extent: {x: 0.54745, y: 0.5453, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
