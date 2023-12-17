@@ -79,9 +79,9 @@ public class VidaGordock : MonoBehaviour
             }
             switch (numeroDeBala)
             {
-                case 0: saludGordock-=6f; break;
+                case 0: saludGordock-=10f; break;
                 case 1: saludGordock--; break;
-                case 2: saludGordock -= 12; break;
+                case 2: saludGordock -= 15; break;
                 case 3: saludGordock -= 10; break;
             }
             StartCoroutine(CambiarColor());

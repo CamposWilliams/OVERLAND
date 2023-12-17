@@ -9,7 +9,7 @@ public class DañoGordock : MonoBehaviour
     float dañoPorGolpe = 3;
     float time1;
     float time2;
-    public float tiempoParaVolverADisparar= 2.1f;
+    public float tiempoParaVolverADisparar= 1.7f;
     float cadenciaDeTiro=0.85f;
     Animator GordockAnimator;
     bool disparando;
