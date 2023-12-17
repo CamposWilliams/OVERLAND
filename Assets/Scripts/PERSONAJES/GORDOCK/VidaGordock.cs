@@ -95,6 +95,7 @@ public class VidaGordock : MonoBehaviour
             muriendo = true;
             GetComponent<Collider2D>().enabled = false;
             GetComponent<AIPath>().maxSpeed = 0;
+            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             StartCoroutine(AnimacionDeMuerte());
         }
 

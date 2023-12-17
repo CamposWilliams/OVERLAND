@@ -85,6 +85,7 @@ public class VidaBonk : MonoBehaviour
                     Destroy(BonkCollider);
                     GetComponent<AIPath>().maxSpeed = 0;
                     GetComponent<AIPath>().enabled = false;
+                    GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
                     StartCoroutine(AnimacionDeMuerte());
                     MuertoSonido.Play();
 

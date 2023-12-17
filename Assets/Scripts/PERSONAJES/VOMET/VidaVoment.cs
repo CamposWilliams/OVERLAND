@@ -114,6 +114,7 @@ public class VidaVoment : MonoBehaviour
             }
             AreaDeDaño = true;
             GetComponent<AIPath>().maxSpeed = 0;
+            GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
             StartCoroutine(AnimacionDeMuerte());
         }
 
