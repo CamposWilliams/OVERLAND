@@ -1941,7 +1941,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: '  GOBIERNO DE UN ESTADO    2026'
+  m_text: "  GOBIERNO DE UN ESTADO \n                           15/12/2026"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
@@ -3119,9 +3119,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "En lo profundo de las monta\xF1as, se halla el laboratorio secreto OVERLAND
-    que investigaba un f\xF3sil misterioso, extra\xEDdo de un meteorito ca\xEDdo.
-    Pero en medio de su investigaci\xF3n, ocurri\xF3 una cat\xE1strofe."
+  m_text: "En lo profundo de las monta\xF1as, se\r\nencuentra el laboratorio secreto
+    OVERLAND, que investigaba un misterioso f\xF3sil\r      extra\xEDdo de un meteorito
+    ca\xEDdo. Sin embargo, en medio de la investigaci\xF3n, ocurri\xF3 una\r              
+    cat\xE1strofe."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
@@ -3148,8 +3149,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
-  m_fontSizeBase: 29
+  m_fontSize: 26
+  m_fontSizeBase: 26
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -3232,8 +3233,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1, y: 256}
-  m_SizeDelta: {x: 234.4617, y: 50}
+  m_AnchoredPosition: {x: -27.1879, y: 256}
+  m_SizeDelta: {x: 290.8375, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060536082
 MonoBehaviour:
@@ -3255,8 +3256,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hemos contratado a un  agente especial que podr\xEDa resolver nuestros
-    problemas , esperamos que logre la misi\xF3n."
+  m_text: "En la fecha indicada, se ha registrado la p\xE9rdida de comunicaci\xF3n
+    con el Laboratorio\r               OVERLAND. Se requiere la movilizaci\xF3n de
+    los mejores agentes disponibles en la\r                      regi\xF3n para llevar
+    a cabo una investigaci\xF3n exhaustiva sobre la causa del incidente."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
@@ -3283,8 +3286,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 29
-  m_fontSizeBase: 29
+  m_fontSize: 24
+  m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -5157,8 +5160,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Para esta misi\xF3n, reclutamos a Mike Viller, un agente especial de \xE9lite
-    que se adentrar\xE1 en las profundidades de un laboratorio secreto para recuperarlo."
+  m_text: "Para esta misi\xF3n, reclutamos a\r\nMike Viller, un agente especial de
+    \xE9lite con habilidades excepcionales en el manejo de\r    diversas armas."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
   m_sharedMaterial: {fileID: -6199605380780645140, guid: cb90039cd9f818a44a5fc1757f7dce2b, type: 2}
