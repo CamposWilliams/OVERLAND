@@ -4,61 +4,36 @@ using UnityEngine;
 
 public class PuertasCerradas : MonoBehaviour
 {
-   public GameObject[] enemigosEnLaSala1;
-   public GameObject[] enemigosEnLaSala2;
-   public GameObject[] enemigosEnLaSala3;
-   public GameObject[] enemigosEnLaSala4;
+    public GameObject[] enemigosEnLaSala1;
+    public GameObject[] enemigosEnLaSala2;
+    public GameObject[] enemigosEnLaSala3;
+    public GameObject[] enemigosEnLaSala4;
 
-   public GameObject[] puertas;
-
-
+    public GameObject[] puertas;
 
     private void Update()
     {
-        VerificarSala1();
-        VerificarSala2();
-        VerificarSala3();
-        VerificarSala4();
+        VerificarSala(enemigosEnLaSala1, puertas[0]);
+        VerificarSala(enemigosEnLaSala2, puertas[1]);
+        VerificarSala(enemigosEnLaSala3, puertas[2]);
+        VerificarSala(enemigosEnLaSala4, puertas[3]);
     }
 
-   void  VerificarSala1()
-   {
-        foreach(GameObject enemigos in enemigosEnLaSala1)
-        {
-            if (enemigos == null)
-            {
-                puertas[0].GetComponent<GestorDePuertas>().Confirmación = true;
-            }
-        }
-   }
-    void VerificarSala2()
+    void VerificarSala(GameObject[] enemigosEnLaSala, GameObject puerta)
     {
-        foreach (GameObject enemigos in enemigosEnLaSala1)
+        bool todosMuertos = true;
+
+        foreach (GameObject enemigo in enemigosEnLaSala)
         {
-            if (enemigos == null)
+            if (enemigo != null)
             {
-                puertas[1].GetComponent<GestorDePuertas>().Confirmación = true;
+                todosMuertos = false;
+                break; // Si se encuentra al menos un enemigo vivo, no es necesario seguir verificando.
             }
         }
-    }
-    void VerificarSala3()
-    {
-        foreach (GameObject enemigos in enemigosEnLaSala1)
-        {
-            if (enemigos == null)
-            {
-                puertas[2].GetComponent<GestorDePuertas>().Confirmación = true;
-            }
-        }
-    }
-    void VerificarSala4()
-    {
-        foreach (GameObject enemigos in enemigosEnLaSala1)
-        {
-            if (enemigos == null)
-            {
-                puertas[3].GetComponent<GestorDePuertas>().Confirmación = true;
-            }
-        }
+
+        // Cambiar Confirmación solo si todos los enemigos están muertos.
+        puerta.GetComponent<GestorDePuertas>().Confirmación = todosMuertos;
     }
 }
+

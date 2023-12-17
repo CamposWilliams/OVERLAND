@@ -156,6 +156,7 @@ GameObject:
   - component: {fileID: 3297533163960839884}
   - component: {fileID: 3758124497231241492}
   - component: {fileID: 3159713536766560193}
+  - component: {fileID: 5859187379214954718}
   - component: {fileID: 4474119655712687456}
   - component: {fileID: 5994250934849146187}
   - component: {fileID: 1749777989667571304}
@@ -298,6 +299,7 @@ MonoBehaviour:
   moveX: 0
   moveY: 0
   retrocediendo: 0
+  conPUA: 0
 --- !u!114 &3297533163960839884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -375,6 +377,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5859187379214954718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3632767947836554649}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0b66db2733b4604a8accebbaf3fcf8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemigosEnLaSala1: []
+  enemigosEnLaSala2: []
+  enemigosEnLaSala3: []
+  enemigosEnLaSala4: []
+  puertas: []
 --- !u!114 &4474119655712687456
 MonoBehaviour:
   m_ObjectHideFlags: 0
