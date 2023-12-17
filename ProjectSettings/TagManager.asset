@@ -23,6 +23,10 @@ TagManager:
   - Boss
   - AmmoEspecial
   - VolverTrigger
+  - VerificadorTag
+  - VerificadorTag2
+  - VerificadorTag3
+  - VerificadorTag4
   layers:
   - Default
   - TransparentFX

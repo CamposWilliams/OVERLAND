@@ -24,6 +24,7 @@ public class JugadorMovimiento : MonoBehaviour
     public bool conPUA;
     bool vuelve;
     float contador;
+    public GameObject[] puertas;
     void Start()
     {
         rb2DMike = GetComponent<Rigidbody2D>();
@@ -117,6 +118,23 @@ public class JugadorMovimiento : MonoBehaviour
         if (!collision.CompareTag("Enemigo1"))
         {
             GetComponent<CapsuleCollider2D>().isTrigger = false;
+        }
+
+        if (collision.CompareTag("VerificadorTag"))
+        {
+            puertas[0].GetComponent<GestorDePuertas>().verificado = true;
+        }
+        if (collision.CompareTag("VerificadorTag2"))
+        {
+            puertas[1].GetComponent<GestorDePuertas>().verificado = true;
+        }
+        if (collision.CompareTag("VerificadorTag3"))
+        {
+            puertas[2].GetComponent<GestorDePuertas>().verificado = true;
+        }
+        if (collision.CompareTag("VerificadorTag4"))
+        {
+            puertas[3].GetComponent<GestorDePuertas>().verificado = true;
         }
     }
     void Movimiento()
