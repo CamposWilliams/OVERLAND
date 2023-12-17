@@ -10534,8 +10534,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.006949991, y: -0.0255, z: 0}
-    m_Extent: {x: 0.34355, y: 0.7364, z: 0}
+    m_Center: {x: 0.007950008, y: -0.025350004, z: 0}
+    m_Extent: {x: 0.34335, y: 0.73685, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11373,8 +11373,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016550004, y: 0.20675, z: 0}
-    m_Extent: {x: 0.54705, y: 0.54555, z: 0}
+    m_Center: {x: 0.015949994, y: 0.20619999, z: 0}
+    m_Extent: {x: 0.54684997, y: 0.5455, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17128,8 +17128,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016450018, y: 0.20674999, z: 0}
-    m_Extent: {x: 0.54684997, y: 0.54495, z: 0}
+    m_Center: {x: 0.01605001, y: 0.20654999, z: 0}
+    m_Extent: {x: 0.54754996, y: 0.54545, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18341,7 +18341,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1406578430}
   TextodeDialogo: {fileID: 2002854079}
   lineasDialogo:
-  - 'Mike Viller : Esto es solamente una puerta de salida; ya no puedo entrar.'
+  - 'Mike Viller : Esto es solo una puerta de salida; ya no puedo entrar.'
 --- !u!61 &1259984235
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18691,8 +18691,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016249985, y: 0.20635, z: 0}
-    m_Extent: {x: 0.54754996, y: 0.54515004, z: 0}
+    m_Center: {x: 0.016649991, y: 0.20769998, z: 0}
+    m_Extent: {x: 0.54684997, y: 0.5454, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -24517,8 +24517,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 785091380}
   TextodeDialogo: {fileID: 694013242}
   lineasDialogo:
-  - "Operador Encubierto: Agente Mike, \xBFme extra\xF1aste? Solo vengo a decirte
-    que si no eliminas a ese fen\xF3meno, el mundo est\xE1 perdido. Bueno, quiz\xE1s
+  - "Operador Encubierto: Agente Mike, \xBFme extra\xF1aste? Solo ven\xEDa a decirte
+    que si no eliminas a ese fen\xF3meno, el mundo est\xE1 perdido. Ah, por cierto,
     ya compr\xE9 unos boletos para ir a Marte. Chao, \xA1Buena suerte, Mike!"
 --- !u!61 &1949504873
 BoxCollider2D:
@@ -25462,8 +25462,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016550004, y: 0.2073, z: 0}
-    m_Extent: {x: 0.54745, y: 0.5453, z: 0}
+    m_Center: {x: 0.016500026, y: 0.2061, z: 0}
+    m_Extent: {x: 0.54649997, y: 0.5453, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
