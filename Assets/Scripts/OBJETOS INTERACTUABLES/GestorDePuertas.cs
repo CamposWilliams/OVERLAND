@@ -37,7 +37,6 @@ public class GestorDePuertas : MonoBehaviour
 
         if (verificado && contadorUnico2==0)
         {
-            CERRAR.Play();
             AnimacionPuerta.SetBool("Abierto", false);
             gameObject.layer = 8;
             bloqueador.SetActive(true);
