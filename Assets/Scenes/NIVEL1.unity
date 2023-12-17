@@ -14337,8 +14337,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1730325062}
   TextodeDialogo: {fileID: 796788032}
   lineasDialogo:
-  - "Mike Viller: As\xED que de aqu\xED revivi\xF3, destruy\xF3 la c\xE1psula y se
-    escap\xF3 el desgraciado, destruyendo el laboratorio. Lo encontrar\xE9 y lo matar\xE9."
+  - "Mike Viller: As\xED que al revivir destruy\xF3 la c\xE1psula y escap\xF3. Voy
+    a encontrarlo y acabar con \xE9l."
 --- !u!61 &193570313
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16084,9 +16084,9 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1019230042}
   TextodeDialogo: {fileID: 1842548286}
   lineasDialogo:
-  - "Cient\xEDfico Floyd: \xBFya tienes las dos tarjetas de seguridad?, qu\xE9 esperas,
-    vete al laboratorio de control, hay una computadora que va registrar las tarjetas
-    y activar las ventilaciones de salida. \xA1Apres\xFArate!\r\n"
+  - "Cient\xEDfico Floyd Jones:\xBFYa tienes las dos tarjetas de seguridad? \xBFQu\xE9
+    esperas? Ve al laboratorio de control; all\xED hay una computadora que registrar\xE1
+    las tarjetas y activar\xE1 las ventilaciones de salida. \xA1Apres\xFArate!"
 --- !u!61 &243556685
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18836,7 +18836,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1650626660}
   TextodeDialogo: {fileID: 1564725734}
   lineasDialogo:
-  - '  TARJETA DE SEGURIDAD  '
+  - 'TARJETA DE SEGURIDAD       '
 --- !u!1 &293867135
 GameObject:
   m_ObjectHideFlags: 0
@@ -19596,7 +19596,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1881538161}
   TextodeDialogo: {fileID: 1215138318}
   lineasDialogo:
-  - "BOTIQU\xCDN : RECUPERA LA MITAD DE TU SALUD"
+  - "BOTIQU\xCDN : RECUPERA LA MITAD DE TU SALUD       "
 --- !u!4 &308510996
 Transform:
   m_ObjectHideFlags: 0
@@ -47048,7 +47048,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 452895490}
   TextodeDialogo: {fileID: 171488842}
   lineasDialogo:
-  - '  TARJETA DE SEGURIDAD  '
+  - '  TARJETA DE SEGURIDAD       '
 --- !u!1 &496334778
 GameObject:
   m_ObjectHideFlags: 0
@@ -67187,7 +67187,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 352107143732151036, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 649533166424291589, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -67195,7 +67195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348368536865051771, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821195033909996813, guid: 194331d742174084cbb8259014651627, type: 3}
       propertyPath: m_Name
@@ -67747,7 +67747,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6744665635767018566, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
       propertyPath: lineasDialogo.Array.data[0]
-      value: LABORATORIO DE CONTROL
+      value: "\xA1LABORATORIO DE CONTROL!"
       objectReference: {fileID: 0}
     - target: {fileID: 7083967688728923259, guid: db0d4a1c377956a4c87596791d873acf, type: 3}
       propertyPath: m_Enabled
@@ -70557,7 +70557,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 352107143732151036, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 649533166424291589, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -70565,7 +70565,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2348368536865051771, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_AnchorMax.y
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2821195033909996813, guid: a959afaebedcbe54c8ef69328d3367b1, type: 3}
       propertyPath: m_Name
@@ -93516,7 +93516,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1197471213}
   TextodeDialogo: {fileID: 378888823}
   lineasDialogo:
-  - 'CAJA DE MUNICIONES  '
+  - 'CAJA DE MUNICIONES ESPECIALES       '
 --- !u!4 &1429406071
 Transform:
   m_ObjectHideFlags: 0
@@ -98426,8 +98426,8 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1291036202}
   TextodeDialogo: {fileID: 419454603}
   lineasDialogo:
-  - "Cient\xEDfico Alexander: \xA1Ayuda! Soy un sobreviviente de toda esta pesadilla,
-    lo revivimos. No pudimos estar m\xE1s equivocados, no saldr\xE9 hasta que elimines
+  - "Cient\xEDfico Alexander: \xA1Ayuda! Soy un sobreviviente de toda esta pesadilla.Lo
+    revivimos, no pudimos estar m\xE1s equivocados\xA1 No saldr\xE9 hasta que elimines
     a todos los cient\xEDficos mutados."
 --- !u!61 &1540754783
 BoxCollider2D:
@@ -104431,7 +104431,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1852761116}
   TextodeDialogo: {fileID: 1422164877}
   lineasDialogo:
-  - "POCI\xD3N AZUL:ESCUDO Y RESISTENCIA    "
+  - "POCI\xD3N AZUL: DUPLICA TU RESISTENCIA AL DA\xD1O       "
 --- !u!1001 &1684372859
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -107352,7 +107352,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1017653995}
   TextodeDialogo: {fileID: 1932278050}
   lineasDialogo:
-  - "POCI\xD3N MORADA:VELOCIDAD DE DISPARO Y CADENCIA DE TIRO"
+  - "POCI\xD3N MORADA: MEJORA TU VELOCIDAD DE DISPARO Y CADENCIA DE TIRO       "
 --- !u!60 &1771280075
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -117213,7 +117213,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1993219322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117978,7 +117978,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 256162930}
   TextodeDialogo: {fileID: 290601337}
   lineasDialogo:
-  - 'MUNICIONES ESPECIALES.    '
+  - 'MUNICIONES ESPECIALES       '
 --- !u!4 &2014996868
 Transform:
   m_ObjectHideFlags: 0
@@ -119014,7 +119014,7 @@ MonoBehaviour:
   PanelDialogo: {fileID: 1053733079}
   TextodeDialogo: {fileID: 511087308}
   lineasDialogo:
-  - "POCI\xD3N AMARILLA:VELOCIDAD DE MOVIMIENTO   "
+  - "POCI\xD3N AMARILLA:VELOCIDAD DE MOVIMIENTO       "
 --- !u!60 &2040958060
 PolygonCollider2D:
   m_ObjectHideFlags: 0
