@@ -413,7 +413,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2e6bd8b827b232a4481af1fd3b937246, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludBonk: 2
+  saludBonk: 12
   MuertoSonido: {fileID: 5777136001756577055}
   BonkCollider: {fileID: 8731208370774236892}
   numeroDeBala: 0
@@ -482,7 +482,7 @@ MonoBehaviour:
   radius: 0.6
   height: 1
   canMove: 1
-  maxSpeed: 2.9
+  maxSpeed: 3.7
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2

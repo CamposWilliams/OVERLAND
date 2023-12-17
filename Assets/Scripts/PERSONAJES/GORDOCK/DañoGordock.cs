@@ -9,7 +9,7 @@ public class DañoGordock : MonoBehaviour
     float dañoPorGolpe = 3;
     float time1;
     float time2;
-    public float tiempoParaVolverADisparar= 2.5f;
+    public float tiempoParaVolverADisparar= 2.1f;
     float cadenciaDeTiro=0.85f;
     Animator GordockAnimator;
     bool disparando;
@@ -24,6 +24,7 @@ public class DañoGordock : MonoBehaviour
 
     private void Awake()
     {
+        tiempoParaVolverADisparar =2.1f;
         Mike = GameObject.Find("Mike");
     }
     private void Start()

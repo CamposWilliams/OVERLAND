@@ -36,7 +36,7 @@ public class VidaGordock : MonoBehaviour
 
     void BotarMunicion()
     {
-        if ((muriendo2 && contador == 0) && valor==2)
+        if ((muriendo2 && contador == 0) && (valor == 2 || valor==1))
         {
             contador++;
             GameObject municionSuelta = Instantiate(municionEspecial);
@@ -79,10 +79,10 @@ public class VidaGordock : MonoBehaviour
             }
             switch (numeroDeBala)
             {
-                case 0: saludGordock--; break;
+                case 0: saludGordock-=6f; break;
                 case 1: saludGordock--; break;
-                case 2: saludGordock -= 5; break;
-                case 3: saludGordock -= 8; break;
+                case 2: saludGordock -= 12; break;
+                case 3: saludGordock -= 10; break;
             }
             StartCoroutine(CambiarColor());
             Destroy(collision.gameObject);

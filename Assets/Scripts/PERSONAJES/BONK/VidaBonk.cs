@@ -7,7 +7,7 @@ using UnityEngine;
 public class VidaBonk : MonoBehaviour
 {
 
-    public float saludBonk = 5;
+    public float saludBonk = 15;
     Animator bonkAnimacion;
     SpriteRenderer spriteBonk;
     public AudioSource MuertoSonido;
@@ -19,6 +19,7 @@ public class VidaBonk : MonoBehaviour
 
     private void Awake()
     {
+        saludBonk = 15;
         Mike = GameObject.Find("Mike");
     }
     private void Start()
@@ -68,10 +69,10 @@ public class VidaBonk : MonoBehaviour
 
             switch (numeroDeBala)
             {
-                case 0:saludBonk --; break;
+                case 0:saludBonk -=7.5f; break;
                 case 1:saludBonk --; break;
                 case 2: saludBonk -=5; break;
-                case 3: saludBonk -=8; break;
+                case 3: saludBonk -=10; break;
             }
             StartCoroutine(CambiarColor());
             Destroy(collision.gameObject);

@@ -89,9 +89,9 @@ public class VidaVoment : MonoBehaviour
             switch (numeroDeBala)
             {
                 case 0: saludVoment--; break;
-                case 1: saludVoment--; break;
-                case 2: saludVoment -= 5; break;
-                case 3: saludVoment -= 8; break;
+                case 1: saludVoment-=6.5f; break;
+                case 2: saludVoment -= 20; break;
+                case 3: saludVoment -= 10; break;
             }
             StartCoroutine(CambiarColor());
 

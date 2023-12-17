@@ -59,9 +59,9 @@ public class JugadorDisparo : MonoBehaviour
     public int almacenBulletEspecial = 0;
 
     //maxAlmacen
-    int maxAlmacenBulletSubfusil = 25;
-    int maxAlmacenBulletRifle = 25;
-    int maxAlmacenBulletEspecial = 25;
+    int maxAlmacenBulletSubfusil = 50;
+    int maxAlmacenBulletRifle = 50;
+    int maxAlmacenBulletEspecial = 50;
 
     private void Start()
     {
@@ -572,9 +572,9 @@ public class JugadorDisparo : MonoBehaviour
             valorRandom = valoresPosibles[Random.Range(0, 3)];
             switch (valorRandom)
             {
-                case 3: StoreAmmoArmaEspecial(3); break;
-                case 5: StoreAmmoArmaEspecial(5); break;
-                case 10: StoreAmmoArmaEspecial(10); break;
+                case 3: StoreAmmoArmaEspecial(6); break;
+                case 5: StoreAmmoArmaEspecial(9); break;
+                case 10: StoreAmmoArmaEspecial(12); break;
             }
             
 
@@ -588,14 +588,14 @@ public class JugadorDisparo : MonoBehaviour
             switch (valorRandom)
             {
                 case 3:
-                    StoreAmmoRifle(3);
-                    StoreAmmoSubfusil(3); break;
+                    StoreAmmoRifle(6);
+                    StoreAmmoSubfusil(6); break;
                 case 5:
-                    StoreAmmoRifle(5);
-                    StoreAmmoSubfusil(5); break;
+                    StoreAmmoRifle(9);
+                    StoreAmmoSubfusil(9); break;
                 case 10:
-                    StoreAmmoRifle(10);
-                    StoreAmmoSubfusil(10); break;
+                    StoreAmmoRifle(12);
+                    StoreAmmoSubfusil(12); break;
             }
             
             Destroy(collision.gameObject);

@@ -311,7 +311,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30162ee5d46c8564981a6056ec7f43f4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  saludGordock: 5
+  saludGordock: 30
   muriendo: 0
   municionEspecial: {fileID: 295194416245180670, guid: 530e3ea4abfe15f43ae77c1e295e1c43, type: 3}
   Mike: {fileID: 0}
@@ -360,7 +360,7 @@ MonoBehaviour:
   radius: 0.75
   height: 1
   canMove: 1
-  maxSpeed: 1.5
+  maxSpeed: 2
   gravity: {x: 0, y: 0, z: 0}
   groundMask:
     serializedVersion: 2
