@@ -28,10 +28,21 @@ public class GestorDePuertas : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
+        if (collision.CompareTag("Player"))
+        {
+            contadorUnico++;
+            if (contadorUnico == 1)
+            {
+                AnimacionPuerta.SetBool("Abierto", true);
+                gameObject.layer = 11;
+                bloqueador.SetActive(false);
+            }
+        }
+
         if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
             contadorEntran++;
-            contadorUnico++;
+           
           
             if(Confirmación)
             {
@@ -40,16 +51,8 @@ public class GestorDePuertas : MonoBehaviour
                 bloqueador.SetActive(false);
             }
 
-            if (contadorUnico == 1)
-            {
-                AnimacionPuerta.SetBool("Abierto", true);
-                gameObject.layer = 11;
-                bloqueador.SetActive(false);
-            }
-            
-            
            
-           
+                      
             //Debug.Log("EstaDentro");
 
             // Llama al escaneo después de cambiar la capa
@@ -59,6 +62,7 @@ public class GestorDePuertas : MonoBehaviour
         {
             ABRIR.Play();
         }
+       
     }
 
     private void OnTriggerExit2D(Collider2D collision)
@@ -66,7 +70,7 @@ public class GestorDePuertas : MonoBehaviour
         if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
             contadorSalen++;
-            contadorUnico2++;   
+           
            
             if(contadorEntran==contadorSalen && Confirmación)
             {
@@ -79,6 +83,14 @@ public class GestorDePuertas : MonoBehaviour
                 contadorSalen = 0;
             }
 
+           
+                
+                GetComponent<EscaneoNavegacion>().RealizarEscaneo();
+        }
+
+        if (collision.CompareTag("Player"))
+        {
+            contadorUnico2++;
             if (contadorUnico2 == 1)
             {
                 CERRAR.Play();
@@ -87,11 +99,8 @@ public class GestorDePuertas : MonoBehaviour
                 bloqueador.SetActive(true);
                 contadorEntran = 0;
                 contadorSalen = 0;
+                
             }
-                //Debug.Log("EstaFuera");
-
-                // Llama al escaneo después de cambiar la capa
-                GetComponent<EscaneoNavegacion>().RealizarEscaneo();
         }
     }
 
