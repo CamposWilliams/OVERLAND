@@ -27,14 +27,14 @@ public class VolumenControlador : MonoBehaviour
 
     public void SetMusicVolume(float volume)
     {
-        Debug.Log("" + volume);
+        //Debug.Log("" + volume);
         audioMixer.SetFloat(musicVolumeParameter, Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat(musicVolumeParameter, volume);
     }
 
     public void SetSoundVolume(float volume)
     {
-        Debug.Log("" + volume);
+        //Debug.Log("" + volume);
         audioMixer.SetFloat(soundVolumeParameter, Mathf.Log10(volume) * 20);
         PlayerPrefs.SetFloat(soundVolumeParameter, volume);
     }

@@ -10,9 +10,15 @@ public class GestorDePuertas : MonoBehaviour
     public GameObject bloqueador;
     float contadorEntran;
     float contadorSalen;
+    public bool Confirmación;
+    int contadorUnico;
+    int contadorUnico2;
 
 
-
+    private void Update()
+    {
+        Debug.Log(contadorUnico);
+    }
 
     private void Start()
     {
@@ -25,10 +31,25 @@ public class GestorDePuertas : MonoBehaviour
         if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
             contadorEntran++;
+            contadorUnico++;
+          
+            if(Confirmación)
+            {
+                AnimacionPuerta.SetBool("Abierto", true);
+                gameObject.layer = 11;
+                bloqueador.SetActive(false);
+            }
+
+            if (contadorUnico == 1)
+            {
+                AnimacionPuerta.SetBool("Abierto", true);
+                gameObject.layer = 11;
+                bloqueador.SetActive(false);
+            }
             
-            AnimacionPuerta.SetBool("Abierto", true);
-            gameObject.layer = 11;
-            bloqueador.SetActive(false);
+            
+           
+           
             //Debug.Log("EstaDentro");
 
             // Llama al escaneo después de cambiar la capa
@@ -45,7 +66,20 @@ public class GestorDePuertas : MonoBehaviour
         if (collision.CompareTag("Player") || collision.CompareTag("Enemigo1"))
         {
             contadorSalen++;
-            if(contadorEntran==contadorSalen)
+            contadorUnico2++;   
+           
+            if(contadorEntran==contadorSalen && Confirmación)
+            {
+                
+                CERRAR.Play();
+                AnimacionPuerta.SetBool("Abierto", false);
+                gameObject.layer = 8;
+                bloqueador.SetActive(true);
+                contadorEntran = 0;
+                contadorSalen = 0;
+            }
+
+            if (contadorUnico2 == 1)
             {
                 CERRAR.Play();
                 AnimacionPuerta.SetBool("Abierto", false);
@@ -54,11 +88,10 @@ public class GestorDePuertas : MonoBehaviour
                 contadorEntran = 0;
                 contadorSalen = 0;
             }
-           
-            //Debug.Log("EstaFuera");
+                //Debug.Log("EstaFuera");
 
-            // Llama al escaneo después de cambiar la capa
-            GetComponent<EscaneoNavegacion>().RealizarEscaneo();
+                // Llama al escaneo después de cambiar la capa
+                GetComponent<EscaneoNavegacion>().RealizarEscaneo();
         }
     }
 

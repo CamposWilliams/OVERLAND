@@ -59,7 +59,7 @@ public class JugadorMovimiento : MonoBehaviour
     void EjecutarIddle()
     {
         time += Time.deltaTime;
-        Debug.Log(time);
+        //Debug.Log(time);
        
         if(!animaciónMike.GetBool("SeMueve") && time >= 5)
         {

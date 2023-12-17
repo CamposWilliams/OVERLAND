@@ -40,7 +40,7 @@ public class JugadorDisparo : MonoBehaviour
     [SerializeField] int AmmoSubfusil = 5;
     [SerializeField] int AmmoRifle = 5;
     [SerializeField] int AmmoArmaEspecial = 5;
-    public int CambioArma = 5;
+    public float CambioArma = 5;
 
     //cambio de arma 
     //public int MaxCambioArma = 2;
@@ -72,7 +72,7 @@ public class JugadorDisparo : MonoBehaviour
     void Update()
     {
 
-        //Debug.Log(contador1);
+        
         muere = GetComponent<SistemaDeVida>().sinVida;
         if (muere == false)
         {
@@ -84,6 +84,29 @@ public class JugadorDisparo : MonoBehaviour
 
 
             if (Input.GetKeyDown(KeyCode.Q))
+            {
+                CambioDeArma.Play();
+                MikeAnimator.SetTrigger("PresionaQ");
+                CambioArma++;
+                CambioArma %= 4;
+            }
+            float scroll = Input.GetAxis("Mouse ScrollWheel");
+
+            if (scroll <  0)
+            {
+                CambioDeArma.Play();
+               
+                MikeAnimator.SetTrigger("SeRetrocede");
+                CambioArma--;
+                switch (CambioArma)
+                {
+                    case -1: CambioArma=3; break;
+                    case -2: CambioArma=2; break;
+                    case -3: CambioArma=1; break;
+                }
+                CambioArma %= 4;
+            }
+            if (scroll > 0)
             {
                 CambioDeArma.Play();
                 MikeAnimator.SetTrigger("PresionaQ");
@@ -194,7 +217,7 @@ public class JugadorDisparo : MonoBehaviour
 
         }
 
-        else if (CambioArma == 2)
+        else if (CambioArma == 2 || CambioArma == -2)
         {
             estaConRifle = false;
 
@@ -245,7 +268,7 @@ public class JugadorDisparo : MonoBehaviour
         }
 
 
-        else if (CambioArma == 1)
+        else if (CambioArma == 1 || CambioArma == -3)
         {
             estaConRifle = true;
 
@@ -294,7 +317,7 @@ public class JugadorDisparo : MonoBehaviour
 
         }
 
-        else if (CambioArma == 3)
+        else if (CambioArma == 3 || CambioArma == -1)
         {
             estaConRifle = false;
 
