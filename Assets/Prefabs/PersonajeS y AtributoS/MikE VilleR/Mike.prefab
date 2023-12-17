@@ -300,6 +300,11 @@ MonoBehaviour:
   moveY: 0
   retrocediendo: 0
   conPUA: 0
+  puertas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &3297533163960839884
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -329,12 +334,12 @@ MonoBehaviour:
   cdRecarga: 2
   balaPrefab: {fileID: 495396250860977953, guid: e30da17369350ed4fb3df71f4a467bf3, type: 3}
   disfazAnimator: {fileID: 6014465664002475689}
-  AmmoSubfusil: 30
-  AmmoRifle: 20
-  AmmoArmaEspecial: 10
+  AmmoSubfusil: 0
+  AmmoRifle: 0
+  AmmoArmaEspecial: 0
   CambioArma: 5
-  almacenBulletSubfusil: 15
-  almacenBulletRifle: 10
+  almacenBulletSubfusil: 0
+  almacenBulletRifle: 0
   almacenBulletEspecial: 0
 --- !u!114 &3758124497231241492
 MonoBehaviour:
@@ -349,7 +354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   MuerteMikeSonido: {fileID: 5604476907358341211}
-  "vidaM\xE1ximaMike": 10000
+  "vidaM\xE1ximaMike": 45
   vidaActualMike: 0
   PUAzulActivo: 0
   sinVida: 0
@@ -389,11 +394,41 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0b66db2733b4604a8accebbaf3fcf8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemigosEnLaSala1: []
-  enemigosEnLaSala2: []
-  enemigosEnLaSala3: []
-  enemigosEnLaSala4: []
-  puertas: []
+  enemigosEnLaSala1:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemigosEnLaSala2:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemigosEnLaSala3:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  enemigosEnLaSala4:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  puertas:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
 --- !u!114 &4474119655712687456
 MonoBehaviour:
   m_ObjectHideFlags: 0

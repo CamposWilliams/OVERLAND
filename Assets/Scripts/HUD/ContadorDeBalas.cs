@@ -10,6 +10,7 @@ public class ContadorDeBalas : MonoBehaviour
     {
         // Al inicio, desactiva todos los TextMeshProUGUI
         DesactivarTodosTextos();
+        ActivarTexto(0);
     }
 
     void Update()
@@ -28,6 +29,13 @@ public class ContadorDeBalas : MonoBehaviour
             {
                 textMeshPro.enabled = false;
             }
+        }
+    }
+    void ActivarTexto(int indice)
+    {
+        if (indice < textMeshPros.Length && textMeshPros[indice] != null)
+        {
+            textMeshPros[indice].enabled = true;
         }
     }
 

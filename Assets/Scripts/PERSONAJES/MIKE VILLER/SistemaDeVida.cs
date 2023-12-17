@@ -49,7 +49,7 @@ public class SistemaDeVida : MonoBehaviour
         //Debug.Log($"Recibiste {dañoEntrante} de daño");
         vidaActualMike -= dañoEntrante;
        
-        if( vidaActualMike <= 0 && contador==0)
+        if( vidaActualMike <= 1 && contador==0)
         {
             contador++;
             MuerteMikeSonido.Play();
