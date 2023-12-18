@@ -10572,7 +10572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2725bc35c0bb17343b464bf6534f8e4c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NombreScena: PantallaVictoria
+  NombreScena: PantallaDerrota
 --- !u!70 &193771433
 CapsuleCollider2D:
   m_ObjectHideFlags: 0
@@ -10642,8 +10642,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0072000027, y: -0.025649995, z: 0}
-    m_Extent: {x: 0.3438, y: 0.73725, z: 0}
+    m_Center: {x: 0.007550001, y: -0.02520001, z: 0}
+    m_Extent: {x: 0.34365, y: 0.7363, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11617,8 +11617,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016449988, y: 0.20665, z: 0}
-    m_Extent: {x: 0.54715, y: 0.54475, z: 0}
+    m_Center: {x: 0.01640001, y: 0.20675, z: 0}
+    m_Extent: {x: 0.54639995, y: 0.54475, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -17253,8 +17253,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016499996, y: 0.2069, z: 0}
-    m_Extent: {x: 0.547, y: 0.5449, z: 0}
+    m_Center: {x: 0.01609999, y: 0.20725001, z: 0}
+    m_Extent: {x: 0.5474, y: 0.54505, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18897,8 +18897,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.015700012, y: 0.20625001, z: 0}
-    m_Extent: {x: 0.5468, y: 0.54525, z: 0}
+    m_Center: {x: 0.015849978, y: 0.20684999, z: 0}
+    m_Extent: {x: 0.54684997, y: 0.54565, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -24407,7 +24407,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1915168934}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2ba9e9a9feb379e41b9a1bcb762027bf, type: 3}
   m_Name: 
@@ -25229,8 +25229,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016299993, y: 0.20660001, z: 0}
-    m_Extent: {x: 0.5473, y: 0.546, z: 0}
+    m_Center: {x: 0.015949994, y: 0.20629999, z: 0}
+    m_Extent: {x: 0.54684997, y: 0.54499996, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

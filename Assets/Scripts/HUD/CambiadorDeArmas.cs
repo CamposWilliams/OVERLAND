@@ -23,28 +23,28 @@ public class CambiadorDeArmas : MonoBehaviour
 
         // Cambiar de arma con la rueda del mouse
         CambiarArmaConRuedaDelMouse();
+        ActualizarImagen();
     }
 
     void CambiarImagen()
     {
         if (imagenes.Length > 0)
         {
-            indiceActual = (indiceActual + 1) % imagenes.Length;
-            ActualizarImagen();
+            indiceActual = (indiceActual + 1) % imagenes.Length;        
         }
     }
 
     void CambiarArmaConRuedaDelMouse()
     {
         float scroll = Input.GetAxis("Mouse ScrollWheel");
-        if (scroll > 0f && indiceActual < imagenes.Length)
+        if (scroll > 0f && (indiceActual < imagenes.Length))
         {
             // Desplazamiento hacia arriba en la ruedita del mouse
             indiceActual = (indiceActual + 1) % imagenes.Length;
             ActualizarImagen();
 
         }
-        else if (scroll < 0f && indiceActual < imagenes.Length)
+        else if (scroll < 0f && (indiceActual < imagenes.Length))
         {
             // Desplazamiento hacia abajo en la ruedita del mouse
             indiceActual = (indiceActual - 1 + imagenes.Length) % imagenes.Length;
