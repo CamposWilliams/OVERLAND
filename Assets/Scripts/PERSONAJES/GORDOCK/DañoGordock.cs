@@ -9,7 +9,8 @@ public class DañoGordock : MonoBehaviour
     float dañoPorGolpe = 3;
     float time1;
     float time2;
-    public float tiempoParaVolverADisparar= 1.8f;
+    public float[] miArray = { 2f, 2.1f, 2.2f };
+    private float tiempoParaVolverADisparar;
     float cadenciaDeTiro=0.85f;
     Animator GordockAnimator;
     bool disparando;
@@ -24,7 +25,8 @@ public class DañoGordock : MonoBehaviour
 
     private void Awake()
     {
-        tiempoParaVolverADisparar =1.8f;
+        int indiceAleatorio = Random.Range(0, miArray.Length);
+        tiempoParaVolverADisparar= miArray[indiceAleatorio];
         Mike = GameObject.Find("Mike");
     }
     private void Start()
@@ -141,7 +143,7 @@ public class DañoGordock : MonoBehaviour
         {
             time1 += Time.deltaTime;
 
-            if ((time1 >= cadenciaDeTiro && time1 < tiempoParaVolverADisparar) && contador == 1)
+            if ((/*time1 >= cadenciaDeTiro &&*/ time1 < tiempoParaVolverADisparar) && contador == 1)
             {
 
                 //GordockAnimator.SetBool("SeMueve", false);
