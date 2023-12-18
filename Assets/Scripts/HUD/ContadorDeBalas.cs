@@ -3,12 +3,11 @@ using TMPro;
 
 public class ContadorDeBalas : MonoBehaviour
 {
-    public TextMeshProUGUI[] textMeshPros; // Arrastra y suelta los objetos TextMeshPro en el Inspector
+    public TextMeshProUGUI[] textMeshPros;
     private int indiceActual = 0;
 
     void Start()
     {
-        // Al inicio, desactiva todos los TextMeshProUGUI
         DesactivarTodosTextos();
         ActivarTexto(0);
     }
@@ -17,6 +16,14 @@ public class ContadorDeBalas : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Q))
         {
+            CambiarVisibilidadTextoSiguiente();
+        }
+
+        // Detectar el scroll del mouse
+        float scroll = Input.GetAxis("Mouse ScrollWheel");
+        if (scroll != 0f)
+        {
+            // Cambiar la visibilidad del texto al hacer scroll
             CambiarVisibilidadTextoSiguiente();
         }
     }
@@ -31,6 +38,7 @@ public class ContadorDeBalas : MonoBehaviour
             }
         }
     }
+
     void ActivarTexto(int indice)
     {
         if (indice < textMeshPros.Length && textMeshPros[indice] != null)
@@ -41,16 +49,16 @@ public class ContadorDeBalas : MonoBehaviour
 
     void CambiarVisibilidadTextoSiguiente()
     {
-        // Desactiva el texto actual
+        // Desactivar el texto actual
         if (indiceActual < textMeshPros.Length && textMeshPros[indiceActual] != null)
         {
             textMeshPros[indiceActual].enabled = false;
         }
 
-        // Avanza al siguiente índice
+        // Avanzar al siguiente índice
         indiceActual = (indiceActual + 1) % textMeshPros.Length;
 
-        // Activa el siguiente texto
+        // Activar el siguiente texto
         if (textMeshPros[indiceActual] != null)
         {
             textMeshPros[indiceActual].enabled = true;
