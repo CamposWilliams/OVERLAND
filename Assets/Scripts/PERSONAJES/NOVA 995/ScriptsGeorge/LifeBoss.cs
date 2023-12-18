@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.U2D;
 using UnityEngine.UI;
 
 public class LifeBoss : MonoBehaviour
@@ -11,7 +12,7 @@ public class LifeBoss : MonoBehaviour
 
     public float maxHealth =200f;
     public float currentHealth=200f;
-
+    SpriteRenderer BossRenderer;
     public GameObject pre01;
     public GameObject pre02;
     public GameObject pre03;
@@ -19,12 +20,14 @@ public class LifeBoss : MonoBehaviour
     GameObject Mike;
     public Image healthBar;
     int contador;
+    public GameObject sangreDisparada;
     private void Awake()
     {
         Mike = GameObject.Find("Mike");
     }
     void Start()
-    {
+    { 
+        BossRenderer = GetComponent<SpriteRenderer>();
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         UpdateHealthBar();
@@ -93,13 +96,52 @@ public class LifeBoss : MonoBehaviour
         if (collision.gameObject.CompareTag("Bala_player") && Mike.GetComponent<JugadorDisparo>().CambioArma==3)
         {
             ChangeLife(-2);
+            Destroy(collision.gameObject);
+            StartCoroutine(CambiarColor());
         }
         else if (collision.gameObject.CompareTag("Bala_player"))
         {
             ChangeLife(-1);
+            StartCoroutine(CambiarColor());
             Destroy(collision.gameObject);
         }
+        if (Mike.GetComponent<MikeDisparo>().anguloConstante == 0)
+        {
+            GameObject nuevaSangre = Instantiate(sangreDisparada);
+            nuevaSangre.transform.position = collision.transform.position;
+            nuevaSangre.GetComponent<SpriteRenderer>().flipX = true;
+            Destroy(nuevaSangre, 0.25f);
+        }
 
-        
+        if (Mike.GetComponent<MikeDisparo>().anguloConstante == 90)
+        {
+            GameObject nuevaSangre = Instantiate(sangreDisparada);
+            nuevaSangre.transform.position = collision.transform.position;
+            nuevaSangre.transform.Rotate(Vector3.forward * 90);
+            Destroy(nuevaSangre, 0.25f);
+        }
+        if (Mike.GetComponent<MikeDisparo>().anguloConstante == 180)
+        {
+            GameObject nuevaSangre = Instantiate(sangreDisparada);
+            nuevaSangre.transform.position = collision.transform.position;
+            nuevaSangre.GetComponent<SpriteRenderer>().flipX = false;
+            Destroy(nuevaSangre, 0.25f);
+        }
+        if (Mike.GetComponent<MikeDisparo>().anguloConstante == 270)
+        {
+            GameObject nuevaSangre = Instantiate(sangreDisparada);
+            nuevaSangre.transform.position = collision.transform.position;
+            nuevaSangre.transform.Rotate(Vector3.forward * 270);
+            Destroy(nuevaSangre, 0.25f);
+        }
+
+
+
+    }
+    IEnumerator CambiarColor()
+    {
+        BossRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.2f);
+        BossRenderer.color = Color.white;
     }
 }
