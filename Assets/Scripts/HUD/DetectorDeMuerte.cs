@@ -12,7 +12,7 @@ public class DetectorDeMuerte : MonoBehaviour
         //Detecta cuando el Game object se destruye
         private void OnDestroy()
         {
-            SceneManager.LoadScene(NombreScena);
+            SceneManager.LoadScene(7);
         }
 }
 
