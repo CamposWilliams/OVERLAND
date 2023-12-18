@@ -37,9 +37,9 @@ public class JugadorDisparo : MonoBehaviour
 
     //Municion de armas 
     int AmmoPistola;
-    [SerializeField] int AmmoSubfusil = 5;
-    [SerializeField] int AmmoRifle = 5;
-    [SerializeField] int AmmoArmaEspecial = 5;
+    public int AmmoSubfusil = 5;
+    public int AmmoRifle = 5;
+    public int AmmoArmaEspecial = 5;
     public float CambioArma = 5;
 
     //cambio de arma 

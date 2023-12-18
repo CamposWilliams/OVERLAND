@@ -8,28 +8,41 @@ using UnityEngine.UI;
 public class SistemaDeVida : MonoBehaviour
 {
    public AudioSource MuerteMikeSonido;
-   public float vidaMáximaMike=10;
+   public float vidaMáximaMike=45;
    public float vidaActualMike;
    float dañoEntrante;
    public bool PUAzulActivo;
    public bool sinVida;
    SpriteRenderer MikeSpr;
-    int contador;
+   int contador;
     public GameObject SangreAMIke;
+     GameObject guardador;
 
     public string NombreScena = "";
 
     public Image barraDeVida;
 
+    private void Awake()
+    {
+        guardador = GameObject.Find("GuardaDatosEntreEscena");
+    }
     void Start()
     {
+        if(SceneManager.GetActiveScene().buildIndex == 5)
+        {
+            vidaActualMike = guardador.GetComponent<GuardaDatos>().vidaDeMike;
+        }
         MikeSpr = GetComponent<SpriteRenderer>();
         vidaActualMike = vidaMáximaMike;
-        ActualizarBarraDeVida();
+        
         
     }
+    private void Update()
+    {
+        ActualizarBarraDeVida();
+    }
 
-     public void BajarVida(float daño)
+    public void BajarVida(float daño)
     {
         GameObject nuevaSAngre = Instantiate(SangreAMIke);
         nuevaSAngre.transform.position = transform.position;
@@ -61,7 +74,7 @@ public class SistemaDeVida : MonoBehaviour
         }
         ActualizarBarraDeVida();
     }
-    void ActualizarBarraDeVida()
+   public void ActualizarBarraDeVida()
     {
         float porcentajeVida = vidaActualMike / vidaMáximaMike;
         barraDeVida.fillAmount = porcentajeVida;
@@ -79,7 +92,12 @@ public class SistemaDeVida : MonoBehaviour
     public void AumentarVida(float vida)
     {
         Debug.Log($"Recibiste {vida} de salud");
+        
         vidaActualMike += vida;
+       if(vidaActualMike>=vidaMáximaMike)
+        {
+            vidaActualMike = vidaMáximaMike;
+        }
         
         if (vidaActualMike <= 0)
         {
