@@ -18,6 +18,7 @@ public class LifeBoss : MonoBehaviour
     public GameObject pre04;    
 
     public Image healthBar;
+    int contador;
 
     void Start()
     {
@@ -41,8 +42,9 @@ public class LifeBoss : MonoBehaviour
     {
         currentHealth += value;
 
-        if (currentHealth <= 0)
+        if (currentHealth <= 0 && contador==0)
         {
+            contador++;
             MuerteBoss.Play();
             currentHealth = 0;
             animator.SetTrigger("Dead");

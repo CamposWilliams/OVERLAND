@@ -27,12 +27,12 @@ public class MoveBoss : MonoBehaviour
         // Verificar si el enemigo está vivo antes de seguir al jugador
         if (lifeScript.IsAlive())
         {
-            // Calcular la distancia entre el enemigo y el jugador
-            float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+            //// Calcular la distancia entre el enemigo y el jugador
+            //float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
             // Verificar si el jugador está dentro del radio de detección
-            if (distanceToPlayer <= detectionRadius)
-            {
+            //if (distanceToPlayer <= detectionRadius)
+            //{
                 // Calcular la dirección hacia el jugador
                 Vector2 direction = (player.position - transform.position).normalized;
 
@@ -45,16 +45,16 @@ public class MoveBoss : MonoBehaviour
 
                 // Actualizar las animaciones
                 UpdateAnimations(new Vector2(roundedX, roundedY));
-            } 
+            //} 
 
         }
 
-        timer += Time.deltaTime;
-        if (timer >= maxTimer)
-        {
-            transform.position = TeleTrans.position;
-            timer = 0;
-        }
+        //timer += Time.deltaTime;
+        //if (timer >= maxTimer)
+        //{
+        //    transform.position = TeleTrans.position;
+        //    timer = 0;
+        //}
 
 
 
@@ -74,9 +74,9 @@ public class MoveBoss : MonoBehaviour
     }
 
     // Visualizar el radio de detección en el Editor de Unity
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, detectionRadius);
-    }
+    //private void OnDrawGizmos()
+    //{
+    //    Gizmos.color = Color.red;
+    //    Gizmos.DrawWireSphere(transform.position, detectionRadius);
+    //}
 }

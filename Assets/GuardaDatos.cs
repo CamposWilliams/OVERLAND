@@ -14,7 +14,7 @@ public class GuardaDatos : MonoBehaviour
     public int almacenEspecial;
     GameObject Mike;
     int contador;
-
+ 
     public static GuardaDatos instance;
 
     private void Update()
@@ -22,6 +22,7 @@ public class GuardaDatos : MonoBehaviour
         ActualizarDatos();
         if (SceneManager.GetActiveScene().buildIndex == 2)
         {
+           
             vidaDeMike = Mike.GetComponent<SistemaDeVida>().vidaActualMike;
             balasSubfusil = Mike.GetComponent<JugadorDisparo>().AmmoSubfusil;
             balasRifle = Mike.GetComponent<JugadorDisparo>().AmmoRifle;
