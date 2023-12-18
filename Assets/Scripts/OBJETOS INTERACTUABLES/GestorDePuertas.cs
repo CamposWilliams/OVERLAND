@@ -17,7 +17,7 @@ public class GestorDePuertas : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(contadorUnico);
+        //Debug.Log(contadorUnico);
         AbrirPuertas();
     }
 

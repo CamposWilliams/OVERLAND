@@ -33,6 +33,7 @@ public class JugadorDisparo : MonoBehaviour
     bool estaConRifle;
     public Animator disfazAnimator;
     float valorRandom;
+    GameObject reactivador;
 
 
     //Municion de armas 
@@ -63,6 +64,10 @@ public class JugadorDisparo : MonoBehaviour
     int maxAlmacenBulletRifle = 50;
     int maxAlmacenBulletEspecial = 50;
 
+    private void Awake()
+    {
+        reactivador = GameObject.Find("ReactivarObjetos");
+    }
     private void Start()
     {
      
@@ -597,8 +602,10 @@ public class JugadorDisparo : MonoBehaviour
                     StoreAmmoRifle(12);
                     StoreAmmoSubfusil(12); break;
             }
-            
-            Destroy(collision.gameObject);
+
+            reactivador.GetComponent<ActivarObjetos>().municion.Add(collision.gameObject);
+            reactivador.GetComponent<ActivarObjetos>().municionTrf.Add(collision.gameObject.transform);
+            collision.gameObject.SetActive(false);
         }
 
     }
