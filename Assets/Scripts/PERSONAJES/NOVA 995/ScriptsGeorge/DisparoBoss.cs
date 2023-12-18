@@ -24,19 +24,128 @@ public class DisparoBoss : MonoBehaviour
     public Transform PointDia_De_Aba;
     public Transform PointDia_Iz_Aba;
     public GameObject Explosion;
-
     public float Speed = 9.7f;
+    bool activar;
+    bool activar2;
+    bool activar3;
+    float time;
+    float time2;
+    float time3;
+    float contador1;
+    float contador2;
+    float contador3;
+    GameObject nuevaBala;
+    GameObject nuevaBala2;
+    GameObject nuevaBala3;
 
     void Awake()
     {
         StartCoroutine(Shoot());
     }
-IEnumerator Shoot()
+    private void Update()
+    {
+        ActivarExplosion();
+    }
+    void ActivarExplosion()
+    {
+        if (activar)
+        {
+            time += Time.deltaTime;
+            if (contador1 == 0)
+            {
+                nuevaBala = Instantiate(bulletPrefabFlow);
+                Destroy(nuevaBala, 4);
+                contador1++;
+            }
+
+            if (nuevaBala != null && time >= 3.985f)
+            {
+                Debug.Log("MeActive");
+                GameObject clonex = Instantiate(Explosion);
+                clonex.transform.position = nuevaBala.transform.position;
+
+                Destroy(clonex, 0.9f);
+                
+               
+                // Restablecer contador1 a 0 después de destruir el objeto clonex
+               
+                // Eliminar la siguiente línea o moverla después de restablecer contador1
+                // nuevaBala = null;
+            }
+
+            if (time >= 4.885)
+            {
+                activar = false;
+                contador1 = 0;
+                time = 0;
+            }
+
+        }
+        if (activar2)
+        {
+            time2 += Time.deltaTime;
+            if (contador2 == 0)
+            {
+                Debug.Log(time);
+                nuevaBala2 = Instantiate(bulletPrefabFlow);
+                nuevaBala2.GetComponent<BalaSeguimiento>().velocidad = 3;
+                Destroy(nuevaBala2, 4);
+                contador2++;
+            }
+
+            if (nuevaBala2 != null && time2 >= 3.985f)
+            {
+                GameObject clonex2 = Instantiate(Explosion);
+                clonex2.transform.position = nuevaBala2.transform.position;
+                Destroy(clonex2, 0.9f);
+               
+               
+               
+                nuevaBala2 = null;
+            }
+            if (time2 >= 4.885)
+            {
+                activar2 = false;
+                contador2 = 0;
+                time2 = 0;
+            }
+        }
+
+        if (activar3)
+        {
+            time3 += Time.deltaTime;
+            if (contador3 == 0)
+            {
+                Debug.Log(time);
+                nuevaBala3 = Instantiate(bulletPrefabFlow);
+                //nuevaBala3.GetComponent<BalaSeguimiento>().velocidad = 3.4f;
+                Destroy(nuevaBala3, 2.1f);
+                contador3++;
+            }
+
+            if (nuevaBala3 != null && time2 >= 2f)
+            {
+                GameObject clonex3 = Instantiate(Explosion);
+                clonex3.transform.position = nuevaBala2.transform.position;
+                Destroy(clonex3, 0.9f);
+
+                nuevaBala3 = null;
+            }
+            if (time3 >= 2.9f)
+            {
+                activar3 = false;
+                contador3 = 0;
+                time3 = 0;
+            }
+        }
+
+    }
+    IEnumerator Shoot()
     {
         while (true && GetComponent<LifeBoss>().currentHealth>0)
         {
            
-            GameObject obj = null;
+            //GameObject obj = null;
            
 
                 if (GetComponent<LifeBoss>().currentHealth > 180)
@@ -135,11 +244,8 @@ IEnumerator Shoot()
                 }
                 else if (GetComponent<LifeBoss>().currentHealth <= 140 && GetComponent<LifeBoss>().currentHealth>80)
                 {
-                obj = Instantiate(bulletPrefabFlow);
-                obj.GetComponent<BalaSeguimiento>().velocidad = 3;
-                Destroy(obj, 4);
-                GameObject clonex = Instantiate(Explosion, transform.position, transform.rotation) as GameObject;
-                Destroy(clonex, 4.9f);
+               
+                activar2 = true; 
 
                 GameObject bullet01 = Instantiate(bulletPrefabDerecha);
                 bullet01.transform.position = transform.position;
@@ -249,11 +355,8 @@ IEnumerator Shoot()
 
             else if(GetComponent<LifeBoss>().currentHealth <= 80 && GetComponent<LifeBoss>().currentHealth>40)
                 {
-                
-                     obj = Instantiate(bulletPrefabFlow);
-                     Destroy(obj, 4);
-                     GameObject clonex = Instantiate(Explosion, transform.position, transform.rotation) as GameObject;
-                    Destroy(clonex, 4.9f);
+
+                activar = true;
 
 
                 GameObject bullet01 = Instantiate(bulletPrefabDerecha);
@@ -361,10 +464,9 @@ IEnumerator Shoot()
 
             else if(GetComponent<LifeBoss>().currentHealth <= 40 && GetComponent<LifeBoss>().currentHealth>0)
                 {
-                obj = Instantiate(bulletPrefabFlow);
-                Destroy(obj, 4);
-                GameObject clonex = Instantiate(Explosion, transform.position, transform.rotation) as GameObject;
-                Destroy(clonex, 4.9f);
+
+
+                activar3 = true;
 
 
                 GameObject bullet01 = Instantiate(bulletPrefabDerecha);
@@ -395,10 +497,8 @@ IEnumerator Shoot()
                 Destroy(bullet04, 2.0f);
 
                 yield return new WaitForSeconds(1);
-                obj = Instantiate(bulletPrefabFlow);
-                Destroy(obj, 4);
-                clonex = Instantiate(Explosion, transform.position, transform.rotation) as GameObject;
-                Destroy(clonex, 4.9f);
+
+                activar3 = true;
 
                 bullet01 = Instantiate(bulletPrefabDerecha, PointDerecha.position, Quaternion.identity);
                 rb2d1 = bullet01.GetComponent<Rigidbody2D>();
