@@ -119,13 +119,13 @@ public class SistemaDeVida : MonoBehaviour
     {
         if(collision.gameObject.CompareTag("BalaBoss"))
         {
-            BajarVida(1);
+            BajarVida(2);
 
         }
 
         if(collision.gameObject.CompareTag("Boss"))
         {
-            BajarVida(1);
+            BajarVida(2);
         }
 
 

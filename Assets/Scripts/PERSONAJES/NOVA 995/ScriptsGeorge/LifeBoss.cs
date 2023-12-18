@@ -9,8 +9,8 @@ public class LifeBoss : MonoBehaviour
     
     private Animator animator;
 
-    public float maxHealth = 5f;
-    private float currentHealth;
+    public float maxHealth =200f;
+    public float currentHealth=200f;
 
     public GameObject pre01;
     public GameObject pre02;
@@ -51,7 +51,7 @@ public class LifeBoss : MonoBehaviour
             Destroy(gameObject, 3f);
         }
 
-        else if(currentHealth == 80)
+        else if(currentHealth == 180)
         {
             GameObject obj = Instantiate(pre01);
             obj.transform.position = transform.position;
@@ -60,7 +60,7 @@ public class LifeBoss : MonoBehaviour
 
         }
 
-        else if (currentHealth == 60)
+        else if (currentHealth == 140)
         {
             GameObject obj = Instantiate(pre02);
             obj.transform.position = transform.position;
@@ -68,13 +68,13 @@ public class LifeBoss : MonoBehaviour
             Destroy(obj, 10f);
 
         }
-        else if (currentHealth == 40)
+        else if (currentHealth == 100)
         {
             GameObject obj = Instantiate(pre03);
             obj.transform.position = transform.position;
             Destroy(obj, 10f);
         }
-        else if (currentHealth == 20)
+        else if (currentHealth == 50)
         {
             GameObject obj = Instantiate(pre04);
             obj.transform.position = transform.position;

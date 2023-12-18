@@ -5,7 +5,8 @@ using UnityEngine;
 public class BalaSeguimiento : MonoBehaviour
 {
     private Transform objetivo; // Referencia al transform del personaje
-    public float velocidad = 5f; // Velocidad de seguimiento de la bala
+    float velocidad = 3.5f; // Velocidad de seguimiento de la bala
+    float time;
 
     void Start()
     {
@@ -14,7 +15,9 @@ public class BalaSeguimiento : MonoBehaviour
 
     void Update()
     {
-        if (objetivo != null)
+        time += Time.deltaTime;
+
+        if (objetivo != null && time < 1.5f)
         {
             // Calcula la dirección hacia el objetivo
             Vector3 direccion = objetivo.position - transform.position;
@@ -23,10 +26,23 @@ public class BalaSeguimiento : MonoBehaviour
             // Mueve la bala hacia el objetivo
             transform.Translate(direccion * velocidad * Time.deltaTime);
         }
+
         else
         {
-            BuscarObjetivo(); // Si el objetivo no está asignado, intenta buscarlo nuevamente
+
+            if (time <  1.5f)
+            {
+                BuscarObjetivo(); // Si el objetivo no está asignado, intenta buscarlo nuevamente
+            }
+
+            else
+            {
+                GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Static;
+            }
+            
         }
+
+        
     }
 
     void BuscarObjetivo()
