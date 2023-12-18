@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class PowerUps : MonoBehaviour
 {
+    public AudioSource Escudo;
+    public AudioSource CadenciaTiro;
+    public AudioSource SuperVelocidad;
         new string tag;
         public GameObject prefabBala;
         GameObject Disfraz;
@@ -56,7 +59,7 @@ public class PowerUps : MonoBehaviour
                 switch (tag)
                 {
                     case "PocionAzul":
-
+                    Escudo.Play();
                         Disfraz.GetComponent<ReposicionarPU>().pocionAzul = true;
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 1);
@@ -69,6 +72,7 @@ public class PowerUps : MonoBehaviour
                     break;
                
                     case "PocionMorada":
+                    CadenciaTiro.Play();
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 2);
                         //StartCoroutine(AnimacionesPU());
@@ -85,6 +89,7 @@ public class PowerUps : MonoBehaviour
 
 
                     case "PocionAmarilla":
+                    SuperVelocidad.Play();
                         Mike.GetComponent<JugadorMovimiento>().conPUA = true;
                         disfrazAnimator.SetBool("ConPU", true);
                         disfrazAnimator.SetFloat("PU", 0);            
