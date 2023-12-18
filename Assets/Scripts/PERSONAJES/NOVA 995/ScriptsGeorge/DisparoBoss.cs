@@ -25,7 +25,7 @@ public class DisparoBoss : MonoBehaviour
     public Transform PointDia_Iz_Aba;
     public GameObject Explosion;
 
-    public int Speed = 10;
+    public float Speed = 9.7f;
 
     void Awake()
     {
@@ -135,6 +135,11 @@ IEnumerator Shoot()
                 }
                 else if (GetComponent<LifeBoss>().currentHealth <= 140 && GetComponent<LifeBoss>().currentHealth>100)
                 {
+                obj = Instantiate(bulletPrefabFlow);
+                obj.GetComponent<BalaSeguimiento>().velocidad = 3;
+                Destroy(obj, 4);
+                GameObject clonex = Instantiate(Explosion, transform.position, transform.rotation) as GameObject;
+                Destroy(clonex, 4.9f);
 
                 GameObject bullet01 = Instantiate(bulletPrefabDerecha);
                 bullet01.transform.position = transform.position;

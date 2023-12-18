@@ -5,7 +5,7 @@ using UnityEngine;
 public class BalaSeguimiento : MonoBehaviour
 {
     private Transform objetivo; // Referencia al transform del personaje
-    float velocidad = 3.5f; // Velocidad de seguimiento de la bala
+    public float velocidad = 3.5f; // Velocidad de seguimiento de la bala
     float time;
 
     void Start()
@@ -17,7 +17,7 @@ public class BalaSeguimiento : MonoBehaviour
     {
         time += Time.deltaTime;
 
-        if (objetivo != null && time < 1.5f)
+        if (objetivo != null && time < 1.4f)
         {
             // Calcula la dirección hacia el objetivo
             Vector3 direccion = objetivo.position - transform.position;
@@ -30,7 +30,7 @@ public class BalaSeguimiento : MonoBehaviour
         else
         {
 
-            if (time <  1.5f)
+            if (time <  1.4f)
             {
                 BuscarObjetivo(); // Si el objetivo no está asignado, intenta buscarlo nuevamente
             }

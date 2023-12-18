@@ -59,7 +59,7 @@ public class LifeBoss : MonoBehaviour
             GameObject obj = Instantiate(pre01);
             obj.transform.position = transform.position;
 
-            Destroy(obj, 10f);
+            Destroy(obj, 15f);
 
         }
 
@@ -68,20 +68,20 @@ public class LifeBoss : MonoBehaviour
             GameObject obj = Instantiate(pre02);
             obj.transform.position = transform.position;
 
-            Destroy(obj, 10f);
+            Destroy(obj, 15f);
 
         }
         else if (currentHealth == 100)
         {
             GameObject obj = Instantiate(pre03);
             obj.transform.position = transform.position;
-            Destroy(obj, 10f);
+            Destroy(obj, 15f);
         }
         else if (currentHealth == 50)
         {
             GameObject obj = Instantiate(pre04);
             obj.transform.position = transform.position;
-            Destroy(obj, 10f);
+            Destroy(obj, 15f);
         }
 
 
