@@ -15,11 +15,14 @@ public class LifeBoss : MonoBehaviour
     public GameObject pre01;
     public GameObject pre02;
     public GameObject pre03;
-    public GameObject pre04;    
-
+    public GameObject pre04;
+    GameObject Mike;
     public Image healthBar;
     int contador;
-
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
     void Start()
     {
         animator = GetComponent<Animator>();
@@ -87,10 +90,16 @@ public class LifeBoss : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.CompareTag("Bala_player"))
+        if (collision.gameObject.CompareTag("Bala_player") && Mike.GetComponent<JugadorDisparo>().CambioArma==3)
+        {
+            ChangeLife(-2);
+        }
+        else if (collision.gameObject.CompareTag("Bala_player"))
         {
             ChangeLife(-1);
             Destroy(collision.gameObject);
         }
+
+        
     }
 }

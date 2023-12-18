@@ -10380,7 +10380,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 1191378790}
   TeleTrans: {fileID: 117267293}
-  speed: 1.2
+  speed: 1.1
   detectionRadius: 9
   timer: 0
   maxTimer: 15
@@ -10524,8 +10524,8 @@ MonoBehaviour:
   maxHealth: 200
   currentHealth: 200
   pre01: {fileID: 292995298708117501, guid: 501c4ddb01ce01e4bb81bc89de6efda3, type: 3}
-  pre02: {fileID: 7883733142270818111, guid: 2fc83c24362fb694b8817d3e3e299e82, type: 3}
-  pre03: {fileID: 5132664501384646670, guid: 568cb6555ab5cc846a4947dfb51d4196, type: 3}
+  pre02: {fileID: 8203572220302472201, guid: 20b79ccc97f35d344a50ce05b52e283a, type: 3}
+  pre03: {fileID: 7883733142270818111, guid: 2fc83c24362fb694b8817d3e3e299e82, type: 3}
   pre04: {fileID: 8203572220302472201, guid: 20b79ccc97f35d344a50ce05b52e283a, type: 3}
   healthBar: {fileID: 1809213845}
 --- !u!114 &193771431
@@ -10641,8 +10641,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.007399991, y: -0.02489999, z: 0}
-    m_Extent: {x: 0.3431, y: 0.7362, z: 0}
+    m_Center: {x: 0.0076999962, y: -0.025550008, z: 0}
+    m_Extent: {x: 0.3437, y: 0.73565, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11616,8 +11616,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.0158, y: 0.20635, z: 0}
-    m_Extent: {x: 0.5468, y: 0.54534996, z: 0}
+    m_Center: {x: 0.016499996, y: 0.207, z: 0}
+    m_Extent: {x: 0.5473, y: 0.5455, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -12245,9 +12245,21 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1191378780}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: AmmoRifle
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: AmmoSubfusil
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: disfazAnimator
       value: 
       objectReference: {fileID: 41721884}
+    - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: AmmoArmaEspecial
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 3297533163960839884, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: textMeshProRifle
       value: 
@@ -17374,8 +17386,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016350001, y: 0.20650001, z: 0}
-    m_Extent: {x: 0.54655004, y: 0.54580003, z: 0}
+    m_Center: {x: 0.01640001, y: 0.20719999, z: 0}
+    m_Extent: {x: 0.5473, y: 0.5449, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -19018,8 +19030,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016350001, y: 0.20705001, z: 0}
-    m_Extent: {x: 0.54665005, y: 0.54515, z: 0}
+    m_Center: {x: 0.01609999, y: 0.20665002, z: 0}
+    m_Extent: {x: 0.5478, y: 0.54565, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -25472,8 +25484,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016749978, y: 0.20645, z: 0}
-    m_Extent: {x: 0.54665, y: 0.54535, z: 0}
+    m_Center: {x: 0.016800016, y: 0.20685, z: 0}
+    m_Extent: {x: 0.5473, y: 0.54545003, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0

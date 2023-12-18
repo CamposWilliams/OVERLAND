@@ -242,7 +242,7 @@ IEnumerator Shoot()
 
             }
 
-            else if(GetComponent<LifeBoss>().currentHealth <= 100 && GetComponent<LifeBoss>().currentHealth>50)
+            else if(GetComponent<LifeBoss>().currentHealth <= 100 && GetComponent<LifeBoss>().currentHealth>40)
                 {
                 
                      obj = Instantiate(bulletPrefabFlow);
@@ -354,7 +354,7 @@ IEnumerator Shoot()
                
             }
 
-            else if(GetComponent<LifeBoss>().currentHealth <= 50 && GetComponent<LifeBoss>().currentHealth>0)
+            else if(GetComponent<LifeBoss>().currentHealth <= 40 && GetComponent<LifeBoss>().currentHealth>0)
                 {
                 obj = Instantiate(bulletPrefabFlow);
                 Destroy(obj, 4);

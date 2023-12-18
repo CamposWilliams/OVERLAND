@@ -117,18 +117,21 @@ public class SistemaDeVida : MonoBehaviour
 
      void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.gameObject.CompareTag("BalaBoss"))
+        if(collision.CompareTag("BalaBoss"))
         {
-            BajarVida(2);
+            BajarVida(1f);
 
         }
-
-        if(collision.gameObject.CompareTag("Boss"))
-        {
-            BajarVida(2);
-        }
-
-
+      
+    }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+      
+            if (collision.gameObject.CompareTag("Boss"))
+            {
+                BajarVida(300);
+            }
+            
     }
 
 
