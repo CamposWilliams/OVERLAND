@@ -4,8 +4,20 @@ using UnityEngine;
 
 public class AnimacionPU : MonoBehaviour
 {
-   public Animator disfrazAnimator; 
-   
+   public Animator disfrazAnimator;
+    GameObject Mike;
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
+
+    private void Update()
+    {
+        if (Mike.GetComponent<SistemaDeVida>().vidaActualMike <= 0)
+        {
+            disfrazAnimator.SetBool("ConPU", false);
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("PocionAmarilla"))
@@ -39,6 +51,8 @@ public class AnimacionPU : MonoBehaviour
             disfrazAnimator.SetFloat("PU", 3);
             StartCoroutine(AnimacionesPU());
         }
+
+        
     }
     IEnumerator AnimacionesPU()
     {

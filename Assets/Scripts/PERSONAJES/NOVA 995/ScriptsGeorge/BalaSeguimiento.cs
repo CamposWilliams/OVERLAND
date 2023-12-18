@@ -5,7 +5,7 @@ using UnityEngine;
 public class BalaSeguimiento : MonoBehaviour
 {
     private Transform objetivo; // Referencia al transform del personaje
-    public float velocidad = 3.5f; // Velocidad de seguimiento de la bala
+    public float velocidad = 3.4f; // Velocidad de seguimiento de la bala
     float time;
 
     void Start()

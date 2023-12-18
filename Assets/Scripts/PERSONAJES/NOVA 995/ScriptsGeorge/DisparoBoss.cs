@@ -133,7 +133,7 @@ IEnumerator Shoot()
                
                 
                 }
-                else if (GetComponent<LifeBoss>().currentHealth <= 140 && GetComponent<LifeBoss>().currentHealth>100)
+                else if (GetComponent<LifeBoss>().currentHealth <= 140 && GetComponent<LifeBoss>().currentHealth>80)
                 {
                 obj = Instantiate(bulletPrefabFlow);
                 obj.GetComponent<BalaSeguimiento>().velocidad = 3;
@@ -247,7 +247,7 @@ IEnumerator Shoot()
 
             }
 
-            else if(GetComponent<LifeBoss>().currentHealth <= 100 && GetComponent<LifeBoss>().currentHealth>40)
+            else if(GetComponent<LifeBoss>().currentHealth <= 80 && GetComponent<LifeBoss>().currentHealth>40)
                 {
                 
                      obj = Instantiate(bulletPrefabFlow);

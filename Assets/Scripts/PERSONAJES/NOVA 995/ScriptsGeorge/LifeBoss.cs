@@ -71,13 +71,13 @@ public class LifeBoss : MonoBehaviour
             Destroy(obj, 15f);
 
         }
-        else if (currentHealth == 100)
+        else if (currentHealth == 80)
         {
             GameObject obj = Instantiate(pre03);
             obj.transform.position = transform.position;
             Destroy(obj, 15f);
         }
-        else if (currentHealth == 50)
+        else if (currentHealth == 40)
         {
             GameObject obj = Instantiate(pre04);
             obj.transform.position = transform.position;
