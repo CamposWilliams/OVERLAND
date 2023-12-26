@@ -7,6 +7,11 @@ public class PauseManager : MonoBehaviour
 {
     private bool isPaused = false;
     public GameObject pausaCanvas;
+    GameObject Mike;
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
 
     private void Start()
     {
@@ -32,6 +37,9 @@ public class PauseManager : MonoBehaviour
         isPaused = true;
         Time.timeScale = 0f; // Pausa el tiempo en el juego
         pausaCanvas.gameObject.SetActive(true); // Activa el Canvas de pausa
+        Mike.GetComponent<MikeDisparo>().enabled = false;
+        Mike.GetComponent<JugadorDisparo>().enabled = false;
+        Mike.GetComponent<JugadorMovimiento>().enabled = false;
     }
 
     void ResumeGame()
@@ -39,5 +47,8 @@ public class PauseManager : MonoBehaviour
         isPaused = false;
         Time.timeScale = 1f; // Reanuda el tiempo en el juego
         pausaCanvas.gameObject.SetActive(false); // Desactiva el Canvas de pausa
+        Mike.GetComponent<MikeDisparo>().enabled = true;
+        Mike.GetComponent<JugadorDisparo>().enabled = true;
+        Mike.GetComponent<JugadorMovimiento>().enabled=true;
     }
 }
