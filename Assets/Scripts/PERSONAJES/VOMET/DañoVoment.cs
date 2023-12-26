@@ -86,7 +86,7 @@ public class DañoVoment : MonoBehaviour
     {
         if (dañoContinuo)
         {
-            Debug.Log("DañoVomet");
+            //Debug.Log("DañoVomet");
             time2 += Time.deltaTime;
             if (time2 >= 0.6f)
             {

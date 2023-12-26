@@ -9,6 +9,7 @@ public class DañoGordock : MonoBehaviour
     float dañoPorGolpe = 3;
     float time1;
     float time2;
+    float time3;
     public float[] miArray = { 2f, 2.1f, 2.2f };
     private float tiempoParaVolverADisparar;
     float cadenciaDeTiro=0.85f;
@@ -54,12 +55,6 @@ public class DañoGordock : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             disparando = true;
-           
-            //if (Mike.GetComponent<JugadorMovimiento>().conPUA)
-            //{
-            //    //Debug.Log("Entre");
-            //    dañoContinuo = true;
-            //}
             
         }
         
@@ -71,13 +66,7 @@ public class DañoGordock : MonoBehaviour
             disparando = false;
             dañoContinuo = false;
             time2 = 0;
-            //if (Mike.GetComponent<JugadorMovimiento>().conPUA)
-            //{
-            //    dañoContinuo = false;
-            //    time2 = 0;
-            //}       
-
-
+   
         }
         
     }
@@ -123,9 +112,6 @@ public class DañoGordock : MonoBehaviour
                 aiPath.maxSpeed = 0;
                 GordockAnimator.SetBool("SeMueve", false);
                 GordockAnimator.SetBool("Disparando", true);
-                //GameObject nuevaBala = Instantiate(balaGordock);
-                //nuevaBala.transform.position = transform.position;
-                //nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstar>().valorDelParametroX, GetComponent<SeguirAstar>().valorDelParametroY) * 5;
                 contador++;
                 puedeDisparar = false;
                
@@ -143,7 +129,7 @@ public class DañoGordock : MonoBehaviour
         {
             time1 += Time.deltaTime;
 
-            if ((/*time1 >= cadenciaDeTiro &&*/ time1 < tiempoParaVolverADisparar) && contador == 1)
+            if (time1 >= cadenciaDeTiro && time1 < tiempoParaVolverADisparar && contador == 1)
             {
 
                 //GordockAnimator.SetBool("SeMueve", false);
@@ -158,7 +144,7 @@ public class DañoGordock : MonoBehaviour
                         nuevaBala.transform.position = transform.position;
                         nuevaBala.GetComponent<Rigidbody2D>().velocity = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY) * 5;
                         nuevaBala.transform.up = new Vector2(GetComponent<SeguirAstarGordock>().valorDelParametroX, GetComponent<SeguirAstarGordock>().valorDelParametroY);
-                        nuevaBala.transform.Rotate(Vector3.forward * -90);
+                        nuevaBala.transform.Rotate(Vector3.forward * 90);
                         Destroy(nuevaBala, 1);
                         if (contador2 == 0)
                         {
@@ -303,14 +289,14 @@ public class DañoGordock : MonoBehaviour
 
                 if (GordockAnimator.GetBool("Disparando"))
                 {
-                    time2 += Time.deltaTime;
+                    time3 += Time.deltaTime;
 
-                    if (time2 >= 1)
+                    if (time3 >= cadenciaDeTiro)
                     {
                         GordockAnimator.SetBool("Disparando", false);
                         GordockAnimator.SetBool("SeMueve", true);
                         aiPath.maxSpeed = 1.5f;
-                        time2 = 0;
+                        time3 = 0;
                     }
                 }
 

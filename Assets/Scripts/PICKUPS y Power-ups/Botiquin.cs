@@ -36,8 +36,8 @@ public class Botiquín : MonoBehaviour
         {
             yield return new WaitForSeconds(1);
             DisfrazBotiquin.SetBool("ConBotiquin", false);
-            reactivador.GetComponent<ActivarObjetos>().botiquin.Add(gameObject);
-            reactivador.GetComponent<ActivarObjetos>().botiquinTrf.Add(gameObject.transform);
+            //reactivador.GetComponent<ActivarObjetos>().botiquin.Add(gameObject);
+            //reactivador.GetComponent<ActivarObjetos>().botiquinTrf.Add(gameObject.transform);
             
             gameObject.SetActive(false);
      

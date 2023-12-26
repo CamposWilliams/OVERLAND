@@ -603,8 +603,8 @@ public class JugadorDisparo : MonoBehaviour
                     StoreAmmoSubfusil(12); break;
             }
 
-            reactivador.GetComponent<ActivarObjetos>().municion.Add(collision.gameObject);
-            reactivador.GetComponent<ActivarObjetos>().municionTrf.Add(collision.gameObject.transform);
+            //reactivador.GetComponent<ActivarObjetos>().municion.Add(collision.gameObject);
+            //reactivador.GetComponent<ActivarObjetos>().municionTrf.Add(collision.gameObject.transform);
             collision.gameObject.SetActive(false);
         }
 

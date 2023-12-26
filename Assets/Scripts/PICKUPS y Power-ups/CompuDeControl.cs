@@ -5,6 +5,7 @@ using UnityEngine;
 public class CompuDeControl : MonoBehaviour
 {
     public int contador = 0;
+    public bool ponerContadorDeTarjetasEnCero;
     public GameObject GasToxico;
 
     private void OnTriggerStay2D(Collider2D collision)
@@ -13,6 +14,8 @@ public class CompuDeControl : MonoBehaviour
         {
             if (contador == 2 && Input.GetKey("e"))
             {
+               
+                ponerContadorDeTarjetasEnCero = true;
                 Destroy(GasToxico);
             }
 

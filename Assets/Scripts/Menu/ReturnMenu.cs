@@ -15,6 +15,6 @@ public class ReturnMenu : MonoBehaviour
 
     public void creditos()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(7);
     }
 }

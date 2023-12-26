@@ -18,7 +18,7 @@ public class SistemaDeVida : MonoBehaviour
     public GameObject SangreAMIke;
      GameObject guardador;
 
-    public string NombreScena = "";
+    private string NombreScena = "PantallaDerrota";
 
     public Image barraDeVida;
 

@@ -7,6 +7,7 @@ public class ContadorTarjetas : MonoBehaviour
 {
     public TextMeshProUGUI textoScore;
     private int score = 0;
+    int contador = 0;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -22,12 +23,22 @@ public class ContadorTarjetas : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
-
+    private void Update()
+    {
+        if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e"))
+        {
+            contador++; 
+            if(GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e")&&contador==2)
+            textoScore.text = "x" + 0.ToString();
+        }
+    }
     void ActualizarTextoScore()
     {
         if (textoScore != null)
         {
             textoScore.text = "x" + score.ToString();
         }
+
+       
     }
 }
