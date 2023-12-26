@@ -19,8 +19,9 @@ public class GuardaDatos : MonoBehaviour
 
     private void Update()
     {
+        Mike = GameObject.Find("Mike");
         ActualizarDatos();
-        if (SceneManager.GetActiveScene().buildIndex == 2)
+        if (SceneManager.GetActiveScene().buildIndex == 2 && Mike!=null)
         {
            
             vidaDeMike = Mike.GetComponent<SistemaDeVida>().vidaActualMike;
@@ -31,6 +32,8 @@ public class GuardaDatos : MonoBehaviour
             almacenRifle = Mike.GetComponent<JugadorDisparo>().almacenBulletRifle;
             almacenEspecial = Mike.GetComponent<JugadorDisparo>().almacenBulletEspecial;
         }
+
+     
     }
 
     private void Awake()
@@ -45,7 +48,7 @@ public class GuardaDatos : MonoBehaviour
             Destroy(gameObject);
         }
 
-        Mike = GameObject.Find("Mike");
+       
     }
 
     public void ActualizarDatos()

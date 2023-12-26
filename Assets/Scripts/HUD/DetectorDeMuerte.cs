@@ -4,15 +4,31 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 public class DetectorDeMuerte : MonoBehaviour
 {
-   
-    
-        //public string NombreScena = "NombreDeTuEscena"; 
+    GameObject Mike;
+    float time;
+    //public string NombreScena = "NombreDeTuEscena"; 
+    private void Awake()
+    {
+        Mike = GameObject.Find("Mike");
+    }
 
-
-        //Detecta cuando el Game object se destruye
-        private void OnDestroy()
+    private void Update()
+    {
+        if (Mike == null)
         {
             SceneManager.LoadScene(7);
         }
+
+        if(gameObject.GetComponent<LifeBoss>().currentHealth==0)
+        {
+            time += Time.deltaTime;
+
+            if (time >= 2.99f)
+            {
+                SceneManager.LoadScene(6);
+            }
+
+        }
+    }
 }
 
