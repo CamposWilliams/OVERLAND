@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.U2D;
 using UnityEngine.UI;
 
@@ -21,6 +22,7 @@ public class LifeBoss : MonoBehaviour
     public Image healthBar;
     int contador;
     public GameObject sangreDisparada;
+    float time;
     private void Awake()
     {
         Mike = GameObject.Find("Mike");
@@ -31,6 +33,19 @@ public class LifeBoss : MonoBehaviour
         animator = GetComponent<Animator>();
         currentHealth = maxHealth;
         UpdateHealthBar();
+    }
+    private void Update()
+    {
+        if (currentHealth <= 0)
+        {
+            time += Time.deltaTime;
+
+            if (time >= 3f)
+            {
+                SceneManager.LoadScene(6);
+            }
+        }
+       
     }
 
     void UpdateHealthBar()
@@ -50,11 +65,12 @@ public class LifeBoss : MonoBehaviour
 
         if (currentHealth <= 0 && contador==0)
         {
+           
             contador++;
             MuerteBoss.Play();
             currentHealth = 0;
             animator.SetTrigger("Dead");
-            Destroy(gameObject, 3f);
+            Destroy(gameObject, 3.2f);
         }
 
         else if(currentHealth == 180)

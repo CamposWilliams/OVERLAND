@@ -23,7 +23,7 @@ public class DetectorDeMuerte : MonoBehaviour
         {
             time += Time.deltaTime;
 
-            if (time >= 2.99f)
+            if (time >= 3f)
             {
                 SceneManager.LoadScene(6);
             }

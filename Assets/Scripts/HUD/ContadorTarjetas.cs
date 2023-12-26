@@ -30,7 +30,7 @@ public class ContadorTarjetas : MonoBehaviour
             if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e"))
             {
                 contador++;
-                if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e") && contador == 2)
+                if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e") && contador == 1)
                     textoScore.text = "x" + 0.ToString();
             }
         }
