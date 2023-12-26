@@ -6,13 +6,13 @@ public class DetectorDeMuerte : MonoBehaviour
 {
    
     
-        public string NombreScena = "NombreDeTuEscena"; 
+        //public string NombreScena = "NombreDeTuEscena"; 
 
 
         //Detecta cuando el Game object se destruye
         private void OnDestroy()
         {
-            SceneManager.LoadScene(6);
+            SceneManager.LoadScene(7);
         }
 }
 

@@ -25,12 +25,16 @@ public class ContadorTarjetas : MonoBehaviour
     }
     private void Update()
     {
-        if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e"))
+        if(GameObject.Find("COMPUTADORA DE CONTROL")!= null)
         {
-            contador++; 
-            if(GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e")&&contador==2)
-            textoScore.text = "x" + 0.ToString();
+            if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e"))
+            {
+                contador++;
+                if (GameObject.Find("COMPUTADORA DE CONTROL").GetComponent<CompuDeControl>().ponerContadorDeTarjetasEnCero && Input.GetKeyDown("e") && contador == 2)
+                    textoScore.text = "x" + 0.ToString();
+            }
         }
+       
     }
     void ActualizarTextoScore()
     {
