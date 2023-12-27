@@ -33,8 +33,8 @@ public class GuardaDatos : MonoBehaviour
             almacenSubfusil = Mike.GetComponent<JugadorDisparo>().almacenBulletSubfusil;
             almacenRifle = Mike.GetComponent<JugadorDisparo>().almacenBulletRifle;
             almacenEspecial = Mike.GetComponent<JugadorDisparo>().almacenBulletEspecial;
-          
-            Debug.Log(animacionArmaActual);
+            animacionArmaActual=Mike.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).fullPathHash.ToString();
+            
         }
 
      
@@ -68,7 +68,7 @@ public class GuardaDatos : MonoBehaviour
             Mike.GetComponent<JugadorDisparo>().almacenBulletRifle = almacenRifle;
             Mike.GetComponent<JugadorDisparo>().almacenBulletEspecial = almacenEspecial;
             Mike.GetComponent<JugadorDisparo>().CambioArma = armaActual;
-            
+           
             contador++;
         }
     }
