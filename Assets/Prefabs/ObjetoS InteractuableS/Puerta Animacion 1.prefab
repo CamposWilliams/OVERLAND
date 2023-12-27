@@ -206,6 +206,7 @@ MonoBehaviour:
   CERRAR: {fileID: 168921320378358658}
   bloqueador: {fileID: 2835509476641832145}
   "Confirmaci\xF3n": 0
+  verificado: 0
 --- !u!61 &7070156257864209020
 BoxCollider2D:
   m_ObjectHideFlags: 0

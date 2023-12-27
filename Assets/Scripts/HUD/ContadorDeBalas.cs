@@ -5,11 +5,20 @@ public class ContadorDeBalas : MonoBehaviour
 {
     public TextMeshProUGUI[] textMeshPros;
     private int indiceActual = 0;
+    GameObject Mike;
+    GameObject Guardador;
+    private void Awake()
+    {
+        Mike=GameObject.Find("Mike");
+        Guardador = GameObject.Find("GuardaDatosEntreEscena");
+    }
 
     void Start()
     {
+       
         DesactivarTodosTextos();
-        ActivarTexto(0);
+
+        ActivarTexto(Guardador.GetComponent<GuardaDatos>().armaActual);
     }
 
     void Update()
@@ -41,27 +50,24 @@ public class ContadorDeBalas : MonoBehaviour
 
     void ActivarTexto(int indice)
     {
-        if (indice < textMeshPros.Length && textMeshPros[indice] != null)
+        if (indice <= textMeshPros.Length && indice>=0)
         {
+            Debug.Log("Actualice");
             textMeshPros[indice].enabled = true;
         }
+      
     }
 
     void CambiarVisibilidadTextoSiguiente()
     {
-        // Desactivar el texto actual
-        if (indiceActual < textMeshPros.Length && textMeshPros[indiceActual] != null)
+
+        if ((int)Mike.GetComponent<JugadorDisparo>().CambioArma >=0 && (int)Mike.GetComponent<JugadorDisparo>().CambioArma <=textMeshPros.Length )
         {
-            textMeshPros[indiceActual].enabled = false;
+            DesactivarTodosTextos();
+
+            textMeshPros[(int)Mike.GetComponent<JugadorDisparo>().CambioArma].enabled = true;
+
         }
 
-        // Avanzar al siguiente índice
-        indiceActual = (indiceActual + 1) % textMeshPros.Length;
-
-        // Activar el siguiente texto
-        if (textMeshPros[indiceActual] != null)
-        {
-            textMeshPros[indiceActual].enabled = true;
-        }
     }
 }

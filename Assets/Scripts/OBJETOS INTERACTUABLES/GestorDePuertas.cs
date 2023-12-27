@@ -14,11 +14,25 @@ public class GestorDePuertas : MonoBehaviour
     int contadorUnico;
     int contadorUnico2;
     public bool verificado;
+    bool condicionDeSonar;
+   
 
     private void Update()
     {
         //Debug.Log(contadorUnico);
         AbrirPuertas();
+        if (verificado == false && Confirmación==false)
+        {
+            condicionDeSonar=true;
+        }
+        else if( verificado==true && Confirmación == false)
+        {
+            condicionDeSonar = false;
+        }
+        else
+        {
+            condicionDeSonar = true;
+        }
     }
 
     private void Start()
@@ -53,17 +67,21 @@ public class GestorDePuertas : MonoBehaviour
                   
             if(Confirmación || !verificado)
             {
+               
                 AnimacionPuerta.SetBool("Abierto", true);
                 gameObject.layer = 11;
                 bloqueador.SetActive(false);
             }
+           
+
 
             GetComponent<EscaneoNavegacion>().RealizarEscaneo();
         }
-        if (contadorEntran == 1)
-        {
+        
+         if (contadorEntran == 1 && condicionDeSonar)
+         {
             ABRIR.Play();
-        }
+         }
        
     }
 
@@ -76,8 +94,7 @@ public class GestorDePuertas : MonoBehaviour
 
             if (contadorEntran==contadorSalen)
             {
-                
-                CERRAR.Play();
+                if(condicionDeSonar) CERRAR.Play();
                 AnimacionPuerta.SetBool("Abierto", false);
                 gameObject.layer = 8;
                 bloqueador.SetActive(true);

@@ -10641,8 +10641,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.007250011, y: -0.026050001, z: 0}
-    m_Extent: {x: 0.34375, y: 0.73644996, z: 0}
+    m_Center: {x: 0.0067500025, y: -0.025849998, z: 0}
+    m_Extent: {x: 0.34335, y: 0.73605, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -11616,8 +11616,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016000003, y: 0.20699999, z: 0}
-    m_Extent: {x: 0.5466, y: 0.54569995, z: 0}
+    m_Center: {x: 0.01605001, y: 0.20615001, z: 0}
+    m_Extent: {x: 0.54765, y: 0.54545003, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -12275,6 +12275,10 @@ PrefabInstance:
     - target: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_Name
       value: Mike
+      objectReference: {fileID: 0}
+    - target: {fileID: 3632767947836554649, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3742339417737033487, guid: dc6fa41b6ab86304fa383cff036025a1, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17252,8 +17256,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016149998, y: 0.2068, z: 0}
-    m_Extent: {x: 0.54725, y: 0.546, z: 0}
+    m_Center: {x: 0.01609999, y: 0.2069, z: 0}
+    m_Extent: {x: 0.5473, y: 0.5459, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -18896,8 +18900,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016900003, y: 0.20714998, z: 0}
-    m_Extent: {x: 0.547, y: 0.54595, z: 0}
+    m_Center: {x: 0.0158, y: 0.206, z: 0}
+    m_Extent: {x: 0.5469, y: 0.5454, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
@@ -24615,9 +24619,9 @@ MonoBehaviour:
   PanelDialogo: {fileID: 785091380}
   TextodeDialogo: {fileID: 694013242}
   lineasDialogo:
-  - "Operador Encubierto: Agente Mike, \xBFme extra\xF1aste? Solo ven\xEDa a decirte
-    que si no eliminas a ese fen\xF3meno, el mundo est\xE1 perdido. Ah, por cierto,
-    ya compr\xE9 unos boletos para ir a Marte. Chao, \xA1Buena suerte, Mike!"
+  - "Operador Encubierto: Agente Mike, la criatura que enfrentas emite niveles peligrosos
+    de radiaci\xF3n. Evita el contacto directo a toda costa \xBFVale? \xA1Buena suerte!                                                           
+    ."
 --- !u!61 &1949504873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25228,8 +25232,8 @@ MonoBehaviour:
   m_ShadowVolumeIntensityEnabled: 0
   m_ShadowVolumeIntensity: 0.75
   m_LocalBounds:
-    m_Center: {x: 0.016599983, y: 0.20689999, z: 0}
-    m_Extent: {x: 0.5473, y: 0.5458, z: 0}
+    m_Center: {x: 0.016350001, y: 0.20740001, z: 0}
+    m_Extent: {x: 0.54744995, y: 0.5455, z: 0}
   m_PointLightInnerAngle: 360
   m_PointLightOuterAngle: 360
   m_PointLightInnerRadius: 0
